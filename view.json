@@ -7341,7 +7341,7 @@
   "time": {
    "headline": {
     "detection_floor_s": {
-     "max": 0.1619654893875122,
+     "max": 0.18189334869384766,
      "median": 0.10439378023147583,
      "min": 0.053080081939697266,
      "n": 4,
@@ -7355,7 +7355,7 @@
      "networks": 3
     },
     "nts_support_rate": {
-     "max": 0.666667,
+     "max": 0.8,
      "median": 0.571429,
      "min": 0.5,
      "n": 4,
@@ -7413,23 +7413,23 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-10-18",
-     "detection_floor_s": 0.1616019606590271,
+     "created_utc": "2026-10-19",
+     "detection_floor_s": 0.18189334869384766,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
      "network_attested": true,
-     "nts_support_rate": 0.666667,
+     "nts_support_rate": 0.8,
      "probe_id": "probe-3",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.07650697231292725,
+     "reference_spread_s": 0.051442503929138184,
      "step_share": 0.0,
      "stepped_servers": []
     }
    ],
    "reference_spread_s": {
     "all": {
-     "max": 0.07650697231292725,
+     "max": 0.07633447647094727,
      "median": 0.04609274864196777,
      "min": 0.02851259708404541,
      "n": 4,
@@ -10091,7 +10091,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-19T15:31:58Z",
+  "as_of_utc": "2026-10-19T17:34:56Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10182,9 +10182,9 @@
   },
   {
    "age_days": 19,
-   "bundles": 198,
+   "bundles": 199,
    "contribution": {
-    "bundles_ok": 194,
+    "bundles_ok": 195,
     "days_active": 20,
     "layers": 12
    },
@@ -10211,7 +10211,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "220da3e2198373047c1035fb50106a061eb9e21850b09e3b8e43c5d481a6b3d8",
+ "published_sha256": "ad542d40f13a9f7ec0de849d14fb7105ff5b557a729dcea8a846cc917d7f9bec",
  "rejections": [
   {
    "kind": "bundle",
@@ -10446,5 +10446,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "3565b23b7e895cad23a9c36165df1f189477f2ee7d1f7c36bc3c36b5f33898fc"
+ "view_sha256": "c870338c75f6c2c0623a40b6bde87e5b7b50a6457b08b9edceb69eae9f665bc9"
 }
