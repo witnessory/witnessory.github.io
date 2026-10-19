@@ -1,0 +1,36 @@
+{
+  "service": "Witnessory",
+  "as_of": "2026-10-20",
+  "currency": "USD",
+  "status": "pre-order",
+  "how_to_buy": "Checkout opens soon. Register interest at POST https://coordinator.witnessory.org/v1/interest with {\"email\", \"product\"} (the product id below), or write to security@witnessory.org: a key or report arrives by reply.",
+  "free": {
+    "dashboard": "https://witnessory.org/",
+    "check": "https://check.witnessory.org/api/check?domain=example.org: 20 new checks an hour from one address, results reused for 10 minutes, signed",
+    "probe": "https://witnessory.org/probe.html"
+  },
+  "products": [
+    {"id": "watch-10", "name": "Watch 10", "for": "a small organisation", "price_month_usd": 49, "price_year_usd": 490,
+     "includes": ["up to 10 hostnames checked daily (TLS and SSH) from several networks", "alerts on any change (webhook, email)", "a history page", "a signed monthly evidence file"]},
+    {"id": "watch-100", "name": "Watch 100", "for": "an organisation migrating", "price_month_usd": 249, "price_year_usd": 2490,
+     "includes": ["up to 100 hostnames checked every 6 hours", "everything in Watch 10", "a quarterly evidence report"]},
+    {"id": "evidence-report", "name": "Evidence report", "for": "an auditor, a customer questionnaire or a regulator", "price_once_usd": 490,
+     "includes": ["up to 50 hostnames: what each offers today, against the published government timelines", "signed (Ed25519 and ML-DSA-65) and anchored in Bitcoin", "delivered within the day"]},
+    {"id": "api-developer", "name": "API Developer", "for": "developers and agents", "price_month_usd": 19, "price_year_usd": 190,
+     "checks_per_month": 2000, "includes": ["fresh checks with a key (Authorization: Bearer <key>)", "never a reused result, never limited by address"]},
+    {"id": "api-pro", "name": "API Pro", "for": "security tools and platforms", "price_month_usd": 149, "price_year_usd": 1490,
+     "checks_per_month": 25000, "includes": ["bulk endpoint (up to 100 names a request) and webhooks, coming with checkout"]},
+    {"id": "data-licence", "name": "Data licence", "for": "analysts, vendors, insurers", "price_month_usd": 400, "price_year_usd": 4000,
+     "includes": ["the monthly dataset: the top 10,000 sites' post-quantum key exchange and certificates, with history, JSON and CSV, signed"],
+     "research_and_non_commercial": "free with attribution; write to us"},
+    {"id": "enterprise", "name": "Enterprise", "for": "banks, telecoms, governments' suppliers", "price_month_usd_from": 1500, "quoted": true,
+     "includes": ["watch for thousands of hostnames", "probes inside your own networks, reporting only to you", "custom reports"]}
+  ],
+  "annual": "pay for 10 months, get 12",
+  "refunds": "within 14 days, no questions",
+  "neutrality": "no result is ever changed, hidden or ranked for money; every customer gets the same data",
+  "contact": "security@witnessory.org",
+  "terms": "https://witnessory.org/terms.html",
+  "privacy": "https://witnessory.org/privacy.html",
+  "page": "https://witnessory.org/services.html"
+}

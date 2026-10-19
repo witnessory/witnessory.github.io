@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Services · Witnessory</title>
+<meta name="description" content="Witnessory's paid services: watch your sites' post-quantum readiness from several networks, API keys, signed evidence reports, data licences.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root {
+  --ground: #f3f5f4; --panel: #ffffff; --ink: #15201e; --muted: #5a6966; --rule: #d9e0de;
+  --accent: #1e7566; --accent-soft: #d8ebe6;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+    --accent: #4db5a2; --accent-soft: #1d3a34;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+  --accent: #4db5a2; --accent-soft: #1d3a34;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 16px/1.55 var(--body); }
+a { color: var(--accent); }
+.wrap { max-width: 900px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: grid; gap: 32px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+h1 { font-size: 40px; line-height: 1.05; }
+h2 { font-size: 22px; text-transform: uppercase; letter-spacing: .06em; }
+h3 { font-size: 24px; }
+p, li { max-width: 68ch; }
+p { margin: 0; }
+header { display: grid; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 22px; }
+header nav { display: flex; gap: 20px; flex-wrap: wrap; }
+section { display: grid; gap: 14px; }
+.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.plans > div { background: var(--panel); padding: 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.price { font-family: var(--display); font-size: 30px; font-variant-numeric: tabular-nums; }
+.price small { font-size: 15px; color: var(--muted); font-family: var(--body); }
+.for { color: var(--muted); font-size: 14px; }
+ul { margin: 0; padding-left: 1.1em; display: grid; gap: 5px; font-size: 15px; }
+code { font-family: var(--mono); font-size: .9em; }
+.muted { color: var(--muted); }
+form { display: grid; gap: 8px; max-width: 32rem; }
+form .row { display: flex; gap: 8px; flex-wrap: wrap; }
+input, select, button { font: inherit; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 4px; background: var(--panel); color: var(--ink); }
+input { flex: 1 1 14rem; min-width: 0; }
+button { background: var(--accent); color: #fff; border-color: var(--accent); cursor: pointer; }
+#said { min-height: 1.5em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="muted"><a href="./">Witnessory</a></p>
+  <h1>Services</h1>
+  <p>The dashboard, one free check at a time and the probe are free, always. What is paid: watching your own sites
+  from several networks over time, with alerts and evidence an auditor accepts; higher limits for the API; the data;
+  reports. Prices in US dollars; local sales tax is added at checkout.</p>
+  <p><strong>Checkout opens soon.</strong> Leave your address below to be told the day it does, or write to
+  <code>security@witnessory.org</code> to buy now: your key or report arrives by reply.</p>
+  <nav><a href="https://check.witnessory.org/">Check one site</a><a href="probe.html">Run a probe</a><a href="pricing.json">Prices as data</a><a href="terms.html">Terms</a></nav>
+</header>
+
+<section>
+  <h2>Watch your sites</h2>
+  <div class="plans">
+    <div><h3>Watch 10</h3><p class="price">$49 <small>a month</small></p><p class="for">For a small organisation</p>
+      <ul><li>Up to 10 hostnames, checked daily (TLS and SSH) from several networks</li><li>Alerts on any change (webhook, email)</li><li>A history page</li><li>A signed monthly evidence file</li></ul></div>
+    <div><h3>Watch 100</h3><p class="price">$249 <small>a month</small></p><p class="for">For an organisation migrating</p>
+      <ul><li>Up to 100 hostnames, checked every 6 hours</li><li>Everything in Watch 10</li><li>A quarterly evidence report</li></ul></div>
+    <div><h3>Evidence report</h3><p class="price">$490 <small>once</small></p><p class="for">For an auditor, a customer questionnaire or a regulator</p>
+      <ul><li>Up to 50 hostnames: what each offers today, against the published government timelines</li><li>Signed (Ed25519 and ML-DSA-65) and anchored in Bitcoin</li><li>Delivered within the day</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <h2>The API</h2>
+  <div class="plans">
+    <div><h3>Free</h3><p class="price">$0</p><p class="for">For everyone</p>
+      <ul><li>20 new checks an hour from one address; results reused for 10 minutes</li><li>Signed results, badges, <a href="https://check.witnessory.org/openapi.json">API description</a></li></ul></div>
+    <div><h3>API Developer</h3><p class="price">$19 <small>a month</small></p><p class="for">For developers and agents</p>
+      <ul><li>2,000 fresh checks a month with a key (<code>Authorization: Bearer</code>)</li><li>Never a reused result, never limited by address</li></ul></div>
+    <div><h3>API Pro</h3><p class="price">$149 <small>a month</small></p><p class="for">For security tools and platforms</p>
+      <ul><li>25,000 checks a month</li><li>Bulk endpoint (up to 100 names a request) and webhooks, coming with checkout</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <h2>Data and enterprise</h2>
+  <div class="plans">
+    <div><h3>Data licence</h3><p class="price">$400 <small>a month, or $4,000 a year</small></p><p class="for">For analysts, vendors, insurers</p>
+      <ul><li>The monthly dataset: the top 10,000 sites' post-quantum key exchange and certificates, with history, as JSON and CSV, signed</li><li>Research and non-commercial use: free with attribution; write to us</li></ul></div>
+    <div><h3>Enterprise</h3><p class="price">from $1,500 <small>a month</small></p><p class="for">For banks, telecoms, governments' suppliers</p>
+      <ul><li>Watch for thousands of hostnames</li><li>Probes inside your own networks, reporting only to you</li><li>Custom reports; quoted</li></ul></div>
+  </div>
+  <p class="muted">Annual plans: pay for 10 months, get 12. Refunds within 14 days, no questions. Neutrality is not for sale: no
+  result is ever changed, hidden or ranked for money, and every customer gets the same data.</p>
+</section>
+
+<section id="interest">
+  <h2>Tell me when I can buy</h2>
+  <form id="f">
+    <div class="row">
+      <input id="email" type="email" required placeholder="you@example.org" aria-label="Email address" maxlength="200">
+      <select id="product" aria-label="Product">
+        <option value="watch-10">Watch 10</option><option value="watch-100">Watch 100</option>
+        <option value="evidence-report">Evidence report</option><option value="api-developer">API Developer</option>
+        <option value="api-pro">API Pro</option><option value="data-licence">Data licence</option><option value="enterprise">Enterprise</option>
+      </select>
+      <button type="submit">Tell me</button>
+    </div>
+    <p class="muted" id="said">We keep the address until we have told you, then delete it. Nothing else is kept or sent.</p>
+  </form>
+</section>
+</div>
+<script>
+const f=document.getElementById('f'),said=document.getElementById('said');
+f.onsubmit=async e=>{e.preventDefault();said.textContent='Sending...';
+try{const r=await fetch('https://coordinator.witnessory.org/v1/interest',{method:'POST',headers:{'content-type':'application/json'},
+body:JSON.stringify({email:document.getElementById('email').value.trim(),product:document.getElementById('product').value})});
+const j=await r.json();said.textContent=r.ok?'Noted. You will hear from us the day checkout opens.':(j.error||'That did not work; write to security@witnessory.org instead.');}
+catch(x){said.textContent='That did not work; write to security@witnessory.org instead.';}};
+</script>
+</body>
+</html>

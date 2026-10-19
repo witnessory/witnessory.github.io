@@ -25,6 +25,15 @@
 - https://coordinator.witnessory.org/probes.json: every active probe's network and country, counts by country and
   network, and the probes with the most credits (also as a page at /probes). One probe: /p/<probe id>.json.
 
+## Paid services (prices as data: https://witnessory.org/pricing.json)
+
+- Watching your own sites from several networks over time with alerts and signed evidence (from $49 a month), API
+  keys with higher limits ($19 and $149 a month; `Authorization: Bearer <key>` on the checker), signed and anchored
+  evidence reports ($490), data licences, enterprise. Page: https://witnessory.org/services.html
+- Checkout opens soon. Register interest: `POST https://coordinator.witnessory.org/v1/interest` with
+  `{"email": "...", "product": "<id from pricing.json>"}`; or write to security@witnessory.org to buy now.
+- Status of every service: https://coordinator.witnessory.org/status.json
+
 ## Contact
 
 - Security: security@witnessory.org (https://witnessory.org/.well-known/security.txt).
