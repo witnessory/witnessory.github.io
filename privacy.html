@@ -60,6 +60,13 @@ code { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-si
   </section>
 
   <section>
+    <h2>Probes (if you host one)</h2>
+    <p>A probe's results, its public keys, and the network (number and name) and country it connects from are kept and
+    published: on the probe's own page, on the <a href="https://coordinator.witnessory.org/probes">probe map</a> and with
+    its results. Its address is never stored or published. Details: <a href="https://github.com/witnessory/probe/blob/main/HOSTING.md">hosting a probe</a>.</p>
+  </section>
+
+  <section>
     <h2>Counts we keep about our own services</h2>
     <p>To find and fix failures we look at Cloudflare's aggregate counts of requests to our services by site, path and
     status code (for example "12 requests to /api/check answered 503 last hour"). They contain no addresses and nothing

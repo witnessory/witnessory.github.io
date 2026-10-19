@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Run a probe · Witnessory</title>
+<meta name="description" content="Run a Witnessory probe: measure how far the internet has moved to post-quantum cryptography, from your network.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root {
+  --ground: #f3f5f4; --panel: #ffffff; --ink: #15201e; --muted: #5a6966; --rule: #d9e0de;
+  --accent: #1e7566; --accent-soft: #d8ebe6;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+    --accent: #4db5a2; --accent-soft: #1d3a34;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+  --accent: #4db5a2; --accent-soft: #1d3a34;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 16px/1.55 var(--body); }
+a { color: var(--accent); }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: grid; gap: 32px; }
+h1, h2 { font-family: var(--display); font-weight: 600; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+h1 { font-size: 40px; line-height: 1.05; }
+h2 { font-size: 22px; text-transform: uppercase; letter-spacing: .06em; }
+p, li { max-width: 68ch; }
+p { margin: 0; }
+.label { font-family: var(--display); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+header { display: grid; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 22px; }
+header nav { display: flex; gap: 20px; flex-wrap: wrap; }
+section { display: grid; gap: 14px; }
+.ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.ways > div { background: var(--panel); padding: 16px 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+pre { margin: 0; overflow-x: auto; background: var(--accent-soft); padding: 10px 12px; font: 13px/1.5 var(--mono); }
+code { font-family: var(--mono); font-size: .9em; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="label">Witnessory</div>
+  <h1>Run a probe</h1>
+  <p>Help measure how far the internet has moved to post-quantum cryptography, from your own network. Your probe
+  checks which key exchange public servers choose, sends back signed results, and adds your network to a
+  view of the transition that no single vantage point can give. It gets its own public page and a place on the
+  <a href="https://coordinator.witnessory.org/probes">probe map</a>, with its network and country (never its address).</p>
+  <nav><a href="./">The view</a><a href="https://coordinator.witnessory.org/probes">Probe map</a><a href="https://check.witnessory.org/">Check one site</a><a href="https://github.com/witnessory/probe">Source code</a></nav>
+</header>
+
+<section>
+  <h2>Install</h2>
+  <div class="ways">
+    <div><div class="label">Linux · Raspberry Pi</div>
+      <pre>curl -fsSL https://witnessory.org/install.sh | sudo sh</pre>
+      <p class="muted">A system user, its own Python environment, a sandboxed service that starts at boot.</p></div>
+    <div><div class="label">Windows</div>
+      <pre>irm https://witnessory.org/install.ps1 -OutFile install.ps1
+powershell -ExecutionPolicy Bypass -File install.ps1</pre>
+      <p class="muted">For your user, no administrator rights; runs every hour without a window. Needs Python 3.10+.</p></div>
+    <div><div class="label">Docker</div>
+      <pre>docker run -d --restart unless-stopped \
+  --stop-timeout 120 -v witnessory-probe:/data \
+  ghcr.io/witnessory/probe</pre>
+      <p class="muted">The volume keeps your probe's keys and results.</p></div>
+    <div><div class="label">Python</div>
+      <pre>pipx install https://github.com/witnessory/probe/releases/download/v0.4.2/witnessory_probe-0.4.2-py3-none-any.whl
+witnessory-probe start</pre>
+      <p class="muted">Or try it first, with nothing stored: <code>witnessory-probe check example.org</code></p></div>
+  </div>
+  <p>Read the installers before running them: <a href="https://github.com/witnessory/probe/tree/main/install">install/</a>.
+  To remove it: <code>curl -fsSL https://witnessory.org/install.sh | sudo sh -s -- --uninstall</code> (or
+  <code>--purge</code>, which also deletes the probe's keys and results); on Windows, run the installer with
+  <code>-Uninstall</code> or <code>-Purge</code>.</p>
+</section>
+
+<section>
+  <h2>What it does on your network</h2>
+  <ul>
+    <li><strong>Only published measurements:</strong> a TLS key-exchange check on port 443 and an SSH key-exchange check on port 22. A task chooses which public sites to measure, never what to run.</li>
+    <li><strong>Public servers only.</strong> It never connects to private, local or reserved addresses, or to its own IPv6 subnet.</li>
+    <li><strong>Nothing about you.</strong> It reads how servers are configured, never your traffic or devices.</li>
+    <li><strong>Light, and yours to control.</strong> At most 600 sites an hour by default; pause, limits, opt-outs and a log of every task.</li>
+    <li><strong>Tamper-evident.</strong> Every result is signed by your probe (Ed25519 and ML-DSA-65) and chained to the one before.</li>
+  </ul>
+  <p>The full rules: <a href="https://github.com/witnessory/probe/blob/main/docs/PROTOCOL.md">the protocol</a>.
+  What Witnessory receives and how results are used: <a href="https://github.com/witnessory/probe/blob/main/HOSTING.md">hosting a probe</a>.</p>
+</section>
+
+<section>
+  <h2>Your probe</h2>
+  <p><code>witnessory-probe me</code> shows your probe's results and credits, and its public page, which shows its
+  results and credits and never where it runs. Credits record what your probe has contributed; they are meant to
+  become usable for Witnessory's services, such as checking your own sites from probes on many networks.</p>
+</section>
+</div>
+</body>
+</html>

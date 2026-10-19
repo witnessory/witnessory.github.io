@@ -18,6 +18,13 @@
   from that site, signed. Description: https://check.witnessory.org/openapi.json and
   https://check.witnessory.org/llms.txt. Free, no key; 20 new checks an hour from one address.
 
+## Run a probe
+
+- https://witnessory.org/probe.html: install a probe (Linux, Raspberry Pi, Windows, Docker, Python) and measure from
+  your own network. Source and terms: https://github.com/witnessory/probe (Apache 2.0).
+- https://coordinator.witnessory.org/probes.json: every active probe's network and country, counts by country and
+  network, and the probes with the most credits (also as a page at /probes). One probe: /p/<probe id>.json.
+
 ## Contact
 
 - Security: security@witnessory.org (https://witnessory.org/.well-known/security.txt).
