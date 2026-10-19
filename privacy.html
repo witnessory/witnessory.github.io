@@ -47,7 +47,11 @@ code { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-si
       <li>Requests pass through Cloudflare, which receives your address as any web host does, under
       <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</li>
       <li>The checker uses your address only in memory, to limit how many new checks one address can start in an
-      hour. It is never written down, logged or kept; it is gone within the hour or when the service restarts.</li>
+      hour. It is never written down, logged or kept; it is forgotten about an hour after your last check, or when the
+      service restarts.</li>
+      <li>To check a site, the checker looks up its name with Cloudflare's DNS resolver (cloudflare-dns.com) and connects
+      to it through Cloudflare's network (WARP). So the name you ask about passes through Cloudflare, under the same
+      privacy policy, and the site sees a Cloudflare address, not yours and not our server's.</li>
       <li>The site you ask about and its result are kept in memory for 10 minutes, so the next person asking gets the same
       signed result. Nothing links them to you.</li>
       <li>We count requests by kind (for example "checked", "too many", "invalid name"), with no address or other detail,
