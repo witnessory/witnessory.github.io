@@ -25,6 +25,15 @@
 - https://coordinator.witnessory.org/probes.json: every active probe's network and country, counts by country and
   network, and the probes with the most credits (also as a page at /probes). One probe: /p/<probe id>.json.
 
+## The client and MCP server (for your code or your agent)
+
+- `pip install https://github.com/witnessory/client/releases/download/v0.1.0/witnessory-0.1.0-py3-none-any.whl`
+  (package `witnessory`, Apache 2.0, standard library only; source: https://github.com/witnessory/client).
+- Python: `witnessory.check("example.org")`, `witnessory.headline()`, `witnessory.probes()`, `witnessory.pricing()`,
+  `witnessory.verify(result)`. Command line: `witnessory check example.org`.
+- MCP server over stdio: command `witnessory`, argument `mcp`; tools `check_site`, `pq_headline`, `probe_map`,
+  `service_status`, `pricing`. A plan's key goes in the environment variable `WITNESSORY_KEY`.
+
 ## Paid services (prices as data: https://witnessory.org/pricing.json)
 
 - Watching your own sites from several networks over time with alerts and signed evidence (from $49 a month), API
