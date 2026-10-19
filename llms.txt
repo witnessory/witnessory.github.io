@@ -1,0 +1,23 @@
+# Witnessory
+
+> An observatory of the internet's move to post-quantum cryptography: how far servers have moved (key exchange,
+> certificates, SSH, DNSSEC, routing, mail) and how close quantum computers are to breaking what has not, measured
+> from probes on several networks whose every reading is signed (Ed25519 and ML-DSA-65). Free to read.
+
+## Data
+
+- https://witnessory.org/view.json: the current view, refreshed hourly. `layers.<layer>.headline` holds the headline
+  figures (each with `median`, `min`, `max` and `n` across probes); `params.as_of_utc` says when; `view_sha256` names
+  the exact computation. Cross-origin requests are allowed.
+- Layers measured monthly (keys: post-quantum TLS on the top 10,000 sites; ssh; dnssec) appear once each month's scan
+  has run.
+
+## Check one site
+
+- `GET https://check.witnessory.org/api/check?domain=example.org`: whether a browser gets post-quantum key exchange
+  from that site, signed. Description: https://check.witnessory.org/openapi.json and
+  https://check.witnessory.org/llms.txt. Free, no key; 20 new checks an hour from one address.
+
+## Contact
+
+- Security: security@witnessory.org (https://witnessory.org/.well-known/security.txt).

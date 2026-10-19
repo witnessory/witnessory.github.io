@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy · Witnessory</title>
+<meta name="description" content="What Witnessory's sites and services receive about visitors and probe hosts, and what they keep.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root { --ground: #f3f5f4; --panel: #ffffff; --ink: #15201e; --muted: #5a6966; --rule: #d9e0de; --accent: #1e7566; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f; --accent: #4db5a2; } }
+:root[data-theme="dark"] { color-scheme: dark; --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f; --accent: #4db5a2; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 16px/1.6 "Source Sans 3", "Segoe UI", system-ui, sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding-inline: 20px; padding-block: 32px 64px; display: grid; gap: 22px; }
+h1, h2 { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 600; margin: 0; text-wrap: balance; }
+h1 { font-size: 38px; line-height: 1.05; }
+h2 { font-size: 21px; text-transform: uppercase; letter-spacing: .05em; }
+section { display: grid; gap: 8px; }
+p, li { margin: 0; max-width: 68ch; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+code { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+  <p class="muted"><a href="./">Witnessory</a></p>
+  <h1>Privacy</h1>
+  <p>Witnessory measures servers, never people. This page says what our sites and services receive about you, and what
+  they keep. Short version: we keep no record of who visits or what they look up.</p>
+
+  <section>
+    <h2>This site (witnessory.org)</h2>
+    <ul>
+      <li>It is a static page hosted by GitHub Pages. GitHub receives your address and browser details, as any web host
+      does, under <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.
+      Witnessory receives nothing from your visit.</li>
+      <li>No cookies, no analytics, no tracking of any kind by Witnessory.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The site checker (check.witnessory.org)</h2>
+    <ul>
+      <li>Requests pass through Cloudflare, which receives your address as any web host does, under
+      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</li>
+      <li>The checker uses your address only in memory, to limit how many new checks one address can start in an
+      hour. It is never written down, logged or kept; it is gone within the hour or when the service restarts.</li>
+      <li>The site you ask about and its result are kept in memory for 10 minutes, so the next person asking gets the same
+      signed result. Nothing links them to you.</li>
+      <li>We count requests by kind (for example "checked", "too many", "invalid name"), with no address or other detail,
+      to see where the service fails people.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Counts we keep about our own services</h2>
+    <p>To find and fix failures we look at Cloudflare's aggregate counts of requests to our services by site, path and
+    status code (for example "12 requests to /api/check answered 503 last hour"). They contain no addresses and nothing
+    about any visitor.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><code>security@witnessory.org</code> for anything about privacy or security.</p>
+  </section>
+  <p class="muted">Last updated 2026-10-19.</p>
+</main>
+</body>
+</html>

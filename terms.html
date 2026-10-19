@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms of use · Witnessory</title>
+<meta name="description" content="Terms for using Witnessory's view, site checker and API.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root { --ground: #f3f5f4; --ink: #15201e; --muted: #5a6966; --accent: #1e7566; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --ground: #0f1615; --ink: #e4ece9; --muted: #93a39f; --accent: #4db5a2; } }
+:root[data-theme="dark"] { color-scheme: dark; --ground: #0f1615; --ink: #e4ece9; --muted: #93a39f; --accent: #4db5a2; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 16px/1.6 "Source Sans 3", "Segoe UI", system-ui, sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding-inline: 20px; padding-block: 32px 64px; display: grid; gap: 22px; }
+h1, h2 { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 600; margin: 0; text-wrap: balance; }
+h1 { font-size: 38px; line-height: 1.05; }
+h2 { font-size: 21px; text-transform: uppercase; letter-spacing: .05em; }
+section { display: grid; gap: 8px; }
+p, li { margin: 0; max-width: 68ch; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p class="muted"><a href="./">Witnessory</a></p>
+  <h1>Terms of use</h1>
+  <p>Witnessory's public view, its site checker and the checker's API are free to use, by people and by software,
+  on these terms.</p>
+
+  <section>
+    <h2>What the results are</h2>
+    <ul>
+      <li>A result is a measurement at one time from one place: what a server answered when it was checked. It is not
+      a certification, an audit or advice, and a server can change at any time.</li>
+      <li>Results are signed so that anyone can verify they were not altered. A verified result still only says what
+      was observed.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fair use</h2>
+    <ul>
+      <li>Use the API within its published limits (20 new checks an hour from one address; results reused for 10
+      minutes). Over a limit, the API says so and when to try again.</li>
+      <li>Do not use the checker to attack, overload or probe anyone's systems, or to get around its limits.</li>
+      <li>The operator of a site can ask for it not to be checked: write to <code>security@witnessory.org</code>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Quoting and reusing</h2>
+    <p>You may quote figures from the view and from the checker, including commercially, if you name Witnessory as the
+    source and say when the figures were measured (each view and result carries its time and a hash that names it).</p>
+  </section>
+
+  <section>
+    <h2>No warranty</h2>
+    <p>The services are provided as they are, without warranty of any kind, and may change, be limited or stop. Witnessory
+    is not liable for decisions made on the strength of a result.</p>
+  </section>
+
+  <p class="muted">Questions: <code>security@witnessory.org</code>. Last updated 2026-10-19.</p>
+</main>
+</body>
+</html>
