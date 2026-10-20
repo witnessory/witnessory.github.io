@@ -1,14 +1,5 @@
 {
- "alerts": [
-  {
-   "detail": "issued by DigiCert Inc here; by Amazon at the other vantages",
-   "kind": "issuer_differs",
-   "layer": "interception",
-   "probe_id": "probe-3",
-   "severity": "notice",
-   "subject": "www.amazon.com"
-  }
- ],
+ "alerts": [],
  "evidence_withheld": 5,
  "inputs": {
   "bundles_used": 58
@@ -1124,16 +1115,7 @@
      "networks": 3
     }
    },
-   "issuer_seen_at_one_vantage_only": [
-    {
-     "elsewhere": [
-      "Amazon"
-     ],
-     "issuer_o": "DigiCert Inc",
-     "probe_id": "probe-3",
-     "site": "www.amazon.com"
-    }
-   ],
+   "issuer_seen_at_one_vantage_only": [],
    "probes": [
     {
      "canary_suspect_share": 0.0,
@@ -1185,7 +1167,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-10-19",
+     "created_utc": "2026-10-20",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -1195,7 +1177,7 @@
       "pypi.org": "GlobalSign nv-sa",
       "signal.org": "Google Trust Services",
       "telegram.org": "GoDaddy.com",
-      "www.amazon.com": "Amazon",
+      "www.amazon.com": "DigiCert Inc",
       "www.apple.com": "Apple Inc.",
       "www.bbc.co.uk": "GlobalSign nv-sa",
       "www.cloudflare.com": "Google Trust Services",
@@ -10202,7 +10184,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-20T08:01:40Z",
+  "as_of_utc": "2026-10-20T10:03:06Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10253,9 +10235,9 @@
   },
   {
    "age_days": 20,
-   "bundles": 259,
+   "bundles": 260,
    "contribution": {
-    "bundles_ok": 257,
+    "bundles_ok": 258,
     "days_active": 21,
     "layers": 14
    },
@@ -10322,7 +10304,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "6347c32a4d5a53a7be1b64c529fe5b37448c9afa11e120f2813992ebc31fc9c1",
+ "published_sha256": "97e862534a2be0951e0ebf587e5f674c25b655d414ed3be5731a3b747a75d80c",
  "rejections": [
   {
    "kind": "bundle",
@@ -10557,5 +10539,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "4c10e944ca7bf6cc9f3178fa55d105f24558323db2395c30c60eb3a7cd75d60f"
+ "view_sha256": "400aebf7e71a4f05d845c0f2b7db56aa5f46b78412950b7b83e06f8786d09c09"
 }
