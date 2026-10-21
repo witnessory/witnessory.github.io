@@ -21,7 +21,8 @@
         "alerts on any change (webhook, email)",
         "a history page",
         "a signed monthly evidence file"
-      ]
+      ],
+      "buy_now": "POST https://api.witnessory.org/pay/watch?plan=watch-10 (x402, JSON body with hostnames)"
     },
     {
       "id": "watch-100",
@@ -33,7 +34,8 @@
         "up to 100 hostnames checked every 6 hours",
         "everything in Watch 10",
         "a quarterly evidence report"
-      ]
+      ],
+      "buy_now": "POST https://api.witnessory.org/pay/watch?plan=watch-100 (x402, JSON body with hostnames)"
     },
     {
       "id": "evidence-report",
@@ -44,7 +46,8 @@
         "up to 50 hostnames: what each offers today, against the published government timelines",
         "signed (Ed25519 and ML-DSA-65) and anchored in Bitcoin",
         "delivered within the day"
-      ]
+      ],
+      "buy_now": "POST https://api.witnessory.org/pay/report (x402, JSON body with hostnames)"
     },
     {
       "id": "api-developer",
@@ -121,6 +124,21 @@
         "route": "POST https://api.witnessory.org/pay/key?plan=api-pro",
         "price_usd": 149,
         "what": "an API key: 25,000 fresh checks within 31 days"
+      },
+      {
+        "route": "POST https://api.witnessory.org/pay/watch?plan=watch-10  body {\"hostnames\": [...], \"webhook\": \"https://...\"}",
+        "price_usd": 49,
+        "what": "Watch 10: up to 10 hostnames checked daily, alerts to your webhook, a signed monthly evidence file, a token-gated page; 31 days"
+      },
+      {
+        "route": "POST https://api.witnessory.org/pay/watch?plan=watch-100  body {\"hostnames\": [...]}",
+        "price_usd": 249,
+        "what": "Watch 100: up to 100 hostnames every 6 hours; 31 days"
+      },
+      {
+        "route": "POST https://api.witnessory.org/pay/report  body {\"hostnames\": [...]}",
+        "price_usd": 490,
+        "what": "Evidence report: up to 50 hostnames, signed by Witnessory and anchored in Bitcoin (OpenTimestamps), ready within the day at a token-gated URL"
       }
     ],
     "note": "Ask any item without payment to get its 402 with the exact requirements. The free check (20 an hour) stays free."

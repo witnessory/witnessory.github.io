@@ -43,6 +43,10 @@
   `GET https://api.witnessory.org/pay/check?domain=example.org` ($0.01, one fresh signed check);
   `POST https://api.witnessory.org/pay/key?plan=api-developer` ($19, a key for 2,000 fresh checks in 31 days) or
   `?plan=api-pro` ($149, 25,000). Ask without payment to get the 402 with the exact requirements.
+  Watching sites over time and evidence reports, the same way: `POST /pay/watch?plan=watch-10` ($49; JSON body
+  `{"hostnames": [...], "webhook": "https://..."}`; daily checks, alerts, a signed monthly evidence file, 31 days),
+  `?plan=watch-100` ($249), `POST /pay/report` ($490; up to 50 hostnames; signed, anchored in Bitcoin, within the day).
+  Each answers with a token-gated URL for the results.
 - People: checkout opens soon. Register interest: `POST https://coordinator.witnessory.org/v1/interest` with
   `{"email": "...", "product": "<id from pricing.json>"}`; or write to security@witnessory.org to buy now.
 - Status of every service: https://coordinator.witnessory.org/status.json
