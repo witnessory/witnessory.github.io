@@ -27,7 +27,7 @@
 
 ## The client and MCP server (for your code or your agent)
 
-- `pip install https://github.com/witnessory/client/releases/download/v0.1.0/witnessory-0.1.0-py3-none-any.whl`
+- `pip install https://github.com/witnessory/client/releases/download/v0.2.0/witnessory-0.2.0-py3-none-any.whl`
   (package `witnessory`, Apache 2.0, standard library only; source: https://github.com/witnessory/client).
 - Python: `witnessory.check("example.org")`, `witnessory.headline()`, `witnessory.probes()`, `witnessory.pricing()`,
   `witnessory.verify(result)`. Command line: `witnessory check example.org`.
