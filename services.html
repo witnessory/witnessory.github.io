@@ -63,7 +63,9 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
   <p>The dashboard, one free check at a time and the probe are free, always. What is paid: watching your own sites
   from several networks over time, with alerts and evidence an auditor accepts; higher limits for the API; the data;
   reports. Prices in US dollars; local sales tax is added at checkout.</p>
-  <p><strong>Checkout opens soon.</strong> Leave your address below to be told the day it does, or write to
+  <p><strong>Agents can pay now</strong>, per request and without an account, over HTTP 402 (x402) in USDC on Base:
+  one fresh check for $0.01, or an API key for a month's checks. Start at <code>https://api.witnessory.org/pay</code>.</p>
+  <p><strong>Checkout for people opens soon.</strong> Leave your address below to be told the day it does, or write to
   <code>security@witnessory.org</code> to buy now: your key or report arrives by reply.</p>
   <nav><a href="https://check.witnessory.org/">Check one site</a><a href="https://github.com/witnessory/client">Client and MCP server</a><a href="probe.html">Run a probe</a><a href="pricing.json">Prices as data</a><a href="terms.html">Terms</a></nav>
 </header>
@@ -85,8 +87,10 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
   <div class="plans">
     <div><h3>Free</h3><p class="price">$0</p><p class="for">For everyone</p>
       <ul><li>20 new checks an hour from one address; results reused for 10 minutes</li><li>Signed results, badges, <a href="https://check.witnessory.org/openapi.json">API description</a></li></ul></div>
+    <div><h3>Pay per check</h3><p class="price">$0.01 <small>a check</small></p><p class="for">For agents, no account</p>
+      <ul><li>One fresh, signed check per payment over HTTP 402 (x402), USDC on Base</li><li><code>GET api.witnessory.org/pay/check?domain=…</code></li></ul></div>
     <div><h3>API Developer</h3><p class="price">$19 <small>a month</small></p><p class="for">For developers and agents</p>
-      <ul><li>2,000 fresh checks a month with a key (<code>Authorization: Bearer</code>)</li><li>Never a reused result, never limited by address</li></ul></div>
+      <ul><li>2,000 fresh checks a month with a key (<code>Authorization: Bearer</code>)</li><li>Never a reused result, never limited by address</li><li>Agents: buy the key now with x402 at <code>POST api.witnessory.org/pay/key?plan=api-developer</code></li></ul></div>
     <div><h3>API Pro</h3><p class="price">$149 <small>a month</small></p><p class="for">For security tools and platforms</p>
       <ul><li>25,000 checks a month</li><li>Bulk endpoint (up to 100 names a request) and webhooks, coming with checkout</li></ul></div>
   </div>

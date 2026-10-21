@@ -39,7 +39,11 @@
 - Watching your own sites from several networks over time with alerts and signed evidence (from $49 a month), API
   keys with higher limits ($19 and $149 a month; `Authorization: Bearer <key>` on the checker), signed and anchored
   evidence reports ($490), data licences, enterprise. Page: https://witnessory.org/services.html
-- Checkout opens soon. Register interest: `POST https://coordinator.witnessory.org/v1/interest` with
+- Agents pay per request, no account: HTTP 402 (x402 v2), USDC on Base. Index: https://api.witnessory.org/pay.
+  `GET https://api.witnessory.org/pay/check?domain=example.org` ($0.01, one fresh signed check);
+  `POST https://api.witnessory.org/pay/key?plan=api-developer` ($19, a key for 2,000 fresh checks in 31 days) or
+  `?plan=api-pro` ($149, 25,000). Ask without payment to get the 402 with the exact requirements.
+- People: checkout opens soon. Register interest: `POST https://coordinator.witnessory.org/v1/interest` with
   `{"email": "...", "product": "<id from pricing.json>"}`; or write to security@witnessory.org to buy now.
 - Status of every service: https://coordinator.witnessory.org/status.json
 
