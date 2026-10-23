@@ -74,6 +74,19 @@ code { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-si
   </section>
 
   <section>
+    <h2>If you buy a watch or a report</h2>
+    <ul>
+      <li>We keep the hostnames you asked us to measure, the webhook address you gave (if any), a note you may have
+      added, and the measurements. A watch and its evidence files are deleted 30 days after it ends; a report 90 days
+      after it was made. The paying wallet's address and the transaction are kept in our ledger.</li>
+      <li>The hostnames of a watch are also handed to the probe network as signed measurement tasks, so volunteers'
+      probes measure them from their networks; they see the hostnames, nothing about you.</li>
+      <li>Alerts are sent to your webhook from our coordinator (on Cloudflare), as JSON, with the hostname and the
+      change and nothing else.</li>
+    </ul>
+  </section>
+
+  <section>
     <h2>Counts we keep about our own services</h2>
     <p>To find and fix failures we look at Cloudflare's aggregate counts of requests to our services by site, path and
     status code (for example "12 requests to /api/check answered 503 last hour"). They contain no addresses and nothing
