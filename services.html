@@ -67,7 +67,7 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
   one fresh check for $0.01, a watch, an evidence report or an API key, delivered in the paid answer itself. Start at
   <code>https://api.witnessory.org/pay</code> (catalogue: <code>/.well-known/x402</code>).</p>
   <p><strong>Checkout for people opens soon.</strong> Leave your address below to be told the day it does, or write to
-  <code>security@witnessory.org</code> to buy now: your key or report arrives by reply.</p>
+  <code>hello@witnessory.org</code> to buy now: your key or report arrives by reply.</p>
   <nav><a href="https://check.witnessory.org/">Check one site</a><a href="https://github.com/witnessory/client">Client and MCP server</a><a href="probe.html">Run a probe</a><a href="pricing.json">Prices as data</a><a href="terms.html">Terms</a></nav>
 </header>
 
@@ -101,7 +101,7 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
   <h2>Data and enterprise</h2>
   <div class="plans">
     <div><h3>Data licence</h3><p class="price">$400 <small>a month, or $4,000 a year</small></p><p class="for">For analysts, vendors, insurers</p>
-      <ul><li>The monthly dataset: the top 10,000 sites' post-quantum key exchange and certificates, with history, as JSON and CSV, signed</li><li>Research and non-commercial use: free with attribution; write to us</li></ul></div>
+      <ul><li>The monthly dataset: the top 10,000 sites' post-quantum key exchange and certificates, with history, as JSON and CSV, signed</li><li>Research and non-commercial use: free with attribution; write to hello@witnessory.org</li></ul></div>
     <div><h3>Enterprise</h3><p class="price">from $1,500 <small>a month</small></p><p class="for">For banks, telecoms, governments' suppliers</p>
       <ul><li>Watch for thousands of hostnames</li><li>Probes inside your own networks, reporting only to you</li><li>Custom reports; quoted</li></ul></div>
   </div>
@@ -130,8 +130,8 @@ const f=document.getElementById('f'),said=document.getElementById('said');
 f.onsubmit=async e=>{e.preventDefault();said.textContent='Sending...';
 try{const r=await fetch('https://coordinator.witnessory.org/v1/interest',{method:'POST',headers:{'content-type':'application/json'},
 body:JSON.stringify({email:document.getElementById('email').value.trim(),product:document.getElementById('product').value})});
-const j=await r.json();said.textContent=r.ok?'Noted. You will hear from us the day checkout opens.':(j.error||'That did not work; write to security@witnessory.org instead.');}
-catch(x){said.textContent='That did not work; write to security@witnessory.org instead.';}};
+const j=await r.json();said.textContent=r.ok?'Noted. You will hear from us the day checkout opens.':(j.error||'That did not work; write to hello@witnessory.org instead.');}
+catch(x){said.textContent='That did not work; write to hello@witnessory.org instead.';}};
 </script>
 </body>
 </html>

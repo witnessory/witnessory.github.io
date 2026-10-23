@@ -49,9 +49,11 @@
   anchored report within the hour); `POST /pay/key?plan=api-developer` $19 (2,000 fresh checks in 31 days),
   `?plan=api-pro` $99 (25,000). Ask without payment to get the 402 with the exact requirements.
 - People: checkout opens soon. Register interest: `POST https://coordinator.witnessory.org/v1/interest` with
-  `{"email": "...", "product": "<id from pricing.json>"}`; or write to security@witnessory.org to buy now.
+  `{"email": "...", "product": "<id from pricing.json>"}`; or write to hello@witnessory.org to buy now.
 - Status of every service: https://coordinator.witnessory.org/status.json
 
 ## Contact
+
+- Questions, buying, partnerships: hello@witnessory.org.
 
 - Security: security@witnessory.org (https://witnessory.org/.well-known/security.txt).

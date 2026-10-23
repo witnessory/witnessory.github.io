@@ -3,7 +3,7 @@
   "as_of": "2026-10-23",
   "currency": "USD",
   "status": "open for agents (pay per request, instant delivery); checkout for people coming",
-  "how_to_buy": "Agents: pay per request over HTTP 402 (x402 v2) in USDC on Base at https://api.witnessory.org/pay, no account. People: register interest at POST https://coordinator.witnessory.org/v1/interest with {\"email\", \"product\"}, or write to security@witnessory.org: a key or report arrives by reply.",
+  "how_to_buy": "Agents: pay per request over HTTP 402 (x402 v2) in USDC on Base at https://api.witnessory.org/pay, no account. People: register interest at POST https://coordinator.witnessory.org/v1/interest with {\"email\", \"product\"}, or write to hello@witnessory.org: a key or report arrives by reply.",
   "free": {
     "dashboard": "https://witnessory.org/",
     "check": "https://check.witnessory.org/api/check?domain=example.org: 20 new checks an hour from one address, results reused for 10 minutes, signed",
@@ -103,7 +103,7 @@
   "annual": "pay for 10 months, get 12",
   "refunds": "within 14 days, no questions",
   "neutrality": "no result is ever changed, hidden or ranked for money; every customer gets the same data",
-  "contact": "security@witnessory.org",
+  "contact": "hello@witnessory.org (security reports: security@witnessory.org)",
   "terms": "https://witnessory.org/terms.html",
   "privacy": "https://witnessory.org/privacy.html",
   "page": "https://witnessory.org/services.html",
