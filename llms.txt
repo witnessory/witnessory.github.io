@@ -27,7 +27,7 @@
 
 ## The client and MCP server (for your code or your agent)
 
-- `pip install https://github.com/witnessory/client/releases/download/v0.2.0/witnessory-0.2.0-py3-none-any.whl`
+- `pip install https://github.com/witnessory/client/releases/download/v0.2.1/witnessory-0.2.1-py3-none-any.whl`
   (package `witnessory`, Apache 2.0, standard library only; source: https://github.com/witnessory/client).
 - Python: `witnessory.check("example.org")`, `witnessory.headline()`, `witnessory.probes()`, `witnessory.pricing()`,
   `witnessory.verify(result)`. Command line: `witnessory check example.org`.
@@ -36,9 +36,10 @@
 
 ## Paid services (prices as data: https://witnessory.org/pricing.json)
 
-- Watching your own sites from several networks over time with alerts and signed evidence (from $49 a month), API
-  keys with higher limits ($19 and $149 a month; `Authorization: Bearer <key>` on the checker), signed and anchored
-  evidence reports ($490), data licences, enterprise. Page: https://witnessory.org/services.html
+- Watching your own sites from several networks over time with alerts and signed, anchored evidence (Watch 10 $19
+  a month, Watch 100 $99), API keys with higher limits ($19 and $99 a month; `Authorization: Bearer <key>` on the
+  checker), signed and anchored evidence reports ($9 for up to 10 hostnames, $39 for up to 50), data licences,
+  enterprise. Page: https://witnessory.org/services.html
 - Agents pay per request, no account, instant delivery: HTTP 402 (x402 v2), USDC on Base. Index:
   https://api.witnessory.org/pay (catalogue for crawlers: https://api.witnessory.org/.well-known/x402).
   `GET /pay/check?domain=example.org` $0.01 (one fresh signed check); `POST /pay/check-many` $0.10 (up to 20);
