@@ -64,7 +64,8 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
   from several networks over time, with alerts and evidence an auditor accepts; higher limits for the API; the data;
   reports. Prices in US dollars; local sales tax is added at checkout.</p>
   <p><strong>Agents can pay now</strong>, per request and without an account, over HTTP 402 (x402) in USDC on Base:
-  one fresh check for $0.01, or an API key for a month's checks. Start at <code>https://api.witnessory.org/pay</code>.</p>
+  one fresh check for $0.01, a watch, an evidence report or an API key, delivered in the paid answer itself. Start at
+  <code>https://api.witnessory.org/pay</code> (catalogue: <code>/.well-known/x402</code>).</p>
   <p><strong>Checkout for people opens soon.</strong> Leave your address below to be told the day it does, or write to
   <code>security@witnessory.org</code> to buy now: your key or report arrives by reply.</p>
   <nav><a href="https://check.witnessory.org/">Check one site</a><a href="https://github.com/witnessory/client">Client and MCP server</a><a href="probe.html">Run a probe</a><a href="pricing.json">Prices as data</a><a href="terms.html">Terms</a></nav>
@@ -73,12 +74,12 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
 <section>
   <h2>Watch your sites</h2>
   <div class="plans">
-    <div><h3>Watch 10</h3><p class="price">$49 <small>a month</small></p><p class="for">For a small organisation</p>
-      <ul><li>Up to 10 hostnames, checked daily (TLS and SSH) from several networks</li><li>Alerts on any change (webhook, email)</li><li>A history page</li><li>A signed monthly evidence file</li></ul></div>
-    <div><h3>Watch 100</h3><p class="price">$249 <small>a month</small></p><p class="for">For an organisation migrating</p>
-      <ul><li>Up to 100 hostnames, checked every 6 hours</li><li>Everything in Watch 10</li><li>A quarterly evidence report</li></ul></div>
-    <div><h3>Evidence report</h3><p class="price">$490 <small>once</small></p><p class="for">For an auditor, a customer questionnaire or a regulator</p>
-      <ul><li>Up to 50 hostnames: what each offers today, against the published government timelines</li><li>Signed (Ed25519 and ML-DSA-65) and anchored in Bitcoin</li><li>Delivered within the day</li></ul></div>
+    <div><h3>Watch 10</h3><p class="price">$19 <small>a month</small></p><p class="for">For a small organisation</p>
+      <ul><li>Up to 10 hostnames, checked daily from several networks</li><li>Alerts on any change, to your webhook</li><li>A page with history; first results at once</li><li>A signed monthly evidence file, anchored in Bitcoin</li></ul></div>
+    <div><h3>Watch 100</h3><p class="price">$99 <small>a month</small></p><p class="for">For an organisation migrating</p>
+      <ul><li>Up to 100 hostnames, checked every 6 hours</li><li>Everything in Watch 10</li></ul></div>
+    <div><h3>Evidence report</h3><p class="price">$9 <small>up to 10 hostnames</small> · $39 <small>up to 50</small></p><p class="for">For an auditor, a customer questionnaire or a regulator</p>
+      <ul><li>What each hostname offers today, against the published government timelines</li><li>Results at once; the report signed (Ed25519 and ML-DSA-65) and anchored in Bitcoin within the hour</li><li>At a token-gated URL you can hand to an auditor</li></ul></div>
   </div>
 </section>
 
@@ -91,8 +92,8 @@ button { background: var(--accent); color: #fff; border-color: var(--accent); cu
       <ul><li>One fresh, signed check per payment over HTTP 402 (x402), USDC on Base</li><li><code>GET api.witnessory.org/pay/check?domain=…</code></li></ul></div>
     <div><h3>API Developer</h3><p class="price">$19 <small>a month</small></p><p class="for">For developers and agents</p>
       <ul><li>2,000 fresh checks a month with a key (<code>Authorization: Bearer</code>)</li><li>Never a reused result, never limited by address</li><li>Agents: buy the key now with x402 at <code>POST api.witnessory.org/pay/key?plan=api-developer</code></li></ul></div>
-    <div><h3>API Pro</h3><p class="price">$149 <small>a month</small></p><p class="for">For security tools and platforms</p>
-      <ul><li>25,000 checks a month</li><li>Bulk endpoint (up to 100 names a request) and webhooks, coming with checkout</li></ul></div>
+    <div><h3>API Pro</h3><p class="price">$99 <small>a month</small></p><p class="for">For security tools and platforms</p>
+      <ul><li>25,000 checks a month</li><li>Bulk: up to 20 names a request for $0.10 at <code>POST api.witnessory.org/pay/check-many</code></li></ul></div>
   </div>
 </section>
 
