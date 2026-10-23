@@ -19,7 +19,7 @@
     "attested_by": [
      "probe-2"
     ],
-    "status": "attested"
+    "status": "not_current"
    },
    "probe-2": {
     "attested_by": [
@@ -174,7 +174,7 @@
      "encrypted_pq_rate": 0.384615,
      "encrypted_resolver_rate": 1.0,
      "https_rr_rate": 0.19406,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1"
     },
     {
@@ -231,23 +231,23 @@
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 303816725688,
-     "median": 303816725688,
-     "min": 303816725688,
+     "max": 170368887368,
+     "median": 170368887368,
+     "min": 170368887368,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 29065241073,
-     "median": 29065241073,
-     "min": 29065241073,
+     "max": 23620275216,
+     "median": 23620275216,
+     "min": 23620275216,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 10,
-     "median": 10,
-     "min": 10,
+     "max": 17,
+     "median": 17,
+     "min": 17,
      "n": 1,
      "networks": 1
     }
@@ -255,101 +255,157 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-10-22",
+     "created_utc": "2026-10-23",
      "dormant_exposed_inputs": 0,
      "dormant_exposed_spent_sats": 0,
-     "dormant_hash_protected_sats": 303816725688,
-     "dormant_revealed_sats": 29065241073,
+     "dormant_hash_protected_sats": 170368887368,
+     "dormant_revealed_sats": 23620275216,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 972404,
+     "from_height": 972566,
      "gap_before": null,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
-     "to_height": 972565,
+     "to_height": 972727,
      "witness_v2_plus_list": [
       {
-       "height": 972439,
+       "height": 972568,
        "program_bytes": 33,
        "sats": 546,
-       "txid": "77f5d8fc9364217cf7ebf2933832c948872dea95b6aca07d41971ac29361c522",
+       "txid": "34888c2ee9b0fd614f353a17090d8a85aad0abaf61bad1d009dcf0d5786a3cc3",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972439,
-       "program_bytes": 30,
+       "height": 972568,
+       "program_bytes": 29,
        "sats": 546,
-       "txid": "a00f14af258bcdab470323d7dd6f0665db19511e5595b2dd50b844ec7dedf507",
+       "txid": "a9772cc1ad85a09434b05ffeee1efe9588dbc6b816a99b844a6aab3e4e127a4d",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972439,
-       "program_bytes": 19,
+       "height": 972586,
+       "program_bytes": 34,
        "sats": 546,
-       "txid": "2a24c69173bb437a001bed75faffb2d82d2366e6cb59d1bdb8ad2caa72ffa5ab",
+       "txid": "4f22438a9f5f08feab0090ffbc9f628f3d49eac213e0873f7825314f286d476b",
        "version": 12,
-       "vout": 1
+       "vout": 2
       },
       {
-       "height": 972440,
-       "program_bytes": 18,
+       "height": 972604,
+       "program_bytes": 39,
        "sats": 546,
-       "txid": "63374bd78969090ade4d7c9a98344ea57ea5ba59cbff78d4a20d2e56e610e9d3",
+       "txid": "ef4e7ff54dc68c0a6fd750e885a5ad040b14803f0f3eedd497eac318a0392a19",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972441,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "6b98ac1770efbff68c8399a4fb9fc76d10cda769f165b2b6e10399f6ebd326eb",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 972443,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "2be5858112e562b39f34ac5628e71302f8be951f918027df3e17937da2b07624",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 972444,
+       "height": 972604,
        "program_bytes": 37,
        "sats": 546,
-       "txid": "8ef82f2f2fc1c5e2136a8d134e272132358800a05b84155ca9c80b704d62b4f0",
+       "txid": "33e10d15edd47f7a5591c23add449ad120cb3594e0da1ec3b7dbe23d4e875d5a",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972446,
-       "program_bytes": 35,
+       "height": 972604,
+       "program_bytes": 38,
        "sats": 546,
-       "txid": "0e26ce8940484867d28e73442c8604cbbeab4f7739dbd76993c188e068de8a5d",
+       "txid": "11a45fa8779869f01cb504c0ee3f92d09bcff364a6a383ba304363465bbe68a2",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972551,
-       "program_bytes": 29,
+       "height": 972604,
+       "program_bytes": 38,
        "sats": 546,
-       "txid": "46d388c13974d61e8edce51177855e38a0f5f0211775c0f7277fec69fc3ef98f",
+       "txid": "5ce1408f05cc01bbbfdcf0fcbcf6bddf790d5a773617d5e8fbf3d5e3e832d704",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 972554,
-       "program_bytes": 29,
+       "height": 972604,
+       "program_bytes": 37,
        "sats": 546,
-       "txid": "11c005e9af51d01850e0682fe32bd30c5ad0500eb43926fee10b0478f2267aa8",
+       "txid": "72e1e7b827c93ccdb869b3c4dd43bf39c9719e432a396149508082d52fad3385",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972622,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "2e358b15db256bb4dcd4ea34582bfcebb4ae50295e286df38cdf1cdf66baef34",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972622,
+       "program_bytes": 39,
+       "sats": 546,
+       "txid": "12bc2030b17e301f5b3d7104997f7e941a694f8ad145b3025f0fcc152ce58bbf",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 972678,
+       "program_bytes": 28,
+       "sats": 546,
+       "txid": "728399db884dc6c0281c7b8f8271e3bd1077aa3c545f89d0f7a888bbe6566298",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972724,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "1cbdc0d67419993538f19e6b893a6a0739693f1b4f3f981e98c21e1214c14ec5",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972726,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "74b26e2c10e3102d51ce575dd3762d8ca155f1360d6821c28d19a4b7db2217d0",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 972726,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "ba3b25b8770e8d96574fa16af554189e7909ab3e78bcc72c97a7aebdfcab4018",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972726,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "626d6151197ea99a4705dbd2b46796f626503a1ffde560162cc2827d12e8b426",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972726,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "940b5de9638432435360b946cdaa5ecae03c4daebcab7e18b395cc825b193670",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 972726,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "3b8c5482f5e1f1d5e6253672006fe66a36e2b862a953dff72ef86f0a81b06428",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 10
+     "witness_v2_plus_outputs": 17
     }
    ]
   },
@@ -375,7 +431,7 @@
      "created_utc": "2026-10-22",
      "eligible": true,
      "exposed_value_share": 0.25654131,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "to_revealed_value_share": 0.62506324,
      "window": {
@@ -576,7 +632,7 @@
      "controls_spoofed": [],
      "created_utc": "2026-10-22",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "regions_affected_share": 0.166667,
      "spoofing_regions": [],
@@ -1184,7 +1240,7 @@
       "www.wikipedia.org": "Let's Encrypt",
       "www.yahoo.com": "DigiCert Inc"
      },
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "sct_inclusion_share": 1.0,
      "sct_not_included": [],
@@ -1490,7 +1546,7 @@
      "dnslink_publish_rate": 0.0,
      "dnslink_validated_rate": 0.047619,
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "pointers_found": 21,
      "pq_rate": 0.0,
      "probe_id": "probe-1"
@@ -1550,7 +1606,7 @@
      "eligible": true,
      "exposed_share": 0.096142,
      "flags": [],
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1"
     },
     {
@@ -1598,7 +1654,7 @@
      "created_utc": "2026-10-14",
      "eligible": true,
      "exposed_or_revealed_share": 0.35389743,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "revealed_share": 0.25774999
     }
@@ -1896,7 +1952,7 @@
        "reason": "origin"
       }
      ],
-     "network_attested": true,
+     "network_attested": false,
      "payloads_sha256": "605b7783ddde08556e53fb9cd9653662a8f76a9384a405886072bac8ff41a55e",
      "probe_id": "probe-1",
      "rpki_invalid_share": 0.002496,
@@ -1954,7 +2010,7 @@
      },
      "created_utc": "2026-10-16",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "objects_by_repository": {
       "https://akane.maru.co.jp/oshirase.xml": 36,
       "https://alias.rpki-measurement.site/rrdp/notification.xml": 4,
@@ -2600,7 +2656,7 @@
      "channels_read": 16,
      "created_utc": "2026-10-22",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "pq_rate": 0.0625,
      "probe_id": "probe-1"
     },
@@ -2819,8 +2875,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "50795fe2e141ddf217f25f9b167d17f6fc46f8fe2b8bbd41cd53eb8d7a3685c2"
      }
     ],
@@ -2833,8 +2889,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "aaf5dfe9415dc582ed4d9e0ef0efe202606f63afc9e02149d0c494dc140b9162"
      }
     ],
@@ -2847,8 +2903,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "6ae815eaa8de1277de6e85dffe5f86ae20fc96e150751a3293796efdfe29bbb4"
      }
     ],
@@ -2861,8 +2917,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "ae123e718b1ab29a1e1f689ed703199b575abacf10a3ac7683497098c671d248"
      }
     ],
@@ -2875,8 +2931,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "4d33dbf3cf6c2677f876f704a0ef3564fa2d0712410ddcf6566880eeb266beda"
      }
     ],
@@ -2889,8 +2945,8 @@
      },
      {
       "first_observed_utc": "2026-10-21",
-      "last_observed_utc": "2026-10-22T10:37:01Z",
-      "observations": 5,
+      "last_observed_utc": "2026-10-23T09:35:24Z",
+      "observations": 7,
       "state_digest": "e76e7ff996d9246d7039b14f15f6948972c19b409c07e506a3a952fc6bb4fb49"
      }
     ]
@@ -3808,7 +3864,12 @@
      "what": "TLS 1.3 (current specification)"
     }
    },
-   "not_read_by": {},
+   "not_read_by": {
+    "leap-seconds": [
+     "probe-2",
+     "probe-3"
+    ]
+   },
    "paper_to_deployment_lag": [
     {
      "deployment_measure": "keys.tls.pq_negotiation_rate",
@@ -4763,12 +4824,12 @@
        ]
       }
      ],
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "state_digest": "ec4ce2755b11ad49e8f802754caac10117a4a792b960f9850e9a2afb4e13627c"
     },
     {
-     "created_utc": "2026-10-22",
+     "created_utc": "2026-10-23",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -5226,19 +5287,10 @@
        "what": "curveSM2MLKEM768 group"
       },
       "leap-seconds": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "leapsec",
        "layer": "time",
-       "state": {
-        "bulletin_c": 72,
-        "changes": 27,
-        "file_expires": "2027-06-28",
-        "last_change_effective": "2017-01-01",
-        "tai_minus_utc_s": 37
-       },
-       "state_digest": "db93f069ea43a0001f8e67a3b24c4548bd059759f53f7573b3d2950648cc5351",
-       "successors": [],
-       "superseded": false,
        "what": "Leap-second table (IERS Bulletin C): TAI-UTC and the next scheduled change"
       },
       "rfc10024": {
@@ -5681,7 +5733,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-2",
-     "state_digest": "ec4ce2755b11ad49e8f802754caac10117a4a792b960f9850e9a2afb4e13627c"
+     "state_digest": "ae1fb8b8a6db5262b3ca72c1574e160365d22b87a227094e8185844c2c627b3e"
     },
     {
      "created_utc": "2026-10-22",
@@ -6600,7 +6652,7 @@
      "state_digest": "ec4ce2755b11ad49e8f802754caac10117a4a792b960f9850e9a2afb4e13627c"
     },
     {
-     "created_utc": "2026-10-22",
+     "created_utc": "2026-10-23",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -7058,19 +7110,10 @@
        "what": "curveSM2MLKEM768 group"
       },
       "leap-seconds": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "leapsec",
        "layer": "time",
-       "state": {
-        "bulletin_c": 72,
-        "changes": 27,
-        "file_expires": "2027-06-28",
-        "last_change_effective": "2017-01-01",
-        "tai_minus_utc_s": 37
-       },
-       "state_digest": "db93f069ea43a0001f8e67a3b24c4548bd059759f53f7573b3d2950648cc5351",
-       "successors": [],
-       "superseded": false,
        "what": "Leap-second table (IERS Bulletin C): TAI-UTC and the next scheduled change"
       },
       "rfc10024": {
@@ -7513,7 +7556,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-3",
-     "state_digest": "ec4ce2755b11ad49e8f802754caac10117a4a792b960f9850e9a2afb4e13627c"
+     "state_digest": "ae1fb8b8a6db5262b3ca72c1574e160365d22b87a227094e8185844c2c627b3e"
     }
    ]
   },
@@ -7528,8 +7571,8 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.17937767505645752,
-     "median": 0.11474007368087769,
-     "min": 0.08260798454284668,
+     "median": 0.1301974356174469,
+     "min": 0.1034734845161438,
      "n": 4,
      "networks": 4
     },
@@ -7562,7 +7605,7 @@
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
-     "network_attested": true,
+     "network_attested": false,
      "nts_support_rate": 0.666667,
      "probe_id": "probe-1",
      "reference_spread_provable": false,
@@ -7571,8 +7614,8 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-10-22",
-     "detection_floor_s": 0.08260798454284668,
+     "created_utc": "2026-10-23",
+     "detection_floor_s": 0.13438820838928223,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
@@ -7580,7 +7623,7 @@
      "nts_support_rate": 0.5,
      "probe_id": "probe-2",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.026323914527893066,
+     "reference_spread_s": 0.0279998779296875,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -7616,8 +7659,8 @@
    "reference_spread_s": {
     "all": {
      "max": 0.08896780014038086,
-     "median": 0.03794592618942261,
-     "min": 0.026323914527893066,
+     "median": 0.038581669330596924,
+     "min": 0.026728391647338867,
      "n": 4,
      "networks": 4
     },
@@ -7666,7 +7709,7 @@
      "consensus_valid_after": "2026-10-22 05:00:00",
      "created_utc": "2026-10-22",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "recommended_protocols_share": 0.99989,
      "recommended_version_share": 0.859805,
@@ -8251,7 +8294,7 @@
      },
      "inconsistent_logs": {},
      "log_consistency": 1.0,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "proven_split_views": [],
      "rekor_entries": 3377159825,
@@ -9676,7 +9719,7 @@
      "created_utc": "2026-10-19",
      "eligible": true,
      "issue": 465,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-1",
      "source_sha256": "a295e8825c9c283b48b82f5349c095977a949e14adad43b8a5318c5e06f98242",
      "watched": {
@@ -10293,7 +10336,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-23T07:48:11Z",
+  "as_of_utc": "2026-10-23T09:35:24Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10324,9 +10367,9 @@
  "probes": [
   {
    "age_days": 23,
-   "bundles": 307,
+   "bundles": 316,
    "contribution": {
-    "bundles_ok": 302,
+    "bundles_ok": 309,
     "days_active": 24,
     "layers": 17
    },
@@ -10344,9 +10387,9 @@
   },
   {
    "age_days": 23,
-   "bundles": 288,
+   "bundles": 290,
    "contribution": {
-    "bundles_ok": 286,
+    "bundles_ok": 288,
     "days_active": 24,
     "layers": 14
    },
@@ -10384,9 +10427,9 @@
   },
   {
    "age_days": 23,
-   "bundles": 242,
+   "bundles": 243,
    "contribution": {
-    "bundles_ok": 238,
+    "bundles_ok": 239,
     "days_active": 24,
     "layers": 12
    },
@@ -10405,15 +10448,15 @@
  ],
  "protocol": 3,
  "published": {
-  "countries": 3,
-  "networks": 4,
+  "countries": 4,
+  "networks": 5,
   "probes": 4,
   "withheld": [
    "where each probe runs: its country, network and network name, and figures by country or network",
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "b5241f9467da9ba746564d0d7277d2398cb3e3748e2626b9d11e9dac0e47aebb",
+ "published_sha256": "aac2d71294654565ec6a21c44dfd2417cfd9764eb4407ef0f22434c4670fe75b",
  "rejections": [
   {
    "kind": "bundle",
@@ -10452,7 +10495,17 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "no update channel read"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
   {
@@ -10484,6 +10537,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "no reference server answered"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "run failed"
   },
   {
    "kind": "bundle",
@@ -10548,6 +10606,11 @@
   {
    "kind": "bundle",
    "probe_id": "probe-1",
+   "reason": "run failed"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
    "reason": "no update channel read"
   },
   {
@@ -10587,6 +10650,16 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-3",
    "reason": "vantage changed during run"
   },
@@ -10594,6 +10667,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "no reference server answered"
   },
   {
    "kind": "bundle",
@@ -10658,5 +10736,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "aee76e6eba1087f579c11fbd7fcb192d398fde32600e1451544ada677c586381"
+ "view_sha256": "155a326dec8c01a71e897bdee24683e555dc31a092c8d6a12b46d78579cb115b"
 }
