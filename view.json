@@ -9,9 +9,9 @@
    "subject": "www.amazon.com"
   }
  ],
- "evidence_withheld": 7,
+ "evidence_withheld": 8,
  "inputs": {
-  "bundles_used": 60
+  "bundles_used": 61
  },
  "layers": {
   "attestation": {
@@ -3957,11 +3957,21 @@
     {
      "deployment_measure": "keys.ssh.mlkem_offer_rate",
      "first_observed_utc": "2026-09-30",
-     "latest": null,
+     "latest": {
+      "median": 0.163793,
+      "probes": 1,
+      "utc": "2026-10-26T17:15:56Z"
+     },
      "spec": "rfc10042",
      "spec_date": "2026-08-01",
      "thresholds": {
-      "0.1": null,
+      "0.1": {
+       "censored": "already_reached_at_first_observation",
+       "days_after_spec_date_at_most": 86,
+       "median": 0.163793,
+       "probes": 1,
+       "reached_utc": "2026-10-26T17:15:56Z"
+      },
       "0.5": null,
       "0.9": null
      },
@@ -6984,10 +6994,37 @@
   },
   "ssh": {
    "headline": {
-    "mlkem_offer_rate": null,
-    "pq_offer_rate": null
+    "mlkem_offer_rate": {
+     "max": 0.163793,
+     "median": 0.163793,
+     "min": 0.163793,
+     "n": 1,
+     "networks": 1
+    },
+    "pq_offer_rate": {
+     "max": 0.522989,
+     "median": 0.522989,
+     "min": 0.522989,
+     "n": 1,
+     "networks": 1
+    }
    },
-   "probes": []
+   "probes": [
+    {
+     "coverage": {
+      "intended": 10000,
+      "observed": 348,
+      "positive": 182
+     },
+     "created_utc": "2026-10-26",
+     "eligible": true,
+     "flags": [],
+     "mlkem_offer_rate": 0.163793,
+     "network_attested": true,
+     "pq_offer_rate": 0.522989,
+     "probe_id": "probe-2"
+    }
+   ]
   },
   "time": {
    "headline": {
@@ -9758,7 +9795,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-26T15:13:53Z",
+  "as_of_utc": "2026-10-26T17:15:56Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -9809,11 +9846,11 @@
   },
   {
    "age_days": 26,
-   "bundles": 332,
+   "bundles": 333,
    "contribution": {
-    "bundles_ok": 330,
+    "bundles_ok": 331,
     "days_active": 27,
-    "layers": 15
+    "layers": 16
    },
    "eligible": true,
    "first_anchor_utc": null,
@@ -9878,7 +9915,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "7c897ce6d8fc051626a1f613f18c30e859105a127000919223768cc152ae04b1",
+ "published_sha256": "cd29d77fdcc3ff4c8295a58d9747d5ebeca8f8e1945905448c11811495f6a141",
  "rejections": [
   {
    "kind": "bundle",
@@ -10208,5 +10245,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "67cf5650fc69f97ee7c294edb7aecfdff4e2249efe57903a687e1adbda689aa4"
+ "view_sha256": "61458049ed658eb43a87d1f2995989de984b9378755faac34ec615e73dbaac01"
 }
