@@ -252,30 +252,30 @@
    "early_coinbase_p2pk_spends": [],
    "headline": {
     "dormant_exposed_spent_sats": {
-     "max": 62400,
-     "median": 62400,
-     "min": 62400,
+     "max": 93600,
+     "median": 93600,
+     "min": 93600,
      "n": 1,
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 55646096305,
-     "median": 55646096305,
-     "min": 55646096305,
+     "max": 137635192705,
+     "median": 137635192705,
+     "min": 137635192705,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 8445764178,
-     "median": 8445764178,
-     "min": 8445764178,
+     "max": 10442489524,
+     "median": 10442489524,
+     "min": 10442489524,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 3,
-     "median": 3,
-     "min": 3,
+     "max": 6,
+     "median": 6,
+     "min": 6,
      "n": 1,
      "networks": 1
     }
@@ -283,80 +283,104 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-10-26",
-     "dormant_exposed_inputs": 8,
-     "dormant_exposed_spent_sats": 62400,
-     "dormant_hash_protected_sats": 55646096305,
-     "dormant_revealed_sats": 8445764178,
+     "created_utc": "2026-10-27",
+     "dormant_exposed_inputs": 12,
+     "dormant_exposed_spent_sats": 93600,
+     "dormant_hash_protected_sats": 137635192705,
+     "dormant_revealed_sats": 10442489524,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 973059,
+     "from_height": 973236,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 973235,
+     "to_height": 973408,
      "witness_v2_plus_list": [
       {
-       "height": 973104,
-       "program_bytes": 30,
+       "height": 973252,
+       "program_bytes": 38,
        "sats": 546,
-       "txid": "d346a1916f2d5e40aa56f11cad18cc55d4f52b0eac7722f7100e2d21837bb03f",
+       "txid": "45cb72a6226679e85b32e6d67319a096283e35c5f615570f09fb66066ffb8746",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 973106,
+       "height": 973258,
+       "program_bytes": 28,
+       "sats": 546,
+       "txid": "4a5fb9d78a0ac1f36bc63d588836509f1cf3ecf41cc55356eb8805e07c89bfa4",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973262,
+       "program_bytes": 28,
+       "sats": 546,
+       "txid": "eeeb58186474f92b56c1ce84dfc05fb99876d8ef922313fd2e6c354a95d79f94",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973321,
+       "program_bytes": 31,
+       "sats": 546,
+       "txid": "78a339f23e26fb6df716f68f81a8d5461c2060670b8d3b93f3da1ab18d3a8005",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 973325,
+       "program_bytes": 39,
+       "sats": 546,
+       "txid": "908a2f94de9c813bfaeae4d9a72335becae57bb7dc49c08684c4ea2793466d40",
+       "version": 12,
+       "vout": 4
+      },
+      {
+       "height": 973325,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "793b02ba0210d410cbdbaad5038cf2034202bdd12b0d91e67e42b450477d3f7b",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973158,
-       "program_bytes": 17,
-       "sats": 546,
-       "txid": "9c4adfda8d6c4ad986b9ed34f0adfd5513cb7fb964d833238fc87117f6467fc9",
+       "txid": "e7eeaa9e14c4f959f37d7173aabe2d5a684a64417a72ae3a2fd25aa3772c8be5",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 3
+     "witness_v2_plus_outputs": 6
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.26202302,
-     "median": 0.26202302,
-     "min": 0.26202302,
+     "max": 0.3178885,
+     "median": 0.3178885,
+     "min": 0.3178885,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.69144263,
-     "median": 0.69144263,
-     "min": 0.69144263,
+     "max": 0.60765337,
+     "median": 0.60765337,
+     "min": 0.60765337,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-10-26",
+     "created_utc": "2026-10-27",
      "eligible": true,
-     "exposed_value_share": 0.26202302,
+     "exposed_value_share": 0.3178885,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.69144263,
+     "to_revealed_value_share": 0.60765337,
      "window": {
-      "blocks": 162,
-      "from_block_time": 1792929774,
-      "from_height": 973070,
+      "blocks": 161,
+      "from_block_time": 1793022098,
+      "from_height": 973244,
       "hours": 24.0,
-      "to_block_time": 1793014970,
-      "to_height": 973231
+      "to_block_time": 1793108486,
+      "to_height": 973404
      }
     }
    ]
@@ -10334,7 +10358,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-27T14:36:05Z",
+  "as_of_utc": "2026-10-27T15:02:43Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10365,9 +10389,9 @@
  "probes": [
   {
    "age_days": 27,
-   "bundles": 362,
+   "bundles": 364,
    "contribution": {
-    "bundles_ok": 354,
+    "bundles_ok": 356,
     "days_active": 28,
     "layers": 17
    },
@@ -10454,7 +10478,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "14267d3cb7c8c8980a28b676865c9753384118a5696795ba61788f4ed7fe3b5d",
+ "published_sha256": "4b8733f8c409cc88c203cce77fe3b900a9203141ce71153ce8b5b985bb3128cd",
  "rejections": [
   {
    "kind": "bundle",
@@ -10794,5 +10818,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "85658e23608124bfd1448e6d1208ae4b725df75ae179a2901b8ea950e02b2e38"
+ "view_sha256": "ed48509bb6ea87ec8ac04ef6075babec5a168f20c90f558b5e04a43bafe67ab8"
 }
