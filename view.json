@@ -404,237 +404,69 @@
   },
   "gnss": {
    "affected_regions": [],
-   "controls_affected": [],
+   "controls_affected": [
+    "control-2",
+    "control-1"
+   ],
    "controls_spoofed": [],
    "headline": {
     "regions_affected_share": {
-     "max": 0.25,
-     "median": 0.125,
+     "max": 0.285714,
+     "median": 0.1666665,
      "min": 0.0,
      "n": 4,
-     "networks": 3
+     "networks": 4
     },
     "spoofing_regions_share": {
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 3
+     "networks": 4
     }
    },
    "probes": [
     {
      "affected_regions": [
-      "persian_gulf"
+      "black_sea_west",
+      "control-1"
      ],
      "by_region": {
       "baltic_gdansk": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0714,
-        0.0952
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 42,
-        "adsb.lol": 42
+        "adsb.fi": 2,
+        "adsb.lol": 2
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "black_sea_west": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0154,
-        0.0156
-       ],
-       "qualifying": {
-        "adsb.fi": 65,
-        "adsb.lol": 64
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "control-1": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 115,
-        "adsb.lol": 114
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-2": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 155,
-        "adsb.lol": 157
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-3": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0385,
-        0.0385
-       ],
-       "qualifying": {
-        "adsb.fi": 26,
-        "adsb.lol": 9
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-4": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 9
-       },
-       "role": "control",
-       "sources_agree": null
-      },
-      "control-5": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 159,
-        "adsb.lol": 122
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "eastern_mediterranean": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 26,
-        "adsb.lol": 23
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "gulf_of_finland": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 6
-       },
-       "role": "reported",
-       "sources_agree": null
-      },
-      "levant": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
-       },
-       "role": "reported",
-       "sources_agree": null
-      },
-      "persian_gulf": {
        "affected": true,
        "poor_nic_share": [
-        0.1667,
-        0.1875
+        0.1522,
+        0.2128
        ],
        "qualifying": {
-        "adsb.fi": 16,
-        "adsb.lol": 18
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "punjab_border": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 3,
-        "adsb.lol": 5
-       },
-       "role": "reported",
-       "sources_agree": null
-      }
-     },
-     "controls_affected": [],
-     "controls_spoofed": [],
-     "created_utc": "2026-10-28",
-     "eligible": true,
-     "network_attested": true,
-     "probe_id": "probe-1",
-     "regions_affected_share": 0.125,
-     "spoofing_regions": [],
-     "spoofing_regions_share": 0.0
-    },
-    {
-     "affected_regions": [
-      "persian_gulf"
-     ],
-     "by_region": {
-      "baltic_gdansk": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0345,
-        0.0345
-       ],
-       "qualifying": {
-        "adsb.fi": 29,
-        "adsb.lol": 29
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "black_sea_west": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0833,
-        0.0909
-       ],
-       "qualifying": {
-        "adsb.fi": 44,
-        "adsb.lol": 48
+        "adsb.fi": 47,
+        "adsb.lol": 46
        },
        "role": "reported",
        "sources_agree": true
       },
       "control-1": {
-       "affected": false,
+       "affected": true,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.1471,
+        0.1471
        ],
        "qualifying": {
-        "adsb.fi": 102,
-        "adsb.lol": 102
+        "adsb.fi": 34,
+        "adsb.lol": 34
        },
        "role": "control",
        "sources_agree": true
@@ -646,8 +478,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 162,
-        "adsb.lol": 160
+        "adsb.fi": 49,
+        "adsb.lol": 49
        },
        "role": "control",
        "sources_agree": true
@@ -659,7 +491,7 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 26,
+        "adsb.fi": 38,
         "adsb.lol": 15
        },
        "role": "control",
@@ -672,7 +504,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 1,
+        "adsb.fi": 0,
         "adsb.lol": 14
        },
        "role": "control",
@@ -685,8 +517,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 179,
-        "adsb.lol": 147
+        "adsb.fi": 50,
+        "adsb.lol": 38
        },
        "role": "control",
        "sources_agree": true
@@ -694,12 +526,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0385,
-        0.04
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 25,
-        "adsb.lol": 26
+        "adsb.fi": 17,
+        "adsb.lol": 19
        },
        "role": "reported",
        "sources_agree": true
@@ -724,21 +556,21 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 1
+        "adsb.fi": 2,
+        "adsb.lol": 2
        },
        "role": "reported",
        "sources_agree": null
       },
       "persian_gulf": {
-       "affected": true,
+       "affected": false,
        "poor_nic_share": [
-        0.1765,
-        0.1765
+        0.0556,
+        0.0571
        ],
        "qualifying": {
-        "adsb.fi": 17,
-        "adsb.lol": 17
+        "adsb.fi": 36,
+        "adsb.lol": 35
        },
        "role": "reported",
        "sources_agree": true
@@ -750,20 +582,196 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 11,
-        "adsb.lol": 11
+        "adsb.fi": 7,
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
       }
      },
-     "controls_affected": [],
+     "controls_affected": [
+      "control-1"
+     ],
      "controls_spoofed": [],
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
+     "eligible": true,
+     "network_attested": true,
+     "probe_id": "probe-1",
+     "regions_affected_share": 0.285714,
+     "spoofing_regions": [],
+     "spoofing_regions_share": 0.0
+    },
+    {
+     "affected_regions": [
+      "control-2"
+     ],
+     "by_region": {
+      "baltic_gdansk": {
+       "affected": null,
+       "poor_nic_share": [
+        null,
+        null
+       ],
+       "qualifying": {
+        "adsb.fi": 2,
+        "adsb.lol": 2
+       },
+       "role": "reported",
+       "sources_agree": null
+      },
+      "black_sea_west": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0952,
+        0.122
+       ],
+       "qualifying": {
+        "adsb.fi": 41,
+        "adsb.lol": 42
+       },
+       "role": "reported",
+       "sources_agree": false
+      },
+      "control-1": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0213,
+        0.0213
+       ],
+       "qualifying": {
+        "adsb.fi": 47,
+        "adsb.lol": 47
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-2": {
+       "affected": true,
+       "poor_nic_share": [
+        0.1017,
+        0.1017
+       ],
+       "qualifying": {
+        "adsb.fi": 59,
+        "adsb.lol": 59
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-3": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 54,
+        "adsb.lol": 26
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-4": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 1,
+        "adsb.lol": 18
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-5": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 29,
+        "adsb.lol": 25
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "eastern_mediterranean": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0417,
+        0.0435
+       ],
+       "qualifying": {
+        "adsb.fi": 24,
+        "adsb.lol": 23
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "gulf_of_finland": {
+       "affected": null,
+       "poor_nic_share": [
+        null,
+        null
+       ],
+       "qualifying": {
+        "adsb.fi": 4,
+        "adsb.lol": 4
+       },
+       "role": "reported",
+       "sources_agree": null
+      },
+      "levant": {
+       "affected": null,
+       "poor_nic_share": [
+        null,
+        null
+       ],
+       "qualifying": {
+        "adsb.fi": 5,
+        "adsb.lol": 5
+       },
+       "role": "reported",
+       "sources_agree": null
+      },
+      "persian_gulf": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0857,
+        0.0882
+       ],
+       "qualifying": {
+        "adsb.fi": 34,
+        "adsb.lol": 35
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "punjab_border": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 15,
+        "adsb.lol": 16
+       },
+       "role": "reported",
+       "sources_agree": true
+      }
+     },
+     "controls_affected": [
+      "control-2"
+     ],
+     "controls_spoofed": [],
+     "created_utc": "2026-10-29",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-2",
-     "regions_affected_share": 0.125,
+     "regions_affected_share": 0.111111,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
@@ -940,31 +948,31 @@
     {
      "affected_regions": [
       "baltic_gdansk",
-      "black_sea_west"
+      "persian_gulf"
      ],
      "by_region": {
       "baltic_gdansk": {
        "affected": true,
        "poor_nic_share": [
-        0.129,
-        0.129
+        0.15,
+        0.15
        ],
        "qualifying": {
-        "adsb.fi": 31,
-        "adsb.lol": 31
+        "adsb.fi": 40,
+        "adsb.lol": 40
        },
        "role": "reported",
        "sources_agree": true
       },
       "black_sea_west": {
-       "affected": true,
+       "affected": false,
        "poor_nic_share": [
-        0.1034,
-        0.1053
+        0.0854,
+        0.0897
        ],
        "qualifying": {
-        "adsb.fi": 58,
-        "adsb.lol": 57
+        "adsb.fi": 82,
+        "adsb.lol": 78
        },
        "role": "reported",
        "sources_agree": true
@@ -973,11 +981,11 @@
        "affected": false,
        "poor_nic_share": [
         0.0,
-        0.0085
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 117,
-        "adsb.lol": 116
+        "adsb.fi": 132,
+        "adsb.lol": 132
        },
        "role": "control",
        "sources_agree": true
@@ -985,12 +993,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0053,
-        0.0053
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 187,
-        "adsb.lol": 188
+        "adsb.fi": 192,
+        "adsb.lol": 191
        },
        "role": "control",
        "sources_agree": true
@@ -998,38 +1006,38 @@
       "control-3": {
        "affected": false,
        "poor_nic_share": [
-        0.037,
-        0.037
+        0.0233,
+        0.0556
        ],
        "qualifying": {
-        "adsb.fi": 27,
-        "adsb.lol": 12
+        "adsb.fi": 43,
+        "adsb.lol": 18
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 13
-       },
-       "role": "control",
-       "sources_agree": null
-      },
-      "control-5": {
        "affected": false,
        "poor_nic_share": [
         0.0,
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 154,
-        "adsb.lol": 120
+        "adsb.fi": 2,
+        "adsb.lol": 16
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-5": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0667
+       ],
+       "qualifying": {
+        "adsb.fi": 17,
+        "adsb.lol": 15
        },
        "role": "control",
        "sources_agree": true
@@ -1037,12 +1045,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0217,
-        0.0233
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 43,
-        "adsb.lol": 46
+        "adsb.fi": 48,
+        "adsb.lol": 51
        },
        "role": "reported",
        "sources_agree": true
@@ -1054,8 +1062,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
+        "adsb.fi": 8,
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
@@ -1067,21 +1075,21 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 6
+        "adsb.fi": 9,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
       },
       "persian_gulf": {
-       "affected": false,
+       "affected": true,
        "poor_nic_share": [
-        0.0444,
-        0.0667
+        0.1,
+        0.1
        ],
        "qualifying": {
-        "adsb.fi": 45,
-        "adsb.lol": 45
+        "adsb.fi": 20,
+        "adsb.lol": 20
        },
        "role": "reported",
        "sources_agree": true
@@ -1093,8 +1101,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
+        "adsb.fi": 11,
+        "adsb.lol": 11
        },
        "role": "reported",
        "sources_agree": null
@@ -1102,11 +1110,11 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
-     "regions_affected_share": 0.25,
+     "regions_affected_share": 0.222222,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     }
@@ -2903,6 +2911,12 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "4957194e5289e4b3b9fee52ffd567267220831db3b68ffe7427738180d528b24"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8"
      }
     ],
     "iana-tls-group-29": [
@@ -2923,6 +2937,12 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "4db5abee1129df464debd51405f1e259c97977afaf79607190355ce723daacfc"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c"
      }
     ],
     "iana-tls-group-4587": [
@@ -2943,6 +2963,12 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "a4ce8c864acf3723c830183588bd89541d610793e9965e06a2af0d69feb8d25d"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea"
      }
     ],
     "iana-tls-group-4588": [
@@ -2963,6 +2989,12 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "0a043c23fa55dd76d21ef28c20d0197522ff78b6831019e9d1ca59d876d263cc"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f"
      }
     ],
     "iana-tls-group-4589": [
@@ -2983,6 +3015,12 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "f2a0d7962d2c10b1099fae00254f7595901068746d3284d66cf837c0e81fae3e"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5"
      }
     ],
     "iana-tls-group-4590": [
@@ -3003,15 +3041,150 @@
       "last_observed_utc": "2026-10-28T17:30:11Z",
       "observations": 3,
       "state_digest": "b6d6103de726c19954670c60c27dd24d9e7ca343ccac8ff9c123a7e1c5cd38b2"
+     },
+     {
+      "first_observed_utc": "2026-10-29",
+      "last_observed_utc": "2026-10-29T09:09:08Z",
+      "observations": 1,
+      "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6"
      }
     ]
    },
-   "disagreements": {},
+   "disagreements": {
+    "iana-tls-group-25497": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Pre-standards version of Kyber768. Obsoleted by",
+       "date": "2023-05-10",
+       "description": "X25519Kyber768Draft00 (OBSOLETE)",
+       "dtls": "Y",
+       "recommended": "D",
+       "references": [
+        "draft:draft-tls-westerbaan-xyber768d00-02",
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2026-02-13",
+       "value": "25497"
+      }
+     }
+    ],
+    "iana-tls-group-29": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": null,
+       "date": "2016-02-29",
+       "description": "x25519",
+       "dtls": "Y",
+       "recommended": "Y",
+       "references": [
+        "rfc:rfc8422",
+        "rfc:rfc9846"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2025-08-12",
+       "value": "29"
+      }
+     }
+    ],
+    "iana-tls-group-4587": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining secp256r1 ECDH with ML-KEM-768",
+       "date": "2024-09-04",
+       "description": "SecP256r1MLKEM768",
+       "dtls": "Y",
+       "recommended": "N",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4587"
+      }
+     }
+    ],
+    "iana-tls-group-4588": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining X25519 ECDH with ML-KEM-768",
+       "date": "2024-09-04",
+       "description": "X25519MLKEM768",
+       "dtls": "Y",
+       "recommended": "Y",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4588"
+      }
+     }
+    ],
+    "iana-tls-group-4589": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
+       "date": "2025-01-02",
+       "description": "SecP384r1MLKEM1024",
+       "dtls": "Y",
+       "recommended": "N",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4589"
+      }
+     }
+    ],
+    "iana-tls-group-4590": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining SM2 ECDH with ML-KEM-768",
+       "date": "2025-11-14",
+       "description": "curveSM2MLKEM768",
+       "dtls": "N",
+       "recommended": "N",
+       "references": [
+        "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
+       ],
+       "registry_updated": "2026-10-28",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2025-11-24",
+       "value": "4590"
+      }
+     }
+    ]
+   },
    "headline": {
     "items_digest": "03ddee88bb17a3f76a9b851dede015af944d2526fe75284620f830e2eafa172c",
     "items_not_read": [],
     "items_watched": 36,
-    "probes_agreeing": 4,
+    "probes_agreeing": 3,
     "probes_observed": 4,
     "superseded_items": {
      "iana-tls-group-25497": {
@@ -3920,115 +4093,9 @@
     }
    },
    "not_read_by": {
-    "bip-0340": [
-     "probe-3"
-    ],
-    "bip-0341": [
-     "probe-3"
-    ],
-    "bip-0360": [
-     "probe-3"
-    ],
-    "fips-140-3": [
-     "probe-3"
-    ],
-    "fips-180-4": [
-     "probe-3"
-    ],
-    "fips-186-5": [
-     "probe-3"
-    ],
-    "fips-197": [
-     "probe-3"
-    ],
-    "fips-202": [
-     "probe-3"
-    ],
-    "fips-203": [
-     "probe-3"
-    ],
-    "fips-204": [
-     "probe-3"
-    ],
-    "fips-205": [
-     "probe-3"
-    ],
-    "fips-206": [
-     "probe-3"
-    ],
-    "iana-ssh-kex-mlkem768x25519": [
-     "probe-3"
-    ],
-    "iana-tls-group-25497": [
-     "probe-3"
-    ],
-    "iana-tls-group-29": [
-     "probe-3"
-    ],
-    "iana-tls-group-4587": [
-     "probe-3"
-    ],
-    "iana-tls-group-4588": [
-     "probe-3"
-    ],
-    "iana-tls-group-4589": [
-     "probe-3"
-    ],
-    "iana-tls-group-4590": [
-     "probe-3"
-    ],
     "leap-seconds": [
      "probe-2",
-     "probe-4",
-     "probe-3"
-    ],
-    "rfc10024": [
-     "probe-3"
-    ],
-    "rfc10042": [
-     "probe-3"
-    ],
-    "rfc3161": [
-     "probe-3"
-    ],
-    "rfc4253": [
-     "probe-3"
-    ],
-    "rfc5246": [
-     "probe-3"
-    ],
-    "rfc5280": [
-     "probe-3"
-    ],
-    "rfc5905": [
-     "probe-3"
-    ],
-    "rfc6962": [
-     "probe-3"
-    ],
-    "rfc7858": [
-     "probe-3"
-    ],
-    "rfc8446": [
-     "probe-3"
-    ],
-    "rfc8484": [
-     "probe-3"
-    ],
-    "rfc8555": [
-     "probe-3"
-    ],
-    "rfc8915": [
-     "probe-3"
-    ],
-    "rfc9162": [
-     "probe-3"
-    ],
-    "rfc9460": [
-     "probe-3"
-    ],
-    "rfc9846": [
-     "probe-3"
+     "probe-4"
     ]
    },
    "paper_to_deployment_lag": [
@@ -6846,259 +6913,885 @@
      "state_digest": "fd5dffc6aebf32260c017be2824bc9b44a96c1c15932b8a3400bf204b3c6d48f"
     },
     {
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "items": {
       "bip-0340": {
-       "error": "not found",
-       "found": false,
+       "found": true,
        "kind": "bip",
        "layer": "records",
+       "state": {
+        "assigned": "2020-01-19",
+        "bip": "340",
+        "content_sha256": "17d64d6dc6bc97f4ecf178697bf810b92aa2a9e41ef13db809c25bc44a9b8109",
+        "status": "Deployed",
+        "title": "Schnorr Signatures for secp256k1",
+        "type": "Specification"
+       },
+       "state_digest": "2ff947901ec6b50e70eb9e9c02dc379e033e2319c39d7a83c8705af08db1b74f",
+       "successors": [],
+       "superseded": false,
        "what": "Schnorr signatures"
       },
       "bip-0341": {
-       "error": "not found",
-       "found": false,
+       "found": true,
        "kind": "bip",
        "layer": "records",
+       "state": {
+        "assigned": "2020-01-19",
+        "bip": "341",
+        "content_sha256": "463690d4c409587759c0ff6e8b8fc3a2bf6cb2cdda0c06ff193d317e0ed898ec",
+        "layer": "Consensus (soft fork)",
+        "requires": "340",
+        "status": "Deployed",
+        "title": "Taproot: SegWit version 1 spending rules",
+        "type": "Specification"
+       },
+       "state_digest": "3cb8cfb47d54b9c02a8b08413a9a99a5ebbd46c7b611e9401dfa374366c8110f",
+       "successors": [],
+       "superseded": false,
        "what": "Taproot"
       },
       "bip-0360": {
-       "error": "not found",
-       "found": false,
+       "found": true,
        "kind": "bip",
        "layer": "records",
+       "state": {
+        "assigned": "2024-12-18",
+        "bip": "360",
+        "content_sha256": "988957d7373b3779c05877aaf7aa671ce74f0db66d014c98d69132d12f3b6770",
+        "layer": "Consensus (soft fork)",
+        "requires": "340, 341, 342",
+        "status": "Draft",
+        "title": "Pay-to-Merkle-Root (P2MR)",
+        "type": "Specification",
+        "version": "0.12.1"
+       },
+       "state_digest": "16a736e71b2ba6a2e5b0f5524a209a9347168c9a6b13e524a8596c90e307fca1",
+       "successors": [],
+       "superseded": false,
        "what": "Pay-to-Merkle-Root (quantum-resistant output type)"
       },
       "fips-140-3": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "140-3",
+        "notices": [
+         {
+          "action": "other",
+          "date": "2005-01-12",
+          "document": "05-545"
+         },
+         {
+          "action": "draft",
+          "date": "2007-07-13",
+          "document": "E7-13654"
+         },
+         {
+          "action": "draft",
+          "date": "2009-12-11",
+          "document": "E9-29567"
+         },
+         {
+          "action": "draft",
+          "date": "2012-08-30",
+          "document": "2012-21461"
+         },
+         {
+          "action": "approved",
+          "date": "2019-05-01",
+          "document": "2019-08817"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2019-05-01"
+       },
+       "state_digest": "929d059f90e2e3d4fcea5dd5b4e383beb503f141737871a22bec15aa988fa15d",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 140-3: Cryptographic module security"
       },
       "fips-180-4": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "180-4",
+        "notices": [
+         {
+          "action": "draft",
+          "date": "2011-02-11",
+          "document": "2011-3129"
+         },
+         {
+          "action": "approved",
+          "date": "2012-03-06",
+          "document": "2012-5400"
+         },
+         {
+          "action": "draft",
+          "date": "2014-05-28",
+          "document": "2014-12336"
+         },
+         {
+          "action": "approved",
+          "date": "2015-08-05",
+          "document": "2015-19181"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2015-08-05"
+       },
+       "state_digest": "3ce7e5d6d481aa09d7c856395e440676bcf46f1e4e19181a7fbb49ea38e5ab56",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 180-4: Secure Hash Standard (SHA-2)"
       },
       "fips-186-5": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "186-5",
+        "notices": [
+         {
+          "action": "comment_request",
+          "date": "2019-10-31",
+          "document": "2019-23742"
+         },
+         {
+          "action": "approved",
+          "date": "2023-02-03",
+          "document": "2023-02273"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2023-02-03"
+       },
+       "state_digest": "207f5911b7edfebd47b537e83d39139a52f0d54f304244bb721d14e84295f9c8",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 186-5: Digital Signature Standard (RSA, ECDSA, EdDSA)"
       },
       "fips-197": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "197",
+        "notices": [
+         {
+          "action": "approved",
+          "date": "2001-12-06",
+          "document": "01-30232"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2001-12-06"
+       },
+       "state_digest": "a9e1ed871e8a11c49d902b07627d84c0ede170b4d7df665a5cea6101b7980515",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 197: AES"
       },
       "fips-202": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "202",
+        "notices": [
+         {
+          "action": "draft",
+          "date": "2014-05-28",
+          "document": "2014-12336"
+         },
+         {
+          "action": "approved",
+          "date": "2015-08-05",
+          "document": "2015-19181"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2015-08-05"
+       },
+       "state_digest": "8b5bb12b5887a786605ca5f9af50c80f27bcbf582140112aced161bb616d8fea",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 202: SHA-3"
       },
       "fips-203": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "203",
+        "notices": [
+         {
+          "action": "approved",
+          "date": "2024-08-14",
+          "document": "2024-17956"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2024-08-14"
+       },
+       "state_digest": "f9babf19e46d3394a4a42d155f3193eaa672276b4c5a3b4696f613da53da14a1",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 203: ML-KEM (module-lattice key encapsulation)"
       },
       "fips-204": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "204",
+        "notices": [
+         {
+          "action": "approved",
+          "date": "2024-08-14",
+          "document": "2024-17956"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2024-08-14"
+       },
+       "state_digest": "72a68c3396b3f814d51c489c621d8f0a4234dfe3eb0e2b545ffa9221b8894744",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 204: ML-DSA (module-lattice signatures)"
       },
       "fips-205": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "205",
+        "notices": [
+         {
+          "action": "approved",
+          "date": "2024-08-14",
+          "document": "2024-17956"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2024-08-14"
+       },
+       "state_digest": "fb1d5b7a27a99642190e51dcfa4b9b442f063af1145ec95e377b46b9674769c5",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 205: SLH-DSA (stateless hash-based signatures)"
       },
       "fips-206": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "206",
+        "notices": [],
+        "status": "no_notice",
+        "status_date": null
+       },
+       "state_digest": "98ebfbd7c84552462b82954bd0c68c9ed088a5b07ec78b2188934e27ff0f1b02",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 206: FN-DSA (FFT-over-NTRU lattice signatures)"
       },
       "iana-ssh-kex-mlkem768x25519": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": null,
+        "date": "2024-09-05",
+        "description": "",
+        "dtls": null,
+        "recommended": null,
+        "references": [
+         "rfc:rfc10042"
+        ],
+        "registry_updated": "2026-09-08",
+        "subregistry": "ssh-parameters-16",
+        "subregistry_title": "Key Exchange Method Names",
+        "updated": "2026-03-02",
+        "value": "mlkem768x25519-sha256"
+       },
+       "state_digest": "b08ae893c79174d0b0c389ad04f43b8c7c20951d3fd9140ae1c7951e37a4b845",
+       "successors": [],
+       "superseded": false,
        "what": "SSH hybrid ML-KEM key exchange"
       },
       "iana-tls-group-25497": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": "Pre-standards version of Kyber768. Obsoleted by",
+        "date": "2023-05-10",
+        "description": "X25519Kyber768Draft00 (OBSOLETE)",
+        "dtls": "Y",
+        "recommended": "D",
+        "references": [
+         "draft:draft-tls-westerbaan-xyber768d00-02",
+         "rfc:rfc10024"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": "2026-02-13",
+        "value": "25497"
+       },
+       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8",
+       "successors": [],
+       "superseded": true,
        "what": "X25519Kyber768Draft00 (pre-standard)"
       },
       "iana-tls-group-29": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": null,
+        "date": "2016-02-29",
+        "description": "x25519",
+        "dtls": "Y",
+        "recommended": "Y",
+        "references": [
+         "rfc:rfc8422",
+         "rfc:rfc9846"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": "2025-08-12",
+        "value": "29"
+       },
+       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c",
+       "successors": [],
+       "superseded": false,
        "what": "x25519 group"
       },
       "iana-tls-group-4587": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": "Combining secp256r1 ECDH with ML-KEM-768",
+        "date": "2024-09-04",
+        "description": "SecP256r1MLKEM768",
+        "dtls": "Y",
+        "recommended": "N",
+        "references": [
+         "rfc:rfc10024"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": null,
+        "value": "4587"
+       },
+       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea",
+       "successors": [],
+       "superseded": false,
        "what": "SecP256r1MLKEM768 group"
       },
       "iana-tls-group-4588": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": "Combining X25519 ECDH with ML-KEM-768",
+        "date": "2024-09-04",
+        "description": "X25519MLKEM768",
+        "dtls": "Y",
+        "recommended": "Y",
+        "references": [
+         "rfc:rfc10024"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": null,
+        "value": "4588"
+       },
+       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f",
+       "successors": [],
+       "superseded": false,
        "what": "X25519MLKEM768 group"
       },
       "iana-tls-group-4589": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
+        "date": "2025-01-02",
+        "description": "SecP384r1MLKEM1024",
+        "dtls": "Y",
+        "recommended": "N",
+        "references": [
+         "rfc:rfc10024"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": null,
+        "value": "4589"
+       },
+       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5",
+       "successors": [],
+       "superseded": false,
        "what": "SecP384r1MLKEM1024 group"
       },
       "iana-tls-group-4590": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "iana",
        "layer": "keys",
+       "state": {
+        "comment": "Combining SM2 ECDH with ML-KEM-768",
+        "date": "2025-11-14",
+        "description": "curveSM2MLKEM768",
+        "dtls": "N",
+        "recommended": "N",
+        "references": [
+         "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
+        ],
+        "registry_updated": "2026-10-28",
+        "subregistry": "tls-parameters-8",
+        "subregistry_title": "TLS Supported Groups",
+        "updated": "2025-11-24",
+        "value": "4590"
+       },
+       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6",
+       "successors": [],
+       "superseded": false,
        "what": "curveSM2MLKEM768 group"
       },
       "leap-seconds": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "leapsec",
        "layer": "time",
+       "state": {
+        "bulletin_c": 72,
+        "changes": 27,
+        "file_expires": "2027-06-28",
+        "last_change_effective": "2017-01-01",
+        "tai_minus_utc_s": 37
+       },
+       "state_digest": "db93f069ea43a0001f8e67a3b24c4548bd059759f53f7573b3d2950648cc5351",
+       "successors": [],
+       "superseded": false,
        "what": "Leap-second table (IERS Bulletin C): TAI-UTC and the next scheduled change"
       },
       "rfc10024": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2026-08",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "c6d2154977dd7faf0a49cdb04ed8a904764c25243aac9c68ba10af98fb9849e3",
+       "successors": [],
+       "superseded": false,
        "what": "Hybrid ML-KEM key agreement for TLS 1.3"
       },
       "rfc10042": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "INFORMATIONAL",
+        "date": "2026-08",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "INFORMATIONAL",
+        "stream": "IETF",
+        "title": "Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "dc4a7cdf268476a35a03812e2491b4e28082845fbb0900385c8cd44b340178e2",
+       "successors": [],
+       "superseded": false,
        "what": "Hybrid ML-KEM key exchange for SSH"
       },
       "rfc3161": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "records",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2001-08",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)",
+        "updated_by": [
+         "RFC5816"
+        ],
+        "updates": []
+       },
+       "state_digest": "6b625b893a62c1fc0c27ce19c5fc34b33014292d4775318817e477f6ab99bf40",
+       "successors": [],
+       "superseded": false,
        "what": "Trusted timestamping"
       },
       "rfc4253": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2006-01",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "The Secure Shell (SSH) Transport Layer Protocol",
+        "updated_by": [
+         "RFC6668",
+         "RFC8268",
+         "RFC8308",
+         "RFC8332",
+         "RFC8709",
+         "RFC8758",
+         "RFC9142"
+        ],
+        "updates": []
+       },
+       "state_digest": "37cb18c2144ef7f06dbfbddc2f136c04c55bb57bcf1248df349bf224e75361db",
+       "successors": [],
+       "superseded": false,
        "what": "SSH transport protocol"
       },
       "rfc5246": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2008-08",
+        "obsoleted_by": [
+         "RFC8446",
+         "RFC9846"
+        ],
+        "obsoletes": [
+         "RFC3268",
+         "RFC4346",
+         "RFC4366"
+        ],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "The Transport Layer Security (TLS) Protocol Version 1.2",
+        "updated_by": [
+         "RFC10015",
+         "RFC5746",
+         "RFC5878",
+         "RFC6176",
+         "RFC7465",
+         "RFC7507",
+         "RFC7568",
+         "RFC7627",
+         "RFC7685",
+         "RFC7905",
+         "RFC7919",
+         "RFC8447",
+         "RFC9155"
+        ],
+        "updates": [
+         "RFC4492"
+        ]
+       },
+       "state_digest": "06062c00ff1af231b07ac836c726f77f3f6ed6b41222ff1b558b386053c9d99d",
+       "successors": [
+        "RFC8446",
+        "RFC9846"
+       ],
+       "superseded": true,
        "what": "TLS 1.2"
       },
       "rfc5280": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2008-05",
+        "obsoleted_by": [],
+        "obsoletes": [
+         "RFC3280",
+         "RFC4325",
+         "RFC4630"
+        ],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile",
+        "updated_by": [
+         "RFC10007",
+         "RFC6818",
+         "RFC8398",
+         "RFC8399",
+         "RFC9549",
+         "RFC9598",
+         "RFC9608",
+         "RFC9618",
+         "RFC9925"
+        ],
+        "updates": []
+       },
+       "state_digest": "f2faf363126f314f20e59572274c65ae9b5f26bf33dda2359ed55732b135b8dc",
+       "successors": [],
+       "superseded": false,
        "what": "X.509 certificates"
       },
       "rfc5905": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "time",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2010-06",
+        "obsoleted_by": [],
+        "obsoletes": [
+         "RFC1305",
+         "RFC4330"
+        ],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Network Time Protocol Version 4: Protocol and Algorithms Specification",
+        "updated_by": [
+         "RFC7822",
+         "RFC8573",
+         "RFC9109",
+         "RFC9748",
+         "RFC9769"
+        ],
+        "updates": []
+       },
+       "state_digest": "a53afcb3e9726d70a33322540523fd0c8e57285aaee17340e8ebf9c180c8f9a0",
+       "successors": [],
+       "superseded": false,
        "what": "NTPv4"
       },
       "rfc6962": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "records",
+       "state": {
+        "current_status": "EXPERIMENTAL",
+        "date": "2013-06",
+        "obsoleted_by": [
+         "RFC9162"
+        ],
+        "obsoletes": [],
+        "publication_status": "EXPERIMENTAL",
+        "stream": "IETF",
+        "title": "Certificate Transparency",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "8f33fac66b732ce9ec0173eb5fe03ffd645381f5d4aad8e4b537c0b442584cbf",
+       "successors": [
+        "RFC9162"
+       ],
+       "superseded": true,
        "what": "Certificate Transparency"
       },
       "rfc7858": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2016-05",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Specification for DNS over Transport Layer Security (TLS)",
+        "updated_by": [
+         "RFC8310"
+        ],
+        "updates": []
+       },
+       "state_digest": "ca9e112e0521e799671f25f667346c6190f716952e6e7e317afa3288eada27d1",
+       "successors": [],
+       "superseded": false,
        "what": "DNS over TLS"
       },
       "rfc8446": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2018-08",
+        "obsoleted_by": [
+         "RFC9846"
+        ],
+        "obsoletes": [
+         "RFC5077",
+         "RFC5246",
+         "RFC6961"
+        ],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+        "updated_by": [],
+        "updates": [
+         "RFC5705",
+         "RFC6066"
+        ]
+       },
+       "state_digest": "c35f2b71ae61ba18551f540bdbb479b0e7168c583c8b25c419bfc3c877a076d1",
+       "successors": [
+        "RFC9846"
+       ],
+       "superseded": true,
        "what": "TLS 1.3 (original specification)"
       },
       "rfc8484": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2018-10",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "DNS Queries over HTTPS (DoH)",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "e420d0329e47b4eacfd51dfed9eddb16126a754296e77c0a3667a94e7c6f75f2",
+       "successors": [],
+       "superseded": false,
        "what": "DNS over HTTPS"
       },
       "rfc8555": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2019-03",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Automatic Certificate Management Environment (ACME)",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "aaf46ed4c0eb3834e149679dff9b57ca7a826f929bd7550e6f9c71afe3edd08e",
+       "successors": [],
+       "superseded": false,
        "what": "ACME certificate automation"
       },
       "rfc8915": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "time",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2020-09",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Network Time Security for the Network Time Protocol",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "f955f9c0ad97fafd52e330d81c2e004fb173c201baed4eacffc28edb346bfe18",
+       "successors": [],
+       "superseded": false,
        "what": "Network Time Security"
       },
       "rfc9162": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "records",
+       "state": {
+        "current_status": "EXPERIMENTAL",
+        "date": "2021-12",
+        "obsoleted_by": [],
+        "obsoletes": [
+         "RFC6962"
+        ],
+        "publication_status": "EXPERIMENTAL",
+        "stream": "IETF",
+        "title": "Certificate Transparency Version 2.0",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "e83799a678130550fc7a6a8b66324d2dc14130fd3e14d9d408609c08d368c5dd",
+       "successors": [],
+       "superseded": false,
        "what": "Certificate Transparency 2.0"
       },
       "rfc9460": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2023-11",
+        "obsoleted_by": [],
+        "obsoletes": [],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records)",
+        "updated_by": [],
+        "updates": []
+       },
+       "state_digest": "de9f1c1868f83d86df2dcd24431873c546df182118b913dbcf87398d49f92114",
+       "successors": [],
+       "superseded": false,
        "what": "DNS HTTPS records (carry ECH configurations)"
       },
       "rfc9846": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "rfc",
        "layer": "keys",
+       "state": {
+        "current_status": "PROPOSED STANDARD",
+        "date": "2026-07",
+        "obsoleted_by": [],
+        "obsoletes": [
+         "RFC5077",
+         "RFC5246",
+         "RFC6961",
+         "RFC7627",
+         "RFC8422",
+         "RFC8446"
+        ],
+        "publication_status": "PROPOSED STANDARD",
+        "stream": "IETF",
+        "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+        "updated_by": [],
+        "updates": [
+         "RFC5705",
+         "RFC6066"
+        ]
+       },
+       "state_digest": "63ceb21662b8c2907c1c39ff44fd294e71b3e21ec19880ea542bd7fb19c6b104",
+       "successors": [],
+       "superseded": false,
        "what": "TLS 1.3 (current specification)"
       }
      },
@@ -7133,7 +7826,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-3",
-     "state_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+     "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
     }
    ]
   },
@@ -9982,7 +10675,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-28T21:04:00Z",
+  "as_of_utc": "2026-10-29T09:11:00Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10012,11 +10705,11 @@
  },
  "probes": [
   {
-   "age_days": 28,
-   "bundles": 388,
+   "age_days": 29,
+   "bundles": 389,
    "contribution": {
-    "bundles_ok": 380,
-    "days_active": 29,
+    "bundles_ok": 381,
+    "days_active": 30,
     "layers": 20
    },
    "eligible": true,
@@ -10028,15 +10721,15 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-10-28",
+   "last_seen_utc": "2026-10-29",
    "probe_id": "probe-1"
   },
   {
-   "age_days": 28,
-   "bundles": 357,
+   "age_days": 29,
+   "bundles": 358,
    "contribution": {
-    "bundles_ok": 355,
-    "days_active": 29,
+    "bundles_ok": 356,
+    "days_active": 30,
     "layers": 17
    },
    "eligible": true,
@@ -10048,7 +10741,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-10-28",
+   "last_seen_utc": "2026-10-29",
    "probe_id": "probe-2"
   },
   {
@@ -10072,11 +10765,11 @@
    "probe_id": "probe-4"
   },
   {
-   "age_days": 28,
-   "bundles": 295,
+   "age_days": 29,
+   "bundles": 297,
    "contribution": {
-    "bundles_ok": 290,
-    "days_active": 29,
+    "bundles_ok": 292,
+    "days_active": 30,
     "layers": 15
    },
    "eligible": true,
@@ -10088,7 +10781,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-10-28",
+   "last_seen_utc": "2026-10-29",
    "probe_id": "probe-3"
   }
  ],
@@ -10102,7 +10795,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "36f82c36eab16c1ec40cc0699b494fe3a247e80d21d540114f619f7fdc8f18dc",
+ "published_sha256": "fe2c133f9aa94d7df4a270fff7aee1051fd7ed5a80247d44975497c3226bd00c",
  "rejections": [
   {
    "kind": "bundle",
@@ -10492,5 +11185,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "fce60d1ad04a0a777c346595352dbd0deea8c29fdb9090256e9bab32ca92dc66"
+ "view_sha256": "733ccb1ada0f60e804f7185f858ee1d5e85208a19a332f6af7e47b2797d8a254"
 }
