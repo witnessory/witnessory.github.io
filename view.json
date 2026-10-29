@@ -268,23 +268,23 @@
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 178095987394,
-     "median": 178095987394,
-     "min": 178095987394,
+     "max": 164407927234,
+     "median": 164407927234,
+     "min": 164407927234,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 112348066967,
-     "median": 112348066967,
-     "min": 112348066967,
+     "max": 106762908152,
+     "median": 106762908152,
+     "min": 106762908152,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 7,
-     "median": 7,
-     "min": 7,
+     "max": 5,
+     "median": 5,
+     "min": 5,
      "n": 1,
      "networks": 1
     }
@@ -292,112 +292,96 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "dormant_exposed_inputs": 0,
      "dormant_exposed_spent_sats": 0,
-     "dormant_hash_protected_sats": 178095987394,
-     "dormant_revealed_sats": 112348066967,
+     "dormant_hash_protected_sats": 164407927234,
+     "dormant_revealed_sats": 106762908152,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 973409,
+     "from_height": 973579,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 973578,
+     "to_height": 973736,
      "witness_v2_plus_list": [
       {
-       "height": 973411,
-       "program_bytes": 40,
+       "height": 973602,
+       "program_bytes": 35,
        "sats": 546,
-       "txid": "691f39b6ce11489e38fe42dfde05457490c68f3e558ddd795730ff62d5374240",
+       "txid": "c2d787ea4598a2c09454db1c14966cba890febf651e4a50216fd35b208b4f097",
        "version": 12,
-       "vout": 3
+       "vout": 10
       },
       {
-       "height": 973420,
-       "program_bytes": 38,
+       "height": 973602,
+       "program_bytes": 36,
        "sats": 546,
-       "txid": "f347d5b51497cb42fb416a58fcf0fcb3dffed3398ffe6a32843868372c2d6f2e",
+       "txid": "17ca04d5d77f5b4b862bfe698e05632cb8c76ad213b156a93bfd6c43b5809c79",
        "version": 12,
-       "vout": 1
+       "vout": 9
       },
       {
-       "height": 973420,
-       "program_bytes": 38,
-       "sats": 546,
-       "txid": "21d32dc84605ffb5b40cb1281db384a8856e4a80499d7d29c56037e3e0113540",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973435,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "4838f8e403df61c48dec03e29da664f695649d58a88863bbfefb6223a06886e4",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973467,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "9ad564baf2e187b697924b0d90515b87ce016b3f2d37f1ab06b860997d10a961",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973478,
+       "height": 973602,
        "program_bytes": 30,
        "sats": 546,
-       "txid": "be208133ee7115351ee344890a30e8efdf800246387b26ae2ba98b48eb238914",
+       "txid": "784f0c84ab24a7604f773b3507fdb33845a22c63411bd277c3791eb8581a1c40",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 973602,
+       "program_bytes": 39,
+       "sats": 546,
+       "txid": "fb2c7df0f5505265b91c998e1a74f8c8106feeabb89a85a4aeec78f72f2cd747",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 973478,
-       "program_bytes": 18,
+       "height": 973626,
+       "program_bytes": 38,
        "sats": 546,
-       "txid": "8f52eaa93578cfb9df696fce69301140df14edb9baf54b40e9785cc4dd3a81be",
+       "txid": "cdedf60c0d8e05154b88a4ad2d97259187dcea0da10c808545b1e9591406d5f3",
        "version": 12,
-       "vout": 1
+       "vout": 10
       }
      ],
-     "witness_v2_plus_outputs": 7
+     "witness_v2_plus_outputs": 5
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.29863795,
-     "median": 0.29863795,
-     "min": 0.29863795,
+     "max": 0.2769136,
+     "median": 0.2769136,
+     "min": 0.2769136,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.61813845,
-     "median": 0.61813845,
-     "min": 0.61813845,
+     "max": 0.56931084,
+     "median": 0.56931084,
+     "min": 0.56931084,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
-     "exposed_value_share": 0.29863795,
+     "exposed_value_share": 0.2769136,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.61813845,
+     "to_revealed_value_share": 0.56931084,
      "window": {
-      "blocks": 155,
-      "from_block_time": 1793117226,
-      "from_height": 973420,
+      "blocks": 138,
+      "from_block_time": 1793218943,
+      "from_height": 973595,
       "hours": 24.0,
-      "to_block_time": 1793202467,
-      "to_height": 973574
+      "to_block_time": 1793305206,
+      "to_height": 973732
      }
     }
    ]
@@ -10638,7 +10622,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-29T18:33:48Z",
+  "as_of_utc": "2026-10-29T20:57:31Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10669,9 +10653,9 @@
  "probes": [
   {
    "age_days": 29,
-   "bundles": 399,
+   "bundles": 401,
    "contribution": {
-    "bundles_ok": 391,
+    "bundles_ok": 393,
     "days_active": 30,
     "layers": 21
    },
@@ -10758,7 +10742,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "597e4bdc5f6f2283197b27c1c48a2602d93233303eecbb655747013070b43c7f",
+ "published_sha256": "77c4a5355f70965213da8171dc94925be12c18fe00e2d2e83b9aefecb4f5f6d2",
  "rejections": [
   {
    "kind": "bundle",
@@ -11148,5 +11132,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "c56f8f608bd4e55eed125fb437b8fec8486aa4daf9894f2e559d7cc0e58d6b7a"
+ "view_sha256": "64deaeee117fddfd67429626c7c7af0bb4b856451a04bf7b8a48de2f30c43710"
 }
