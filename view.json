@@ -1153,7 +1153,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -2736,7 +2736,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2974,8 +2974,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8"
      }
     ],
@@ -3000,8 +3000,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c"
      }
     ],
@@ -3026,8 +3026,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea"
      }
     ],
@@ -3052,8 +3052,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f"
      }
     ],
@@ -3078,8 +3078,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5"
      }
     ],
@@ -3104,34 +3104,14 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-10-29T14:03:11Z",
-      "observations": 2,
+      "last_observed_utc": "2026-10-29T18:30:48Z",
+      "observations": 3,
       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6"
      }
     ]
    },
    "disagreements": {
     "iana-tls-group-25497": [
-     {
-      "found": true,
-      "probe_id": "probe-1",
-      "state": {
-       "comment": "Pre-standards version of Kyber768. Obsoleted by",
-       "date": "2023-05-10",
-       "description": "X25519Kyber768Draft00 (OBSOLETE)",
-       "dtls": "Y",
-       "recommended": "D",
-       "references": [
-        "draft:draft-tls-westerbaan-xyber768d00-02",
-        "rfc:rfc10024"
-       ],
-       "registry_updated": "2026-10-27",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": "2026-02-13",
-       "value": "25497"
-      }
-     },
      {
       "found": true,
       "probe_id": "probe-4",
@@ -3156,26 +3136,6 @@
     "iana-tls-group-29": [
      {
       "found": true,
-      "probe_id": "probe-1",
-      "state": {
-       "comment": null,
-       "date": "2016-02-29",
-       "description": "x25519",
-       "dtls": "Y",
-       "recommended": "Y",
-       "references": [
-        "rfc:rfc8422",
-        "rfc:rfc9846"
-       ],
-       "registry_updated": "2026-10-27",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": "2025-08-12",
-       "value": "29"
-      }
-     },
-     {
-      "found": true,
       "probe_id": "probe-4",
       "state": {
        "comment": null,
@@ -3198,7 +3158,7 @@
     "iana-tls-group-4587": [
      {
       "found": true,
-      "probe_id": "probe-2",
+      "probe_id": "probe-4",
       "state": {
        "comment": "Combining secp256r1 ECDH with ML-KEM-768",
        "date": "2024-09-04",
@@ -3208,26 +3168,7 @@
        "references": [
         "rfc:rfc10024"
        ],
-       "registry_updated": "2026-10-28",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": null,
-       "value": "4587"
-      }
-     },
-     {
-      "found": true,
-      "probe_id": "probe-3",
-      "state": {
-       "comment": "Combining secp256r1 ECDH with ML-KEM-768",
-       "date": "2024-09-04",
-       "description": "SecP256r1MLKEM768",
-       "dtls": "Y",
-       "recommended": "N",
-       "references": [
-        "rfc:rfc10024"
-       ],
-       "registry_updated": "2026-10-28",
+       "registry_updated": "2026-10-27",
        "subregistry": "tls-parameters-8",
        "subregistry_title": "TLS Supported Groups",
        "updated": null,
@@ -3236,25 +3177,6 @@
      }
     ],
     "iana-tls-group-4588": [
-     {
-      "found": true,
-      "probe_id": "probe-1",
-      "state": {
-       "comment": "Combining X25519 ECDH with ML-KEM-768",
-       "date": "2024-09-04",
-       "description": "X25519MLKEM768",
-       "dtls": "Y",
-       "recommended": "Y",
-       "references": [
-        "rfc:rfc10024"
-       ],
-       "registry_updated": "2026-10-27",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": null,
-       "value": "4588"
-      }
-     },
      {
       "found": true,
       "probe_id": "probe-4",
@@ -3278,7 +3200,7 @@
     "iana-tls-group-4589": [
      {
       "found": true,
-      "probe_id": "probe-2",
+      "probe_id": "probe-4",
       "state": {
        "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
        "date": "2025-01-02",
@@ -3288,26 +3210,7 @@
        "references": [
         "rfc:rfc10024"
        ],
-       "registry_updated": "2026-10-28",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": null,
-       "value": "4589"
-      }
-     },
-     {
-      "found": true,
-      "probe_id": "probe-3",
-      "state": {
-       "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
-       "date": "2025-01-02",
-       "description": "SecP384r1MLKEM1024",
-       "dtls": "Y",
-       "recommended": "N",
-       "references": [
-        "rfc:rfc10024"
-       ],
-       "registry_updated": "2026-10-28",
+       "registry_updated": "2026-10-27",
        "subregistry": "tls-parameters-8",
        "subregistry_title": "TLS Supported Groups",
        "updated": null,
@@ -3318,7 +3221,7 @@
     "iana-tls-group-4590": [
      {
       "found": true,
-      "probe_id": "probe-2",
+      "probe_id": "probe-4",
       "state": {
        "comment": "Combining SM2 ECDH with ML-KEM-768",
        "date": "2025-11-14",
@@ -3328,26 +3231,7 @@
        "references": [
         "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
        ],
-       "registry_updated": "2026-10-28",
-       "subregistry": "tls-parameters-8",
-       "subregistry_title": "TLS Supported Groups",
-       "updated": "2025-11-24",
-       "value": "4590"
-      }
-     },
-     {
-      "found": true,
-      "probe_id": "probe-3",
-      "state": {
-       "comment": "Combining SM2 ECDH with ML-KEM-768",
-       "date": "2025-11-14",
-       "description": "curveSM2MLKEM768",
-       "dtls": "N",
-       "recommended": "N",
-       "references": [
-        "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
-       ],
-       "registry_updated": "2026-10-28",
+       "registry_updated": "2026-10-27",
        "subregistry": "tls-parameters-8",
        "subregistry_title": "TLS Supported Groups",
        "updated": "2025-11-24",
@@ -3357,10 +3241,10 @@
     ]
    },
    "headline": {
-    "items_digest": "7f5d04420249ccc296ada08e2b0bc446384130462ed9c6b9e7d392a0a8a6c3d4",
+    "items_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1",
     "items_not_read": [],
     "items_watched": 36,
-    "probes_agreeing": 0,
+    "probes_agreeing": 3,
     "probes_observed": 4,
     "superseded_items": {
      "iana-tls-group-25497": {
@@ -3760,13 +3644,13 @@
       "references": [
        "rfc:rfc10024"
       ],
-      "registry_updated": "2026-10-27",
+      "registry_updated": "2026-10-28",
       "subregistry": "tls-parameters-8",
       "subregistry_title": "TLS Supported Groups",
       "updated": null,
       "value": "4587"
      },
-     "state_digest": "a4ce8c864acf3723c830183588bd89541d610793e9965e06a2af0d69feb8d25d",
+     "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea",
      "successors": [],
      "superseded": false,
      "what": "SecP256r1MLKEM768 group"
@@ -3808,13 +3692,13 @@
       "references": [
        "rfc:rfc10024"
       ],
-      "registry_updated": "2026-10-27",
+      "registry_updated": "2026-10-28",
       "subregistry": "tls-parameters-8",
       "subregistry_title": "TLS Supported Groups",
       "updated": null,
       "value": "4589"
      },
-     "state_digest": "f2a0d7962d2c10b1099fae00254f7595901068746d3284d66cf837c0e81fae3e",
+     "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5",
      "successors": [],
      "superseded": false,
      "what": "SecP384r1MLKEM1024 group"
@@ -3832,13 +3716,13 @@
       "references": [
        "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
       ],
-      "registry_updated": "2026-10-27",
+      "registry_updated": "2026-10-28",
       "subregistry": "tls-parameters-8",
       "subregistry_title": "TLS Supported Groups",
       "updated": "2025-11-24",
       "value": "4590"
      },
-     "state_digest": "b6d6103de726c19954670c60c27dd24d9e7ca343ccac8ff9c123a7e1c5cd38b2",
+     "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6",
      "successors": [],
      "superseded": false,
      "what": "curveSM2MLKEM768 group"
@@ -4358,7 +4242,7 @@
    ],
    "probes": [
     {
-     "created_utc": "2026-10-28",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -4683,13 +4567,13 @@
          "draft:draft-tls-westerbaan-xyber768d00-02",
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2026-02-13",
         "value": "25497"
        },
-       "state_digest": "4957194e5289e4b3b9fee52ffd567267220831db3b68ffe7427738180d528b24",
+       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8",
        "successors": [],
        "superseded": true,
        "what": "X25519Kyber768Draft00 (pre-standard)"
@@ -4708,13 +4592,13 @@
          "rfc:rfc8422",
          "rfc:rfc9846"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2025-08-12",
         "value": "29"
        },
-       "state_digest": "4db5abee1129df464debd51405f1e259c97977afaf79607190355ce723daacfc",
+       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c",
        "successors": [],
        "superseded": false,
        "what": "x25519 group"
@@ -4732,13 +4616,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4587"
        },
-       "state_digest": "a4ce8c864acf3723c830183588bd89541d610793e9965e06a2af0d69feb8d25d",
+       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea",
        "successors": [],
        "superseded": false,
        "what": "SecP256r1MLKEM768 group"
@@ -4756,13 +4640,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4588"
        },
-       "state_digest": "0a043c23fa55dd76d21ef28c20d0197522ff78b6831019e9d1ca59d876d263cc",
+       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f",
        "successors": [],
        "superseded": false,
        "what": "X25519MLKEM768 group"
@@ -4780,13 +4664,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4589"
        },
-       "state_digest": "f2a0d7962d2c10b1099fae00254f7595901068746d3284d66cf837c0e81fae3e",
+       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5",
        "successors": [],
        "superseded": false,
        "what": "SecP384r1MLKEM1024 group"
@@ -4804,13 +4688,13 @@
         "references": [
          "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
         ],
-        "registry_updated": "2026-10-27",
+        "registry_updated": "2026-10-28",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2025-11-24",
         "value": "4590"
        },
-       "state_digest": "b6d6103de726c19954670c60c27dd24d9e7ca343ccac8ff9c123a7e1c5cd38b2",
+       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6",
        "successors": [],
        "superseded": false,
        "what": "curveSM2MLKEM768 group"
@@ -5271,7 +5155,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-1",
-     "state_digest": "03ddee88bb17a3f76a9b851dede015af944d2526fe75284620f830e2eafa172c"
+     "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
     },
     {
      "created_utc": "2026-10-29",
@@ -8209,15 +8093,15 @@
      "networks": 4
     },
     "recommended_version_share": {
-     "max": 0.87289,
-     "median": 0.8721215,
-     "min": 0.871603,
+     "max": 0.873002,
+     "median": 0.8726510000000001,
+     "min": 0.871831,
      "n": 4,
      "networks": 4
     },
     "relays": {
      "max": 9230,
-     "median": 9189.5,
+     "median": 9189.0,
      "min": 9178,
      "n": 4,
      "networks": 4
@@ -8229,14 +8113,14 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 9,
-     "consensus_valid_after": "2026-10-28 17:00:00",
-     "created_utc": "2026-10-28",
+     "consensus_valid_after": "2026-10-29 18:00:00",
+     "created_utc": "2026-10-29",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
      "recommended_protocols_share": 0.999891,
-     "recommended_version_share": 0.871603,
-     "relays": 9198
+     "recommended_version_share": 0.873002,
+     "relays": 9197
     },
     {
      "authorities_agreeing": 9,
@@ -10754,7 +10638,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-10-29T17:38:28Z",
+  "as_of_utc": "2026-10-29T18:33:48Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10785,9 +10669,9 @@
  "probes": [
   {
    "age_days": 29,
-   "bundles": 394,
+   "bundles": 399,
    "contribution": {
-    "bundles_ok": 386,
+    "bundles_ok": 391,
     "days_active": 30,
     "layers": 21
    },
@@ -10874,7 +10758,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "f4ed7ca0619d6f5d8e61af230dc3d38e64865e871b161edd30b16059a30b6182",
+ "published_sha256": "597e4bdc5f6f2283197b27c1c48a2602d93233303eecbb655747013070b43c7f",
  "rejections": [
   {
    "kind": "bundle",
@@ -11264,5 +11148,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "b58bed3c0441a9624ab88542e607f343f1c520b20a0c31b8cfe67d4101e6acd2"
+ "view_sha256": "c56f8f608bd4e55eed125fb437b8fec8486aa4daf9894f2e559d7cc0e58d6b7a"
 }
