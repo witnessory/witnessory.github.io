@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Key exchange is moving, signatures are not · Witnessory</title>
+<meta name="description" content="October 2026: 59% of top sites negotiate post-quantum key exchange; 0% of certificates, DNSSEC zones, DKIM keys and RPKI objects are signed post-quantum.">
+<meta property="og:title" content="Post-quantum key exchange is at 59%. Post-quantum signatures are at 0%.">
+<meta property="og:description" content="What Witnessory measured in October 2026 across the web, SSH, mail, DNS, routing and software updates.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://witnessory.org/reports/2026-10.html">
+<meta property="og:image" content="https://witnessory.org/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@witnessory">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+:root {
+  --ground: #f3f5f4; --panel: #ffffff; --ink: #15201e; --muted: #5a6966; --rule: #d9e0de;
+  --accent: #1e7566; --accent-soft: #d8ebe6; --zero: #9a3b2e;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+    --accent: #4db5a2; --accent-soft: #1d3a34; --zero: #e08a7a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0f1615; --panel: #16201e; --ink: #e4ece9; --muted: #93a39f; --rule: #26332f;
+  --accent: #4db5a2; --accent-soft: #1d3a34; --zero: #e08a7a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.6 var(--body); }
+a { color: var(--accent); }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: grid; gap: 34px; }
+h1, h2 { font-family: var(--display); font-weight: 600; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+h1 { font-size: 42px; line-height: 1.05; }
+h2 { font-size: 22px; text-transform: uppercase; letter-spacing: .06em; }
+p, li { max-width: 68ch; }
+p { margin: 0; }
+.label { font-family: var(--display); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+header { display: grid; gap: 12px; border-bottom: 1px solid var(--rule); padding-bottom: 22px; }
+header nav { display: flex; gap: 20px; flex-wrap: wrap; font-size: 15px; }
+section { display: grid; gap: 14px; }
+.split { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.split > div { background: var(--panel); padding: 16px 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+td { padding: 6px 0; border-top: 1px solid var(--rule); vertical-align: baseline; }
+td.n { text-align: right; font: 600 15px/1.4 var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; padding-left: 12px; }
+td.n.zero { color: var(--zero); }
+tr:first-child td { border-top: 0; }
+.big { font: 600 44px/1 var(--display); }
+.big.zero { color: var(--zero); }
+code { font-family: var(--mono); font-size: .86em; word-break: break-all; }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.muted { color: var(--muted); }
+.note { font-size: 15px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="label">Witnessory · October 2026</div>
+  <h1>Post-quantum key exchange is at 59%. Post-quantum signatures are at 0%.</h1>
+  <p>The internet has moved half of its encryption to post-quantum key exchange, mostly through browser and server
+  updates nobody had to think about. It has not moved its signatures at all: not on certificates, DNSSEC, mail
+  or routing. This is what Witnessory measured this month, and why the second number is the one to watch.</p>
+  <nav><a href="../">The live view</a><a href="https://check.witnessory.org/">Check a site</a><a href="../probe.html">Run a probe</a></nav>
+</header>
+
+<section>
+  <div class="split">
+    <div>
+      <div class="label">Key exchange: protects today's traffic</div>
+      <div class="big">59%</div>
+      <table>
+        <tr><td>Top 10,000 websites negotiating it with a browser-grade client</td><td class="n">58.9%</td></tr>
+        <tr><td>SSH servers on those domains offering it</td><td class="n">51.3%</td></tr>
+        <tr><td>Mail servers of the top 1,000 sites, after STARTTLS</td><td class="n">45.1%</td></tr>
+        <tr><td>Public encrypted DNS resolvers on our list</td><td class="n">5 of 13</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="label">Signatures: protect who you are talking to</div>
+      <div class="big zero">0%</div>
+      <table>
+        <tr><td>Certificates in Certificate Transparency logs, post-quantum key or signature</td><td class="n zero">0</td></tr>
+        <tr><td>DNSSEC-signed domains in the top 10,000 using a post-quantum algorithm</td><td class="n zero">0</td></tr>
+        <tr><td>DKIM keys of the top 1,000 sites that are post-quantum</td><td class="n zero">0</td></tr>
+        <tr><td>Routing security (RPKI) objects signed post-quantum, of about 576,000</td><td class="n zero">0</td></tr>
+      </table>
+    </div>
+  </div>
+  <p class="note">Medians across networks, one network one vote; the range across networks is given where it matters
+  below. View <code>c15ae91fb82d</code>, 2026-10-30.</p>
+</section>
+
+<section>
+  <h2>Why the split matters</h2>
+  <p>The two halves defend against different attacks, on different clocks.</p>
+  <p><strong>Key exchange</strong> defends against <em>record now, decrypt later</em>: someone stores today's
+  encrypted traffic and opens it once a large enough quantum computer exists. The fix only needs the two ends of a
+  connection to agree, so it ships as a software update. Browsers, large CDNs and OpenSSH did exactly that, and the
+  web reached 59% without most site operators doing anything.</p>
+  <p><strong>Signatures</strong> defend against impersonation: a forged certificate, a forged DNS answer, a forged
+  route, a forged update. Recorded traffic is of no use for that, so the danger starts only when the machine exists.
+  But the fix is far slower. A post-quantum certificate is useless until browsers trust a post-quantum root; a
+  post-quantum DNSSEC zone needs an algorithm number that does not exist yet; DKIM has no post-quantum key type
+  registered. Each needs a standard, then the ecosystem that relies on it, then every operator. And it has to be
+  finished <em>before</em> the machine exists, because a signature that can be forged on that day protects nothing.</p>
+  <p>So the 0% is not neglect: in most of these systems there is not yet a standard to deploy. It is the measure of
+  how much is still to come, and the reason to watch it from the first non-zero reading.</p>
+</section>
+
+<section>
+  <h2>What else turned up</h2>
+  <ul>
+    <li><strong>Mail signing is behind before quantum even arrives.</strong> In one probe's reading of 29 October,
+    of the 771 DKIM keys found for the top 1,000 sites, 395 are RSA-1024 and 358 RSA-2048. Eleven are RSA-768 and one is RSA-512, sizes that classical
+    computers have already factored. (Selectors cannot be listed; the probe asks for 50 common ones.)</li>
+    <li><strong>SSH moved early, on the pre-standard algorithm.</strong> 51.3% of SSH servers offer a post-quantum
+    hybrid (50.2% to 52.3% across four networks), but only 16.2% offer ML-KEM, the standardized one. Most offer
+    sntrup761, which OpenSSH shipped first. The population is small: 305 to 348 SSH servers among the top 10,000
+    domains, depending on the network.</li>
+    <li><strong>Mail transport is close behind the web.</strong> 97.5% of the top 1,000 sites' primary mail servers
+    offer STARTTLS, and 45.1% of those negotiate post-quantum key exchange (42.2% and 47.9% on the two networks where
+    port 25 was reachable).</li>
+    <li><strong>Encrypted Client Hello is not post-quantum.</strong> 5.5% of the top sites checked publish an ECH key, and none
+    of those keys is post-quantum, so the hidden site name can still be recovered from a recording later.</li>
+    <li><strong>One software update channel already signs with ML-DSA.</strong> Of 16 channels watched (Linux
+    distributions, package registries, a firmware service), one signs with ML-DSA-87 alongside RSA. Thirteen sign with
+    RSA-4096.</li>
+    <li><strong>The trust machinery held.</strong> Every transparency log checked (certificates, software signing,
+    the Go checksum database) proved its history consistent across 468 heads, with no split views between probes;
+    no TLS interception was seen at any probe.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How this was measured</h2>
+  <ul>
+    <li><strong>Four probes on five networks</strong>, residential and data-centre. Each probe signs every reading
+    twice (Ed25519 and ML-DSA-65) and chains it to the one before; the chain is anchored in Bitcoin with
+    OpenTimestamps, so no reading can be changed or back-dated without it showing.</li>
+    <li><strong>Every figure here is read from one view</strong>, a deterministic computation over the readings,
+    named by its hash: <code>c15ae91fb82de16ad92971c7de2552291c2eed10079ac9d1a4ce657b6ff436e0</code>, as of
+    2026-10-30 07:01 UTC. The view is <a href="../view.json">published</a>; the readings and the aggregator are to be
+    published, and until then the hash is the record.</li>
+    <li><strong>Rates are of what answered.</strong> Sites that time out or refuse are counted apart, not as
+    failures. The web figure is over the sites that answered: about 8,200 of the Tranco top 10,000 on a full run.</li>
+  </ul>
+  <p class="note">Preliminary: the probes are younger than the 30 days after which they carry full weight. Five
+  networks is a thin basis, and the ranges will move as probes on more networks join.</p>
+</section>
+
+<section>
+  <h2>Add a network</h2>
+  <p>The view is only as wide as the networks it is measured from. A probe takes a few minutes to install, measures
+  only public servers' handshakes, and never reports where it runs beyond its network and country:
+  <a href="../probe.html">run a probe</a>. To see where your own site stands, <a href="https://check.witnessory.org/">check it</a>.</p>
+  <p class="note">Data: Witnessory, CC BY 4.0. Corrections and questions: hello@witnessory.org.</p>
+</section>
+</div>
+</body>
+</html>

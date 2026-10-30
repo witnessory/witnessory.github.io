@@ -12,6 +12,12 @@
 - Layers measured monthly (keys: post-quantum TLS on the top 10,000 sites; ssh; dnssec) appear once each month's scan
   has run.
 
+## Reports
+
+- https://witnessory.org/reports/: monthly reports, every figure read from a published view named by its hash.
+  October 2026: https://witnessory.org/reports/2026-10.html (post-quantum key exchange at 59% of top sites,
+  post-quantum signatures at 0% across certificates, DNSSEC, DKIM and RPKI).
+
 ## Check one site
 
 - `GET https://check.witnessory.org/api/check?domain=example.org`: whether a browser gets post-quantum key exchange
