@@ -278,30 +278,30 @@
    "early_coinbase_p2pk_spends": [],
    "headline": {
     "dormant_exposed_spent_sats": {
-     "max": 146694594,
-     "median": 146694594,
-     "min": 146694594,
+     "max": 0,
+     "median": 0,
+     "min": 0,
      "n": 1,
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 99664396777,
-     "median": 99664396777,
-     "min": 99664396777,
+     "max": 103714065201,
+     "median": 103714065201,
+     "min": 103714065201,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 17846638725,
-     "median": 17846638725,
-     "min": 17846638725,
+     "max": 15413490811,
+     "median": 15413490811,
+     "min": 15413490811,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 8,
-     "median": 8,
-     "min": 8,
+     "max": 26,
+     "median": 26,
+     "min": 26,
      "n": 1,
      "networks": 1
     }
@@ -309,120 +309,216 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-10-30",
-     "dormant_exposed_inputs": 18807,
-     "dormant_exposed_spent_sats": 146694594,
-     "dormant_hash_protected_sats": 99664396777,
-     "dormant_revealed_sats": 17846638725,
+     "created_utc": "2026-11-01",
+     "dormant_exposed_inputs": 0,
+     "dormant_exposed_spent_sats": 0,
+     "dormant_hash_protected_sats": 103714065201,
+     "dormant_revealed_sats": 15413490811,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 973737,
+     "from_height": 973889,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 973888,
+     "to_height": 974046,
      "witness_v2_plus_list": [
       {
-       "height": 973750,
-       "program_bytes": 30,
+       "height": 973900,
+       "program_bytes": 35,
        "sats": 546,
-       "txid": "7a1920d04c443abbac4619caaa856ae21ca868956260191f9342d8ebbd978bdd",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973789,
-       "program_bytes": 21,
-       "sats": 546,
-       "txid": "e767784de621e2671f6d6e2c2e38142816d36329e9dc9a868f17685df63a0b6f",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973789,
-       "program_bytes": 21,
-       "sats": 546,
-       "txid": "e767784de621e2671f6d6e2c2e38142816d36329e9dc9a868f17685df63a0b6f",
+       "txid": "cb47b45650cfb413b9a815d3e892c2a025eafa153f598c80e0c3af284e87b233",
        "version": 12,
        "vout": 2
       },
       {
-       "height": 973791,
+       "height": 973900,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "8064d3827d12e5a477d65a4dcb3b3a68d23c5e9b82bab6a153534cf3c14fcf99",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973901,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "f436c5298b7692f7db80bff5e53b703027a4ac5885f5f6f8e47e899431e401e0",
+       "version": 12,
+       "vout": 4
+      },
+      {
+       "height": 973901,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "35c25ff61c445f705ed54720b27ac8f6db381dc8aa89078f70e064701d072530",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 973901,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "f04ef903f277ddf0e2dafbce865c2c0022b70c40b542e1dfcb38a2d6475b0ae3",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 973901,
+       "program_bytes": 31,
+       "sats": 546,
+       "txid": "ebae6533f03ea56153884b50abc7444681c596f4d41d79aae9de49c022a195e2",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 973902,
+       "program_bytes": 19,
+       "sats": 546,
+       "txid": "6e44fa1555f45c425572335bf2e56e37ff1209be3ff4e63aed0b6395cb9470e0",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973903,
+       "program_bytes": 23,
+       "sats": 546,
+       "txid": "64193e5cd23ddf1139cf5c6b02828553318c3a72db8c84f6e52a429a6ed3e1bc",
+       "version": 12,
+       "vout": 6
+      },
+      {
+       "height": 973903,
+       "program_bytes": 24,
+       "sats": 546,
+       "txid": "64193e5cd23ddf1139cf5c6b02828553318c3a72db8c84f6e52a429a6ed3e1bc",
+       "version": 12,
+       "vout": 7
+      },
+      {
+       "height": 973903,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "9d7375cd103a2dc18a67d1c7b3b455326b1a761672982d40d6b95aab7283933f",
+       "version": 12,
+       "vout": 4
+      },
+      {
+       "height": 973903,
        "program_bytes": 30,
        "sats": 546,
-       "txid": "7e42d08cb65b7b5bfebd72a75b6fce975e71ae18f5c32aa7619ed607cc308dc2",
+       "txid": "d9f76d773d9cc5ce67ab0a1d2ca6ddc7415db908ceca3a69d7b37afacdd9f8e4",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 973791,
+       "height": 973904,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "69a2e138cc3d81fec1f71ab27e8dab61fdb2b4edad8f5632a97d59df70be2b1b",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973905,
+       "program_bytes": 33,
+       "sats": 546,
+       "txid": "25e2a414fc2c0b19909f3804c33c57eb26e7d1d99ca62888c6774fbfafeca95a",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973905,
+       "program_bytes": 31,
+       "sats": 546,
+       "txid": "58f8c41fb958f5bda7f92026a713f5e9db123dfa3b1dce17f6f30b65ff765c3d",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973905,
+       "program_bytes": 39,
+       "sats": 546,
+       "txid": "d17e67b854634bbf0352a861a37e1c2a2bfe15dd12a87311c270d30d1e22ae73",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973906,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "9f7030133c0ed2a4d458bdcda9f1a0c6f7098475520e5e7197cea6d99fff2a42",
+       "txid": "726640e42bc56e6f222240a915ed9fb3c48c1b6dde996bf54e75b6e129ea5354",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 973795,
-       "program_bytes": 38,
-       "sats": 546,
-       "txid": "56d6d7c32520cc149b01985f8f1fa4eaa743bedfa4e36d20806b476519fb6834",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 973797,
+       "height": 973907,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "a05ce9f01b7fdd7dd166dda1442fadf772ec4ea9e0a6fc65558de6e75097dfe7",
+       "txid": "278c86251bc3aa64a0986d15d16ce031d85ffdaeacba7f68cb418c77debfec9a",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 973874,
-       "program_bytes": 27,
+       "height": 973910,
+       "program_bytes": 35,
        "sats": 546,
-       "txid": "3d05f2cd743d6b187d97ddc5ee0cb9532f55cf3f82b522a612a33c0c97e1bbdb",
+       "txid": "5fba5e4747d70d55648a9eb5b468f01cd1207e1d59e13b1dd61221761de5c8c7",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973910,
+       "program_bytes": 33,
+       "sats": 546,
+       "txid": "a7ca3caeedabfc38057bd36363762f59991f4f7b82d507778eab5d3c55acc23f",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 973910,
+       "program_bytes": 33,
+       "sats": 546,
+       "txid": "775a2304f2fc2d3503038e00e4cace727fb47d52a1ac7023a690f213f70b587f",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 8
+     "witness_v2_plus_outputs": 26
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.22601683,
-     "median": 0.22601683,
-     "min": 0.22601683,
+     "max": 0.38161575,
+     "median": 0.38161575,
+     "min": 0.38161575,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.68692781,
-     "median": 0.68692781,
-     "min": 0.68692781,
+     "max": 0.54631445,
+     "median": 0.54631445,
+     "min": 0.54631445,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-10-30",
+     "created_utc": "2026-11-01",
      "eligible": true,
-     "exposed_value_share": 0.22601683,
+     "exposed_value_share": 0.38161575,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.68692781,
+     "to_revealed_value_share": 0.54631445,
      "window": {
-      "blocks": 138,
-      "from_block_time": 1793312350,
-      "from_height": 973747,
+      "blocks": 147,
+      "from_block_time": 1793405018,
+      "from_height": 973896,
       "hours": 24.0,
-      "to_block_time": 1793397063,
-      "to_height": 973884
+      "to_block_time": 1793491201,
+      "to_height": 974042
      }
     }
    ]
@@ -10354,7 +10450,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-01T00:02:47Z",
+  "as_of_utc": "2026-11-01T01:03:01Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10384,11 +10480,11 @@
  },
  "probes": [
   {
-   "age_days": 31,
-   "bundles": 426,
+   "age_days": 32,
+   "bundles": 428,
    "contribution": {
-    "bundles_ok": 417,
-    "days_active": 32,
+    "bundles_ok": 419,
+    "days_active": 33,
     "layers": 21
    },
    "eligible": true,
@@ -10400,7 +10496,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-10-31",
+   "last_seen_utc": "2026-11-01",
    "probe_id": "probe-1"
   },
   {
@@ -10474,7 +10570,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "62bf467e8af3e9d664f4b4832cd7b7d4d40ca254f80b2722cde3285a279161b5",
+ "published_sha256": "e171192e4af9da51eed1481e6f9358efe241ab0886d3288f406a11f0841661ac",
  "rejections": [
   {
    "kind": "bundle",
@@ -10874,5 +10970,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "ca92cbc2dbb078c4e10624160f75757bc5a67504fb3d1bf9620a1bfa4e9ce384"
+ "view_sha256": "9d1c3a4761cfa1ad6a32d22e3044f71a2b31fdfb175e3b9f896e1844304a8325"
 }
