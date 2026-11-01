@@ -19,7 +19,7 @@
  ],
  "evidence_withheld": 19,
  "inputs": {
-  "bundles_used": 71
+  "bundles_used": 70
  },
  "layers": {
   "attestation": {
@@ -1725,28 +1725,28 @@
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
-     "n": 4,
+     "n": 3,
      "networks": 3
     },
     "dnslink_validated_rate": {
      "max": 0.047619,
      "median": 0.047619,
      "min": 0.047619,
-     "n": 4,
+     "n": 3,
      "networks": 3
     },
     "pointers_found": {
      "max": 21,
      "median": 21,
      "min": 21,
-     "n": 4,
+     "n": 3,
      "networks": 3
     },
     "pq_rate": {
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
-     "n": 4,
+     "n": 3,
      "networks": 3
     }
    },
@@ -1780,16 +1780,6 @@
      "pointers_found": 21,
      "pq_rate": 0.0,
      "probe_id": "probe-4"
-    },
-    {
-     "created_utc": "2026-10-18",
-     "dnslink_publish_rate": 0.0,
-     "dnslink_validated_rate": 0.047619,
-     "eligible": true,
-     "network_attested": true,
-     "pointers_found": 21,
-     "pq_rate": 0.0,
-     "probe_id": "probe-3"
     }
    ]
   },
@@ -10454,7 +10444,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-01T13:58:08Z",
+  "as_of_utc": "2026-11-01T16:37:38Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10545,9 +10535,9 @@
   },
   {
    "age_days": 32,
-   "bundles": 327,
+   "bundles": 328,
    "contribution": {
-    "bundles_ok": 322,
+    "bundles_ok": 323,
     "days_active": 33,
     "layers": 16
    },
@@ -10574,7 +10564,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "a4ba988bea287e7307b0b65c35b9269d51f22b4d4e25b7e426ea51db1d8f3520",
+ "published_sha256": "36e6802f51dda730a24a65c3a4780f1728bca45fa7c107bbb2bc9d6e8fabce1e",
  "rejections": [
   {
    "kind": "bundle",
@@ -10669,6 +10659,11 @@
   {
    "kind": "bundle",
    "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
    "reason": "vantage changed during run"
   },
   {
@@ -10974,5 +10969,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "70590f835f313c2469f128ff3690a6f26ef374e234449ac01502f90140d7c435"
+ "view_sha256": "a67b8a7118b9dcde17b6d6350bf5283ac0e968512eb322cc23618cd7d1b46f99"
 }
