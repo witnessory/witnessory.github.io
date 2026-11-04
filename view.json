@@ -1,5 +1,21 @@
 {
- "alerts": [],
+ "alerts": [
+  {
+   "detail": "no bundle for 44 hours (its machine, network or schedule has stopped)",
+   "kind": "probe_silent",
+   "probe_id": "probe-4",
+   "severity": "warning",
+   "subject": "2026-11-02T13:53:30Z"
+  },
+  {
+   "detail": "issued by DigiCert Inc here; by Amazon at the other vantages",
+   "kind": "issuer_differs",
+   "layer": "interception",
+   "probe_id": "probe-3",
+   "severity": "notice",
+   "subject": "www.amazon.com"
+  }
+ ],
  "evidence_withheld": 19,
  "inputs": {
   "bundles_used": 71
@@ -385,7 +401,7 @@
    "headline": {
     "regions_affected_share": {
      "max": 0.166667,
-     "median": 0.0555555,
+     "median": 0.11805550000000001,
      "min": 0.0,
      "n": 4,
      "networks": 4
@@ -572,17 +588,19 @@
      "spoofing_regions_share": 0.0
     },
     {
-     "affected_regions": [],
+     "affected_regions": [
+      "persian_gulf"
+     ],
      "by_region": {
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0909,
-        0.0938
+        0.0741,
+        0.0741
        ],
        "qualifying": {
-        "adsb.fi": 33,
-        "adsb.lol": 32
+        "adsb.fi": 27,
+        "adsb.lol": 27
        },
        "role": "reported",
        "sources_agree": true
@@ -590,12 +608,12 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0465,
+        0.0732
        ],
        "qualifying": {
-        "adsb.fi": 37,
-        "adsb.lol": 38
+        "adsb.fi": 41,
+        "adsb.lol": 43
        },
        "role": "reported",
        "sources_agree": true
@@ -603,8 +621,8 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0123,
-        0.0123
+        0.0,
+        0.0
        ],
        "qualifying": {
         "adsb.fi": 81,
@@ -616,12 +634,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.012,
+        0.012
        ],
        "qualifying": {
-        "adsb.fi": 162,
-        "adsb.lol": 161
+        "adsb.fi": 167,
+        "adsb.lol": 167
        },
        "role": "control",
        "sources_agree": true
@@ -633,8 +651,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 37,
-        "adsb.lol": 13
+        "adsb.fi": 40,
+        "adsb.lol": 19
        },
        "role": "control",
        "sources_agree": true
@@ -646,8 +664,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 27
+        "adsb.fi": 0,
+        "adsb.lol": 21
        },
        "role": "control",
        "sources_agree": true
@@ -659,8 +677,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 8,
-        "adsb.lol": 7
+        "adsb.fi": 13,
+        "adsb.lol": 10
        },
        "role": "control",
        "sources_agree": null
@@ -672,8 +690,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 26,
-        "adsb.lol": 29
+        "adsb.fi": 42,
+        "adsb.lol": 45
        },
        "role": "reported",
        "sources_agree": true
@@ -685,8 +703,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 5,
-        "adsb.lol": 5
+        "adsb.fi": 8,
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
@@ -698,21 +716,21 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 3,
-        "adsb.lol": 4
+        "adsb.fi": 9,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
       },
       "persian_gulf": {
-       "affected": false,
+       "affected": true,
        "poor_nic_share": [
-        0.05,
-        0.05
+        0.129,
+        0.129
        ],
        "qualifying": {
-        "adsb.fi": 40,
-        "adsb.lol": 40
+        "adsb.fi": 31,
+        "adsb.lol": 31
        },
        "role": "reported",
        "sources_agree": true
@@ -724,7 +742,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
+        "adsb.fi": 9,
         "adsb.lol": 10
        },
        "role": "reported",
@@ -733,11 +751,11 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-03",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-2",
-     "regions_affected_share": 0.0,
+     "regions_affected_share": 0.125,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
@@ -919,12 +937,12 @@
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0667,
-        0.0667
+        0.0889,
+        0.0909
        ],
        "qualifying": {
-        "adsb.fi": 30,
-        "adsb.lol": 30
+        "adsb.fi": 45,
+        "adsb.lol": 44
        },
        "role": "reported",
        "sources_agree": true
@@ -932,12 +950,12 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0484,
-        0.0781
+        0.0377,
+        0.0577
        ],
        "qualifying": {
-        "adsb.fi": 62,
-        "adsb.lol": 64
+        "adsb.fi": 52,
+        "adsb.lol": 53
        },
        "role": "reported",
        "sources_agree": true
@@ -945,12 +963,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0102,
-        0.0102
+        0.0224,
+        0.0227
        ],
        "qualifying": {
-        "adsb.fi": 98,
-        "adsb.lol": 98
+        "adsb.fi": 134,
+        "adsb.lol": 132
        },
        "role": "control",
        "sources_agree": true
@@ -962,8 +980,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 159,
-        "adsb.lol": 160
+        "adsb.fi": 186,
+        "adsb.lol": 187
        },
        "role": "control",
        "sources_agree": true
@@ -975,8 +993,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 36,
-        "adsb.lol": 15
+        "adsb.fi": 41,
+        "adsb.lol": 13
        },
        "role": "control",
        "sources_agree": true
@@ -988,24 +1006,24 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 14
+        "adsb.fi": 0,
+        "adsb.lol": 13
        },
        "role": "control",
        "sources_agree": null
       },
       "control-5": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 11,
-        "adsb.lol": 11
+        "adsb.fi": 19,
+        "adsb.lol": 18
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "eastern_mediterranean": {
        "affected": false,
@@ -1014,8 +1032,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 50,
-        "adsb.lol": 54
+        "adsb.fi": 38,
+        "adsb.lol": 46
        },
        "role": "reported",
        "sources_agree": true
@@ -1040,8 +1058,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 10,
-        "adsb.lol": 11
+        "adsb.fi": 6,
+        "adsb.lol": 7
        },
        "role": "reported",
        "sources_agree": null
@@ -1049,33 +1067,33 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.087,
-        0.0909
+        0.0645,
+        0.069
        ],
        "qualifying": {
-        "adsb.fi": 22,
-        "adsb.lol": 23
+        "adsb.fi": 29,
+        "adsb.lol": 31
        },
        "role": "reported",
        "sources_agree": true
       },
       "punjab_border": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0625,
+        0.0625
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 9
+        "adsb.fi": 14,
+        "adsb.lol": 16
        },
        "role": "reported",
-       "sources_agree": null
+       "sources_agree": true
       }
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-03",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
@@ -1117,7 +1135,16 @@
      "networks": 4
     }
    },
-   "issuer_seen_at_one_vantage_only": [],
+   "issuer_seen_at_one_vantage_only": [
+    {
+     "elsewhere": [
+      "Amazon"
+     ],
+     "issuer_o": "DigiCert Inc",
+     "probe_id": "probe-3",
+     "site": "www.amazon.com"
+    }
+   ],
    "probes": [
     {
      "canary_suspect_share": 0.0,
@@ -1169,7 +1196,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-03",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -1259,7 +1286,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -1269,7 +1296,7 @@
       "pypi.org": "GlobalSign nv-sa",
       "signal.org": "Google Trust Services",
       "telegram.org": "GoDaddy.com",
-      "www.amazon.com": "Amazon",
+      "www.amazon.com": "DigiCert Inc",
       "www.apple.com": "Apple Inc.",
       "www.bbc.co.uk": "GlobalSign nv-sa",
       "www.cloudflare.com": "Let's Encrypt",
@@ -1726,11 +1753,11 @@
   },
   "rpki": {
    "by_signature_family": {
-    "RSA": 578467
+    "RSA": 577511
    },
    "by_subject_key": {
     "ECDSA-P-256": 3,
-    "RSA-2048": 520525
+    "RSA-2048": 519501
    },
    "headline": {
     "pq_signed_share": {
@@ -1742,8 +1769,8 @@
     },
     "published_objects": {
      "max": 578467,
-     "median": 577853.0,
-     "min": 577239,
+     "median": 577989.0,
+     "min": 577511,
      "n": 2,
      "networks": 2
     },
@@ -1756,8 +1783,8 @@
     },
     "validated_payloads": {
      "max": 1030468,
-     "median": 1029506.0,
-     "min": 1028544,
+     "median": 1030020.0,
+     "min": 1029572,
      "n": 2,
      "networks": 2
     }
@@ -2027,35 +2054,35 @@
     },
     {
      "by_signature_family": {
-      "RSA": 577239
+      "RSA": 577511
      },
      "by_subject_key": {
-      "ECDSA-P-256": 1,
-      "RSA-2048": 519436
+      "ECDSA-P-256": 3,
+      "RSA-2048": 519501
      },
-     "created_utc": "2026-10-27",
+     "created_utc": "2026-11-03",
      "eligible": true,
      "network_attested": true,
      "objects_by_repository": {
-      "https://akane.maru.co.jp/oshirase.xml": 36,
+      "https://akane.maru.co.jp/oshirase.xml": 42,
       "https://alias.rpki-measurement.site/rrdp/notification.xml": 4,
       "https://ca.nat.moe/rrdp/notification.xml": 101,
       "https://ca.rg.net/rrdp/notify.xml": 15,
       "https://cloudie.rpki.app/rrdp/notification.xml": 437,
-      "https://krill.47272.net/rrdp/notification.xml": 216,
+      "https://krill.47272.net/rrdp/notification.xml": 221,
       "https://krill.accuristechnologies.ca/rrdp/notification.xml": 52,
       "https://krill.clnexus.dev/rrdp/notification.xml": 10,
       "https://krill.cxy.hk/rrdp/notification.xml": 12,
       "https://krill.dacs.utwente.nl/rrdp/notification.xml": 9,
-      "https://krill.dispaisy.systems/rrdp/notification.xml": 42,
+      "https://krill.dispaisy.systems/rrdp/notification.xml": 38,
       "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": 13,
       "https://krill.peravix.group/rrdp/notification.xml": 3,
-      "https://krill.proxy-arp.network/rrdp/notification.xml": 12,
+      "https://krill.proxy-arp.network/rrdp/notification.xml": 22,
       "https://krill.rg.net/rrdp/notification.xml": 13,
       "https://krill.rpki-measurement.site/rrdp/notification.xml": 9,
       "https://krill.starlamp.su/rrdp/notification.xml": 3,
       "https://krill.sy5.nsw.au.infininet.com.au/rrdp/notification.xml": 29,
-      "https://magellan.ipxo.com/rrdp/notification.xml": 459,
+      "https://magellan.ipxo.com/rrdp/notification.xml": 467,
       "https://repo.nkn.in/notification.xml": 4,
       "https://repo.rpki.space/rrdp/notification.xml": 102,
       "https://repo2.nkn.in/notification.xml": 23,
@@ -2064,17 +2091,18 @@
       "https://rpki-pp.com/rrdp/notification.xml": 17,
       "https://rpki-publication.haruue.net/rrdp/notification.xml": 6,
       "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": 7,
-      "https://rpki-repo.registro.br/rrdp/notification.xml": 31835,
-      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": 8456,
-      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": 16312,
+      "https://rpki-repo.registro.br/rrdp/notification.xml": 32105,
+      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": 8451,
+      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": 16383,
       "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": 6,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": 1486,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": 6755,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": 6778,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": 22,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": 44,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/395c874a-bcf9-4f7c-b900-d255072c3ee7/notification.xml": 2,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": 28,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": 447,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": 355,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": 464,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": 358,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": 24,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": 4,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": 7,
@@ -2092,15 +2120,14 @@
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": 1204,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": 9,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": 174,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": 6738,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": 6739,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": 4008,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": 5,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": 2,
-      "https://rpki-rrdp.warpnet.xyz/notification.xml": 27,
-      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": 237,
+      "https://rpki-rrdp.warpnet.xyz/notification.xml": 32,
+      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": 238,
       "https://rpki.apernet.io/rrdp/notification.xml": 41,
       "https://rpki.as207960.net/rrdp/notification.xml": 138,
-      "https://rpki.as215605.net/rrdp/notification.xml": 2,
       "https://rpki.as219412.net/rrdp/notification.xml": 15,
       "https://rpki.axivora.net/rrdp/notification.xml": 56,
       "https://rpki.blw.moe/rrdp/notification.xml": 7,
@@ -2110,10 +2137,12 @@
       "https://rpki.fiti.net.cn/rrdp/notification.xml": 4180,
       "https://rpki.gns.net.br/rrdp/notification.xml": 8,
       "https://rpki.komorebi.network:3030/rrdp/notification.xml": 18,
+      "https://rpki.luys.cloud/rrdp/notification.xml": 6,
       "https://rpki.multacom.com/rrdp/notification.xml": 16,
       "https://rpki.n3solucoes.com.br/rrdp/notification.xml": 4,
       "https://rpki.nellicus.net/rrdp/notification.xml": 22,
       "https://rpki.net.baiyuexiao.cn/rrdp/notification.xml": 5,
+      "https://rpki.novacloud-hosting.com/rrdp/notification.xml": 4,
       "https://rpki.owl.net/rrdp/notification.xml": 28,
       "https://rpki.pudu.be/rrdp/notification.xml": 24,
       "https://rpki.qs.nu/rrdp/notification.xml": 2,
@@ -2121,36 +2150,38 @@
       "https://rpki.roa.net/rrdp/notification.xml": 332,
       "https://rpki.sailx.co/rrdp/notification.xml": 27,
       "https://rpki.satcom.com.br:3000/rrdp/notification.xml": 5,
+      "https://rpki.shrdserv.com/rrdp/notification.xml": 86,
       "https://rpki.sunoaki.net/rrdp/notification.xml": 48,
       "https://rpki.tools.westconnect.ca/rrdp/notification.xml": 20,
       "https://rpki.vexshield.eu/rrdp/notification.xml": 3,
       "https://rpki.xindi.eu/rrdp/notification.xml": 25,
       "https://rrdp-ipv4.prefixlogic.com/rrdp/notification.xml": 3,
       "https://rrdp-rpki.inara.pk/rrdp/notification.xml": 4,
-      "https://rrdp-rps.arin.net/notification.xml": 2836,
-      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": 9046,
-      "https://rrdp.afrinic.net/notification.xml": 16983,
-      "https://rrdp.apnic.net/notification.xml": 50411,
-      "https://rrdp.arin.net/notification.xml": 245916,
+      "https://rrdp-rps.arin.net/notification.xml": 2778,
+      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": 9045,
+      "https://rrdp.afrinic.net/notification.xml": 17302,
+      "https://rrdp.apnic.net/notification.xml": 50533,
+      "https://rrdp.arin.net/notification.xml": 244865,
       "https://rrdp.as214749.net/rrdp/notification.xml": 11,
       "https://rrdp.ip.deals/rrdp/notification.xml": 2,
       "https://rrdp.krill.nlnetlabs.nl/notification.xml": 19,
-      "https://rrdp.lacnic.net/rrdp/notification.xml": 28190,
-      "https://rrdp.paas.rpki.ripe.net/notification.xml": 11549,
+      "https://rrdp.lacnic.net/rrdp/notification.xml": 28290,
+      "https://rrdp.paas.rpki.ripe.net/notification.xml": 11476,
       "https://rrdp.prefixlogic.com/rrdp/notification.xml": 3,
-      "https://rrdp.ripe.net/notification.xml": 123049,
+      "https://rrdp.ripe.net/notification.xml": 123429,
       "https://rrdp.rp.ki/notification.xml": 91,
       "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": 25,
-      "https://rrdp.sub.apnic.net/notification.xml": 498,
-      "https://rrdp.twnic.tw/rrdp/notification.xml": 3097,
+      "https://rrdp.sub.apnic.net/notification.xml": 511,
+      "https://rrdp.twnic.tw/rrdp/notification.xml": 3084,
+      "https://rsync.rpki.as205941.org/rrdp/notification.xml": 27,
       "https://sakuya.nat.moe/rrdp/notification.xml": 9
      },
-     "payloads_sha256": "0d4851729ca645b1a89fa9e0f4c56f0175f507c983f71b5b19133c1691d8137f",
+     "payloads_sha256": "705aef4e2625626bba531e523c66d1f622b960bec3c6cccc1e13ec73adf2a395",
      "pq_signed_share": 0.0,
      "probe_id": "probe-2",
-     "published_objects": 577239,
+     "published_objects": 577511,
      "repositories": {
-      "attempted": 126,
+      "attempted": 130,
       "failed": [
        "https://feo.tla.org/rrdp/notification.xml",
        "https://krill.ca-bc-01.ssmidge.xyz/rrdp/notification.xml",
@@ -2162,130 +2193,134 @@
        "https://repo.kagl.me/rpki/notification.xml",
        "https://repodepot.wildtky.com/rrdp/notification.xml",
        "https://rki.plasmanodes.com/rrdp/notification.xml",
+       "https://rpki.as215605.net/rrdp/notification.xml",
        "https://rpki.athene-center.net/rrdp/notification.xml",
        "https://rpki.co/rrdp/notification.xml",
        "https://rpki.fengrui.link/rrdp/notification.xml",
        "https://rpki.gxt.network/rrdp/notification.xml",
        "https://rpki.leitecastro.com/notification.xml",
-       "https://rpki.luys.cloud/rrdp/notification.xml",
        "https://rpki.miralium.net/rrdp/notification.xml",
        "https://rpki.ssmidge.xyz/rrdp/notification.xml",
        "https://rpki.xa.wiki/rrdp/notification.xml"
       ],
       "hash_mismatch": 0,
-      "read": 107
+      "read": 111
      },
      "serials": {
-      "https://akane.maru.co.jp/oshirase.xml": "1042",
-      "https://alias.rpki-measurement.site/rrdp/notification.xml": "325",
-      "https://ca.nat.moe/rrdp/notification.xml": "2006",
-      "https://ca.rg.net/rrdp/notify.xml": "120842",
-      "https://cloudie.rpki.app/rrdp/notification.xml": "10333",
-      "https://krill.47272.net/rrdp/notification.xml": "4377",
-      "https://krill.accuristechnologies.ca/rrdp/notification.xml": "5525",
-      "https://krill.clnexus.dev/rrdp/notification.xml": "432",
-      "https://krill.cxy.hk/rrdp/notification.xml": "661",
-      "https://krill.dacs.utwente.nl/rrdp/notification.xml": "462",
-      "https://krill.dispaisy.systems/rrdp/notification.xml": "358",
-      "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": "597",
-      "https://krill.peravix.group/rrdp/notification.xml": "216",
-      "https://krill.proxy-arp.network/rrdp/notification.xml": "29",
-      "https://krill.rg.net/rrdp/notification.xml": "2251",
-      "https://krill.rpki-measurement.site/rrdp/notification.xml": "6868",
-      "https://krill.starlamp.su/rrdp/notification.xml": "462",
+      "https://akane.maru.co.jp/oshirase.xml": "1066",
+      "https://alias.rpki-measurement.site/rrdp/notification.xml": "345",
+      "https://ca.nat.moe/rrdp/notification.xml": "2015",
+      "https://ca.rg.net/rrdp/notify.xml": "121171",
+      "https://cloudie.rpki.app/rrdp/notification.xml": "10382",
+      "https://krill.47272.net/rrdp/notification.xml": "4426",
+      "https://krill.accuristechnologies.ca/rrdp/notification.xml": "5554",
+      "https://krill.clnexus.dev/rrdp/notification.xml": "459",
+      "https://krill.cxy.hk/rrdp/notification.xml": "692",
+      "https://krill.dacs.utwente.nl/rrdp/notification.xml": "512",
+      "https://krill.dispaisy.systems/rrdp/notification.xml": "395",
+      "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": "607",
+      "https://krill.peravix.group/rrdp/notification.xml": "225",
+      "https://krill.proxy-arp.network/rrdp/notification.xml": "104",
+      "https://krill.rg.net/rrdp/notification.xml": "2276",
+      "https://krill.rpki-measurement.site/rrdp/notification.xml": "8473",
+      "https://krill.starlamp.su/rrdp/notification.xml": "471",
       "https://krill.sy5.nsw.au.infininet.com.au/rrdp/notification.xml": "406",
-      "https://magellan.ipxo.com/rrdp/notification.xml": "10845",
-      "https://repo.nkn.in/notification.xml": "109",
-      "https://repo.rpki.space/rrdp/notification.xml": "10803",
-      "https://repo2.nkn.in/notification.xml": "244",
-      "https://rov-measurements.nlnetlabs.net/rrdp/notification.xml": "1647",
-      "https://rpki-01.pdxnet.uk/rrdp/notification.xml": "7443",
-      "https://rpki-pp.com/rrdp/notification.xml": "19806",
+      "https://magellan.ipxo.com/rrdp/notification.xml": "10944",
+      "https://repo.nkn.in/notification.xml": "119",
+      "https://repo.rpki.space/rrdp/notification.xml": "10861",
+      "https://repo2.nkn.in/notification.xml": "272",
+      "https://rov-measurements.nlnetlabs.net/rrdp/notification.xml": "1656",
+      "https://rpki-01.pdxnet.uk/rrdp/notification.xml": "7466",
+      "https://rpki-pp.com/rrdp/notification.xml": "19833",
       "https://rpki-publication.haruue.net/rrdp/notification.xml": "1113",
-      "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": "110",
-      "https://rpki-repo.registro.br/rrdp/notification.xml": "7230",
-      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": "161035",
-      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": "357846",
-      "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": "4455",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": "8020",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": "30015",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": "540",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": "1599",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": "1504",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": "2390",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": "127944",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": "1512",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": "28",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": "1723",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/71e5236f-c6f1-4928-a1b9-8def09c06085/notification.xml": "1452",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/967a255c-d680-42d3-9ec3-ecb3f9da088c/notification.xml": "3922",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/98c1c974-4608-4b75-8781-dc145101a9bd/notification.xml": "9258",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/a841823c-a10d-477c-bfdf-4086f0b1594c/notification.xml": "1505",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b3f6b688-cff4-402f-97d5-02f6f1886b7e/notification.xml": "1455",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b8a1dd25-c313-4f25-ac21-bf55514d9c7d/notification.xml": "2066",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/bd48a1fa-3471-4ab2-8508-ad36b96813e4/notification.xml": "1638",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c3cd7c24-12cb-4abc-8fd2-5e2bcbb85ae6/notification.xml": "1761",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c474d778-43cb-4c30-ad6a-39968cbc94bc/notification.xml": "475",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/d1dfea23-5e38-441e-9bf7-e1ceb6e86925/notification.xml": "50",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/db9a372a-09bc-4a32-bfe4-8c48e5dbd219/notification.xml": "1608",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": "5273",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": "1439",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": "1759",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": "4951",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": "26321",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": "181",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": "1331",
-      "https://rpki-rrdp.warpnet.xyz/notification.xml": "902",
-      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": "12604",
-      "https://rpki.apernet.io/rrdp/notification.xml": "6485",
-      "https://rpki.as207960.net/rrdp/notification.xml": "11633",
-      "https://rpki.as215605.net/rrdp/notification.xml": "356",
-      "https://rpki.as219412.net/rrdp/notification.xml": "49",
-      "https://rpki.axivora.net/rrdp/notification.xml": "844",
-      "https://rpki.blw.moe/rrdp/notification.xml": "826",
-      "https://rpki.cc/rrdp/notification.xml": "17893",
-      "https://rpki.cernet.edu.cn/rrdp/notification.xml": "1031",
-      "https://rpki.cernet.net/rrdp/notification.xml": "703",
-      "https://rpki.fiti.net.cn/rrdp/notification.xml": "247",
-      "https://rpki.gns.net.br/rrdp/notification.xml": "379",
-      "https://rpki.komorebi.network:3030/rrdp/notification.xml": "5182",
-      "https://rpki.multacom.com/rrdp/notification.xml": "16323",
-      "https://rpki.n3solucoes.com.br/rrdp/notification.xml": "104",
-      "https://rpki.nellicus.net/rrdp/notification.xml": "3067",
-      "https://rpki.net.baiyuexiao.cn/rrdp/notification.xml": "266",
-      "https://rpki.owl.net/rrdp/notification.xml": "4608",
-      "https://rpki.pudu.be/rrdp/notification.xml": "4471",
+      "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": "119",
+      "https://rpki-repo.registro.br/rrdp/notification.xml": "17282",
+      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": "165002",
+      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": "361886",
+      "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": "4474",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": "8042",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": "30131",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": "547",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": "1606",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/395c874a-bcf9-4f7c-b900-d255072c3ee7/notification.xml": "3",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": "1511",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": "2400",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": "128115",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": "1519",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": "35",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": "1730",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/71e5236f-c6f1-4928-a1b9-8def09c06085/notification.xml": "1459",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/967a255c-d680-42d3-9ec3-ecb3f9da088c/notification.xml": "3929",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/98c1c974-4608-4b75-8781-dc145101a9bd/notification.xml": "10103",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/a841823c-a10d-477c-bfdf-4086f0b1594c/notification.xml": "1512",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b3f6b688-cff4-402f-97d5-02f6f1886b7e/notification.xml": "1462",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b8a1dd25-c313-4f25-ac21-bf55514d9c7d/notification.xml": "2073",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/bd48a1fa-3471-4ab2-8508-ad36b96813e4/notification.xml": "1645",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c3cd7c24-12cb-4abc-8fd2-5e2bcbb85ae6/notification.xml": "1768",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c474d778-43cb-4c30-ad6a-39968cbc94bc/notification.xml": "482",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/d1dfea23-5e38-441e-9bf7-e1ceb6e86925/notification.xml": "57",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/db9a372a-09bc-4a32-bfe4-8c48e5dbd219/notification.xml": "1615",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": "5286",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": "1446",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": "1766",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": "4960",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": "26329",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": "188",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": "1338",
+      "https://rpki-rrdp.warpnet.xyz/notification.xml": "914",
+      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": "12640",
+      "https://rpki.apernet.io/rrdp/notification.xml": "6505",
+      "https://rpki.as207960.net/rrdp/notification.xml": "12011",
+      "https://rpki.as219412.net/rrdp/notification.xml": "76",
+      "https://rpki.axivora.net/rrdp/notification.xml": "857",
+      "https://rpki.blw.moe/rrdp/notification.xml": "845",
+      "https://rpki.cc/rrdp/notification.xml": "17950",
+      "https://rpki.cernet.edu.cn/rrdp/notification.xml": "1051",
+      "https://rpki.cernet.net/rrdp/notification.xml": "740",
+      "https://rpki.fiti.net.cn/rrdp/notification.xml": "257",
+      "https://rpki.gns.net.br/rrdp/notification.xml": "388",
+      "https://rpki.komorebi.network:3030/rrdp/notification.xml": "5211",
+      "https://rpki.luys.cloud/rrdp/notification.xml": "4268",
+      "https://rpki.multacom.com/rrdp/notification.xml": "16369",
+      "https://rpki.n3solucoes.com.br/rrdp/notification.xml": "114",
+      "https://rpki.nellicus.net/rrdp/notification.xml": "3105",
+      "https://rpki.net.baiyuexiao.cn/rrdp/notification.xml": "284",
+      "https://rpki.novacloud-hosting.com/rrdp/notification.xml": "4",
+      "https://rpki.owl.net/rrdp/notification.xml": "4630",
+      "https://rpki.pudu.be/rrdp/notification.xml": "4510",
       "https://rpki.qs.nu/rrdp/notification.xml": "5088",
-      "https://rpki.rand.apnic.net/rrdp/notification.xml": "2496",
-      "https://rpki.roa.net/rrdp/notification.xml": "29979",
-      "https://rpki.sailx.co/rrdp/notification.xml": "2704",
-      "https://rpki.satcom.com.br:3000/rrdp/notification.xml": "171",
-      "https://rpki.sunoaki.net/rrdp/notification.xml": "4161",
-      "https://rpki.tools.westconnect.ca/rrdp/notification.xml": "1886",
-      "https://rpki.vexshield.eu/rrdp/notification.xml": "4",
-      "https://rpki.xindi.eu/rrdp/notification.xml": "2356",
+      "https://rpki.rand.apnic.net/rrdp/notification.xml": "2509",
+      "https://rpki.roa.net/rrdp/notification.xml": "30100",
+      "https://rpki.sailx.co/rrdp/notification.xml": "2723",
+      "https://rpki.satcom.com.br:3000/rrdp/notification.xml": "180",
+      "https://rpki.shrdserv.com/rrdp/notification.xml": "54",
+      "https://rpki.sunoaki.net/rrdp/notification.xml": "4180",
+      "https://rpki.tools.westconnect.ca/rrdp/notification.xml": "1896",
+      "https://rpki.vexshield.eu/rrdp/notification.xml": "15",
+      "https://rpki.xindi.eu/rrdp/notification.xml": "2366",
       "https://rrdp-ipv4.prefixlogic.com/rrdp/notification.xml": "1",
-      "https://rrdp-rpki.inara.pk/rrdp/notification.xml": "50",
-      "https://rrdp-rps.arin.net/notification.xml": "143898",
-      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": "120460",
-      "https://rrdp.afrinic.net/notification.xml": "102014",
-      "https://rrdp.apnic.net/notification.xml": "107676",
-      "https://rrdp.arin.net/notification.xml": "202905",
-      "https://rrdp.as214749.net/rrdp/notification.xml": "853",
-      "https://rrdp.ip.deals/rrdp/notification.xml": "158",
-      "https://rrdp.krill.nlnetlabs.nl/notification.xml": "1184",
-      "https://rrdp.lacnic.net/rrdp/notification.xml": "501226",
-      "https://rrdp.paas.rpki.ripe.net/notification.xml": "410661",
+      "https://rrdp-rpki.inara.pk/rrdp/notification.xml": "59",
+      "https://rrdp-rps.arin.net/notification.xml": "144985",
+      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": "122223",
+      "https://rrdp.afrinic.net/notification.xml": "102925",
+      "https://rrdp.apnic.net/notification.xml": "110558",
+      "https://rrdp.arin.net/notification.xml": "204330",
+      "https://rrdp.as214749.net/rrdp/notification.xml": "881",
+      "https://rrdp.ip.deals/rrdp/notification.xml": "167",
+      "https://rrdp.krill.nlnetlabs.nl/notification.xml": "1193",
+      "https://rrdp.lacnic.net/rrdp/notification.xml": "504925",
+      "https://rrdp.paas.rpki.ripe.net/notification.xml": "412900",
       "https://rrdp.prefixlogic.com/rrdp/notification.xml": "1",
-      "https://rrdp.ripe.net/notification.xml": "239303",
-      "https://rrdp.rp.ki/notification.xml": "7076",
-      "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": "3605",
-      "https://rrdp.sub.apnic.net/notification.xml": "7054",
-      "https://rrdp.twnic.tw/rrdp/notification.xml": "68218",
-      "https://sakuya.nat.moe/rrdp/notification.xml": "7136"
+      "https://rrdp.ripe.net/notification.xml": "241100",
+      "https://rrdp.rp.ki/notification.xml": "7123",
+      "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": "3641",
+      "https://rrdp.sub.apnic.net/notification.xml": "7242",
+      "https://rrdp.twnic.tw/rrdp/notification.xml": "70318",
+      "https://rsync.rpki.as205941.org/rrdp/notification.xml": "4",
+      "https://sakuya.nat.moe/rrdp/notification.xml": "7157"
      },
      "trust_anchor_pq_share": 0.0,
-     "validated_payloads": 1028544
+     "validated_payloads": 1029572
     }
    ],
    "repository_disagreements": {}
@@ -2486,7 +2521,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-03",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2624,7 +2659,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2655,8 +2690,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8"
      }
     ],
@@ -2681,8 +2716,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c"
      }
     ],
@@ -2707,8 +2742,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea"
      }
     ],
@@ -2733,8 +2768,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f"
      }
     ],
@@ -2759,8 +2794,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5"
      }
     ],
@@ -2785,8 +2820,8 @@
      },
      {
       "first_observed_utc": "2026-10-29",
-      "last_observed_utc": "2026-11-02T22:31:42Z",
-      "observations": 18,
+      "last_observed_utc": "2026-11-03T16:04:40Z",
+      "observations": 19,
       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6"
      }
     ]
@@ -3704,7 +3739,116 @@
      "what": "TLS 1.3 (current specification)"
     }
    },
-   "not_read_by": {},
+   "not_read_by": {
+    "bip-0340": [
+     "probe-3"
+    ],
+    "bip-0341": [
+     "probe-3"
+    ],
+    "bip-0360": [
+     "probe-3"
+    ],
+    "fips-140-3": [
+     "probe-3"
+    ],
+    "fips-180-4": [
+     "probe-3"
+    ],
+    "fips-186-5": [
+     "probe-3"
+    ],
+    "fips-197": [
+     "probe-3"
+    ],
+    "fips-202": [
+     "probe-3"
+    ],
+    "fips-203": [
+     "probe-3"
+    ],
+    "fips-204": [
+     "probe-3"
+    ],
+    "fips-205": [
+     "probe-3"
+    ],
+    "fips-206": [
+     "probe-3"
+    ],
+    "iana-ssh-kex-mlkem768x25519": [
+     "probe-3"
+    ],
+    "iana-tls-group-25497": [
+     "probe-3"
+    ],
+    "iana-tls-group-29": [
+     "probe-3"
+    ],
+    "iana-tls-group-4587": [
+     "probe-3"
+    ],
+    "iana-tls-group-4588": [
+     "probe-3"
+    ],
+    "iana-tls-group-4589": [
+     "probe-3"
+    ],
+    "iana-tls-group-4590": [
+     "probe-3"
+    ],
+    "leap-seconds": [
+     "probe-3"
+    ],
+    "rfc10024": [
+     "probe-3"
+    ],
+    "rfc10042": [
+     "probe-3"
+    ],
+    "rfc3161": [
+     "probe-3"
+    ],
+    "rfc4253": [
+     "probe-3"
+    ],
+    "rfc5246": [
+     "probe-3"
+    ],
+    "rfc5280": [
+     "probe-3"
+    ],
+    "rfc5905": [
+     "probe-3"
+    ],
+    "rfc6962": [
+     "probe-3"
+    ],
+    "rfc7858": [
+     "probe-3"
+    ],
+    "rfc8446": [
+     "probe-3"
+    ],
+    "rfc8484": [
+     "probe-3"
+    ],
+    "rfc8555": [
+     "probe-3"
+    ],
+    "rfc8915": [
+     "probe-3"
+    ],
+    "rfc9162": [
+     "probe-3"
+    ],
+    "rfc9460": [
+     "probe-3"
+    ],
+    "rfc9846": [
+     "probe-3"
+    ]
+   },
    "paper_to_deployment_lag": [
     {
      "deployment_measure": "keys.tls.pq_negotiation_rate",
@@ -4706,7 +4850,7 @@
      "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
     },
     {
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-03",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -6538,885 +6682,259 @@
      "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
     },
     {
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "items": {
       "bip-0340": {
-       "found": true,
+       "error": "not found",
+       "found": false,
        "kind": "bip",
        "layer": "records",
-       "state": {
-        "assigned": "2020-01-19",
-        "bip": "340",
-        "content_sha256": "17d64d6dc6bc97f4ecf178697bf810b92aa2a9e41ef13db809c25bc44a9b8109",
-        "status": "Deployed",
-        "title": "Schnorr Signatures for secp256k1",
-        "type": "Specification"
-       },
-       "state_digest": "2ff947901ec6b50e70eb9e9c02dc379e033e2319c39d7a83c8705af08db1b74f",
-       "successors": [],
-       "superseded": false,
        "what": "Schnorr signatures"
       },
       "bip-0341": {
-       "found": true,
+       "error": "not found",
+       "found": false,
        "kind": "bip",
        "layer": "records",
-       "state": {
-        "assigned": "2020-01-19",
-        "bip": "341",
-        "content_sha256": "463690d4c409587759c0ff6e8b8fc3a2bf6cb2cdda0c06ff193d317e0ed898ec",
-        "layer": "Consensus (soft fork)",
-        "requires": "340",
-        "status": "Deployed",
-        "title": "Taproot: SegWit version 1 spending rules",
-        "type": "Specification"
-       },
-       "state_digest": "3cb8cfb47d54b9c02a8b08413a9a99a5ebbd46c7b611e9401dfa374366c8110f",
-       "successors": [],
-       "superseded": false,
        "what": "Taproot"
       },
       "bip-0360": {
-       "found": true,
+       "error": "not found",
+       "found": false,
        "kind": "bip",
        "layer": "records",
-       "state": {
-        "assigned": "2024-12-18",
-        "bip": "360",
-        "content_sha256": "988957d7373b3779c05877aaf7aa671ce74f0db66d014c98d69132d12f3b6770",
-        "layer": "Consensus (soft fork)",
-        "requires": "340, 341, 342",
-        "status": "Draft",
-        "title": "Pay-to-Merkle-Root (P2MR)",
-        "type": "Specification",
-        "version": "0.12.1"
-       },
-       "state_digest": "16a736e71b2ba6a2e5b0f5524a209a9347168c9a6b13e524a8596c90e307fca1",
-       "successors": [],
-       "superseded": false,
        "what": "Pay-to-Merkle-Root (quantum-resistant output type)"
       },
       "fips-140-3": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "140-3",
-        "notices": [
-         {
-          "action": "other",
-          "date": "2005-01-12",
-          "document": "05-545"
-         },
-         {
-          "action": "draft",
-          "date": "2007-07-13",
-          "document": "E7-13654"
-         },
-         {
-          "action": "draft",
-          "date": "2009-12-11",
-          "document": "E9-29567"
-         },
-         {
-          "action": "draft",
-          "date": "2012-08-30",
-          "document": "2012-21461"
-         },
-         {
-          "action": "approved",
-          "date": "2019-05-01",
-          "document": "2019-08817"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2019-05-01"
-       },
-       "state_digest": "929d059f90e2e3d4fcea5dd5b4e383beb503f141737871a22bec15aa988fa15d",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 140-3: Cryptographic module security"
       },
       "fips-180-4": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "180-4",
-        "notices": [
-         {
-          "action": "draft",
-          "date": "2011-02-11",
-          "document": "2011-3129"
-         },
-         {
-          "action": "approved",
-          "date": "2012-03-06",
-          "document": "2012-5400"
-         },
-         {
-          "action": "draft",
-          "date": "2014-05-28",
-          "document": "2014-12336"
-         },
-         {
-          "action": "approved",
-          "date": "2015-08-05",
-          "document": "2015-19181"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2015-08-05"
-       },
-       "state_digest": "3ce7e5d6d481aa09d7c856395e440676bcf46f1e4e19181a7fbb49ea38e5ab56",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 180-4: Secure Hash Standard (SHA-2)"
       },
       "fips-186-5": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "186-5",
-        "notices": [
-         {
-          "action": "comment_request",
-          "date": "2019-10-31",
-          "document": "2019-23742"
-         },
-         {
-          "action": "approved",
-          "date": "2023-02-03",
-          "document": "2023-02273"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2023-02-03"
-       },
-       "state_digest": "207f5911b7edfebd47b537e83d39139a52f0d54f304244bb721d14e84295f9c8",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 186-5: Digital Signature Standard (RSA, ECDSA, EdDSA)"
       },
       "fips-197": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "197",
-        "notices": [
-         {
-          "action": "approved",
-          "date": "2001-12-06",
-          "document": "01-30232"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2001-12-06"
-       },
-       "state_digest": "a9e1ed871e8a11c49d902b07627d84c0ede170b4d7df665a5cea6101b7980515",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 197: AES"
       },
       "fips-202": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "202",
-        "notices": [
-         {
-          "action": "draft",
-          "date": "2014-05-28",
-          "document": "2014-12336"
-         },
-         {
-          "action": "approved",
-          "date": "2015-08-05",
-          "document": "2015-19181"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2015-08-05"
-       },
-       "state_digest": "8b5bb12b5887a786605ca5f9af50c80f27bcbf582140112aced161bb616d8fea",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 202: SHA-3"
       },
       "fips-203": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "203",
-        "notices": [
-         {
-          "action": "approved",
-          "date": "2024-08-14",
-          "document": "2024-17956"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2024-08-14"
-       },
-       "state_digest": "f9babf19e46d3394a4a42d155f3193eaa672276b4c5a3b4696f613da53da14a1",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 203: ML-KEM (module-lattice key encapsulation)"
       },
       "fips-204": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "204",
-        "notices": [
-         {
-          "action": "approved",
-          "date": "2024-08-14",
-          "document": "2024-17956"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2024-08-14"
-       },
-       "state_digest": "72a68c3396b3f814d51c489c621d8f0a4234dfe3eb0e2b545ffa9221b8894744",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 204: ML-DSA (module-lattice signatures)"
       },
       "fips-205": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "205",
-        "notices": [
-         {
-          "action": "approved",
-          "date": "2024-08-14",
-          "document": "2024-17956"
-         }
-        ],
-        "status": "approved",
-        "status_date": "2024-08-14"
-       },
-       "state_digest": "fb1d5b7a27a99642190e51dcfa4b9b442f063af1145ec95e377b46b9674769c5",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 205: SLH-DSA (stateless hash-based signatures)"
       },
       "fips-206": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "fips",
        "layer": "keys",
-       "state": {
-        "fips": "206",
-        "notices": [],
-        "status": "no_notice",
-        "status_date": null
-       },
-       "state_digest": "98ebfbd7c84552462b82954bd0c68c9ed088a5b07ec78b2188934e27ff0f1b02",
-       "successors": [],
-       "superseded": false,
        "what": "FIPS 206: FN-DSA (FFT-over-NTRU lattice signatures)"
       },
       "iana-ssh-kex-mlkem768x25519": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": null,
-        "date": "2024-09-05",
-        "description": "",
-        "dtls": null,
-        "recommended": null,
-        "references": [
-         "rfc:rfc10042"
-        ],
-        "registry_updated": "2026-09-08",
-        "subregistry": "ssh-parameters-16",
-        "subregistry_title": "Key Exchange Method Names",
-        "updated": "2026-03-02",
-        "value": "mlkem768x25519-sha256"
-       },
-       "state_digest": "b08ae893c79174d0b0c389ad04f43b8c7c20951d3fd9140ae1c7951e37a4b845",
-       "successors": [],
-       "superseded": false,
        "what": "SSH hybrid ML-KEM key exchange"
       },
       "iana-tls-group-25497": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": "Pre-standards version of Kyber768. Obsoleted by",
-        "date": "2023-05-10",
-        "description": "X25519Kyber768Draft00 (OBSOLETE)",
-        "dtls": "Y",
-        "recommended": "D",
-        "references": [
-         "draft:draft-tls-westerbaan-xyber768d00-02",
-         "rfc:rfc10024"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": "2026-02-13",
-        "value": "25497"
-       },
-       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8",
-       "successors": [],
-       "superseded": true,
        "what": "X25519Kyber768Draft00 (pre-standard)"
       },
       "iana-tls-group-29": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": null,
-        "date": "2016-02-29",
-        "description": "x25519",
-        "dtls": "Y",
-        "recommended": "Y",
-        "references": [
-         "rfc:rfc8422",
-         "rfc:rfc9846"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": "2025-08-12",
-        "value": "29"
-       },
-       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c",
-       "successors": [],
-       "superseded": false,
        "what": "x25519 group"
       },
       "iana-tls-group-4587": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": "Combining secp256r1 ECDH with ML-KEM-768",
-        "date": "2024-09-04",
-        "description": "SecP256r1MLKEM768",
-        "dtls": "Y",
-        "recommended": "N",
-        "references": [
-         "rfc:rfc10024"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": null,
-        "value": "4587"
-       },
-       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea",
-       "successors": [],
-       "superseded": false,
        "what": "SecP256r1MLKEM768 group"
       },
       "iana-tls-group-4588": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": "Combining X25519 ECDH with ML-KEM-768",
-        "date": "2024-09-04",
-        "description": "X25519MLKEM768",
-        "dtls": "Y",
-        "recommended": "Y",
-        "references": [
-         "rfc:rfc10024"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": null,
-        "value": "4588"
-       },
-       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f",
-       "successors": [],
-       "superseded": false,
        "what": "X25519MLKEM768 group"
       },
       "iana-tls-group-4589": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
-        "date": "2025-01-02",
-        "description": "SecP384r1MLKEM1024",
-        "dtls": "Y",
-        "recommended": "N",
-        "references": [
-         "rfc:rfc10024"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": null,
-        "value": "4589"
-       },
-       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5",
-       "successors": [],
-       "superseded": false,
        "what": "SecP384r1MLKEM1024 group"
       },
       "iana-tls-group-4590": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "iana",
        "layer": "keys",
-       "state": {
-        "comment": "Combining SM2 ECDH with ML-KEM-768",
-        "date": "2025-11-14",
-        "description": "curveSM2MLKEM768",
-        "dtls": "N",
-        "recommended": "N",
-        "references": [
-         "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
-        ],
-        "registry_updated": "2026-10-28",
-        "subregistry": "tls-parameters-8",
-        "subregistry_title": "TLS Supported Groups",
-        "updated": "2025-11-24",
-        "value": "4590"
-       },
-       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6",
-       "successors": [],
-       "superseded": false,
        "what": "curveSM2MLKEM768 group"
       },
       "leap-seconds": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "leapsec",
        "layer": "time",
-       "state": {
-        "bulletin_c": 72,
-        "changes": 27,
-        "file_expires": "2027-06-28",
-        "last_change_effective": "2017-01-01",
-        "tai_minus_utc_s": 37
-       },
-       "state_digest": "db93f069ea43a0001f8e67a3b24c4548bd059759f53f7573b3d2950648cc5351",
-       "successors": [],
-       "superseded": false,
        "what": "Leap-second table (IERS Bulletin C): TAI-UTC and the next scheduled change"
       },
       "rfc10024": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2026-08",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "c6d2154977dd7faf0a49cdb04ed8a904764c25243aac9c68ba10af98fb9849e3",
-       "successors": [],
-       "superseded": false,
        "what": "Hybrid ML-KEM key agreement for TLS 1.3"
       },
       "rfc10042": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "INFORMATIONAL",
-        "date": "2026-08",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "INFORMATIONAL",
-        "stream": "IETF",
-        "title": "Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "dc4a7cdf268476a35a03812e2491b4e28082845fbb0900385c8cd44b340178e2",
-       "successors": [],
-       "superseded": false,
        "what": "Hybrid ML-KEM key exchange for SSH"
       },
       "rfc3161": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "records",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2001-08",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)",
-        "updated_by": [
-         "RFC5816"
-        ],
-        "updates": []
-       },
-       "state_digest": "6b625b893a62c1fc0c27ce19c5fc34b33014292d4775318817e477f6ab99bf40",
-       "successors": [],
-       "superseded": false,
        "what": "Trusted timestamping"
       },
       "rfc4253": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2006-01",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "The Secure Shell (SSH) Transport Layer Protocol",
-        "updated_by": [
-         "RFC6668",
-         "RFC8268",
-         "RFC8308",
-         "RFC8332",
-         "RFC8709",
-         "RFC8758",
-         "RFC9142"
-        ],
-        "updates": []
-       },
-       "state_digest": "37cb18c2144ef7f06dbfbddc2f136c04c55bb57bcf1248df349bf224e75361db",
-       "successors": [],
-       "superseded": false,
        "what": "SSH transport protocol"
       },
       "rfc5246": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2008-08",
-        "obsoleted_by": [
-         "RFC8446",
-         "RFC9846"
-        ],
-        "obsoletes": [
-         "RFC3268",
-         "RFC4346",
-         "RFC4366"
-        ],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "The Transport Layer Security (TLS) Protocol Version 1.2",
-        "updated_by": [
-         "RFC10015",
-         "RFC5746",
-         "RFC5878",
-         "RFC6176",
-         "RFC7465",
-         "RFC7507",
-         "RFC7568",
-         "RFC7627",
-         "RFC7685",
-         "RFC7905",
-         "RFC7919",
-         "RFC8447",
-         "RFC9155"
-        ],
-        "updates": [
-         "RFC4492"
-        ]
-       },
-       "state_digest": "06062c00ff1af231b07ac836c726f77f3f6ed6b41222ff1b558b386053c9d99d",
-       "successors": [
-        "RFC8446",
-        "RFC9846"
-       ],
-       "superseded": true,
        "what": "TLS 1.2"
       },
       "rfc5280": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2008-05",
-        "obsoleted_by": [],
-        "obsoletes": [
-         "RFC3280",
-         "RFC4325",
-         "RFC4630"
-        ],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile",
-        "updated_by": [
-         "RFC10007",
-         "RFC6818",
-         "RFC8398",
-         "RFC8399",
-         "RFC9549",
-         "RFC9598",
-         "RFC9608",
-         "RFC9618",
-         "RFC9925"
-        ],
-        "updates": []
-       },
-       "state_digest": "f2faf363126f314f20e59572274c65ae9b5f26bf33dda2359ed55732b135b8dc",
-       "successors": [],
-       "superseded": false,
        "what": "X.509 certificates"
       },
       "rfc5905": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "time",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2010-06",
-        "obsoleted_by": [],
-        "obsoletes": [
-         "RFC1305",
-         "RFC4330"
-        ],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Network Time Protocol Version 4: Protocol and Algorithms Specification",
-        "updated_by": [
-         "RFC7822",
-         "RFC8573",
-         "RFC9109",
-         "RFC9748",
-         "RFC9769"
-        ],
-        "updates": []
-       },
-       "state_digest": "a53afcb3e9726d70a33322540523fd0c8e57285aaee17340e8ebf9c180c8f9a0",
-       "successors": [],
-       "superseded": false,
        "what": "NTPv4"
       },
       "rfc6962": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "records",
-       "state": {
-        "current_status": "EXPERIMENTAL",
-        "date": "2013-06",
-        "obsoleted_by": [
-         "RFC9162"
-        ],
-        "obsoletes": [],
-        "publication_status": "EXPERIMENTAL",
-        "stream": "IETF",
-        "title": "Certificate Transparency",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "8f33fac66b732ce9ec0173eb5fe03ffd645381f5d4aad8e4b537c0b442584cbf",
-       "successors": [
-        "RFC9162"
-       ],
-       "superseded": true,
        "what": "Certificate Transparency"
       },
       "rfc7858": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2016-05",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Specification for DNS over Transport Layer Security (TLS)",
-        "updated_by": [
-         "RFC8310"
-        ],
-        "updates": []
-       },
-       "state_digest": "ca9e112e0521e799671f25f667346c6190f716952e6e7e317afa3288eada27d1",
-       "successors": [],
-       "superseded": false,
        "what": "DNS over TLS"
       },
       "rfc8446": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2018-08",
-        "obsoleted_by": [
-         "RFC9846"
-        ],
-        "obsoletes": [
-         "RFC5077",
-         "RFC5246",
-         "RFC6961"
-        ],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
-        "updated_by": [],
-        "updates": [
-         "RFC5705",
-         "RFC6066"
-        ]
-       },
-       "state_digest": "c35f2b71ae61ba18551f540bdbb479b0e7168c583c8b25c419bfc3c877a076d1",
-       "successors": [
-        "RFC9846"
-       ],
-       "superseded": true,
        "what": "TLS 1.3 (original specification)"
       },
       "rfc8484": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2018-10",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "DNS Queries over HTTPS (DoH)",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "e420d0329e47b4eacfd51dfed9eddb16126a754296e77c0a3667a94e7c6f75f2",
-       "successors": [],
-       "superseded": false,
        "what": "DNS over HTTPS"
       },
       "rfc8555": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2019-03",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Automatic Certificate Management Environment (ACME)",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "aaf46ed4c0eb3834e149679dff9b57ca7a826f929bd7550e6f9c71afe3edd08e",
-       "successors": [],
-       "superseded": false,
        "what": "ACME certificate automation"
       },
       "rfc8915": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "time",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2020-09",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Network Time Security for the Network Time Protocol",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "f955f9c0ad97fafd52e330d81c2e004fb173c201baed4eacffc28edb346bfe18",
-       "successors": [],
-       "superseded": false,
        "what": "Network Time Security"
       },
       "rfc9162": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "records",
-       "state": {
-        "current_status": "EXPERIMENTAL",
-        "date": "2021-12",
-        "obsoleted_by": [],
-        "obsoletes": [
-         "RFC6962"
-        ],
-        "publication_status": "EXPERIMENTAL",
-        "stream": "IETF",
-        "title": "Certificate Transparency Version 2.0",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "e83799a678130550fc7a6a8b66324d2dc14130fd3e14d9d408609c08d368c5dd",
-       "successors": [],
-       "superseded": false,
        "what": "Certificate Transparency 2.0"
       },
       "rfc9460": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2023-11",
-        "obsoleted_by": [],
-        "obsoletes": [],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records)",
-        "updated_by": [],
-        "updates": []
-       },
-       "state_digest": "de9f1c1868f83d86df2dcd24431873c546df182118b913dbcf87398d49f92114",
-       "successors": [],
-       "superseded": false,
        "what": "DNS HTTPS records (carry ECH configurations)"
       },
       "rfc9846": {
-       "found": true,
+       "error": "source unavailable",
+       "found": false,
        "kind": "rfc",
        "layer": "keys",
-       "state": {
-        "current_status": "PROPOSED STANDARD",
-        "date": "2026-07",
-        "obsoleted_by": [],
-        "obsoletes": [
-         "RFC5077",
-         "RFC5246",
-         "RFC6961",
-         "RFC7627",
-         "RFC8422",
-         "RFC8446"
-        ],
-        "publication_status": "PROPOSED STANDARD",
-        "stream": "IETF",
-        "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
-        "updated_by": [],
-        "updates": [
-         "RFC5705",
-         "RFC6066"
-        ]
-       },
-       "state_digest": "63ceb21662b8c2907c1c39ff44fd294e71b3e21ec19880ea542bd7fb19c6b104",
-       "successors": [],
-       "superseded": false,
        "what": "TLS 1.3 (current specification)"
       }
      },
@@ -7451,7 +6969,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-3",
-     "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
+     "state_digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
     }
    ]
   },
@@ -7535,8 +7053,8 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.26323896646499634,
-     "median": 0.1269572377204895,
-     "min": 0.0675121545791626,
+     "median": 0.12524515390396118,
+     "min": 0.05193686485290527,
      "n": 4,
      "networks": 4
     },
@@ -7578,8 +7096,8 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-11-02",
-     "detection_floor_s": 0.07093632221221924,
+     "created_utc": "2026-11-03",
+     "detection_floor_s": 0.05193686485290527,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
@@ -7587,7 +7105,7 @@
      "nts_support_rate": 0.444444,
      "probe_id": "probe-2",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.028119921684265137,
+     "reference_spread_s": 0.027788400650024414,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -7623,7 +7141,7 @@
    "reference_spread_s": {
     "all": {
      "max": 0.06794416904449463,
-     "median": 0.026285767555236816,
+     "median": 0.026120007038116455,
      "min": 0.011394977569580078,
      "n": 4,
      "networks": 4
@@ -7636,8 +7154,8 @@
   "tor": {
    "headline": {
     "consensus_signatures": {
-     "max": 8,
-     "median": 7.5,
+     "max": 7,
+     "median": 6.0,
      "min": 5,
      "n": 4,
      "networks": 4
@@ -7645,21 +7163,21 @@
     "recommended_protocols_share": {
      "max": 0.999895,
      "median": 0.999895,
-     "min": 0.999895,
+     "min": 0.999894,
      "n": 4,
      "networks": 4
     },
     "recommended_version_share": {
-     "max": 0.879638,
-     "median": 0.8792355000000001,
-     "min": 0.878584,
+     "max": 0.879479,
+     "median": 0.732962,
+     "min": 0.574982,
      "n": 4,
      "networks": 4
     },
     "relays": {
      "max": 9521,
-     "median": 9518.5,
-     "min": 9513,
+     "median": 9503.0,
+     "min": 9463,
      "n": 4,
      "networks": 4
     }
@@ -7680,18 +7198,18 @@
      "relays": 9517
     },
     {
-     "authorities_agreeing": 7,
+     "authorities_agreeing": 6,
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
-     "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-02 19:00:00",
-     "created_utc": "2026-11-02",
+     "consensus_signatures": 7,
+     "consensus_valid_after": "2026-11-03 20:00:00",
+     "created_utc": "2026-11-03",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-2",
      "recommended_protocols_share": 0.999895,
-     "recommended_version_share": 0.879638,
-     "relays": 9513
+     "recommended_version_share": 0.574982,
+     "relays": 9489
     },
     {
      "authorities_agreeing": 6,
@@ -7708,18 +7226,18 @@
      "relays": 9521
     },
     {
-     "authorities_agreeing": 6,
+     "authorities_agreeing": 7,
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
-     "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-02 21:00:00",
-     "created_utc": "2026-11-02",
+     "consensus_signatures": 5,
+     "consensus_valid_after": "2026-11-04 10:00:00",
+     "created_utc": "2026-11-04",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
-     "recommended_protocols_share": 0.999895,
-     "recommended_version_share": 0.878992,
-     "relays": 9520
+     "recommended_protocols_share": 0.999894,
+     "recommended_version_share": 0.58734,
+     "relays": 9463
     }
    ]
   },
@@ -7727,22 +7245,22 @@
    "cross_probe_heads_checked": 498,
    "growth": {
     "ct_entries": {
-     "per_day_median": 232111267.6,
+     "per_day_median": 233066922.1,
      "probes": 4,
      "shortest_span_days": 31.59
     },
     "go_sumdb_entries": {
-     "per_day_median": 138468.0,
+     "per_day_median": 137859.7,
      "probes": 4,
      "shortest_span_days": 31.59
     },
     "rekor_entries": {
-     "per_day_median": 18912130.4,
+     "per_day_median": 18962188.7,
      "probes": 4,
      "shortest_span_days": 31.59
     },
     "rekor_v2_entries": {
-     "per_day_median": 1472732.1,
+     "per_day_median": 1473396.0,
      "probes": 4,
      "shortest_span_days": 31.59
     }
@@ -7770,15 +7288,15 @@
      "networks": 2
     },
     "ct_entries": {
-     "max": 47178457440,
-     "median": 47164607969.0,
+     "max": 47464199203,
+     "median": 47177763478.0,
      "min": 47098010971,
      "n": 4,
      "networks": 4
     },
     "go_sumdb_entries": {
-     "max": 70673099,
-     "median": 70669413.5,
+     "max": 70740163,
+     "median": 70672900.5,
      "min": 70636245,
      "n": 4,
      "networks": 4
@@ -7791,15 +7309,15 @@
      "networks": 4
     },
     "rekor_entries": {
-     "max": 3650461912,
-     "median": 3648761942.5,
+     "max": 3678263477,
+     "median": 3650373943.5,
      "min": 3641333087,
      "n": 4,
      "networks": 4
     },
     "rekor_v2_entries": {
-     "max": 181137812,
-     "median": 181051471.0,
+     "max": 182560321,
+     "median": 181133442.0,
      "min": 180588295,
      "n": 4,
      "networks": 4
@@ -8271,7 +7789,7 @@
      "cert_pq_key_share_definition": "3",
      "cert_pq_signature_share": 0.0,
      "cert_pq_signature_share_definition": "3",
-     "created_utc": "2026-11-02",
+     "created_utc": "2026-11-03",
      "cross_probe_consistency": 1.0,
      "cross_probe_consistency_definition": "1",
      "cross_probe_counts": {
@@ -8283,181 +7801,181 @@
       "peers": 3,
       "signature_not_verified": 0
      },
-     "ct_entries": 47152146422,
+     "ct_entries": 47464199203,
      "ct_entries_definition": "2",
      "eligible": true,
-     "go_sumdb_entries": 70666125,
+     "go_sumdb_entries": 70740163,
      "go_sumdb_entries_definition": "2",
      "heads": {
       "https://ct-log-api.godaddy.com/aquamarine2026h2/": [
        "GoDaddy Aquamarine2026h2",
-       27276697,
-       "rPatb68gyvZw4nmUjeVZjpO8YrAfuS/QrOWOb9ujtkc="
+       27717613,
+       "Mj6qDKVSFCzY2wx7sLUCUkA+TWkzGhRkwM8tGDHSXyk="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h1/": [
        "GoDaddy Aquamarine2027h1",
-       171645863,
-       "PudfjNFcLpm2aHm2oy9OJC7RtI9kVIb5BU91HmKDH9g="
+       174863745,
+       "TIrh4ReGfM41u9WM7y4v6NMqXLj1N3icQ2UMQ14KkFs="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h2/": [
        "GoDaddy Aquamarine2027h2",
-       2713,
-       "OTTuBfXg2Zi69qP3yxUlHk+MZnrH2NkapRR2z8/CeoA="
+       2767,
+       "TW0Ff43YM4sv4VPPPTXkHzczfYhI2X6FZUv5RecMjo4="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h1/": [
        "GoDaddy Aquamarine2028h1",
-       2777,
-       "TaellGh+UaEoP2icuKjDjI8zxfTs7Sor4jwueqS9A40="
+       2828,
+       "S9ifwULMU4fWwF0bB+TtnH4kurBvg9AbhA0c0OttZ14="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h2/": [
        "GoDaddy Aquamarine2028h2",
-       2721,
-       "bvKnXjsPYxQX4NbIxVRYDk/lgnvmKDBWN0FItSqawEM="
+       2777,
+       "w+yB1z1Ctt9BQi9cCv+7X+bGcAcjk1BObiGQbJdeA6Y="
       ],
       "https://ct.cloudflare.com/logs/nimbus2026/": [
        "Cloudflare Nimbus2026",
-       6746437029,
-       "pfkLTx5fW+vJ/BNXdgpMctPdwDLNdQqKuYY9OP4AunQ="
+       6749829666,
+       "twgwRh1Qt9AelDRmPwABJvfKDsVv7BG5tY4zw3aCNd0="
       ],
       "https://ct.cloudflare.com/logs/nimbus2027/": [
        "Cloudflare Nimbus2027",
-       793910985,
-       "pPKNfbvS6+PC2LAtl3SUUFE+FznfwphJcQiiKI0fwME="
+       813220852,
+       "xgiUccllHjCZKLoPDT1mqtgBrO3EBTqpR/YRaPiahbM="
       ],
       "https://ct.googleapis.com/logs/eu1/xenon2026h2/": [
        "Google Xenon2026h2",
-       3015007226,
-       "q1ATHtqDwl3+gkKMeK+F9D0ekBb7v1u0mFJWPJwDcYo="
+       3017767936,
+       "kl7a0qU7UnguIZyhiit8NLHeKvyee3QC8+wa2E82u0I="
       ],
       "https://ct.googleapis.com/logs/eu1/xenon2027h1/": [
        "Google Xenon2027h1",
-       686788296,
-       "tXuLerFfVkCpO2AKivRtS/t6m4ZCtc41gVsWWmXWu8U="
+       702944599,
+       "ab46gLU4BjBA/D1EOlyHm/VCLMq9ZcHFxaucwhTM7aU="
       ],
       "https://ct.googleapis.com/logs/us1/argon2026h2/": [
        "Google Argon2026h2",
-       3480540127,
-       "sB4jbKQu1iuFr2Xp4/Mtc0sZa+ns+OdzJmsaGz2Q6Wk="
+       3483190906,
+       "prJyzuBphg3GnUourNoQ1FwV4+G+fOge/iaPmozTVaA="
       ],
       "https://ct.googleapis.com/logs/us1/argon2027h1/": [
        "Google Argon2027h1",
-       828157224,
-       "TuMhPpFYWRWZ8zLwocd352Jg2EjCQCum6tl1Ef19tC4="
+       846271900,
+       "7gMZ7vwwCaUL1phFn3x/cQWCUX+liSUpyUQBxQ5ve7U="
       ],
       "https://ct2026-a.trustasia.com/log2026a/": [
        "TrustAsia log2026a",
-       3015996576,
-       "OID0ZRG4dqMRraK/IgldkuXTj2Sy4Ms6Rft5cnwbu+4="
+       3017715662,
+       "qHjwCzOk68VmXeGDg3wVd8dPDUyJyZXlwBfXpnU32lY="
       ],
       "https://ct2026-b.trustasia.com/log2026b/": [
        "TrustAsia log2026b",
-       3036833427,
-       "PKgeBiZ9tUHlJbfn9d2O/u3Gw6I1iSRQBg7XkVt8DXs="
+       3038542924,
+       "+31g17vXc2753/7yRSaz8XI6Qsu1ms831h4//uyTuJY="
       ],
       "https://elephant2026h2.ct.sectigo.com/": [
        "Sectigo Elephant2026h2",
-       2063563150,
-       "c/3fuChOFdOWbc7sRTe/zJ6pwSwHmWZY0eHOFUK9D6k="
+       2065353128,
+       "udKMd+gTNKAwqla88NpPjyE5nfmMP4vGdpsy1zUE5tA="
       ],
       "https://elephant2027h1.ct.sectigo.com/": [
        "Sectigo Elephant2027h1",
-       685547117,
-       "0+sZk34XC/ccmjHEgVe42etS7Oa4THzbEZ73UsVCPzE="
+       702732792,
+       "lFBXVteq4H8TbBHGnt9tYVwRpxYjM70iIxYLxWjSY1k="
       ],
       "https://elephant2027h2.ct.sectigo.com/": [
        "Sectigo Elephant2027h2",
-       32712,
-       "plsHnkzEKbFpsg/ssKNRGtBB38Uqas69BH490O+Ft4o="
+       32769,
+       "yKrWQxtYzglpHXJIVJ6P3wCtF+qWGn4xYQ/5dZV5ySY="
       ],
       "https://eszigno2026h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2026h2",
-       25627709,
-       "7LKtuYjvzfolV4suHoXnqiHQtYcusS8m37B0y4eRqPU="
+       26841914,
+       "bIlt3UYChElfoFqMi/DEd5FHjsUSKv+jiAAmCVk+iYk="
       ],
       "https://eszigno2027h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h1",
-       53888012,
-       "+BF7wkomoETY/ufEWNBPqTPupUJmeGJELNTLGIO9DAQ="
+       59469634,
+       "fkUVuoOu6UUAugAL1ON/HOrEv9BuxmODTTS8esEO+Xk="
       ],
       "https://eszigno2027h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h2",
-       2818,
-       "dU+GTXlS15gzDEXlVIm+BujeabznnKLqXW8LQCgH+G0="
+       2872,
+       "vAr9nKPvCwywXypqpPqj4vm8IHgbsysQnCNXBTxE2LQ="
       ],
       "https://eszigno2028h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h1",
-       2882,
-       "pWUzGzecKZSFUVHnbwDXCjlfcBpadUAwePijFVMq9+0="
+       2934,
+       "7abeNcXr2AKGiEPWs2hpZBbCTE1/NyA2gsXTpAK+gCA="
       ],
       "https://eszigno2028h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h2",
-       2797,
-       "Uo4Ymj7B5JJgAi1XDjQBMw829yvVEsr/LRGGFG8e1AA="
+       2852,
+       "FEAL37vML3VLQx5ErkXE5csHj8sUgWENwrxh/vf4Hfo="
       ],
       "https://gouda2026h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2026h2",
-       1239358973,
-       "L4aaMCE5Rfi6nVea6RK1d8w6thqKmhFL05b0nDm53LU="
+       1240700123,
+       "soCxJpolbafpKyehQauaWg610D6DWGOUfqJhfKNqS1k="
       ],
       "https://gouda2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h1",
-       295741112,
-       "r0imiYTkh+NzMEmsOAajnPg/NGYor2ZTlcdz7mUyVmg="
+       306339915,
+       "YTi4DxPSp2wNCePrLntIEL5Wdx6c/ERg5RvnVrcsT/Q="
       ],
       "https://gouda2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h2",
-       20769,
-       "LGE6cpJ5nLPqFD/5PP18aJeNfZQTj69dnEm+R70wCxY="
+       20817,
+       "krYP4xvWRo+vhm9111xpkD3UjBzdAqva5HlisVJLhrg="
       ],
       "https://gouda2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h1",
-       3335,
-       "PjPOkSmwEG3ZB8d8ueavYZfSoGd1ykIsKBVQu1qZzUQ="
+       3385,
+       "HWiK68kAQVL6GRgwByWqILIWMYuPw1/K/HdAsWNkbgw="
       ],
       "https://gouda2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h2",
-       3256,
-       "l6Cw06JiVvds0LzAB+VsboM+Ogz6nm92X7WyI0ah5+E="
+       3310,
+       "MZ/ohnTBuKl8Zif/KbW1nTX+uO+Vx5Ve7pff/kkOUys="
       ],
       "https://halloumi2026h2a.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2026h2a",
-       1282328861,
-       "skO3QomTzEAMAM6tULUTYPRQB0m+D6Po98vV0387KZY="
+       1284153734,
+       "8QnaQkCjdeGW/XDxnnBwE3+aqZveVE0aKi4MNJMze3I="
       ],
       "https://halloumi2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h1",
-       340848602,
-       "M47l22Lft4405PmVgUXAu5B5V/52P/CeRmj/XVsMzSU="
+       352641317,
+       "mmgfiAGq8gHNi6Z8oUGMAiNEdvSugtrByae5kNtorHs="
       ],
       "https://halloumi2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h2",
-       20556,
-       "hjt0snK7xSfNg29pfKc9ZyVMgwPRYrj09dL7Yk0/REw="
+       20610,
+       "m1z8lgLI2KuYvdUJBV7kZ0NdMpT9fQ8323WTmZbdRok="
       ],
       "https://halloumi2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h1",
-       3356,
-       "aWdSH+4hJNxsRJGmASyxvtd3zjFfStjf6+TnqsIefvE="
+       3408,
+       "q8iZdx/n01/zglgj3wymLZHaQbdl2RSkU2J7x7m3iLY="
       ],
       "https://halloumi2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h2",
-       3258,
-       "m9lPNysGDbZW2CEQGftKxIJmSIcwORzJagOC3//L9fE="
+       3313,
+       "FJtriEE7/eNTAlN9skIrpv+OYJIGE6md76NVkFW7R3g="
       ],
       "https://hetu2027.trustasia.com/hetu2027/": [
        "TrustAsia HETU2027",
-       515176703,
-       "oJxpLzSdzNcCwZ0xlm3B4fP8WOY+qrhSNpckD5rfAbM="
+       527381252,
+       "LywiRlwAMhkiwtaANcuLgdLQsW6/bBXC2P5KKBTVyGQ="
       ],
       "https://log2025-1.rekor.sigstore.dev/": [
        "Sigstore Rekor v2 log2025-1.rekor.sigstore.dev",
-       180973870,
-       "Qrjzc8tCS4yAK/k9lT7lQfFKLI6sfIag8pbDuh5605o="
+       182560321,
+       "L6ml6OOQwWK2B3jmhlY1gRLJoh8YASyRYh7j+3iiyGA="
       ],
       "https://luoshu2027.trustasia.com/luoshu2027/": [
        "TrustAsia Luoshu2027",
-       510070656,
-       "ZUDAlOT+qNbzq6ggLcmbwcXLCZnnvCjK+fcOnjHWR6o="
+       522261284,
+       "8veYVYZ9HzVgjzJ2PC2qbJZT1iy1FfojNrpSmIkF5/M="
       ],
       "https://mammoth2026h2.ct.sectigo.com/": [
        "Sectigo Mammoth2026h2",
@@ -8466,78 +7984,78 @@
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Sycamore2026h2",
-       1060465541,
-       "yjwwOZ6tc+4GkJdGACLWcI+tdddqL0E3hmShOUyBmpg="
+       1062882987,
+       "+evk3ENBw0kthUSY8QjH5cqeEEkaF4NdZCoCONQZQ+g="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Sycamore2027h1",
-       908540393,
-       "cGwibeLn0b79VgZevO95vxX/va6X7TJBHDRwMHjN4Ec="
+       927998710,
+       "ont+iRucgWx6OO9tTeoZE1NOJkGyQEUIQGo6R9qRe9Y="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Sycamore2027h2",
-       20698,
-       "dj9m2Fx9q2exhhYNwnjFQqQDJokgbrMFkkFxSlQbbUc="
+       20750,
+       "hPo9wteDz7Toiisa8c+zW/rjJaatSKBovr2fqB3okKs="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Sycamore2028h1",
-       1895,
-       "Ormby+uRXuwD2ms5wlv2dCkp2B/PXLf/Cl71BdjEGtE="
+       1946,
+       "DlU8PMo/1zJp7xLGlhWIdh4jGSrKk8qf0k7OnkJ73CY="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Sycamore2028h2",
-       1906,
-       "hUdgZ9Ywx8fBWvLQudJr4QPSequoWNYXoMxcAYurnsM="
+       1959,
+       "0r30h6Lx3wo1RmAZf89+l2QJIoxSqGeWxZYJM31vLP0="
       ],
       "https://mon.willow.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Willow2026h2",
-       1017416423,
-       "sMEvXlZDjg3aIoobf/ZfpFmnoEsaesA9kzQ1/HGp9G0="
+       1019826409,
+       "XMi6ZGeTLjz2Oy/lASEIZqmcvFbxl+YbQDSK1oX52r8="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Willow2027h1",
-       900838203,
-       "K3EDgbOAa/2nekN2tKFZ62s8aT8lZrn7c2i2b4rcDTk="
+       919600826,
+       "CSWazO/rsZwWeZOoB5IfbPOGJfvkcEzcJmHEJA7zNRc="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Willow2027h2",
-       20719,
-       "tdIkT/3008hXLK/MCAHdy5eZILWXnUETc1aW5aGa144="
+       20771,
+       "sM9gUbJYoPj/4SvhcsGuhUdVRhqlHAHVHdELyoKUduE="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Willow2028h1",
-       1894,
-       "ArLjl4JMoxnMhZz8guEQJp93h992BEZNJ6OpYzzMnq0="
+       1944,
+       "qrrTACaskcWzudnsCOpW5vJbipCSFo8wXHrScYNrb80="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Willow2028h2",
-       1915,
-       "Kw/S7gSlbknPbgzBFE9DOsl1lb4OdQpWS58dezBwEhU="
+       1968,
+       "WUHSgvV9QuzO/9G2yBNPAoEJvoGijlCOpJHD5OGbvD8="
       ],
       "https://monument2027h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h1",
-       37737426,
-       "wfHZD/P3YRB5yH6rcVA/UV4N8NrkHJ1EDDwAaaA8eOM="
+       44146503,
+       "0O0ZC+uzv5102JZQyyXIAyKnypysfM+PquvnsC/K/PU="
       ],
       "https://monument2027h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h2",
-       1885,
-       "2o1439/5CIqCemLkvdAnniQ9ELwq7UgVKqgttGPdEkI="
+       1939,
+       "WEd4FRcs31EdSpVtSio4otBUMsllUlKtUrNi3FK9akk="
       ],
       "https://monument2028h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h1",
-       1928,
-       "TW83FjgmCz91TJbtjvxvL9Myf9nWS8YbfNrLZNejYKY="
+       1981,
+       "lmfEPjcuwxYZ7EUpd3ygrayPhE//vc2EcLkokQnkiLQ="
       ],
       "https://monument2028h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h2",
-       1875,
-       "O9m4wlh2rb4SrNZOokWjREFWkuIJZzHXMvOQq59T5wY="
+       1932,
+       "Ftnq+GH+IUlaNYq3XRHF2jtFvt4IGHhQB9dICEljh6Y="
       ],
       "https://rekor.sigstore.dev/api/v1/log#1193050959916656506": [
        "Sigstore Rekor",
-       3525333648,
-       "j13ulo7wJNJrCsT1LlZ4W11ca0uJAdIohUiszNRr6jo="
+       3556359215,
+       "bfa2xKFuew3oTzVG208OT46RIww0bsdCAeG3+BWiuk8="
       ],
       "https://sabre2026h2.ct.sectigo.com/": [
        "Sectigo Sabre2026h2",
@@ -8546,173 +8064,193 @@
       ],
       "https://selene.mon.ct.harica.eu/selene2027h1/": [
        "HARICA Selene2027h1",
-       45216605,
-       "trBhNtUh+OiT1OxVCHrsqZ7Ga/6HjnQMw73NKQFkvIM="
+       49757599,
+       "HxZlLUiYttp1bjdREoA2P1yrlwwILM4ymjmG6AS7Ae8="
       ],
       "https://selene.mon.ct.harica.eu/selene2027h2/": [
        "HARICA Selene2027h2",
-       2005,
-       "tpsp5Gh2yF1CSOdR4usOcJVyhQI3/08G8YhQHOYNu/c="
+       2064,
+       "QHBrCZ/tpE45uESc+Jv0wN6Or23VDwCePzTteVN3hb0="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h1/": [
        "HARICA Selene2028h1",
-       2067,
-       "r73tQ9cLZVEO7l8Ai7+2alUcVERyhtDvbqhGANZFOCg="
+       2125,
+       "rnUWYJxXjh3epEwjADYZlHDsk5xaX8OQxhR6MPxqLzA="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h2/": [
        "HARICA Selene2028h2",
-       1991,
-       "WyQlgZYqm3X8CzjhQnWOoTjPRptQ9aDrg8TIwNtqvMQ="
+       2057,
+       "m0Lr/TUnJ0R2QVueyY41E2bIQ7SEEkg9cD+Bwhy99MI="
       ],
       "https://sphinx.ct.digicert.com/2026h2/": [
        "DigiCert Sphinx2026h2",
-       2164042719,
-       "JB3J4k3lUDARh+py9QctpkzpbngQUk85QWMGxF7w4S8="
+       2165791419,
+       "nXI7w97Yfj4v+wDOMpTBX4haHsVrHPVgZUB1ViRWhKE="
       ],
       "https://sphinx.ct.digicert.com/2027h1/": [
        "DigiCert Sphinx2027h1",
-       336244253,
-       "iklVYO203QZYBc9t/+CjV2KnFfrt1b0eSKmwPX3dU/Q="
+       346311534,
+       "rbpohtZttTo3nOvi2OebOOCfol2gNVSOtD0CyTGfkak="
       ],
       "https://sphinx.ct.digicert.com/2027h2/": [
        "DigiCert Sphinx2027h2",
-       34626,
-       "Cj7URGE+eaVIT4KaHBNfQS27yMHcmgkQL2vWanQvxlM="
+       34728,
+       "JHMtfGXsPbnINFdJ1JhXIpUtf++BxjpDDb+K2H06lRw="
       ],
       "https://statue2027h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h1",
-       37792690,
-       "Luuewjfhje26YZ9S5fk1VFweOV8YA/UTw69KXxofXNA="
+       44207431,
+       "RoTyWJ8sUyIDtxwc6f12znKWqI27pAzUyB5r//KPhjw="
       ],
       "https://statue2027h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h2",
-       1886,
-       "iDiypJeT9enBtaNGTB5C3e7o+ZFIlBAWOiV5UVZ8sFQ="
+       1941,
+       "2jq5lphC8FjTUKVNopwVt4g8OykMcqnvk9gNBbw6MG4="
       ],
       "https://statue2028h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h1",
-       1940,
-       "DSzz1mYvJ1LLKHF/lDr1QHT/n9zB9va8Lk6MSAZY6aw="
+       1993,
+       "FkjBXyGZff/fCV3aE2VtyowFmzFhcQpQ7uq4GMKDZfQ="
       ],
       "https://statue2028h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h2",
-       1869,
-       "sLeQVj4vB60e/n9h13EOifiTXbed7DfmkCH0hM6l+Ng="
+       1927,
+       "oLAqLwHuHol6LRhoDxFTzYY+UT6tuGTtcFIKdx3nfyw="
       ],
       "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2026h2",
-       1635229825,
-       "BIEfOwVMjRZb+a3xKnh75Ub5K47Jju2o8Wom+wHzHis="
+       1637460458,
+       "eo4HJh3VSPfY/nfCQe785Oegur1VdLVF0ehwuuQtoiQ="
       ],
       "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h1",
-       576955479,
-       "fXGzT0eu0MRBuNZFCnF/KAmzKMCRZIHRYZaLERdl0Lo="
+       596158916,
+       "G4yOG088EHN+q/h5/onjIECl8mOu2SJrOhHSHOg57Ao="
       ],
       "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h2",
-       9694,
-       "fqy3Z1CE44kDxdBh+P8KcGl0eqc6kN6Y5+Vl3ODfme0="
+       9749,
+       "zYfXY/ql7mm1jS1mCUa5U2GXmtTy+ERTk2bbWKAbQzs="
       ],
       "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2026h2",
-       1634735050,
-       "CrdpcO244rPNOmsBaWDHl/1TxlNymUJiL/W0T2TwgNk="
+       1636965591,
+       "0TWZA3ETXKkMbqBd5a5FPIreXNFPLvMs6/+rkDHMPCE="
       ],
       "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h1",
-       577439758,
-       "HaJJvlTBRUhN+ynnloKVvySbZsyKzLZ3Iym11h5Q7HU="
+       596604515,
+       "xprqnSetcYidp8t+RxqVDWAvSeRyvNKqp/AwpGGZ9cA="
       ],
       "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h2",
-       9720,
-       "OtC7TruLJyZ9FSV3bcTYMskWwR8/xKRbZlyQLx3xZCY="
+       9776,
+       "y+bgYBGN56RCtZ2Jpns76eIr1V2ayzjjWTDkcwk2v+c="
       ],
       "https://sum.golang.org/latest": [
        "Go checksum database",
-       70666125,
-       "JhrCDVMJU4QkouunX2bmHJ/LfQJ6IsJoeG2R36h+bbo="
+       70740163,
+       "oO0RzEMW1eXpzGghxwJNk5eAc9MOO2bZm+h/zhbtEZs="
       ],
       "https://tiger2026h2.ct.sectigo.com/": [
        "Sectigo Tiger2026h2",
-       2464022719,
-       "CzXsbjYd5ZyeacdH4zrBWJB+ix25JD36ZuiQzusM+nQ="
+       2466051090,
+       "1nuVpygWQMvUTAdicSIl/lRkcxy6LuWGGVmPONiFkQU="
       ],
       "https://tiger2027h1.ct.sectigo.com/": [
        "Sectigo Tiger2027h1",
-       699457557,
-       "OZjajoVJ/pZk8zxb67pktundnLTCo6k7QfpIONmzLzs="
+       716831670,
+       "OLXl2Iu001vPs5W5QpCcfuLkaTN8s5kgZ6Zzm/EtUJU="
       ],
       "https://tiger2027h2.ct.sectigo.com/": [
        "Sectigo Tiger2027h2",
-       31989,
-       "Kg+p6fuCC1+avr4mY7gG5p/Pppoa5CKE/ayTtyo42YI="
+       32043,
+       "/1pbCmtxfqyZk8TfZLPLiPd103vZyIbdjzjudXBl7ws="
+      ],
+      "https://tile-luoshu2028h1.trustasia.com/luoshu2028h1/": [
+       "TrustAsia Luoshu2028h1",
+       4501,
+       "MZm0T8D578GB7vESHjag40hiP8gBNac6pybCJlcH0wg="
+      ],
+      "https://tile-luoshu2028h2.trustasia.com/luoshu2028h2/": [
+       "TrustAsia Luoshu2028h2",
+       4700,
+       "oZC8J+gpOPThJEZgY8YIlD8dkN5l88C1eLBnx09M1y4="
+      ],
+      "https://tile-taiji2028h1.trustasia.com/taiji2028h1/": [
+       "TrustAsia Taiji2028h1",
+       3168,
+       "xRblJ+CHl3THNwNgX9BPUoktAy8KNcwcceZcmzDRgoQ="
+      ],
+      "https://tile-taiji2028h2.trustasia.com/taiji2028h2/": [
+       "TrustAsia Taiji2028h2",
+       3309,
+       "kWozR7loY5HRGjUw5YY+PvyzrriV+wQWtoSsLrDthgs="
       ],
       "https://trastevere2026h2.skylight.geomys.org/": [
        "Geomys Trastevere2026h2",
-       25431818,
-       "0c1HD9he+/ljCO5IMe5w0UoLAlonhPpiudexQfbfRTw="
+       25904522,
+       "VknorV20dCGHkGmCGnqfW2dAxl7equsVQBk9Az3SaEI="
       ],
       "https://trastevere2027h1.skylight.geomys.org/": [
        "Geomys Trastevere2027h1",
-       23716931,
-       "Z17TgEi0VVh1Q3ree2DxigtUWpXTdY45+ySj5bfEYrE="
+       25339293,
+       "5V3fpbWVNy/XTdYZEPFcPtWdI28JMz4VhAkG/XUmGg8="
       ],
       "https://trastevere2027h2.skylight.geomys.org/": [
        "Geomys Trastevere2027h2",
-       72487,
-       "IHylIDJFE1X6V26hiH65RnwScIhAIDU2q+UnbeIpaR8="
+       74036,
+       "qqjU5wIZwMuSY4TEqVTea2WcYVFclSQoU+LwwOUciUw="
       ],
       "https://trastevere2028h1.skylight.geomys.org/": [
        "Geomys Trastevere2028h1",
-       72488,
-       "mre8RKO+/dhmiWCyfRCiUdorX6pOYzNG3hVjqsM6uB4="
+       74034,
+       "A7Mpj4PQ2GkBsypZhruhUYnvyXe443CYykGLs4GJTa8="
       ],
       "https://trastevere2028h2.skylight.geomys.org/": [
        "Geomys Trastevere2028h2",
-       72423,
-       "JN9nL7n0vywQnEU+fuTyBp8pN2Oh+xcwYohOF07e6rI="
+       73973,
+       "RLii18lrNqDscyjCpzqn3q9WKBvodaB6jQrhz450xiQ="
       ],
       "https://tuscolo2026h2.skylight.geomys.org/": [
        "Geomys Tuscolo2026h2",
-       1034729876,
-       "KW3SpmigMfwOxqAcrwY2Qs8bc2GPDve3VSpw/TdkUJo="
+       1036906981,
+       "RO9T1g9WgnoBzjMVFobA2edjOntUOxlWjyDil+UEPfc="
       ],
       "https://tuscolo2027h1.skylight.geomys.org/": [
        "Geomys Tuscolo2027h1",
-       448893250,
-       "yrKzegCirlFCaUGQ3j6j/W2oT68DvbebXEwem++iMZE="
+       463558777,
+       "AVMod7O9ZpNEA+1n/QMYJF1WvXQvZXBBrSxWntmSKp4="
       ],
       "https://tuscolo2027h2.skylight.geomys.org/": [
        "Geomys Tuscolo2027h2",
-       95922,
-       "hbe8MrPFXShgiQsHmaKBXCfPIoDnthaji7DnHHUzYAE="
+       97471,
+       "gOyNHXUdIQQHX5+jldVqmAn3wMI1n706Yvu8ya9Oktk="
       ],
       "https://tuscolo2028h1.skylight.geomys.org/": [
        "Geomys Tuscolo2028h1",
-       72557,
-       "XZU5/5AeCfjMJGAvbgW+br9szZ4WHHuet/9q/nQQRso="
+       74103,
+       "ML6tjziPU6s2pnUKkRP84mb1H8KiJJ3JsfkOCwbv3E8="
       ],
       "https://tuscolo2028h2.skylight.geomys.org/": [
        "Geomys Tuscolo2028h2",
-       72473,
-       "CFhGdl+7XpVyDv59F0cI6tqTHBAGtrwKspxdIr6VgQI="
+       74025,
+       "UVoXId4JkDQJU3GJRM+FbzuzY3+zHIK55S1RMY7iJ2E="
       ],
       "https://wyvern.ct.digicert.com/2026h2/": [
        "DigiCert Wyvern2026h2",
-       2199794415,
-       "mvNCJl7BFbusQvIQW+nDSn3KBapdUN08jaMWckswNiw="
+       2201927912,
+       "DYWuFw3R5DELEJnmQBWdfM3F0tuvBlAzdOBRrJNSZ5M="
       ],
       "https://wyvern.ct.digicert.com/2027h1/": [
        "DigiCert Wyvern2027h1",
-       381584773,
-       "6EPaIrOwQao2W00O12clvVHBfwjo9CXSCkCxRsmyhFI="
+       392881936,
+       "/bLr7zongiSM2RNXlrR/Sw8GvmitYX1hU8xSq56VA5s="
       ],
       "https://wyvern.ct.digicert.com/2027h2/": [
        "DigiCert Wyvern2027h2",
-       34694,
-       "qRUGpCmQ+RwfTve5ypjjXXpz1TjS6eekip013NNIh2o="
+       34796,
+       "7soYjWiqnO/86bnR138vXi8oyjsm45L/AYdJvUdY5yk="
       ]
      },
      "inconsistent_logs": {},
@@ -8720,9 +8258,9 @@
      "network_attested": true,
      "probe_id": "probe-2",
      "proven_split_views": [],
-     "rekor_entries": 3647237910,
+     "rekor_entries": 3678263477,
      "rekor_entries_definition": "4",
-     "rekor_v2_entries": 180973870,
+     "rekor_v2_entries": 182560321,
      "rekor_v2_entries_definition": "2"
     },
     {
@@ -10300,7 +9838,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-03T09:35:14Z",
+  "as_of_utc": "2026-11-04T10:15:27Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10330,7 +9868,7 @@
  },
  "probes": [
   {
-   "age_days": 34,
+   "age_days": 35,
    "bundles": 458,
    "contribution": {
     "bundles_ok": 449,
@@ -10350,11 +9888,11 @@
    "probe_id": "probe-1"
   },
   {
-   "age_days": 34,
-   "bundles": 416,
+   "age_days": 35,
+   "bundles": 428,
    "contribution": {
-    "bundles_ok": 414,
-    "days_active": 35,
+    "bundles_ok": 426,
+    "days_active": 36,
     "layers": 18
    },
    "eligible": true,
@@ -10366,11 +9904,11 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-03",
+   "last_seen_utc": "2026-11-04",
    "probe_id": "probe-2"
   },
   {
-   "age_days": 33,
+   "age_days": 34,
    "bundles": 237,
    "contribution": {
     "bundles_ok": 236,
@@ -10390,11 +9928,11 @@
    "probe_id": "probe-4"
   },
   {
-   "age_days": 34,
-   "bundles": 347,
+   "age_days": 35,
+   "bundles": 355,
    "contribution": {
-    "bundles_ok": 339,
-    "days_active": 35,
+    "bundles_ok": 347,
+    "days_active": 36,
     "layers": 16
    },
    "eligible": true,
@@ -10406,7 +9944,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-03",
+   "last_seen_utc": "2026-11-04",
    "probe_id": "probe-3"
   }
  ],
@@ -10420,7 +9958,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "68d1e24af615b195840011d48863de4719549960652f0c423bdfd999b370877c",
+ "published_sha256": "c6e4b71346bbf9f9265b5db5af04c328fa8e0cbca49274d547ac35117cc495aa",
  "rejections": [
   {
    "kind": "bundle",
@@ -10674,6 +10212,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -10721,6 +10264,11 @@
    "kind": "bundle",
    "probe_id": "probe-4",
    "reason": "run failed"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "no reference server answered"
   },
   {
    "kind": "bundle",
@@ -10865,5 +10413,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "5a7121609066e8e527ce7ff109044c13bbbfdb3140c3fa2d17081928843f367b"
+ "view_sha256": "f321999dbe082fa02cf8bfcb585a758e3bbe5830b299cfcff2252b202b4efd56"
 }
