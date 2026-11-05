@@ -268,23 +268,23 @@
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 131218394960,
-     "median": 131218394960,
-     "min": 131218394960,
+     "max": 47862436400,
+     "median": 47862436400,
+     "min": 47862436400,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 7155974437,
-     "median": 7155974437,
-     "min": 7155974437,
+     "max": 8902421328,
+     "median": 8902421328,
+     "min": 8902421328,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 0,
-     "median": 0,
-     "min": 0,
+     "max": 4,
+     "median": 4,
+     "min": 4,
      "n": 1,
      "networks": 1
     }
@@ -292,55 +292,88 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-11-04",
+     "created_utc": "2026-11-05",
      "dormant_exposed_inputs": 0,
      "dormant_exposed_spent_sats": 0,
-     "dormant_hash_protected_sats": 131218394960,
-     "dormant_revealed_sats": 7155974437,
+     "dormant_hash_protected_sats": 47862436400,
+     "dormant_revealed_sats": 8902421328,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 974342,
+     "from_height": 974499,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 974498,
-     "witness_v2_plus_list": [],
-     "witness_v2_plus_outputs": 0
+     "to_height": 974647,
+     "witness_v2_plus_list": [
+      {
+       "height": 974521,
+       "program_bytes": 19,
+       "sats": 546,
+       "txid": "d43163225c36022cb5eae7b9ecad8bfef94c3d66fcddb9ab22042b091852d186",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974628,
+       "program_bytes": 30,
+       "sats": 546,
+       "txid": "5da8c0950969740d5d584c472bec85568f27b515cf714cf7183fec3b1c2de32e",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974631,
+       "program_bytes": 37,
+       "sats": 546,
+       "txid": "bd360ca7c2093c54912f103f93fc6291737cf0edca353a531c1188802e7d1fb1",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974631,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "e29f1bafa92c71d37f933bcb14a2b44faa6e7dc06dc6f59f5858b350bec09959",
+       "version": 12,
+       "vout": 1
+      }
+     ],
+     "witness_v2_plus_outputs": 4
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.23184806,
-     "median": 0.23184806,
-     "min": 0.23184806,
+     "max": 0.20443556,
+     "median": 0.20443556,
+     "min": 0.20443556,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.68678143,
-     "median": 0.68678143,
-     "min": 0.68678143,
+     "max": 0.7211816,
+     "median": 0.7211816,
+     "min": 0.7211816,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-11-04",
+     "created_utc": "2026-11-05",
      "eligible": true,
-     "exposed_value_share": 0.23184806,
+     "exposed_value_share": 0.20443556,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.68678143,
+     "to_revealed_value_share": 0.7211816,
      "window": {
-      "blocks": 134,
-      "from_block_time": 1793688381,
-      "from_height": 974361,
+      "blocks": 137,
+      "from_block_time": 1793780031,
+      "from_height": 974507,
       "hours": 24.0,
-      "to_block_time": 1793774088,
-      "to_height": 974494
+      "to_block_time": 1793866369,
+      "to_height": 974643
      }
     }
    ]
@@ -10388,9 +10421,9 @@
  "probes": [
   {
    "age_days": 36,
-   "bundles": 480,
+   "bundles": 482,
    "contribution": {
-    "bundles_ok": 471,
+    "bundles_ok": 473,
     "days_active": 37,
     "layers": 21
    },
@@ -10477,7 +10510,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "5cc68e09bdc6740b1c525c6f2b99f81441f921f06ed6aa1b78f94679b84c512c",
+ "published_sha256": "8de2f7b3ed6b5f6b9880770a90659acfb1e44b1e3ec2f54397d3c767ef804184",
  "rejections": [
   {
    "kind": "bundle",
@@ -10947,5 +10980,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "fc0d03a131cf1068074c3d2a7f2b37cd0502a9f90709fa516fd97d882232ae4c"
+ "view_sha256": "d32399a58de8ac33f4793b3419a2e1081150866d789040faa479de87eaf3819d"
 }
