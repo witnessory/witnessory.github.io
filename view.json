@@ -277,23 +277,23 @@
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 47862436400,
-     "median": 47862436400,
-     "min": 47862436400,
+     "max": 187699714472,
+     "median": 187699714472,
+     "min": 187699714472,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 8902421328,
-     "median": 8902421328,
-     "min": 8902421328,
+     "max": 115742607301,
+     "median": 115742607301,
+     "min": 115742607301,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 4,
-     "median": 4,
-     "min": 4,
+     "max": 19,
+     "median": 19,
+     "min": 19,
      "n": 1,
      "networks": 1
     }
@@ -301,110 +301,232 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "dormant_exposed_inputs": 0,
      "dormant_exposed_spent_sats": 0,
-     "dormant_hash_protected_sats": 47862436400,
-     "dormant_revealed_sats": 8902421328,
+     "dormant_hash_protected_sats": 187699714472,
+     "dormant_revealed_sats": 115742607301,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 974499,
+     "from_height": 974648,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 974647,
+     "to_height": 974801,
      "witness_v2_plus_list": [
       {
-       "height": 974521,
-       "program_bytes": 19,
+       "height": 974661,
+       "program_bytes": 18,
        "sats": 546,
-       "txid": "d43163225c36022cb5eae7b9ecad8bfef94c3d66fcddb9ab22042b091852d186",
+       "txid": "c419a215f84b33812427c66f73da06c3fb806c78a4ebf130a815a929a4fd7724",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 974628,
-       "program_bytes": 30,
+       "height": 974718,
+       "program_bytes": 32,
        "sats": 546,
-       "txid": "5da8c0950969740d5d584c472bec85568f27b515cf714cf7183fec3b1c2de32e",
+       "txid": "eb431931f8abe8cc740bd2ca06db8647a4eb3b8aa09fa78e8da7cc43e31c390f",
        "version": 12,
-       "vout": 1
+       "vout": 2
       },
       {
-       "height": 974631,
-       "program_bytes": 37,
-       "sats": 546,
-       "txid": "bd360ca7c2093c54912f103f93fc6291737cf0edca353a531c1188802e7d1fb1",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 974631,
+       "height": 974718,
        "program_bytes": 38,
        "sats": 546,
-       "txid": "e29f1bafa92c71d37f933bcb14a2b44faa6e7dc06dc6f59f5858b350bec09959",
+       "txid": "1796df386bd161a8f0ba32cc1d045e0bf98c7b6763481a8675bb83bed6633d3a",
+       "version": 12,
+       "vout": 15
+      },
+      {
+       "height": 974765,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "be5d944f6192d2fe7b5efda19cf11c1bc4fbba6bc14608d579fd5ec35b0c1f15",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 33,
+       "sats": 546,
+       "txid": "f65ba97b7f65ffbe85561071a55102813f5c19de09bf8ead5bcc4b12749c3b8b",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 974765,
+       "program_bytes": 30,
+       "sats": 546,
+       "txid": "7950c318557ecc74ce6a810a7294d03d2727fd1d9b5741d689ac0537bb4da62f",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "9a56417533387b7c136b2544f671f8e0633fef52795f0ea30c582aed2d579e73",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "9a56417533387b7c136b2544f671f8e0633fef52795f0ea30c582aed2d579e73",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 974765,
+       "program_bytes": 33,
+       "sats": 546,
+       "txid": "87ab0e23f0633d22676a0c443f18ee91e1595e35f04e2ce6bcd75a883000f57e",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 29,
+       "sats": 546,
+       "txid": "5b52619a9df4f1dfc1e7e3f6cc7e4f8e29a7040a6906dff299a5f8d10f0a314d",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 38,
+       "sats": 546,
+       "txid": "e6743dcebbe085096cbceaf7bc4ca5475b1c38637f917b5a29d75835a6cf413e",
+       "version": 12,
+       "vout": 5
+      },
+      {
+       "height": 974765,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "a335aa63cbe2676c65ec898e02c97bb0a94ee248aa8c8089f23f196dfd92c600",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974765,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "a335aa63cbe2676c65ec898e02c97bb0a94ee248aa8c8089f23f196dfd92c600",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 974765,
+       "program_bytes": 34,
+       "sats": 546,
+       "txid": "e54dd1bd88da64e9af419f93b550213a91e53598ae83ef87a4b02628a2d0f974",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 974765,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "0accb3b8fb2a43bb6e1c2ac86c3a513ffe2c3928ad648f5dae38630241ed7891",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974790,
+       "program_bytes": 28,
+       "sats": 546,
+       "txid": "5aaa9ee5ef23fec9ccd40c8d8982bcd37e5243ce67364ff862d9506335db769b",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974791,
+       "program_bytes": 17,
+       "sats": 546,
+       "txid": "041c50bbd0294ccb25e6d15c5c46805763e30e18004fa0ed7dd4aad995ac8aac",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974792,
+       "program_bytes": 28,
+       "sats": 546,
+       "txid": "563c7e009b57ca1223165438e445c2684f5b527b7ef2c4730b06a34f7555cf46",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 974793,
+       "program_bytes": 17,
+       "sats": 546,
+       "txid": "6060be11e87592224a6281112ca4115c61690bfff2abb67d590ef903f8a01ec8",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 4
+     "witness_v2_plus_outputs": 19
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.20443556,
-     "median": 0.20443556,
-     "min": 0.20443556,
+     "max": 0.22915892,
+     "median": 0.22915892,
+     "min": 0.22915892,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.7211816,
-     "median": 0.7211816,
-     "min": 0.7211816,
+     "max": 0.71110185,
+     "median": 0.71110185,
+     "min": 0.71110185,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
-     "exposed_value_share": 0.20443556,
+     "exposed_value_share": 0.22915892,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.7211816,
+     "to_revealed_value_share": 0.71110185,
      "window": {
-      "blocks": 137,
-      "from_block_time": 1793780031,
-      "from_height": 974507,
+      "blocks": 142,
+      "from_block_time": 1793874566,
+      "from_height": 974656,
       "hours": 24.0,
-      "to_block_time": 1793866369,
-      "to_height": 974643
+      "to_block_time": 1793959309,
+      "to_height": 974797
      }
     }
    ]
   },
   "gnss": {
    "affected_regions": [],
-   "controls_affected": [],
+   "controls_affected": [
+    "control-3"
+   ],
    "controls_spoofed": [],
    "headline": {
     "regions_affected_share": {
-     "max": 0.285714,
+     "max": 0.111111,
      "median": 0.0555555,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "spoofing_regions_share": {
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "probes": [
@@ -414,12 +536,12 @@
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.04,
-        0.04
+        0.0233,
+        0.0465
        ],
        "qualifying": {
-        "adsb.fi": 50,
-        "adsb.lol": null
+        "adsb.fi": 43,
+        "adsb.lol": 43
        },
        "role": "reported",
        "sources_agree": true
@@ -427,67 +549,67 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0405,
-        0.0405
+        0.0714,
+        0.0918
        ],
        "qualifying": {
-        "adsb.fi": 74,
-        "adsb.lol": null
+        "adsb.fi": 98,
+        "adsb.lol": 98
        },
        "role": "reported",
        "sources_agree": true
       },
       "control-1": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0087,
+        0.0087
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 115,
+        "adsb.lol": 115
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-2": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0051,
+        0.0051
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 196,
+        "adsb.lol": 196
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-3": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 22,
+        "adsb.lol": 6
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-4": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
         "adsb.fi": 1,
-        "adsb.lol": null
+        "adsb.lol": 25
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-5": {
        "affected": false,
@@ -496,24 +618,24 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": 92
+        "adsb.fi": 145,
+        "adsb.lol": 139
        },
        "role": "control",
        "sources_agree": true
       },
       "eastern_mediterranean": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0556,
+        0.0938
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 32,
+        "adsb.lol": 36
        },
        "role": "reported",
-       "sources_agree": null
+       "sources_agree": true
       },
       "gulf_of_finland": {
        "affected": null,
@@ -522,8 +644,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": 13
+        "adsb.fi": 10,
+        "adsb.lol": 11
        },
        "role": "reported",
        "sources_agree": null
@@ -535,8 +657,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 14,
-        "adsb.lol": 13
+        "adsb.fi": 10,
+        "adsb.lol": 10
        },
        "role": "reported",
        "sources_agree": null
@@ -544,12 +666,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0192,
-        0.0192
+        0.08,
+        0.0851
        ],
        "qualifying": {
-        "adsb.fi": 52,
-        "adsb.lol": null
+        "adsb.fi": 47,
+        "adsb.lol": 50
        },
        "role": "reported",
        "sources_agree": true
@@ -561,8 +683,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 8,
-        "adsb.lol": 10
+        "adsb.fi": 3,
+        "adsb.lol": 4
        },
        "role": "reported",
        "sources_agree": null
@@ -570,7 +692,7 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
@@ -579,33 +701,30 @@
      "spoofing_regions_share": 0.0
     },
     {
-     "affected_regions": [
-      "baltic_gdansk",
-      "black_sea_west"
-     ],
+     "affected_regions": [],
      "by_region": {
       "baltic_gdansk": {
-       "affected": true,
+       "affected": false,
        "poor_nic_share": [
-        0.1667,
-        0.1667
+        0.0732,
+        0.0976
        ],
        "qualifying": {
-        "adsb.fi": 36,
-        "adsb.lol": 36
+        "adsb.fi": 41,
+        "adsb.lol": 41
        },
        "role": "reported",
        "sources_agree": true
       },
       "black_sea_west": {
-       "affected": true,
+       "affected": false,
        "poor_nic_share": [
-        0.125,
-        0.1404
+        0.0488,
+        0.0741
        ],
        "qualifying": {
-        "adsb.fi": 56,
-        "adsb.lol": 57
+        "adsb.fi": 81,
+        "adsb.lol": 82
        },
        "role": "reported",
        "sources_agree": true
@@ -613,12 +732,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0111,
-        0.0112
+        0.0138,
+        0.0138
        ],
        "qualifying": {
-        "adsb.fi": 90,
-        "adsb.lol": 89
+        "adsb.fi": 145,
+        "adsb.lol": 145
        },
        "role": "control",
        "sources_agree": true
@@ -626,12 +745,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.006,
+        0.006
        ],
        "qualifying": {
-        "adsb.fi": 163,
-        "adsb.lol": 163
+        "adsb.fi": 168,
+        "adsb.lol": 168
        },
        "role": "control",
        "sources_agree": true
@@ -643,63 +762,235 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 34,
-        "adsb.lol": 15
+        "adsb.fi": 31,
+        "adsb.lol": 16
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 14
+        "adsb.fi": 2,
+        "adsb.lol": 15
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-5": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 6
+        "adsb.fi": 161,
+        "adsb.lol": 153
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0513,
-        0.0556
+        0.0385,
+        0.0385
        ],
        "qualifying": {
-        "adsb.fi": 36,
-        "adsb.lol": 39
+        "adsb.fi": 26,
+        "adsb.lol": 26
        },
        "role": "reported",
        "sources_agree": true
       },
       "gulf_of_finland": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 15,
+        "adsb.lol": 15
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "levant": {
        "affected": null,
        "poor_nic_share": [
         null,
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
+        "adsb.fi": 9,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
+      },
+      "persian_gulf": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0392,
+        0.04
+       ],
+       "qualifying": {
+        "adsb.fi": 50,
+        "adsb.lol": 51
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "punjab_border": {
+       "affected": null,
+       "poor_nic_share": [
+        null,
+        null
+       ],
+       "qualifying": {
+        "adsb.fi": 3,
+        "adsb.lol": 3
+       },
+       "role": "reported",
+       "sources_agree": null
+      }
+     },
+     "controls_affected": [],
+     "controls_spoofed": [],
+     "created_utc": "2026-11-06",
+     "eligible": true,
+     "network_attested": true,
+     "probe_id": "probe-2",
+     "regions_affected_share": 0.0,
+     "spoofing_regions": [],
+     "spoofing_regions_share": 0.0
+    },
+    {
+     "affected_regions": [
+      "baltic_gdansk"
+     ],
+     "by_region": {
+      "baltic_gdansk": {
+       "affected": true,
+       "poor_nic_share": [
+        0.102,
+        0.1224
+       ],
+       "qualifying": {
+        "adsb.fi": 49,
+        "adsb.lol": 49
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "black_sea_west": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0952,
+        0.1124
+       ],
+       "qualifying": {
+        "adsb.fi": 89,
+        "adsb.lol": 84
+       },
+       "role": "reported",
+       "sources_agree": false
+      },
+      "control-1": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0136,
+        0.0204
+       ],
+       "qualifying": {
+        "adsb.fi": 147,
+        "adsb.lol": 147
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-2": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0061,
+        0.0061
+       ],
+       "qualifying": {
+        "adsb.fi": 163,
+        "adsb.lol": 163
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-3": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0323,
+        0.0323
+       ],
+       "qualifying": {
+        "adsb.fi": 31,
+        "adsb.lol": 8
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-4": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 2,
+        "adsb.lol": 19
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-5": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 120,
+        "adsb.lol": 113
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "eastern_mediterranean": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0588,
+        0.0645
+       ],
+       "qualifying": {
+        "adsb.fi": 31,
+        "adsb.lol": 34
+       },
+       "role": "reported",
+       "sources_agree": true
+      },
+      "gulf_of_finland": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 20,
+        "adsb.lol": 20
+       },
+       "role": "reported",
+       "sources_agree": true
       },
       "levant": {
        "affected": null,
@@ -717,184 +1008,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0417,
-        0.0435
+        0.0465,
+        0.0526
        ],
        "qualifying": {
-        "adsb.fi": 24,
-        "adsb.lol": 23
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "punjab_border": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 9,
-        "adsb.lol": 13
-       },
-       "role": "reported",
-       "sources_agree": null
-      }
-     },
-     "controls_affected": [],
-     "controls_spoofed": [],
-     "created_utc": "2026-11-06",
-     "eligible": true,
-     "network_attested": true,
-     "probe_id": "probe-2",
-     "regions_affected_share": 0.285714,
-     "spoofing_regions": [],
-     "spoofing_regions_share": 0.0
-    },
-    {
-     "affected_regions": [
-      "baltic_gdansk"
-     ],
-     "by_region": {
-      "baltic_gdansk": {
-       "affected": true,
-       "poor_nic_share": [
-        0.1136,
-        0.1136
-       ],
-       "qualifying": {
-        "adsb.fi": 44,
-        "adsb.lol": 44
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "black_sea_west": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0139,
-        0.0278
-       ],
-       "qualifying": {
-        "adsb.fi": 72,
-        "adsb.lol": 72
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "control-1": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0095,
-        0.0095
-       ],
-       "qualifying": {
-        "adsb.fi": 105,
-        "adsb.lol": 105
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-2": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0066,
-        0.0066
-       ],
-       "qualifying": {
-        "adsb.fi": 152,
-        "adsb.lol": 152
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-3": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0333,
-        0.0333
-       ],
-       "qualifying": {
-        "adsb.fi": 30,
-        "adsb.lol": 9
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-4": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 23
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "control-5": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0
-       ],
-       "qualifying": {
-        "adsb.fi": 165,
-        "adsb.lol": 123
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "eastern_mediterranean": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0217,
-        0.0227
-       ],
-       "qualifying": {
-        "adsb.fi": 44,
-        "adsb.lol": 46
-       },
-       "role": "reported",
-       "sources_agree": true
-      },
-      "gulf_of_finland": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 10,
-        "adsb.lol": 10
-       },
-       "role": "reported",
-       "sources_agree": null
-      },
-      "levant": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 12,
-        "adsb.lol": 11
-       },
-       "role": "reported",
-       "sources_agree": null
-      },
-      "persian_gulf": {
-       "affected": false,
-       "poor_nic_share": [
-        0.04,
-        0.0417
-       ],
-       "qualifying": {
-        "adsb.fi": 48,
-        "adsb.lol": 50
+        "adsb.fi": 38,
+        "adsb.lol": 43
        },
        "role": "reported",
        "sources_agree": true
@@ -907,7 +1026,7 @@
        ],
        "qualifying": {
         "adsb.fi": 3,
-        "adsb.lol": 6
+        "adsb.lol": 2
        },
        "role": "reported",
        "sources_agree": null
@@ -915,26 +1034,28 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-4",
-     "regions_affected_share": 0.111111,
+     "regions_affected_share": 0.1,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
     {
-     "affected_regions": [],
+     "affected_regions": [
+      "control-3"
+     ],
      "by_region": {
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0789,
-        0.0789
+        0.0435,
+        0.0435
        ],
        "qualifying": {
-        "adsb.fi": 38,
-        "adsb.lol": 38
+        "adsb.fi": 23,
+        "adsb.lol": 23
        },
        "role": "reported",
        "sources_agree": true
@@ -943,11 +1064,11 @@
        "affected": false,
        "poor_nic_share": [
         0.0,
-        0.0526
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 19,
-        "adsb.lol": 20
+        "adsb.fi": 57,
+        "adsb.lol": 60
        },
        "role": "reported",
        "sources_agree": true
@@ -955,12 +1076,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0104,
-        0.0104
+        0.0244,
+        0.0244
        ],
        "qualifying": {
-        "adsb.fi": 96,
-        "adsb.lol": 96
+        "adsb.fi": 123,
+        "adsb.lol": 123
        },
        "role": "control",
        "sources_agree": true
@@ -968,25 +1089,25 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0117,
-        0.0117
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 171,
-        "adsb.lol": 171
+        "adsb.fi": 180,
+        "adsb.lol": 179
        },
        "role": "control",
        "sources_agree": true
       },
       "control-3": {
-       "affected": false,
+       "affected": true,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.1034,
+        0.1034
        ],
        "qualifying": {
-        "adsb.fi": 34,
-        "adsb.lol": 14
+        "adsb.fi": 29,
+        "adsb.lol": 11
        },
        "role": "control",
        "sources_agree": true
@@ -999,33 +1120,33 @@
        ],
        "qualifying": {
         "adsb.fi": 0,
-        "adsb.lol": 16
+        "adsb.lol": 19
        },
        "role": "control",
        "sources_agree": true
       },
       "control-5": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
+        "adsb.fi": 128,
+        "adsb.lol": 101
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0556,
-        0.0606
+        0.0182,
+        0.0204
        ],
        "qualifying": {
-        "adsb.fi": 33,
-        "adsb.lol": 36
+        "adsb.fi": 49,
+        "adsb.lol": 55
        },
        "role": "reported",
        "sources_agree": true
@@ -1037,8 +1158,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 1
+        "adsb.fi": 8,
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
@@ -1050,8 +1171,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 7
+        "adsb.fi": 12,
+        "adsb.lol": 12
        },
        "role": "reported",
        "sources_agree": null
@@ -1059,12 +1180,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0256,
-        0.0256
+        0.0556,
+        0.0571
        ],
        "qualifying": {
-        "adsb.fi": 39,
-        "adsb.lol": 39
+        "adsb.fi": 35,
+        "adsb.lol": 36
        },
        "role": "reported",
        "sources_agree": true
@@ -1076,20 +1197,22 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 6
+        "adsb.fi": 5,
+        "adsb.lol": 4
        },
        "role": "reported",
        "sources_agree": null
       }
      },
-     "controls_affected": [],
+     "controls_affected": [
+      "control-3"
+     ],
      "controls_spoofed": [],
      "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
-     "regions_affected_share": 0.0,
+     "regions_affected_share": 0.111111,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     }
@@ -1248,7 +1371,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -2311,7 +2434,9 @@
     "gentoo": [
      "RSA-4096"
     ],
-    "kali": "unreachable",
+    "kali": [
+     "RSA-4096"
+    ],
     "lvfs": [
      "ML-DSA-87",
      "RSA-3072"
@@ -2335,7 +2460,9 @@
     "termux": [
      "RSA-4096"
     ],
-    "ubuntu": "unreachable"
+    "ubuntu": [
+     "RSA-4096"
+    ]
    },
    "headline": {
     "pq_rate": {
@@ -2343,7 +2470,7 @@
      "median": 0.0625,
      "min": 0.0625,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "probes": [
@@ -2475,7 +2602,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2613,7 +2740,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2647,6 +2774,12 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
     "iana-tls-group-29": [
@@ -2673,6 +2806,12 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
     "iana-tls-group-4587": [
@@ -2699,6 +2838,12 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
     "iana-tls-group-4588": [
@@ -2725,6 +2870,12 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
     "iana-tls-group-4589": [
@@ -2751,6 +2902,12 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
     "iana-tls-group-4590": [
@@ -2777,15 +2934,150 @@
       "last_observed_utc": "2026-11-05T18:02:51Z",
       "observations": 25,
       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6"
+     },
+     {
+      "first_observed_utc": "2026-11-06",
+      "last_observed_utc": "2026-11-06T17:36:19Z",
+      "observations": 1,
+      "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
    },
-   "disagreements": {},
+   "disagreements": {
+    "iana-tls-group-25497": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Pre-standards version of Kyber768. Obsoleted by",
+       "date": "2023-05-10",
+       "description": "X25519Kyber768Draft00 (OBSOLETE)",
+       "dtls": "Y",
+       "recommended": "D",
+       "references": [
+        "draft:draft-tls-westerbaan-xyber768d00-02",
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2026-02-13",
+       "value": "25497"
+      }
+     }
+    ],
+    "iana-tls-group-29": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": null,
+       "date": "2016-02-29",
+       "description": "x25519",
+       "dtls": "Y",
+       "recommended": "Y",
+       "references": [
+        "rfc:rfc8422",
+        "rfc:rfc9846"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2025-08-12",
+       "value": "29"
+      }
+     }
+    ],
+    "iana-tls-group-4587": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining secp256r1 ECDH with ML-KEM-768",
+       "date": "2024-09-04",
+       "description": "SecP256r1MLKEM768",
+       "dtls": "Y",
+       "recommended": "N",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4587"
+      }
+     }
+    ],
+    "iana-tls-group-4588": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining X25519 ECDH with ML-KEM-768",
+       "date": "2024-09-04",
+       "description": "X25519MLKEM768",
+       "dtls": "Y",
+       "recommended": "Y",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4588"
+      }
+     }
+    ],
+    "iana-tls-group-4589": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining secp384r1 ECDH with ML-KEM-1024",
+       "date": "2025-01-02",
+       "description": "SecP384r1MLKEM1024",
+       "dtls": "Y",
+       "recommended": "N",
+       "references": [
+        "rfc:rfc10024"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": null,
+       "value": "4589"
+      }
+     }
+    ],
+    "iana-tls-group-4590": [
+     {
+      "found": true,
+      "probe_id": "probe-3",
+      "state": {
+       "comment": "Combining SM2 ECDH with ML-KEM-768",
+       "date": "2025-11-14",
+       "description": "curveSM2MLKEM768",
+       "dtls": "N",
+       "recommended": "N",
+       "references": [
+        "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
+       ],
+       "registry_updated": "2026-11-05",
+       "subregistry": "tls-parameters-8",
+       "subregistry_title": "TLS Supported Groups",
+       "updated": "2025-11-24",
+       "value": "4590"
+      }
+     }
+    ]
+   },
    "headline": {
     "items_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1",
     "items_not_read": [],
     "items_watched": 36,
-    "probes_agreeing": 4,
+    "probes_agreeing": 3,
     "probes_observed": 4,
     "superseded_items": {
      "iana-tls-group-25497": {
@@ -6527,7 +6819,7 @@
      "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
     },
     {
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -6852,13 +7144,13 @@
          "draft:draft-tls-westerbaan-xyber768d00-02",
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2026-02-13",
         "value": "25497"
        },
-       "state_digest": "7d495c2762c73d3f9f39ca3bdc2ade34510bfaf819fe17b232cd6e5c058558a8",
+       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08",
        "successors": [],
        "superseded": true,
        "what": "X25519Kyber768Draft00 (pre-standard)"
@@ -6877,13 +7169,13 @@
          "rfc:rfc8422",
          "rfc:rfc9846"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2025-08-12",
         "value": "29"
        },
-       "state_digest": "5d5cfefd661aa2bec25fc8440f601715629e682f1df84d6f424a730d22000e7c",
+       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8",
        "successors": [],
        "superseded": false,
        "what": "x25519 group"
@@ -6901,13 +7193,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4587"
        },
-       "state_digest": "66252da960c2b31dc8e8f1b64131f860af18ea102cf9f058ac56fb8ba0bdc7ea",
+       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316",
        "successors": [],
        "superseded": false,
        "what": "SecP256r1MLKEM768 group"
@@ -6925,13 +7217,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4588"
        },
-       "state_digest": "bca5496a9efe9e534956dc10e94b403d1b9425eb98cb0336d8c4f98e252b442f",
+       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f",
        "successors": [],
        "superseded": false,
        "what": "X25519MLKEM768 group"
@@ -6949,13 +7241,13 @@
         "references": [
          "rfc:rfc10024"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": null,
         "value": "4589"
        },
-       "state_digest": "183564a20b4b0cc2bea02a1ef0fa5c5e9f02ae17ea6a0c53da45d326bd2db0c5",
+       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7",
        "successors": [],
        "superseded": false,
        "what": "SecP384r1MLKEM1024 group"
@@ -6973,13 +7265,13 @@
         "references": [
          "draft:draft-yang-tls-hybrid-sm2-mlkem-03"
         ],
-        "registry_updated": "2026-10-28",
+        "registry_updated": "2026-11-05",
         "subregistry": "tls-parameters-8",
         "subregistry_title": "TLS Supported Groups",
         "updated": "2025-11-24",
         "value": "4590"
        },
-       "state_digest": "b4465fc625b1033bcff9a5e07ee23615533c64c09c2667696abf742264f424e6",
+       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0",
        "successors": [],
        "superseded": false,
        "what": "curveSM2MLKEM768 group"
@@ -7440,7 +7732,7 @@
      ],
      "network_attested": true,
      "probe_id": "probe-3",
-     "state_digest": "eff004f54cfb23b7fdea5d23960491d7cd8a61965edf832e50bdb61b408a48b1"
+     "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     }
    ]
   },
@@ -7524,8 +7816,8 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.21744871139526367,
-     "median": 0.15078341960906982,
-     "min": 0.07071042060852051,
+     "median": 0.17556220293045044,
+     "min": 0.1288154125213623,
      "n": 4,
      "networks": 4
     },
@@ -7539,7 +7831,7 @@
     "nts_support_rate": {
      "max": 1.0,
      "median": 0.6857145,
-     "min": 0.444444,
+     "min": 0.375,
      "n": 4,
      "networks": 4
     },
@@ -7567,16 +7859,16 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-11-05",
-     "detection_floor_s": 0.07071042060852051,
+     "created_utc": "2026-11-06",
+     "detection_floor_s": 0.17837297916412354,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
      "network_attested": true,
-     "nts_support_rate": 0.444444,
+     "nts_support_rate": 0.375,
      "probe_id": "probe-2",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.027748465538024902,
+     "reference_spread_s": 0.026831507682800293,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -7611,7 +7903,7 @@
    ],
    "reference_spread_s": {
     "all": {
-     "max": 0.027748465538024902,
+     "max": 0.026831507682800293,
      "median": 0.01937568187713623,
      "min": 0.0051119327545166016,
      "n": 4,
@@ -7626,31 +7918,31 @@
    "headline": {
     "consensus_signatures": {
      "max": 9,
-     "median": 8.0,
+     "median": 8,
      "min": 8,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "recommended_protocols_share": {
      "max": 0.999896,
      "median": 0.999896,
      "min": 0.999894,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "recommended_version_share": {
-     "max": 0.618513,
-     "median": 0.612599,
+     "max": 0.629002,
+     "median": 0.61744,
      "min": 0.605878,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "relays": {
-     "max": 9615,
-     "median": 9580.5,
+     "max": 9620,
+     "median": 9573,
      "min": 9459,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "probes": [
@@ -7701,39 +7993,39 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-05 10:00:00",
-     "created_utc": "2026-11-05",
+     "consensus_valid_after": "2026-11-06 17:00:00",
+     "created_utc": "2026-11-06",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
      "recommended_protocols_share": 0.999896,
-     "recommended_version_share": 0.611911,
-     "relays": 9588
+     "recommended_version_share": 0.629002,
+     "relays": 9620
     }
    ]
   },
   "transparency": {
-   "cross_probe_heads_checked": 518,
+   "cross_probe_heads_checked": 507,
    "growth": {
     "ct_entries": {
-     "per_day_median": 239133721.4,
+     "per_day_median": 239530173.4,
      "probes": 4,
-     "shortest_span_days": 34.12
+     "shortest_span_days": 35.07
     },
     "go_sumdb_entries": {
      "per_day_median": 132327.7,
      "probes": 4,
-     "shortest_span_days": 34.12
+     "shortest_span_days": 35.07
     },
     "rekor_entries": {
-     "per_day_median": 18808511.6,
+     "per_day_median": 18879145.9,
      "probes": 4,
-     "shortest_span_days": 34.12
+     "shortest_span_days": 35.07
     },
     "rekor_v2_entries": {
-     "per_day_median": 1474948.0,
+     "per_day_median": 1474019.2,
      "probes": 4,
-     "shortest_span_days": 34.12
+     "shortest_span_days": 35.07
     }
    },
    "headline": {
@@ -7742,14 +8034,14 @@
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "cert_pq_signature_share": {
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "cross_probe_consistency": {
      "max": 1.0,
@@ -7759,39 +8051,39 @@
      "networks": 2
     },
     "ct_entries": {
-     "max": 48153153429,
-     "median": 48013110487.5,
+     "max": 48419655214,
+     "median": 48132684600.5,
      "min": 47845713987,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "go_sumdb_entries": {
-     "max": 70868537,
-     "median": 70837631.0,
+     "max": 70915542,
+     "median": 70862566.0,
      "min": 70809590,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "log_consistency": {
      "max": 1.0,
      "median": 1.0,
      "min": 1.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "rekor_entries": {
-     "max": 3702517667,
-     "median": 3693668240.0,
+     "max": 3722539478,
+     "median": 3702517667,
      "min": 3692115818,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "rekor_v2_entries": {
-     "max": 185597887,
-     "median": 185037308.5,
+     "max": 186801294,
+     "median": 185543551.0,
      "min": 184285808,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "logs_compared_across_probes": 2,
@@ -9238,193 +9530,193 @@
      "cert_pq_key_share_definition": "3",
      "cert_pq_signature_share": 0.0,
      "cert_pq_signature_share_definition": "3",
-     "created_utc": "2026-11-05",
+     "created_utc": "2026-11-06",
      "cross_probe_consistency": 1.0,
      "cross_probe_consistency_definition": "1",
      "cross_probe_counts": {
       "already_proven": 6,
-      "checked": 257,
-      "consistent": 257,
-      "errors": 4,
-      "peer_heads": 267,
+      "checked": 246,
+      "consistent": 246,
+      "errors": 1,
+      "peer_heads": 253,
       "peers": 3,
       "signature_not_verified": 0
      },
-     "ct_entries": 47991361011,
+     "ct_entries": 48419655214,
      "ct_entries_definition": "2",
      "eligible": true,
-     "go_sumdb_entries": 70832976,
+     "go_sumdb_entries": 70915542,
      "go_sumdb_entries_definition": "2",
      "heads": {
       "https://ct-log-api.godaddy.com/aquamarine2026h2/": [
        "GoDaddy Aquamarine2026h2",
-       28998587,
-       "3cgY0D3qX5kDLwQK/5CtV6FsBbOw9zchYZ5OyWezNKY="
+       29744030,
+       "puZa+bb0A4stkYM0vboJ7uFZdVKGBwXfrtX1VrTB3Pg="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h1/": [
        "GoDaddy Aquamarine2027h1",
-       183236396,
-       "ILYaAq02cECRE0N6Y5aFPwFS1wUxsJb3dc5yAjShuao="
+       188711106,
+       "XfWW53wdWEar7joMbp9/0w6UBopllyK7ZeGDfct9L1k="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h2/": [
        "GoDaddy Aquamarine2027h2",
-       2867,
-       "h64V28qkeK5qrOKO0R/6bzSfMdwp+168xLYMhCSq4g8="
+       2950,
+       "X7v0OJ37+MnjKwZapjl1nugwQT3e7sMeVQlMRbIAgOI="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h1/": [
        "GoDaddy Aquamarine2028h1",
-       2937,
-       "U61V0a7TR5SSD9KmIKjP/nLbMBsRaF3/TaTofhdqcWw="
+       3008,
+       "YdGBaO0AnMGxc5NKOl8/ten+X//bz8bIGa5SbFfrnTc="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h2/": [
        "GoDaddy Aquamarine2028h2",
-       2856,
-       "vjDpHmA/QPmG8MPAD1cy/Jqyjp/H7aqz8CmLZqKUoyc="
+       2919,
+       "aST3Z6SeMuxaGgbN09idIeM0b780xoPi6uOb/ed2GSA="
       ],
       "https://ct.cloudflare.com/logs/nimbus2026/": [
        "Cloudflare Nimbus2026",
-       6756286916,
-       "+8hb+KXKCLbGZviC7ZhL7zKl30fOM4DKkqYEdpqGlV4="
+       6761073491,
+       "0ORz9iWUd8gij+AhlvL7LVJRFk1LYu+sTPCLbAPdSCk="
       ],
       "https://ct.cloudflare.com/logs/nimbus2027/": [
        "Cloudflare Nimbus2027",
-       847630788,
-       "vZIna4+EI04c/TgXL1cIg7ytfAKa28D9eaAmBpItQdk="
+       875097810,
+       "2LjhoD50L0pMEArWBeUfUbGL5A1mope6+6yHYJRhfj4="
       ],
       "https://ct.googleapis.com/logs/eu1/xenon2026h2/": [
        "Google Xenon2026h2",
-       3021639814,
-       "sCaqRo+Fzm2jOmSeJkbIW3laXlelz7WGcngQLz+h+TE="
+       3024622153,
+       "qswh3vYP8kZ9Elh4ic2+0Q6PLxwd6A2Ck9cU/8pbyUw="
       ],
       "https://ct.googleapis.com/logs/eu1/xenon2027h1/": [
        "Google Xenon2027h1",
-       727969767,
-       "hlkXGNdw2aXzFujeGZfKk1oDy3cPy1BNQSP2vH39msE="
+       748979300,
+       "P3l74Q59rteQH5KvtYdkx41MIvqTqK8Aj+b/buPqAME="
       ],
       "https://ct.googleapis.com/logs/us1/argon2026h2/": [
        "Google Argon2026h2",
-       3486886755,
-       "+WEkmDs2sZwvlo6HsvQRT2YZUkyjf3GOT4ch2qxQPO0="
+       3489755122,
+       "pzg9PnO5sFa9d9dPcqLSitPtpZo3wXo+y0fHeLpJtCs="
       ],
       "https://ct.googleapis.com/logs/us1/argon2027h1/": [
        "Google Argon2027h1",
-       873637449,
-       "LYebM0MSBof3br4CHJuD52zrrHJRGGtdnxKQZsA7rOg="
+       897117049,
+       "qapjs0BuGXVLZxbSw5jYNFq7s5zA6Zywulmn9ANhkRA="
       ],
       "https://ct2026-a.trustasia.com/log2026a/": [
        "TrustAsia log2026a",
-       3021349200,
-       "ubBUQSxRxKuqiUeNIcg9XfZABvWMMW/V0GI5OXcjJF8="
+       3024066077,
+       "IIYvdqm2D2uWImz0LAK/NO6DbLsRKNT796uinoCAAQ4="
       ],
       "https://ct2026-b.trustasia.com/log2026b/": [
        "TrustAsia log2026b",
-       3042172866,
-       "x0yA6aAF2ck+Tv1tlfR9Tdfqlrrh8TTBi6X9zxSmETY="
+       3044890380,
+       "IMnmZN3BhAWmPjQ4c/jJJmJfN4El8SEiAR2lKV/ly1c="
       ],
       "https://elephant2026h2.ct.sectigo.com/": [
        "Sectigo Elephant2026h2",
-       2068892828,
-       "eU7hxSTLZ4hX7Jk2F8sxbJogGxgShA6tp1McnqCh8Uc="
+       2071464979,
+       "lHDTZ4TJpv8LJUtZ4kFL62BDO1E8792+TSekC4twIFg="
       ],
       "https://elephant2027h1.ct.sectigo.com/": [
        "Sectigo Elephant2027h1",
-       728909408,
-       "YTO1keBDOduWen0tEuQxENEiF4dqlD+lZ2ChezF4pik="
+       750798349,
+       "F2Qu4U/AYZvOjieu1Sn2ex3iCD+xltIhZMKCJvc/hFQ="
       ],
       "https://elephant2027h2.ct.sectigo.com/": [
        "Sectigo Elephant2027h2",
-       32864,
-       "gE/VG1c2Ry6w5elL7d5bC5Emjttud0NJqLRpVCuc4ek="
+       32952,
+       "y/WjdiS/f9vPuXRZbQZv1vzKXsJHqVZlJd89zLwSlnE="
       ],
       "https://eszigno2026h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2026h2",
-       30383973,
-       "GwnTc/bUuuUAs3+wZ7uh7QL5Ih95OvX29JAofrUVZkE="
+       32855740,
+       "4hfq2mSF9DIfp75/thZqMKQGuVIO3IdoArXxkk/LTpA="
       ],
       "https://eszigno2027h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h1",
-       74358571,
-       "tLFSq5LBVW/ucgkOffvlW8VmMU0lH1GHr5XNMNks/+g="
+       86288359,
+       "rvos5qSliBxkZHPSYcOwGTBE618lnYbnN2ub+dz0S4g="
       ],
       "https://eszigno2027h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h2",
-       2966,
-       "d7HaXYr6m9oB2fQG4qzFquMc0tYoDWRnDXNUAQSM71M="
+       3052,
+       "c/U/mb+PPXCASzHIqnhVS3qZssQ7w+qyLrM/5twwCI4="
       ],
       "https://eszigno2028h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h1",
-       3033,
-       "NCYU3Z5XXrGDIUbgqUX1ath9WApIjlfxyDuryrV3f6A="
+       3103,
+       "VVGYChfwclCdWRV6uJ72lYRGbIWFzOF4jYFdHcJPYGU="
       ],
       "https://eszigno2028h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h2",
-       2932,
-       "yijxtTwNVKkOmJxCjE8sw26bIqr+lDlJ4JojjAhbhX4="
+       2994,
+       "IijeFp5Q0dWW8CKBgUBqN2EPa80pxG9ckG+GluLsyaI="
       ],
       "https://gouda2026h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2026h2",
-       1243081454,
-       "qBj110m1REkva3uI+kJNPXbIhdMnSlsqp3Ose5qUQxU="
+       1244846222,
+       "Ez4jIANb4DWOj3ZVXSFLa8Ws9u+I2OWvD05vpT0fU1o="
       ],
       "https://gouda2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h1",
-       323357228,
-       "s0dhoZIAGO8OhkVUy+8jus8xbcHze5pEuUxximAhUZI="
+       336617852,
+       "akx1nFm0IHj49f4vTcd5xHjl6LAjfovFXBijwBvWFuo="
       ],
       "https://gouda2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h2",
-       20904,
-       "QbRAiUkyTH3SYoNm83DwOfZz6byO4eWM4xXT4jZ4PQI="
+       20981,
+       "iQ0+7hz+uKnTI+svtdwGucQjKmXefc09s8/WXE7JAKM="
       ],
       "https://gouda2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h1",
-       3476,
-       "7MAotwYtAEYkNP0/ZsHk+tWAWhK6BVp0N3lDUr8O/hI="
+       3544,
+       "0eB3h98BdQ5MQ2ivDu8LmofDFg77bAoyFwDZhGV+SgQ="
       ],
       "https://gouda2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h2",
-       3387,
-       "8io4uibCNf8JsHE+BxlGCk7ymartfF/jMINsrtnp5mk="
+       3448,
+       "lu5FgzxSwSMyCIx1etLc7h+vKrXeHG6JdoueSCH/d4U="
       ],
       "https://halloumi2026h2a.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2026h2a",
-       1287267970,
-       "iGDQ06hFTtgL3jP2cah/dxS2GNSNx+jyQwCvTEuq+9U="
+       1289617549,
+       "GdEkzicTJBMt9W1rp8kXbMA9jhTXe2/2DShvhyAeT90="
       ],
       "https://halloumi2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h1",
-       372844566,
-       "kRMVrNPRzTdRyVR2SRQRjmStLerWSmqQNfHY3Rtel68="
+       389428420,
+       "/RxK00hmmS+H87j+lc1qc4AysFBBrV1F+WNzV1eIabc="
       ],
       "https://halloumi2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h2",
-       20703,
-       "EvDiaW1KCwBLoRJKoaictTEl/wArfpiliIMucCkX2AQ="
+       20788,
+       "rH2B9DFSL+0wVBv80TJAiaslnInOMrpqOPj4868LTV0="
       ],
       "https://halloumi2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h1",
-       3508,
-       "vbYP63viiqAiuI+bXxNifDUt4wKWU7LiQ07/4vp5BmQ="
+       3581,
+       "qXGMOM88I/cB/0YHY220ZSsDWtGLeu5aXTMd4FE2GGI="
       ],
       "https://halloumi2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h2",
-       3393,
-       "sRoL2ENAJ4YtWDj9u1IydPzy/fhX/9ONtQUgTMRPfCc="
+       3454,
+       "ZlYSjjMY2zBdbsS7ogMd8ZwQLMxqu/khZ82XHG6j5zA="
       ],
       "https://hetu2027.trustasia.com/hetu2027/": [
        "TrustAsia HETU2027",
-       546395321,
-       "flpYoHkEbqeSoEF/pxtmS/8btwODCObWwzcSYjNDAsI="
+       562258965,
+       "TdmULJqe4Z7L1uS8ozolgfncAsr4b9gsyY2TDUqd00U="
       ],
       "https://log2025-1.rekor.sigstore.dev/": [
        "Sigstore Rekor v2 log2025-1.rekor.sigstore.dev",
-       184952556,
-       "UfcSsUIaYhd6mfRiBR9I7tskSWyk4g+XkNxZjPfzZaQ="
+       186801294,
+       "Ifq++nUYMZbqISkcPLRv6Isi/1UTD/AktgUH1DC9le8="
       ],
       "https://luoshu2027.trustasia.com/luoshu2027/": [
        "TrustAsia Luoshu2027",
-       541931158,
-       "IzBhlNMdJnS5DWnRb7UXNOTKPbKahw0HWRwc+u2KPsg="
+       558308553,
+       "KGoqhycgI3eUap/sF6vqltRKeHv9dYC3FYcEpxGE8Uw="
       ],
       "https://mammoth2026h2.ct.sectigo.com/": [
        "Sectigo Mammoth2026h2",
@@ -9433,78 +9725,78 @@
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Sycamore2026h2",
-       1066371856,
-       "skANQ0wcf3LUDUje09T9kW5Z2zJt2blto+M45iLYb/E="
+       1070949455,
+       "JoaWSuJrWn+Sb6C/FuDv3TEkyyeOPpDQw/JIN5p9ZxQ="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Sycamore2027h1",
-       957696651,
-       "CD+4qxxoIxCaPdJUOGRj3l9EeyTo9WLaRqwGJ6bOcdo="
+       989191401,
+       "8dMIkbPBxTAzOPA6ZY/63WpGdGNir/kfqxOIT82UyIY="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Sycamore2027h2",
-       20830,
-       "wuFMIC+SvPDSmkZpqFzzDPilwY5uoCF7Ds5zFs6xjxc="
+       20910,
+       "1SXiIoVGGSjYE9hqmsg88zOwgLmdGU0ohtF4oz4nsbA="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Sycamore2028h1",
-       2047,
-       "L47rNJAOoln+rQ/tXYASoFFsRifS84TTN0Zf5iHvnq8="
+       2119,
+       "bSi7LJO+ghBPIdd24XilP7offpL3kdxWAV7HYKFxr0I="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Sycamore2028h2",
-       2041,
-       "Yg6+lzu5+nnD8/+0DNSs5OA6baI+TpRpZuOv++vHBNY="
+       2101,
+       "MMVG836Was+4631w08j6LafFahfsS9i9Yf+Xdv6OaeA="
       ],
       "https://mon.willow.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Willow2026h2",
-       1023309034,
-       "0bDHwTjX2mVn7nD+CzjfFxbvZyJYB2EZ53W66ZIpdZg="
+       1026025240,
+       "GH+6ZKZpFmIMZRgUZojBo4xMgSiD843t+dFp6ufJCpk="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Willow2027h1",
-       948482738,
-       "N/1OqoXSVUt0b9MlzOoAUPhl43xiX9yF4LodpGrM7lE="
+       972401049,
+       "EF7cT3Dtmh5u8QRUUoCzoCUL4GZaPRixDX15q5OG4uY="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Willow2027h2",
-       20850,
-       "oWFzdRDOYn9BqiM5XwYhFyDtLSLemg+SuIV+Qvl20d4="
+       20929,
+       "D/XTHJ8XmIJWCf5oRQ03alH+1iV1BMHVQ/8JMk3uwoA="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Willow2028h1",
-       2043,
-       "VCmZ7Cvd35UiWuse26j71XGWLe2g5YnQyevXdTqalDw="
+       2117,
+       "9ehG+QWIpp6JOJOA4sScWyoHLlLjWgcvobT5P082ZNQ="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Willow2028h2",
-       2051,
-       "o38kjP59oKXDTdMAet5khI2Yk6SnNOVWBEcF49d/Qf0="
+       2110,
+       "hJX+MFEDaeF4qp3J+/otxQgtXcWQ8O6bKbqLeGchbok="
       ],
       "https://monument2027h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h1",
-       62585259,
-       "58IjesZoh1p3nbJnbwvXYcTTzVxIIcwjYLkWWt/wzyU="
+       76003301,
+       "USDjNR761zDZMXLjqv8C2rZeFeT2ahIxTvSuu+voYak="
       ],
       "https://monument2027h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h2",
-       2033,
-       "VzYHtxoRk71FhKH59+SptRre6lIIBmdIwWKbfGWtTo8="
+       2114,
+       "V8Y1xZBsP6YOg896ZZBB7XAjiLpuaa+FqwEssgdh0gE="
       ],
       "https://monument2028h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h1",
-       2084,
-       "rGt4ThL9uJLnwvWHfkT7r+ae62jyCHsatCZ5P+hEY/4="
+       2158,
+       "KrtJA9yw1dfKqMHXiyYc2J2CfoL+o60Kb3/eokKtSD8="
       ],
       "https://monument2028h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h2",
-       2012,
-       "JsB930bubE9XCa3Fr/djqsaGOqUVyr/l0wwpyT1GHyk="
+       2076,
+       "1v71XI+fVhe0CCJXrm7VVdx6c5WaDx8C3G0yr4KN99I="
       ],
       "https://rekor.sigstore.dev/api/v1/log#1193050959916656506": [
        "Sigstore Rekor",
-       3571214332,
-       "pWNiF/duep/5z0XfiCCIrw4quNakt9QvNW/JmtTt/AQ="
+       3600635216,
+       "gdus7avYWJAOWDZ6RH1A6JemGA+Gpl6mpOE9EMHt/BU="
       ],
       "https://sabre2026h2.ct.sectigo.com/": [
        "Sectigo Sabre2026h2",
@@ -9513,193 +9805,193 @@
       ],
       "https://selene.mon.ct.harica.eu/selene2027h1/": [
        "HARICA Selene2027h1",
-       55990487,
-       "Q0U52KJeZp1k+gxPwwUDWCm/fjR3ax2etR4qhBmRaMg="
+       57302950,
+       "udH8UUrS5aHqFH2HfjsDv4AQoN1PSgY4XEvA8Y5vgRw="
       ],
       "https://selene.mon.ct.harica.eu/selene2027h2/": [
        "HARICA Selene2027h2",
-       2164,
-       "j1qiGntpe+GqYxI8iQnNEn563ky4O5uVkzIEuRvB508="
+       2258,
+       "JJ4vJN6VksjumyyGvJCXJ6slhQcsD8LXWMSp4v/B+Qs="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h1/": [
        "HARICA Selene2028h1",
-       2238,
-       "wVZ4jvTKTIfqxqJ8WvSoQ2M9K0dfNhMSXszQZnIh4Rg="
+       2318,
+       "/AtwF3aj5dfBDYeOFVLavpEoZSOJRqPNFVJeXq2c8TY="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h2/": [
        "HARICA Selene2028h2",
-       2143,
-       "M6Dr1QXyI2ti9WGU+HAR4C1rFLozu505BDkwJ76TxYc="
+       2208,
+       "lBgmszMT3TVP5Ut1YvYTw8J3Ga3xA6fGM0z1xx9NWnY="
       ],
       "https://sphinx.ct.digicert.com/2026h2/": [
        "DigiCert Sphinx2026h2",
-       2168580733,
-       "+4BtHAu42+gfl/KyV05yf+OFWeL3oZI4omV0VofIomw="
+       2170734972,
+       "mnfwagd6nrvmRVSpKKIVdTdAG61ygSWxGhDgNez+AxA="
       ],
       "https://sphinx.ct.digicert.com/2027h1/": [
        "DigiCert Sphinx2027h1",
-       365830245,
-       "pJpBDSZl7GH7M3+QMQ4FJsVvaQVYd+C1f9QTSsCG450="
+       381311850,
+       "HSZyN66jOK9op0EvSvU8VyOZySZcfrzJfniJjx0XGDE="
       ],
       "https://sphinx.ct.digicert.com/2027h2/": [
        "DigiCert Sphinx2027h2",
-       34900,
-       "4NjY5rjj9HKKyAydpg034VkdamXRRWYni8bujMrbX9k="
+       35047,
+       "VEpxoHI8HgghtSAN/Fix6YOgP0aTfdPeueV6sM4PT6I="
       ],
       "https://statue2027h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h1",
-       62653848,
-       "V07tUtMXTKAgfyNbeCqhgWaV2JyZilwERt+R7pfASMo="
+       76077863,
+       "q/jduyUNYfTCbnBmnTVmParAms8/ZzgWbDPFvTgRBuw="
       ],
       "https://statue2027h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h2",
-       2035,
-       "DpwRhGXGMhnOhYhM2VHrBBxdVdmTYyqDteW4JwMnwm0="
+       2120,
+       "klWmaKx1v9XrhC2KgOveTE9PST27cmftTFtaOxcSFJY="
       ],
       "https://statue2028h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h1",
-       2095,
-       "670o4zH4Ua3Tl7KL4LYsGvwltyfJaLc3xRldA0sx4X0="
+       2168,
+       "Y9Czv5R7485eDZS5gQ8f0frCBjDZz+eH8WwCjCBr3X8="
       ],
       "https://statue2028h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h2",
-       2008,
-       "i1xYT1nPRE1IjpxDGclJ7g2eDbmGt4+eM7U0jqrWMeI="
+       2068,
+       "RNTC+dajkkIoC9LEA2qFHJ1+qYIalxH6Hp0NLHWUq8o="
       ],
       "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2026h2",
-       1640505002,
-       "VF3dgGCUfV9pUPUPsBmUKZoZLKOfyXe+2eyda8hAAaM="
+       1642754535,
+       "SR+/hhXOi5UPSsVigguUHHvduWcp+I9Oodr9A4mOkkI="
       ],
       "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h1",
-       624195325,
-       "/rYkGL9BQzd/mYZEv2qPsBE0x4ANadZMG76WeokQ0d8="
+       647274446,
+       "N4V3sbdgk/Gf988QKGaYqmEaPIbbhEkpCFhI91sc7U4="
       ],
       "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h2",
-       9841,
-       "NT6FFvFhmT1JH6Wn2GwQrtvRIb8h37X1+sgVhID/0vQ="
+       9926,
+       "p0KL41eEeqp+5MsiSk9fD5RTxrkasrh4VsElQV3wvKs="
       ],
       "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2026h2",
-       1640010739,
-       "rFZV9b0hHVLuv+5jFMg/4BUoCnnMT/DoWGLtS5DBfDQ="
+       1642261202,
+       "OLdAnP6gnWBi3BoS+3l8sZ4z9Vb7P+cl4hd8WIR+SvY="
       ],
       "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h1",
-       624593268,
-       "PmNTZB09YOxU1JvjO86zk/h7Cs4RCoqOs+NfNYHMEWY="
+       647632404,
+       "yIHgLHiqIqK1i4XwOLyK6LTrvt7bdwMVfuL6jVu5xks="
       ],
       "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h2",
-       9869,
-       "S2Ldj13DkxXFAOUjFF9gf1CWtikaYxZBR+JkAU6K1Uk="
+       9955,
+       "f9aidWASYqZ0IJcHY10+ZvwEktHfbBRlhXZcwSnnwCA="
       ],
       "https://sum.golang.org/latest": [
        "Go checksum database",
-       70832976,
-       "tIavm5noF83WnzK9JjLspc1hXP49GZ9nVpU+42OZPdg="
+       70915542,
+       "9dJMq9RdO0xvOwRI880HyftgTAvGwB4QHyRjwF2R/2o="
       ],
       "https://tiger2026h2.ct.sectigo.com/": [
        "Sectigo Tiger2026h2",
-       2469681487,
-       "CLlrqVk0zEGp5O3zJG2d7fZOSTiZSD76Z2KjjeHN2oU="
+       2472393666,
+       "tE5bjRai6dV7I8Wpc669cxef365+8MIBHqH81KqiKeg="
       ],
       "https://tiger2027h1.ct.sectigo.com/": [
        "Sectigo Tiger2027h1",
-       743447089,
-       "/te7ejIqcof2TbuV62vgy3zkyilxQjEjVCygsQ29pBU="
+       765626012,
+       "rXF909jHgwhgucCURQSXSpRYuIE9TXzq7Vd7GoTD9LI="
       ],
       "https://tiger2027h2.ct.sectigo.com/": [
        "Sectigo Tiger2027h2",
-       32135,
-       "Xih3WH2xvB2IJyNEr4GD+IY8z2pYNKGkCiSispqfaFM="
+       32222,
+       "TPWn5MaMm4acK+Y2I7HLp7114mHFt1snkKiHiEg3flA="
       ],
       "https://tile-luoshu2028h1.trustasia.com/luoshu2028h1/": [
        "TrustAsia Luoshu2028h1",
-       4621,
-       "MPUnvtQ3f0jXF3ChWIwGDfk5ROiihARTCMlZwxpD/Zk="
+       4720,
+       "FDJqlrc5Oqu5OKU5vDtETjfVnAiuAKVtIzXMjQSULiM="
       ],
       "https://tile-luoshu2028h2.trustasia.com/luoshu2028h2/": [
        "TrustAsia Luoshu2028h2",
-       4821,
-       "Rexb4yc+UlPZ6Wg3qHzXmiBTaT1bU9weJ+fS4ADPq2s="
+       4920,
+       "FrdbX0fa0uru+tZkdv32WPwI2WsVE5QBRMlU9uABFKM="
       ],
       "https://tile-taiji2028h1.trustasia.com/taiji2028h1/": [
        "TrustAsia Taiji2028h1",
-       3289,
-       "j9DNXhPDNLIpgGU0wPx+FnURDP56JVkWkNJ81OT72b0="
+       3388,
+       "KRJD5jtzGVCEaamCVMEedhYClXv9aIG8JHAkYeLcGiw="
       ],
       "https://tile-taiji2028h2.trustasia.com/taiji2028h2/": [
        "TrustAsia Taiji2028h2",
-       3429,
-       "Xpk8PFTK1WIpSkecy3c9eIEIW3n9cY1ysOR5IqlxF4o="
+       3529,
+       "fFW+8gDKkMk3IDLMIvIq9+uD8QCxANFb/FwlLFKjEfU="
       ],
       "https://trastevere2026h2.skylight.geomys.org/": [
        "Geomys Trastevere2026h2",
-       27340548,
-       "5qnHTKD4nYP5Xmk2afRDzru+0V7/FPG3HxOgU2RGkc4="
+       28409478,
+       "9jt7TfaHOSRzVLh36+vndgElYUaHRXQe+uOEKQeoymU="
       ],
       "https://trastevere2027h1.skylight.geomys.org/": [
        "Geomys Trastevere2027h1",
-       29696262,
-       "THB1Y/mwFNg15h8mZmMDhE5f3Xhvs/FM5hRrwgz91zY="
+       32995700,
+       "Tmj71dcDTMJAr/VZ5RWNJ2BFSIy2GBsn+VO8e4TIkyU="
       ],
       "https://trastevere2027h2.skylight.geomys.org/": [
        "Geomys Trastevere2027h2",
-       76440,
-       "AMkF/pji7eKs5fuvKugaRIdDGb3zBkWg0G8T5Kq5Q4I="
+       78393,
+       "z9numplplKxIvTPNxTNWodf1p9eofLVGFZVA4Lc/wWE="
       ],
       "https://trastevere2028h1.skylight.geomys.org/": [
        "Geomys Trastevere2028h1",
-       76446,
-       "zQEv+5GoXSulnJt3X/oHDtR7D/cqmBSUOmZGKvsbnvQ="
+       78387,
+       "M91Slk9y9A2kEVXa7+C5sExLL4McWozEQsGzgDeRfQs="
       ],
       "https://trastevere2028h2.skylight.geomys.org/": [
        "Geomys Trastevere2028h2",
-       76364,
-       "TdWc4CbAvh//5AtSBEFBmTvD1HFyVanPtgtBET0zPys="
+       78294,
+       "uRyj/w0EGUrWWhrDzpPDXFStoaBmf+LBS6cxZESSUy0="
       ],
       "https://tuscolo2026h2.skylight.geomys.org/": [
        "Geomys Tuscolo2026h2",
-       1040263899,
-       "OsQ3zHhL4oF82zXP1rTVd8WAzdcgBMGkUu7PVkhzovQ="
+       1042894364,
+       "DHIV9OEd6fpedgTdc6nOoMRjADgge1Vv8wh8Pkd7PRg="
       ],
       "https://tuscolo2027h1.skylight.geomys.org/": [
        "Geomys Tuscolo2027h1",
-       485512814,
-       "dr3fwhqXqbsCathzcWChfAMMoz19V7GcXYvvmAQT/Qc="
+       503603889,
+       "whtRCEvWKVGzmjaQcqI0MkTyGcQ7/WL26Nk2sMU8ySg="
       ],
       "https://tuscolo2027h2.skylight.geomys.org/": [
        "Geomys Tuscolo2027h2",
-       99871,
-       "bSVbr4cd/FUcqNvqb5bFD3accaJJpuO8TM0aZuqdrUE="
+       101826,
+       "OWM97P7EtXkqipF+NvnWR74o4ruQBwfAfn1MFarDooo="
       ],
       "https://tuscolo2028h1.skylight.geomys.org/": [
        "Geomys Tuscolo2028h1",
-       76514,
-       "z2yTv3f8ircURP+rhQL56YNWBbwlHWXavJzS5qso7vs="
+       78456,
+       "jVvtpXtnljdQiI0N7MZk1rDcfTTXvVyS8LhkroiKeig="
       ],
       "https://tuscolo2028h2.skylight.geomys.org/": [
        "Geomys Tuscolo2028h2",
-       76415,
-       "ljRCkjF5/yMmGU0DydXCOZLaYv5VGR/cPql0U1aqmxY="
+       78346,
+       "62p5mRxe9zp9QbTYoqUljDT/iOfD2WPDCXI0UZ4JfM8="
       ],
       "https://wyvern.ct.digicert.com/2026h2/": [
        "DigiCert Wyvern2026h2",
-       2205669861,
-       "lE0pSjcEbKKnJhOrC0A+xwLv5hSlroqPRNL38P/c4Ys="
+       2208463957,
+       "dv8WbmPfoGOgMxHT1QTF/L0k04yMRcfFSAqXSMN1Fqk="
       ],
       "https://wyvern.ct.digicert.com/2027h1/": [
        "DigiCert Wyvern2027h1",
-       414551551,
-       "vRXktt55IhgxGtvboTb31wN1Kau+tuZDGObNG7jeBiw="
+       431630026,
+       "aGDCsEyAaSkRPOAZ9QECad7SZKOYEK+u1IjY3F5JXjQ="
       ],
       "https://wyvern.ct.digicert.com/2027h2/": [
        "DigiCert Wyvern2027h2",
-       34968,
-       "274Z9WUjWqKnd7yPbZQLuYPrfeKLQo0YizeJk6sXqOw="
+       35114,
+       "uvIWdYj6pQyTb9MbcQtyK1VubsFkNEHPQj7S4Bwcp7g="
       ]
      },
      "inconsistent_logs": {},
@@ -9707,9 +9999,9 @@
      "network_attested": true,
      "probe_id": "probe-3",
      "proven_split_views": [],
-     "rekor_entries": 3693118594,
+     "rekor_entries": 3722539478,
      "rekor_entries_definition": "4",
-     "rekor_v2_entries": 184952556,
+     "rekor_v2_entries": 186801294,
      "rekor_v2_entries_definition": "2"
     }
    ],
@@ -10369,7 +10661,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-06T08:36:38Z",
+  "as_of_utc": "2026-11-06T17:47:28Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10400,9 +10692,9 @@
  "probes": [
   {
    "age_days": 37,
-   "bundles": 492,
+   "bundles": 496,
    "contribution": {
-    "bundles_ok": 482,
+    "bundles_ok": 486,
     "days_active": 38,
     "layers": 21
    },
@@ -10420,9 +10712,9 @@
   },
   {
    "age_days": 37,
-   "bundles": 449,
+   "bundles": 452,
    "contribution": {
-    "bundles_ok": 447,
+    "bundles_ok": 450,
     "days_active": 38,
     "layers": 18
    },
@@ -10439,11 +10731,11 @@
    "probe_id": "probe-2"
   },
   {
-   "age_days": 36,
-   "bundles": 258,
+   "age_days": 37,
+   "bundles": 259,
    "contribution": {
-    "bundles_ok": 257,
-    "days_active": 37,
+    "bundles_ok": 258,
+    "days_active": 38,
     "layers": 16
    },
    "eligible": true,
@@ -10455,14 +10747,14 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-05",
+   "last_seen_utc": "2026-11-06",
    "probe_id": "probe-4"
   },
   {
    "age_days": 37,
-   "bundles": 367,
+   "bundles": 374,
    "contribution": {
-    "bundles_ok": 359,
+    "bundles_ok": 366,
     "days_active": 38,
     "layers": 16
    },
@@ -10489,7 +10781,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "31da1309069453f835b368448d4872e2c57fbac68d4dc8f823f58ea77cef0002",
+ "published_sha256": "b2a3ae732ea427457f5682b738c08bc340fd88dcf3c5e217611a615d3415b499",
  "rejections": [
   {
    "kind": "bundle",
@@ -10918,6 +11210,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-3",
    "reason": "no update channel read"
   },
@@ -10989,5 +11286,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "6e455427cb5dfb555cbc049309841c24f21303d8203907ce3ca986e50976cb3d"
+ "view_sha256": "0235e05e7757c783ce98dadfb38c99688389c8fc1e41df83de4d49086861cc3c"
 }
