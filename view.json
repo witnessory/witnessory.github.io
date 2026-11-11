@@ -3102,8 +3102,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -3134,8 +3134,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -3166,8 +3166,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3198,8 +3198,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3230,8 +3230,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3262,8 +3262,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-10T20:01:34Z",
-      "observations": 14,
+      "last_observed_utc": "2026-11-11T07:56:23Z",
+      "observations": 15,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -7015,7 +7015,7 @@
      "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     },
     {
-     "created_utc": "2026-11-10",
+     "created_utc": "2026-11-11",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -8011,8 +8011,8 @@
   "time": {
    "headline": {
     "detection_floor_s": {
-     "max": 0.18477672338485718,
-     "median": 0.1695868968963623,
+     "max": 0.18237149715423584,
+     "median": 0.1661304533481598,
      "min": 0.08033913373947144,
      "n": 4,
      "networks": 4
@@ -8083,8 +8083,8 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-11-10",
-     "detection_floor_s": 0.18477672338485718,
+     "created_utc": "2026-11-11",
+     "detection_floor_s": 0.1754586100578308,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
@@ -8092,7 +8092,7 @@
      "nts_support_rate": 0.8,
      "probe_id": "probe-3",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.026413679122924805,
+     "reference_spread_s": 0.01341092586517334,
      "step_share": 0.0,
      "stepped_servers": []
     }
@@ -8100,7 +8100,7 @@
    "reference_spread_s": {
     "all": {
      "max": 0.0975874662399292,
-     "median": 0.02759265899658203,
+     "median": 0.0210912823677063,
      "min": 0.005271196365356445,
      "n": 4,
      "networks": 4
@@ -10834,7 +10834,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-11T04:41:01Z",
+  "as_of_utc": "2026-11-11T07:56:23Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10924,10 +10924,10 @@
    "probe_id": "probe-4"
   },
   {
-   "age_days": 41,
-   "bundles": 401,
+   "age_days": 42,
+   "bundles": 403,
    "contribution": {
-    "bundles_ok": 393,
+    "bundles_ok": 395,
     "days_active": 43,
     "layers": 16
    },
@@ -10954,7 +10954,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "db267c5231352ff72a186c2c9d893f5fb9fd70657959b0b44d04c67d03b635fa",
+ "published_sha256": "394ab96b438de5e2499f5f3051a30e305fbb710b2b63faa24c200de74c9572ad",
  "rejections": [
   {
    "kind": "bundle",
@@ -11504,5 +11504,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "54deef8f326e559c0161e77bb55b667a5f451a3862ca146a5f136bb47da33256"
+ "view_sha256": "60f45b7fc31cb641df78b923f09a83c2fc8176797375f483cc1b7aec22aaee58"
 }
