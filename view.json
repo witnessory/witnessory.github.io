@@ -1250,7 +1250,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-11",
+     "created_utc": "2026-11-12",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -2843,7 +2843,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-11",
+     "created_utc": "2026-11-12",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -3088,7 +3088,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -3120,7 +3120,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -3152,7 +3152,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3184,7 +3184,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3216,7 +3216,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3248,7 +3248,7 @@
      {
       "first_observed_utc": "2026-11-06",
       "last_observed_utc": "2026-11-12T08:38:50Z",
-      "observations": 19,
+      "observations": 20,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -4252,7 +4252,7 @@
    ],
    "probes": [
     {
-     "created_utc": "2026-11-11",
+     "created_utc": "2026-11-12",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -8106,21 +8106,21 @@
     },
     "recommended_protocols_share": {
      "max": 0.999895,
-     "median": 0.999893,
+     "median": 0.9998935,
      "min": 0.999893,
      "n": 4,
      "networks": 3
     },
     "recommended_version_share": {
-     "max": 0.771813,
-     "median": 0.766007,
-     "min": 0.695545,
+     "max": 0.774101,
+     "median": 0.7706855,
+     "min": 0.766007,
      "n": 4,
      "networks": 3
     },
     "relays": {
      "max": 9501,
-     "median": 9355,
+     "median": 9398.5,
      "min": 9337,
      "n": 4,
      "networks": 3
@@ -8132,14 +8132,14 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-11 07:00:00",
-     "created_utc": "2026-11-11",
+     "consensus_valid_after": "2026-11-12 08:00:00",
+     "created_utc": "2026-11-12",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
-     "recommended_protocols_share": 0.999893,
-     "recommended_version_share": 0.695545,
-     "relays": 9361
+     "recommended_protocols_share": 0.999894,
+     "recommended_version_share": 0.774101,
+     "relays": 9460
     },
     {
      "authorities_agreeing": 8,
@@ -10845,9 +10845,9 @@
  "probes": [
   {
    "age_days": 43,
-   "bundles": 570,
+   "bundles": 575,
    "contribution": {
-    "bundles_ok": 559,
+    "bundles_ok": 564,
     "days_active": 44,
     "layers": 21
    },
@@ -10934,7 +10934,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "5f8b290ce70d8c5e913617e0a3bd2484d8167e9f1c42d4291d0d36f31cc35738",
+ "published_sha256": "d473753de6f2c2ec4c76f62a6c4dd69c18eb0f79e435ca4e5142e2e61048da52",
  "rejections": [
   {
    "kind": "bundle",
@@ -11499,5 +11499,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "31dddea3575fa0ce8e16786487158c917ca5e2fe8556ad6626a67f95cb331ff6"
+ "view_sha256": "c3fb3acf191c74debc547db388f55e8dea2c9d65b76a7cc953d64485d85645ce"
 }
