@@ -278,30 +278,30 @@
    "early_coinbase_p2pk_spends": [],
    "headline": {
     "dormant_exposed_spent_sats": {
-     "max": 29487595,
-     "median": 29487595,
-     "min": 29487595,
+     "max": 36224725,
+     "median": 36224725,
+     "min": 36224725,
      "n": 1,
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 205489245146,
-     "median": 205489245146,
-     "min": 205489245146,
+     "max": 94627563687,
+     "median": 94627563687,
+     "min": 94627563687,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 137644055378,
-     "median": 137644055378,
-     "min": 137644055378,
+     "max": 51791187475,
+     "median": 51791187475,
+     "min": 51791187475,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 77,
-     "median": 77,
-     "min": 77,
+     "max": 56,
+     "median": 56,
+     "min": 56,
      "n": 1,
      "networks": 1
     }
@@ -309,216 +309,216 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-11-14",
-     "dormant_exposed_inputs": 21084,
-     "dormant_exposed_spent_sats": 29487595,
-     "dormant_hash_protected_sats": 205489245146,
-     "dormant_revealed_sats": 137644055378,
+     "created_utc": "2026-11-16",
+     "dormant_exposed_inputs": 25560,
+     "dormant_exposed_spent_sats": 36224725,
+     "dormant_hash_protected_sats": 94627563687,
+     "dormant_revealed_sats": 51791187475,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 975717,
+     "from_height": 975855,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 975854,
+     "to_height": 976034,
      "witness_v2_plus_list": [
       {
-       "height": 975717,
-       "program_bytes": 35,
-       "sats": 546,
-       "txid": "7e0d258dc6fc6521ff43847d7a4f2cbda9f1b5acd5e822ef0032e5e1cbcfee09",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975717,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "a4b8b2fc56c2ef50eb7bd6334bb371fad5661a43d927816cbbce25727d972f07",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975717,
-       "program_bytes": 38,
-       "sats": 546,
-       "txid": "dfa65b6dad4e9137ef218fac46334e02787a577aab73aa01655016f0e75ca05e",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975717,
-       "program_bytes": 38,
-       "sats": 546,
-       "txid": "1b2d851b79cedb802040092fa19f9303b3b0d33daa1199ea4f1b8d2f29a06350",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975720,
-       "program_bytes": 35,
-       "sats": 546,
-       "txid": "d4a9c0788133d2212b737afdd564c4f7e315f6b8a4e685d24cc3a3c5f5e0c0cd",
-       "version": 12,
-       "vout": 2
-      },
-      {
-       "height": 975720,
-       "program_bytes": 30,
-       "sats": 546,
-       "txid": "0ee0baf0d2946d65ad0bc25c7b6f72872878aad4521c30284b89edd184b7b9c4",
-       "version": 12,
-       "vout": 2
-      },
-      {
-       "height": 975720,
+       "height": 975874,
        "program_bytes": 17,
        "sats": 546,
-       "txid": "cd78e2033f851775a58fe676db1777b124d5409c39046abd02ce5c15ec8b2189",
+       "txid": "2c0f9ebd67d92da60d86c18705c4b37202a3b924757055ebd885f9ac158930a6",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975720,
+       "height": 975885,
+       "program_bytes": 29,
+       "sats": 546,
+       "txid": "dcfad0e62f172de18068a1b1735716a0134b22ea5ca13f291c5487ba0a38ec31",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 975885,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "d058b3694932118cf22aa2815aad77467a9a8e07111568a61a091d9e9f0d73d2",
+       "txid": "5c4efb6db21af438a35d697831cef4951f5162db1255f2ad38c0c3f9d76c0fb8",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975730,
+       "height": 975886,
        "program_bytes": 39,
        "sats": 546,
-       "txid": "304e3061cea2befb681b2be9dfc53d205fdf4a338dd73a47d3bf7746ab46aa0e",
-       "version": 12,
-       "vout": 2
-      },
-      {
-       "height": 975730,
-       "program_bytes": 29,
-       "sats": 546,
-       "txid": "6b5336198e5d4afc60ca1079eded733d6236b6738455431bafa5db0c592dfef4",
+       "txid": "0ae87ed39dc26af2aab2835a83d2951a8d1f848edcabb26b18c58c2035642e17",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975730,
-       "program_bytes": 29,
-       "sats": 546,
-       "txid": "46bfb730f1a5c68fa3536e16de460cc538babde72a53ec45ea1b0791f655ec56",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975730,
-       "program_bytes": 37,
-       "sats": 546,
-       "txid": "9731c1e4a919b55367bbf117bc01ede54c5bb773b1eb553c1bc77008d2ca5cdd",
-       "version": 12,
-       "vout": 2
-      },
-      {
-       "height": 975733,
+       "height": 975886,
        "program_bytes": 38,
        "sats": 546,
-       "txid": "42ee87eb3e7cd5e8f50e67cfb7da3bf3c2aafdc2c2944d56da3de08f65c365a6",
+       "txid": "0abdf3ff84774ddd1e3b9e4af7934c9d979ae8bdb79ef46e708397da8da407cd",
        "version": 12,
        "vout": 2
       },
       {
-       "height": 975733,
-       "program_bytes": 18,
-       "sats": 546,
-       "txid": "a48b9e588adb31b03483b2f5e26618f688a45a1fb0054de005d172f8a5722e49",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975741,
+       "height": 975886,
        "program_bytes": 38,
        "sats": 546,
-       "txid": "52b0ef0a46a8a9424ff7fb55ed228a3d41aa5645e8d976bdcc71f67066060603",
+       "txid": "d9157865718b93c8730ef1b393a20f600bb09249d385f11caf1d99a5639d56ba",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975741,
-       "program_bytes": 37,
-       "sats": 546,
-       "txid": "823431e125c68b5a04afaa7930817ae8800cbbdf9a8ad590b64fa7edee3e00b5",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 975748,
+       "height": 975887,
        "program_bytes": 29,
        "sats": 546,
-       "txid": "4393bb6d21d435df5b6760fe3d9c4c6f9d718e0f3e19a455ed067993b2b4ef70",
+       "txid": "cc61b7bcbb0427fe10e55c8f94ab93a3e942f1c103654ce251e9092f15867300",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 975887,
+       "program_bytes": 39,
+       "sats": 546,
+       "txid": "80db6d2f4a6b0353a22e1e6a0ecf76c42cf68294cccf1f9d9102b8ea05a56ba0",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975750,
-       "program_bytes": 21,
+       "height": 975887,
+       "program_bytes": 28,
        "sats": 546,
-       "txid": "7af9b0a6fb2302a2d3d18364ce68ffff1034ba63a46c201cc92bbaa583640a4e",
+       "txid": "55a46714c2f25b881c9e1cd57f4265d7b427ab037e5b402d9b9f5eed4fde1a87",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 975750,
-       "program_bytes": 21,
+       "height": 975887,
+       "program_bytes": 17,
        "sats": 546,
-       "txid": "7af9b0a6fb2302a2d3d18364ce68ffff1034ba63a46c201cc92bbaa583640a4e",
+       "txid": "29cb6dfbb5aec5adcb08e197e372b78eb1ee6127039dca65ef51415c4c9885a0",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975893,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "1ab4ae3bfbf9f5b3cc93159c0ae3da260195a7721e0b2bc20acecb0b45d51f99",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975893,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "258fad2329617fa192c3fbfd097873705122d57182da42405f6d56bd676dc7bd",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975895,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "1fe67d81291e6dce9b1c049693d161c15afc0e706022099460480651b9205d2a",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975895,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "2dd4146423132dff7c87e2b3b593d96b1d6778cfef7ef6e2e1686591214f15d2",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975898,
+       "program_bytes": 20,
+       "sats": 546,
+       "txid": "8413f888c02d636d698715df83b7e75c590cc1c3b28926df7fe0b984fc89bed5",
        "version": 12,
        "vout": 2
       },
       {
-       "height": 975751,
+       "height": 975898,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "8413f888c02d636d698715df83b7e75c590cc1c3b28926df7fe0b984fc89bed5",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 975902,
+       "program_bytes": 29,
+       "sats": 546,
+       "txid": "9d9b048a542d7d2df5634ea93bf07b12e0e6d867f740a77cd4fb319451e8623a",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975902,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "e9207ffb34a1f2f57d6b99233bb927ccf607e55f94c1acd577684abfa8410398",
+       "txid": "37d34505911468da22e5dd8161655b879a4b488149d269b2eadd2f41dc5e5214",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 975902,
+       "program_bytes": 30,
+       "sats": 546,
+       "txid": "4ab71ceb132f922b09b22ff8f5e3e08220e05cb0eb323b5309beb3e63623fd93",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 975907,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "b137e4a82dfbe7c34dd02b7dcc30641e6da1ccc33c022e96340670a59c71f95b",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 77
+     "witness_v2_plus_outputs": 56
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.35771748,
-     "median": 0.35771748,
-     "min": 0.35771748,
+     "max": 0.35720829,
+     "median": 0.35720829,
+     "min": 0.35720829,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.58087856,
-     "median": 0.58087856,
-     "min": 0.58087856,
+     "max": 0.58089981,
+     "median": 0.58089981,
+     "min": 0.58089981,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-11-14",
+     "created_utc": "2026-11-16",
      "eligible": true,
-     "exposed_value_share": 0.35771748,
+     "exposed_value_share": 0.35720829,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.58087856,
+     "to_revealed_value_share": 0.58089981,
      "window": {
-      "blocks": 133,
-      "from_block_time": 1794607802,
-      "from_height": 975718,
+      "blocks": 175,
+      "from_block_time": 1794697673,
+      "from_height": 975856,
       "hours": 24.0,
-      "to_block_time": 1794692732,
-      "to_height": 975850
+      "to_block_time": 1794783994,
+      "to_height": 976030
      }
     }
    ]
@@ -548,40 +548,40 @@
      "affected_regions": [],
      "by_region": {
       "baltic_gdansk": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0476,
-        0.0714
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 42,
-        "adsb.lol": 42
+        "adsb.fi": 2,
+        "adsb.lol": 2
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0469,
-        0.0656
+        0.0625,
+        0.1176
        ],
        "qualifying": {
-        "adsb.fi": 64,
-        "adsb.lol": 61
+        "adsb.fi": 17,
+        "adsb.lol": 16
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": false
       },
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0177,
-        0.0179
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 113,
-        "adsb.lol": 112
+        "adsb.fi": 15,
+        "adsb.lol": 15
        },
        "role": "control",
        "sources_agree": true
@@ -593,8 +593,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 197,
-        "adsb.lol": 198
+        "adsb.fi": 25,
+        "adsb.lol": 25
        },
        "role": "control",
        "sources_agree": true
@@ -603,53 +603,53 @@
        "affected": false,
        "poor_nic_share": [
         0.0,
-        0.0
+        0.0345
        ],
        "qualifying": {
-        "adsb.fi": 41,
-        "adsb.lol": 14
+        "adsb.fi": 29,
+        "adsb.lol": 15
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 5,
+        "adsb.lol": 20
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-5": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0,
+        0.0
+       ],
+       "qualifying": {
+        "adsb.fi": 137,
+        "adsb.lol": 96
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "eastern_mediterranean": {
        "affected": null,
        "poor_nic_share": [
         null,
         null
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 14
-       },
-       "role": "control",
-       "sources_agree": null
-      },
-      "control-5": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0125,
-        0.0154
-       ],
-       "qualifying": {
-        "adsb.fi": 80,
-        "adsb.lol": 65
-       },
-       "role": "control",
-       "sources_agree": true
-      },
-      "eastern_mediterranean": {
-       "affected": false,
-       "poor_nic_share": [
-        0.0,
-        0.0238
-       ],
-       "qualifying": {
-        "adsb.fi": 42,
-        "adsb.lol": 46
+        "adsb.fi": 6,
+        "adsb.lol": 8
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "gulf_of_finland": {
        "affected": null,
@@ -658,8 +658,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 8,
-        "adsb.lol": 8
+        "adsb.fi": 0,
+        "adsb.lol": 0
        },
        "role": "reported",
        "sources_agree": null
@@ -671,8 +671,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 14,
-        "adsb.lol": 13
+        "adsb.fi": 0,
+        "adsb.lol": 0
        },
        "role": "reported",
        "sources_agree": null
@@ -680,12 +680,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0909,
-        0.098
+        0.0417,
+        0.0444
        ],
        "qualifying": {
-        "adsb.fi": 51,
-        "adsb.lol": 55
+        "adsb.fi": 45,
+        "adsb.lol": 48
        },
        "role": "reported",
        "sources_agree": true
@@ -698,7 +698,7 @@
        ],
        "qualifying": {
         "adsb.fi": 5,
-        "adsb.lol": 6
+        "adsb.lol": 5
        },
        "role": "reported",
        "sources_agree": null
@@ -706,7 +706,7 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-15",
+     "created_utc": "2026-11-16",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
@@ -1742,7 +1742,7 @@
    },
    "probes": [
     {
-     "created_utc": "2026-11-09",
+     "created_utc": "2026-11-16",
      "dnslink_publish_rate": 0.0,
      "dnslink_validated_rate": 0.047619,
      "eligible": true,
@@ -10901,10 +10901,10 @@
  "probes": [
   {
    "age_days": 47,
-   "bundles": 616,
+   "bundles": 622,
    "contribution": {
-    "bundles_ok": 604,
-    "days_active": 47,
+    "bundles_ok": 609,
+    "days_active": 48,
     "layers": 21
    },
    "eligible": true,
@@ -10916,7 +10916,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-15",
+   "last_seen_utc": "2026-11-16",
    "probe_id": "probe-1"
   },
   {
@@ -10990,7 +10990,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "748a6f65b4773db1717265585ad553987dbb1126d5debde6ccd526ecef223163",
+ "published_sha256": "95ce96e045bee090325a18ed010a7c9e24b31a92f93227271fa1631e35f7b682",
  "rejections": [
   {
    "kind": "bundle",
@@ -11061,6 +11061,11 @@
    "kind": "bundle",
    "probe_id": "probe-3",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "run failed"
   },
   {
    "kind": "bundle",
@@ -11580,5 +11585,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "a70c119d5f6f3655076b4ded0a555c31398df98eb6b1df59835f017ea2892aa7"
+ "view_sha256": "ac4bcc904788637597acca4899b6e0a7966bd04d3110faf6f73b63ccf377d571"
 }
