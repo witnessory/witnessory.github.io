@@ -554,8 +554,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 9,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
@@ -563,12 +563,12 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0833,
-        0.0833
+        0.0588,
+        0.0606
        ],
        "qualifying": {
-        "adsb.fi": 84,
-        "adsb.lol": null
+        "adsb.fi": 33,
+        "adsb.lol": 34
        },
        "role": "reported",
        "sources_agree": true
@@ -580,37 +580,37 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": 96
+        "adsb.fi": 35,
+        "adsb.lol": null
        },
        "role": "control",
        "sources_agree": true
       },
       "control-2": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 71,
+        "adsb.lol": 71
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-3": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": null,
-        "adsb.lol": null
+        "adsb.fi": 18,
+        "adsb.lol": 12
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-4": {
        "affected": null,
@@ -619,7 +619,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": null,
+        "adsb.fi": 1,
         "adsb.lol": null
        },
        "role": "control",
@@ -632,24 +632,24 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 163,
+        "adsb.fi": 137,
         "adsb.lol": null
        },
        "role": "control",
        "sources_agree": true
       },
       "eastern_mediterranean": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0286,
-        0.0286
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 35,
+        "adsb.fi": 10,
         "adsb.lol": null
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "gulf_of_finland": {
        "affected": null,
@@ -658,7 +658,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": null,
+        "adsb.fi": 1,
         "adsb.lol": null
        },
        "role": "reported",
@@ -671,8 +671,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 9,
-        "adsb.lol": 12
+        "adsb.fi": 6,
+        "adsb.lol": 5
        },
        "role": "reported",
        "sources_agree": null
@@ -680,12 +680,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0571,
-        0.0571
+        0.0417,
+        0.05
        ],
        "qualifying": {
-        "adsb.fi": 35,
-        "adsb.lol": null
+        "adsb.fi": 20,
+        "adsb.lol": 24
        },
        "role": "reported",
        "sources_agree": true
@@ -697,7 +697,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 6,
+        "adsb.fi": 3,
         "adsb.lol": null
        },
        "role": "reported",
@@ -3123,8 +3123,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -3155,8 +3155,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -3187,8 +3187,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3219,8 +3219,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3251,8 +3251,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3283,8 +3283,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-16T13:58:29Z",
-      "observations": 35,
+      "last_observed_utc": "2026-11-16T23:04:56Z",
+      "observations": 36,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -4871,7 +4871,7 @@
      "state_digest": "85d8e95319e1172bd94b102b89eae6f1fb00355fb3cdc7a6987b2c8831fb9cf3"
     },
     {
-     "created_utc": "2026-11-15",
+     "created_utc": "2026-11-16",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -7700,7 +7700,7 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.37978655099868774,
-     "median": 0.1762096881866455,
+     "median": 0.17562878131866455,
      "min": 0.086006760597229,
      "n": 4,
      "networks": 3
@@ -7743,8 +7743,8 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-11-15",
-     "detection_floor_s": 0.1762096881866455,
+     "created_utc": "2026-11-16",
+     "detection_floor_s": 0.17562878131866455,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
@@ -7752,7 +7752,7 @@
      "nts_support_rate": 0.444444,
      "probe_id": "probe-2",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.01406407356262207,
+     "reference_spread_s": 0.020749568939208984,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -7788,7 +7788,7 @@
    "reference_spread_s": {
     "all": {
      "max": 0.10749340057373047,
-     "median": 0.01406407356262207,
+     "median": 0.020749568939208984,
      "min": 0.01129293441772461,
      "n": 4,
      "networks": 3
@@ -10533,7 +10533,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-16T21:44:44Z",
+  "as_of_utc": "2026-11-16T23:04:56Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10564,9 +10564,9 @@
  "probes": [
   {
    "age_days": 47,
-   "bundles": 631,
+   "bundles": 632,
    "contribution": {
-    "bundles_ok": 618,
+    "bundles_ok": 619,
     "days_active": 48,
     "layers": 21
    },
@@ -10584,9 +10584,9 @@
   },
   {
    "age_days": 47,
-   "bundles": 569,
+   "bundles": 571,
    "contribution": {
-    "bundles_ok": 566,
+    "bundles_ok": 568,
     "days_active": 48,
     "layers": 18
    },
@@ -10653,7 +10653,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "ad8cd48bd751f0503c7a68c6005ca6641d36d4b5b9e68949e1ecb20c78fa1d80",
+ "published_sha256": "aa19bec8e06ef8cfa4e160cdba7e2538f76e256b18cf218d07c35ab930b31646",
  "rejections": [
   {
    "kind": "bundle",
@@ -11253,5 +11253,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "f747055fab12b16fc45e839f0d003e606ec8b5017ca009fe79c6c14febca99ce"
+ "view_sha256": "8b780e6d159df7797ff01630282c76a4e22deba6ae0a5e819d6c0d09bb0e7314"
 }
