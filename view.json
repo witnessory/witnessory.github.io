@@ -1,14 +1,5 @@
 {
- "alerts": [
-  {
-   "detail": "issued by DigiCert Inc here; by Amazon at the other vantages",
-   "kind": "issuer_differs",
-   "layer": "interception",
-   "probe_id": "probe-2",
-   "severity": "notice",
-   "subject": "www.amazon.com"
-  }
- ],
+ "alerts": [],
  "evidence_withheld": 19,
  "inputs": {
   "bundles_used": 72
@@ -521,7 +512,7 @@
    "controls_spoofed": [],
    "headline": {
     "regions_affected_share": {
-     "max": 0.125,
+     "max": 0.0,
      "median": 0.0,
      "min": 0.0,
      "n": 4,
@@ -707,19 +698,17 @@
      "spoofing_regions_share": 0.0
     },
     {
-     "affected_regions": [
-      "persian_gulf"
-     ],
+     "affected_regions": [],
      "by_region": {
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0625,
+        0.0625
        ],
        "qualifying": {
-        "adsb.fi": 39,
-        "adsb.lol": 39
+        "adsb.fi": 32,
+        "adsb.lol": 32
        },
        "role": "reported",
        "sources_agree": true
@@ -727,12 +716,12 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.058,
-        0.0667
+        0.0758,
+        0.082
        ],
        "qualifying": {
-        "adsb.fi": 69,
-        "adsb.lol": 75
+        "adsb.fi": 66,
+        "adsb.lol": 61
        },
        "role": "reported",
        "sources_agree": true
@@ -740,11 +729,11 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.02,
-        0.0202
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 100,
+        "adsb.fi": 99,
         "adsb.lol": 99
        },
        "role": "control",
@@ -753,12 +742,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0059,
+        0.0059
        ],
        "qualifying": {
-        "adsb.fi": 163,
-        "adsb.lol": 162
+        "adsb.fi": 169,
+        "adsb.lol": 169
        },
        "role": "control",
        "sources_agree": true
@@ -766,28 +755,28 @@
       "control-3": {
        "affected": false,
        "poor_nic_share": [
-        0.0667,
-        0.069
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 29,
-        "adsb.lol": 15
+        "adsb.fi": 27,
+        "adsb.lol": 17
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 9
+        "adsb.fi": 3,
+        "adsb.lol": 18
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-5": {
        "affected": false,
@@ -796,8 +785,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 15,
-        "adsb.lol": 13
+        "adsb.fi": 158,
+        "adsb.lol": 119
        },
        "role": "control",
        "sources_agree": true
@@ -805,12 +794,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.037,
+        0.0392
        ],
        "qualifying": {
-        "adsb.fi": 38,
-        "adsb.lol": 44
+        "adsb.fi": 51,
+        "adsb.lol": 54
        },
        "role": "reported",
        "sources_agree": true
@@ -822,8 +811,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 10,
-        "adsb.lol": 10
+        "adsb.fi": 1,
+        "adsb.lol": 1
        },
        "role": "reported",
        "sources_agree": null
@@ -835,21 +824,21 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 12,
-        "adsb.lol": 12
+        "adsb.fi": 9,
+        "adsb.lol": 10
        },
        "role": "reported",
        "sources_agree": null
       },
       "persian_gulf": {
-       "affected": true,
+       "affected": false,
        "poor_nic_share": [
-        0.1905,
-        0.2
+        0.0333,
+        0.0345
        ],
        "qualifying": {
-        "adsb.fi": 20,
-        "adsb.lol": 21
+        "adsb.fi": 29,
+        "adsb.lol": 30
        },
        "role": "reported",
        "sources_agree": true
@@ -862,7 +851,7 @@
        ],
        "qualifying": {
         "adsb.fi": 8,
-        "adsb.lol": 10
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
@@ -874,7 +863,7 @@
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-2",
-     "regions_affected_share": 0.125,
+     "regions_affected_share": 0.0,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
@@ -1252,23 +1241,14 @@
      "networks": 4
     }
    },
-   "issuer_seen_at_one_vantage_only": [
-    {
-     "elsewhere": [
-      "Amazon"
-     ],
-     "issuer_o": "DigiCert Inc",
-     "probe_id": "probe-2",
-     "site": "www.amazon.com"
-    }
-   ],
+   "issuer_seen_at_one_vantage_only": [],
    "probes": [
     {
      "canary_suspect_share": 0.0,
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-18",
+     "created_utc": "2026-11-19",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -1278,7 +1258,7 @@
       "pypi.org": "GlobalSign nv-sa",
       "signal.org": "Google Trust Services",
       "telegram.org": "GoDaddy.com",
-      "www.amazon.com": "Amazon",
+      "www.amazon.com": "DigiCert Inc",
       "www.apple.com": "Apple Inc.",
       "www.bbc.co.uk": "GlobalSign nv-sa",
       "www.cloudflare.com": "Google Trust Services",
@@ -2866,7 +2846,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-18",
+     "created_utc": "2026-11-19",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -3110,8 +3090,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -3142,8 +3122,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -3174,8 +3154,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3206,8 +3186,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3238,8 +3218,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3270,8 +3250,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-19T14:40:33Z",
-      "observations": 43,
+      "last_observed_utc": "2026-11-19T15:30:28Z",
+      "observations": 44,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -4275,7 +4255,7 @@
    ],
    "probes": [
     {
-     "created_utc": "2026-11-18",
+     "created_utc": "2026-11-19",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -8136,15 +8116,15 @@
     },
     "recommended_version_share": {
      "max": 0.824253,
-     "median": 0.823701,
-     "min": 0.820088,
+     "median": 0.8240285,
+     "min": 0.823493,
      "n": 4,
      "networks": 4
     },
     "relays": {
      "max": 9620,
      "median": 9609.5,
-     "min": 9588,
+     "min": 9599,
      "n": 4,
      "networks": 4
     }
@@ -8155,14 +8135,14 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-18 14:00:00",
-     "created_utc": "2026-11-18",
+     "consensus_valid_after": "2026-11-19 15:00:00",
+     "created_utc": "2026-11-19",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
      "recommended_protocols_share": 0.999896,
-     "recommended_version_share": 0.820088,
-     "relays": 9588
+     "recommended_version_share": 0.824148,
+     "relays": 9599
     },
     {
      "authorities_agreeing": 9,
@@ -10868,7 +10848,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-19T15:39:36Z",
+  "as_of_utc": "2026-11-19T17:04:05Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10899,9 +10879,9 @@
  "probes": [
   {
    "age_days": 50,
-   "bundles": 664,
+   "bundles": 669,
    "contribution": {
-    "bundles_ok": 647,
+    "bundles_ok": 652,
     "days_active": 51,
     "layers": 21
    },
@@ -10919,9 +10899,9 @@
   },
   {
    "age_days": 50,
-   "bundles": 600,
+   "bundles": 601,
    "contribution": {
-    "bundles_ok": 597,
+    "bundles_ok": 598,
     "days_active": 51,
     "layers": 18
    },
@@ -10988,7 +10968,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "4d0f6d92f10ab396bbfc5b099ac89dd469f7613f88b590866efac3ce986aef1c",
+ "published_sha256": "ad85b82f9e51d2751401cee300f2e258590dad90ac13d156fc67c28e40214b88",
  "rejections": [
   {
    "kind": "bundle",
@@ -11628,5 +11608,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "38983b8b88f8fd26eb004684bc804147b321e025db0f57068c4cd5436f1e9740"
+ "view_sha256": "9446c942db2bd09656f10f62e5e261916edba1987d2738e2fa650b9a0ea77a92"
 }
