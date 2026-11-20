@@ -533,12 +533,12 @@
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0714,
-        0.0714
+        0.027,
+        0.0286
        ],
        "qualifying": {
-        "adsb.fi": 42,
-        "adsb.lol": 42
+        "adsb.fi": 37,
+        "adsb.lol": 35
        },
        "role": "reported",
        "sources_agree": true
@@ -546,12 +546,12 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0581,
-        0.0633
+        0.0213,
+        0.0217
        ],
        "qualifying": {
-        "adsb.fi": 86,
-        "adsb.lol": 79
+        "adsb.fi": 47,
+        "adsb.lol": 46
        },
        "role": "reported",
        "sources_agree": true
@@ -559,12 +559,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0086,
+        0.0088
        ],
        "qualifying": {
-        "adsb.fi": 136,
-        "adsb.lol": 135
+        "adsb.fi": 116,
+        "adsb.lol": 113
        },
        "role": "control",
        "sources_agree": true
@@ -572,12 +572,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0046,
-        0.0046
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 218,
-        "adsb.lol": 217
+        "adsb.fi": 160,
+        "adsb.lol": 159
        },
        "role": "control",
        "sources_agree": true
@@ -589,8 +589,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 38,
-        "adsb.lol": 18
+        "adsb.fi": 32,
+        "adsb.lol": 8
        },
        "role": "control",
        "sources_agree": true
@@ -602,8 +602,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 2,
-        "adsb.lol": 14
+        "adsb.fi": 1,
+        "adsb.lol": 4
        },
        "role": "control",
        "sources_agree": null
@@ -611,12 +611,12 @@
       "control-5": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0054,
+        0.007
        ],
        "qualifying": {
-        "adsb.fi": 38,
-        "adsb.lol": 34
+        "adsb.fi": 185,
+        "adsb.lol": 142
        },
        "role": "control",
        "sources_agree": true
@@ -624,12 +624,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0566,
-        0.0612
+        0.0,
+        0.0323
        ],
        "qualifying": {
-        "adsb.fi": 49,
-        "adsb.lol": 53
+        "adsb.fi": 27,
+        "adsb.lol": 31
        },
        "role": "reported",
        "sources_agree": true
@@ -641,8 +641,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 8,
-        "adsb.lol": 8
+        "adsb.fi": 2,
+        "adsb.lol": 2
        },
        "role": "reported",
        "sources_agree": null
@@ -654,8 +654,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 12,
-        "adsb.lol": 14
+        "adsb.fi": 3,
+        "adsb.lol": 3
        },
        "role": "reported",
        "sources_agree": null
@@ -680,7 +680,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 2,
+        "adsb.fi": 4,
         "adsb.lol": 4
        },
        "role": "reported",
@@ -10783,7 +10783,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-20T16:32:18Z",
+  "as_of_utc": "2026-11-20T17:31:36Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10814,9 +10814,9 @@
  "probes": [
   {
    "age_days": 51,
-   "bundles": 681,
+   "bundles": 682,
    "contribution": {
-    "bundles_ok": 664,
+    "bundles_ok": 665,
     "days_active": 52,
     "layers": 21
    },
@@ -10903,7 +10903,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "1d50c50904d695e44835c1b726e78d821cf00bea64cc8e5cc7c61f9a916a1fa5",
+ "published_sha256": "d111434f6af77311a3852b48b35db92e037267cd314b04b2d8fc9e490983805d",
  "rejections": [
   {
    "kind": "bundle",
@@ -11548,5 +11548,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "e2044c2adce9ca58c2401f02da82cd3cf2f20c5ce08b788b6234ed88cfacd01d"
+ "view_sha256": "054cbe4587efbae40f38e133026e594d8d3f6c5592e02d35f27661a7da0948c4"
 }
