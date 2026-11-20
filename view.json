@@ -268,23 +268,23 @@
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 237398775060,
-     "median": 237398775060,
-     "min": 237398775060,
+     "max": 62936219451,
+     "median": 62936219451,
+     "min": 62936219451,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 54966479559,
-     "median": 54966479559,
-     "min": 54966479559,
+     "max": 11245006609,
+     "median": 11245006609,
+     "min": 11245006609,
      "n": 1,
      "networks": 1
     },
     "witness_v2_plus_outputs": {
-     "max": 39,
-     "median": 39,
-     "min": 39,
+     "max": 25,
+     "median": 25,
+     "min": 25,
      "n": 1,
      "networks": 1
     }
@@ -292,216 +292,216 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "dormant_exposed_inputs": 0,
      "dormant_exposed_spent_sats": 0,
-     "dormant_hash_protected_sats": 237398775060,
-     "dormant_revealed_sats": 54966479559,
+     "dormant_hash_protected_sats": 62936219451,
+     "dormant_revealed_sats": 11245006609,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 976273,
+     "from_height": 976522,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 976521,
+     "to_height": 976680,
      "witness_v2_plus_list": [
       {
-       "height": 976273,
+       "height": 976543,
+       "program_bytes": 36,
+       "sats": 546,
+       "txid": "ac797bf19e03981a6e5032f2d058b0ecc4b7fc207f196d6c81ea259a80a81662",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 976549,
        "program_bytes": 37,
        "sats": 546,
-       "txid": "7b7faeb08b468cfdddc66b10bfe2c288caa2586e05878b0f8be936abbdb56e7d",
+       "txid": "79bacceeb10cf4a9fb8ff20bd9382fff2c2a91294f1ec588742fb9b2dfa37e75",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976300,
-       "program_bytes": 29,
-       "sats": 546,
-       "txid": "38e300279b5b321d5797b0fa46c098da3741423fd2c267f252f79ad4332a5ea9",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976300,
+       "height": 976549,
        "program_bytes": 37,
        "sats": 546,
-       "txid": "03b33a6d30f655035a98b84d935b7f3f7233a89d3064a6fa54e7444c56bb451c",
+       "txid": "9f1d87e4b8540f87568a2220e35018323fbc08798efb612b5b1e7c43476b096b",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976300,
+       "height": 976549,
        "program_bytes": 37,
        "sats": 546,
-       "txid": "b92e0b3b115eb6d6de07f236854d3dd262a6bf72bc6804ef1eba5359dc470baa",
+       "txid": "2622a9452cb1772a83b0c9eb5fed2a020805d0965890058fdc990cef6e41c96e",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976332,
-       "program_bytes": 29,
+       "height": 976550,
+       "program_bytes": 36,
        "sats": 546,
-       "txid": "0efb75f0341dbecf62ea4a637b36c3537e2c298574b2bb62b4686db541dcd0c1",
+       "txid": "62e52ee6e4b5851f00e5651c41eecd82009732f99cb8131afc4cdbff811a19c9",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976360,
-       "program_bytes": 29,
+       "height": 976551,
+       "program_bytes": 37,
        "sats": 546,
-       "txid": "a3f1227414e45451b52d6a7d570a3c28fd83c8b225c4cb1ccabd986156f576f5",
+       "txid": "3a8c8c70bcb768d8545af5a1f10513db6f841ac7dc0c1c0c6d46f70338fb619a",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976361,
+       "height": 976552,
        "program_bytes": 18,
        "sats": 546,
-       "txid": "0233b99108bac40f2925003e13fa7645e1bcd7327105150b4de3e3c8d54cfd37",
+       "txid": "aa2b10b357c09b32d35e894ccfec495eb40fd7666c57557a644901a67de445dd",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976371,
+       "height": 976552,
+       "program_bytes": 18,
+       "sats": 546,
+       "txid": "7416bc32a985b052008bb5cd499c3acbfba7f95f6b67ab586f8c111e9bad18a5",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 976556,
+       "program_bytes": 19,
+       "sats": 546,
+       "txid": "70881652e524c14e87e4243d27b387e9a1f07981a4be8a227e9124736f272e45",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 976561,
        "program_bytes": 37,
        "sats": 546,
-       "txid": "816e6d0b420aa2d650c1907e4e86eaa1129739914c8673031524c5c1677be120",
+       "txid": "e833a02ff02722137648d766264d2d8e5aa8e2720dbecd7281360404b8870d66",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976371,
-       "program_bytes": 18,
+       "height": 976561,
+       "program_bytes": 37,
        "sats": 546,
-       "txid": "41f76d0e05e0511480eeaa709fd919731f44a132b23e8dd52ba97266239fb31b",
+       "txid": "3470f246e110e8a0b612907b33173492ee5eb69bbc7e654cee12041649502439",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976377,
-       "program_bytes": 18,
+       "height": 976561,
+       "program_bytes": 36,
        "sats": 546,
-       "txid": "dd4893c0731e7cf717f1ee4a9ba41f440a526c5d4898383871da0353de8db3da",
+       "txid": "4e748def7fae688bc5f61b88f02745b57af087cd355d9b3dcd408c153d2d7534",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976382,
+       "height": 976561,
+       "program_bytes": 35,
+       "sats": 546,
+       "txid": "6eb00955f2ff050e7ad34e58ba7db9c4019959b0b7d79ad5585bb17b1e41aea4",
+       "version": 12,
+       "vout": 1
+      },
+      {
+       "height": 976561,
        "program_bytes": 17,
        "sats": 546,
-       "txid": "c4c324fe7c43ebaab0e341a292937d466d44020f9f82ea26b0265f3f74bfc767",
+       "txid": "5e0e653f384f415955d9800814299c1c134c7f0605c5777f4e5ea412a73f96fb",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976396,
-       "program_bytes": 18,
+       "height": 976562,
+       "program_bytes": 27,
        "sats": 546,
-       "txid": "a8d759a835ecfc1dae398eeca0519346bd96aafdf4bdae81c2424d1254bd9507",
+       "txid": "d30985ac1c5f0620f644e4b82a484360234ed09ad3d3574784c62943bbb7259f",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976411,
+       "height": 976562,
+       "program_bytes": 20,
+       "sats": 546,
+       "txid": "7586d0993f49fecdd4fd15515c2a5146940f023ce67ca27b009222c82c84852d",
+       "version": 12,
+       "vout": 2
+      },
+      {
+       "height": 976562,
+       "program_bytes": 21,
+       "sats": 546,
+       "txid": "7586d0993f49fecdd4fd15515c2a5146940f023ce67ca27b009222c82c84852d",
+       "version": 12,
+       "vout": 3
+      },
+      {
+       "height": 976562,
        "program_bytes": 29,
        "sats": 546,
-       "txid": "882a01288228b02794058dc9846735689ed105dc08c5fa2ef2002b73622284cc",
+       "txid": "4234c67549504cdb76cef718c22022621daadd1c34fd0abefc76241169709ac2",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976411,
-       "program_bytes": 36,
+       "height": 976562,
+       "program_bytes": 18,
        "sats": 546,
-       "txid": "9cc3d8ae26f9612bc0f7d1bfea7a8ad3f4f227cfd9e6bca766164cb01c62a94a",
+       "txid": "4694771f20bb1a0524935784d1fc76da93b7099a9c2a6b1351a2735bbadd0a96",
        "version": 12,
        "vout": 1
       },
       {
-       "height": 976411,
-       "program_bytes": 36,
+       "height": 976573,
+       "program_bytes": 38,
        "sats": 546,
-       "txid": "89df066dcd3419ee297c23d3852d81dd074e13a41d5eff78d6470f799c5f1ba4",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976412,
-       "program_bytes": 31,
-       "sats": 546,
-       "txid": "b1b5ec0d4af5d13b7dacd8d39e24489bf3ed098dafa74f5678eb186b94f4e4b3",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976412,
-       "program_bytes": 34,
-       "sats": 546,
-       "txid": "f02e6228174d751680c3e11c042b086f2e9fa553d63a57eea93d6d3bfdf238db",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976412,
-       "program_bytes": 35,
-       "sats": 546,
-       "txid": "b32ef0e6cf971aad7279448450f642a38c2601736d8a54496dd6ddf03cc1280c",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976412,
-       "program_bytes": 35,
-       "sats": 546,
-       "txid": "bf6da40c7eddd1a4ac7b1f16eeae95bc155c27b7b65f78e7905e7a3022bc9e94",
-       "version": 12,
-       "vout": 1
-      },
-      {
-       "height": 976412,
-       "program_bytes": 35,
-       "sats": 546,
-       "txid": "b420a5b47026661bc17c5841beb312ba21cf46a04c9bbf80b7acd4cea8738498",
+       "txid": "2fd42cd6718f5f3c9325dc97851437599641f8fd66369b8b1b331bace2731ce2",
        "version": 12,
        "vout": 1
       }
      ],
-     "witness_v2_plus_outputs": 39
+     "witness_v2_plus_outputs": 25
     }
    ]
   },
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.25454854,
-     "median": 0.25454854,
-     "min": 0.25454854,
+     "max": 0.23878949,
+     "median": 0.23878949,
+     "min": 0.23878949,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.66665958,
-     "median": 0.66665958,
-     "min": 0.66665958,
+     "max": 0.67149346,
+     "median": 0.67149346,
+     "min": 0.67149346,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "eligible": true,
-     "exposed_value_share": 0.25454854,
+     "exposed_value_share": 0.23878949,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.66665958,
+     "to_revealed_value_share": 0.67149346,
      "window": {
-      "blocks": 155,
-      "from_block_time": 1794966996,
-      "from_height": 976362,
+      "blocks": 154,
+      "from_block_time": 1795058537,
+      "from_height": 976521,
       "hours": 24.0,
-      "to_block_time": 1795053394,
-      "to_height": 976516
+      "to_block_time": 1795144442,
+      "to_height": 976674
      }
     }
    ]
@@ -539,8 +539,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 12,
-        "adsb.lol": 12
+        "adsb.fi": 0,
+        "adsb.lol": 0
        },
        "role": "reported",
        "sources_agree": null
@@ -548,28 +548,28 @@
       "black_sea_west": {
        "affected": true,
        "poor_nic_share": [
-        0.1579,
-        0.1765
+        0.2,
+        0.2632
        ],
        "qualifying": {
-        "adsb.fi": 17,
-        "adsb.lol": 19
+        "adsb.fi": 38,
+        "adsb.lol": 35
        },
        "role": "reported",
        "sources_agree": true
       },
       "control-1": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0,
-        0.0
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 72,
-        "adsb.lol": 72
+        "adsb.fi": 11,
+        "adsb.lol": 11
        },
        "role": "control",
-       "sources_agree": true
+       "sources_agree": null
       },
       "control-2": {
        "affected": false,
@@ -578,8 +578,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 136,
-        "adsb.lol": 135
+        "adsb.fi": 36,
+        "adsb.lol": 36
        },
        "role": "control",
        "sources_agree": true
@@ -587,28 +587,28 @@
       "control-3": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.027,
+        0.05
        ],
        "qualifying": {
-        "adsb.fi": 26,
+        "adsb.fi": 37,
         "adsb.lol": 20
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 8
+        "adsb.fi": 1,
+        "adsb.lol": 17
        },
        "role": "control",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-5": {
        "affected": false,
@@ -617,8 +617,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 198,
-        "adsb.lol": 156
+        "adsb.fi": 106,
+        "adsb.lol": 88
        },
        "role": "control",
        "sources_agree": true
@@ -626,12 +626,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0556,
+        0.0625
        ],
        "qualifying": {
-        "adsb.fi": 32,
-        "adsb.lol": 38
+        "adsb.fi": 16,
+        "adsb.lol": 18
        },
        "role": "reported",
        "sources_agree": true
@@ -643,8 +643,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 7
+        "adsb.fi": 0,
+        "adsb.lol": 0
        },
        "role": "reported",
        "sources_agree": null
@@ -656,8 +656,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 11,
-        "adsb.lol": 11
+        "adsb.fi": 3,
+        "adsb.lol": 3
        },
        "role": "reported",
        "sources_agree": null
@@ -665,12 +665,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0789,
-        0.0857
+        0.0811,
+        0.0833
        ],
        "qualifying": {
-        "adsb.fi": 35,
-        "adsb.lol": 38
+        "adsb.fi": 36,
+        "adsb.lol": 37
        },
        "role": "reported",
        "sources_agree": true
@@ -683,7 +683,7 @@
        ],
        "qualifying": {
         "adsb.fi": 8,
-        "adsb.lol": 9
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
@@ -691,7 +691,7 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
@@ -2919,7 +2919,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -10852,7 +10852,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-20T01:02:47Z",
+  "as_of_utc": "2026-11-20T04:36:44Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10883,10 +10883,10 @@
  "probes": [
   {
    "age_days": 51,
-   "bundles": 670,
+   "bundles": 673,
    "contribution": {
-    "bundles_ok": 653,
-    "days_active": 51,
+    "bundles_ok": 656,
+    "days_active": 52,
     "layers": 21
    },
    "eligible": true,
@@ -10898,14 +10898,14 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-19",
+   "last_seen_utc": "2026-11-20",
    "probe_id": "probe-1"
   },
   {
-   "age_days": 50,
-   "bundles": 604,
+   "age_days": 51,
+   "bundles": 605,
    "contribution": {
-    "bundles_ok": 601,
+    "bundles_ok": 602,
     "days_active": 52,
     "layers": 18
    },
@@ -10972,7 +10972,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "ff6cdd964c06c837a2c94fd532c500d9f90b192b657133bfeb16f000026a3776",
+ "published_sha256": "c4a4358df9fb3fd6b5409dfcf76b912e149bd83f22da37766b79e52d9e9412ea",
  "rejections": [
   {
    "kind": "bundle",
@@ -11612,5 +11612,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "22fa516dbe1aaff87628facab6c44a3daa5844c24f4f4a95a82260fdef479df9"
+ "view_sha256": "8c72dfd3b5b2185cebc99604a5d31a455da4d67cbff0a64b848a6e6c893976af"
 }
