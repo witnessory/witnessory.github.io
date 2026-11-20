@@ -884,12 +884,12 @@
       "baltic_gdansk": {
        "affected": false,
        "poor_nic_share": [
-        0.0455,
-        0.0682
+        0.08,
+        0.08
        ],
        "qualifying": {
-        "adsb.fi": 44,
-        "adsb.lol": 44
+        "adsb.fi": 50,
+        "adsb.lol": 50
        },
        "role": "reported",
        "sources_agree": true
@@ -897,25 +897,25 @@
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.05,
-        0.0794
+        0.0923,
+        0.1017
        ],
        "qualifying": {
-        "adsb.fi": 60,
-        "adsb.lol": 63
+        "adsb.fi": 65,
+        "adsb.lol": 59
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": false
       },
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0084,
+        0.0084
        ],
        "qualifying": {
-        "adsb.fi": 104,
-        "adsb.lol": 103
+        "adsb.fi": 119,
+        "adsb.lol": 119
        },
        "role": "control",
        "sources_agree": true
@@ -923,12 +923,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0056,
-        0.0056
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 178,
-        "adsb.lol": 177
+        "adsb.fi": 181,
+        "adsb.lol": 181
        },
        "role": "control",
        "sources_agree": true
@@ -940,24 +940,24 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 31,
-        "adsb.lol": 18
+        "adsb.fi": 26,
+        "adsb.lol": 13
        },
        "role": "control",
        "sources_agree": true
       },
       "control-4": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0,
-        0.0
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 4,
-        "adsb.lol": 26
+        "adsb.fi": 0,
+        "adsb.lol": 1
        },
        "role": "control",
-       "sources_agree": true
+       "sources_agree": null
       },
       "control-5": {
        "affected": false,
@@ -966,8 +966,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 171,
-        "adsb.lol": 137
+        "adsb.fi": 148,
+        "adsb.lol": 110
        },
        "role": "control",
        "sources_agree": true
@@ -979,8 +979,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 35,
-        "adsb.lol": 40
+        "adsb.fi": 32,
+        "adsb.lol": 36
        },
        "role": "reported",
        "sources_agree": true
@@ -993,7 +993,7 @@
        ],
        "qualifying": {
         "adsb.fi": 9,
-        "adsb.lol": 8
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
@@ -1005,8 +1005,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 10,
-        "adsb.lol": 12
+        "adsb.fi": 8,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
@@ -1014,15 +1014,15 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.0857,
-        0.1053
+        0.0185,
+        0.0189
        ],
        "qualifying": {
-        "adsb.fi": 35,
-        "adsb.lol": 38
+        "adsb.fi": 53,
+        "adsb.lol": 54
        },
        "role": "reported",
-       "sources_agree": false
+       "sources_agree": true
       },
       "punjab_border": {
        "affected": null,
@@ -1031,8 +1031,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 7,
-        "adsb.lol": 8
+        "adsb.fi": 5,
+        "adsb.lol": 5
        },
        "role": "reported",
        "sources_agree": null
@@ -1040,7 +1040,7 @@
      },
      "controls_affected": [],
      "controls_spoofed": [],
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-4",
@@ -8022,7 +8022,7 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.18899047374725342,
-     "median": 0.11230263113975525,
+     "median": 0.11154705286026001,
      "min": 0.08241772651672363,
      "n": 4,
      "networks": 4
@@ -8051,8 +8051,8 @@
    },
    "probes": [
     {
-     "created_utc": "2026-11-19",
-     "detection_floor_s": 0.08855617046356201,
+     "created_utc": "2026-11-20",
+     "detection_floor_s": 0.08704501390457153,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
@@ -8060,7 +8060,7 @@
      "nts_support_rate": 0.8,
      "probe_id": "probe-1",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.012617111206054688,
+     "reference_spread_s": 0.09918820858001709,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -8109,9 +8109,9 @@
    ],
    "reference_spread_s": {
     "all": {
-     "max": 0.05884420871734619,
-     "median": 0.025836586952209473,
-     "min": 0.012617111206054688,
+     "max": 0.09918820858001709,
+     "median": 0.04665035009384155,
+     "min": 0.01721668243408203,
      "n": 4,
      "networks": 4
     },
@@ -8214,7 +8214,7 @@
    "cross_probe_heads_checked": 409,
    "growth": {
     "ct_entries": {
-     "per_day_median": 269861165.9,
+     "per_day_median": 270691541.8,
      "probes": 4,
      "shortest_span_days": 49.09
     },
@@ -8224,7 +8224,7 @@
      "shortest_span_days": 49.09
     },
     "rekor_entries": {
-     "per_day_median": 19687778.6,
+     "per_day_median": 19742552.5,
      "probes": 4,
      "shortest_span_days": 49.09
     },
@@ -8257,16 +8257,16 @@
      "networks": 2
     },
     "ct_entries": {
-     "max": 53166367375,
-     "median": 53020131924.5,
-     "min": 52864498392,
+     "max": 53236581282,
+     "median": 53162231407.5,
+     "min": 52882168409,
      "n": 4,
      "networks": 4
     },
     "go_sumdb_entries": {
-     "max": 71762706,
-     "median": 71729475.5,
-     "min": 71694677,
+     "max": 71783910,
+     "median": 71761862.5,
+     "min": 71697932,
      "n": 4,
      "networks": 4
     },
@@ -8278,22 +8278,22 @@
      "networks": 4
     },
     "rekor_entries": {
-     "max": 4023499434,
-     "median": 4011098043.0,
-     "min": 3997713004,
+     "max": 4026707522,
+     "median": 4023281679.5,
+     "min": 3999132161,
      "n": 4,
      "networks": 4
     },
     "rekor_v2_entries": null
    },
-   "logs_compared_across_probes": 17,
+   "logs_compared_across_probes": 14,
    "probes": [
     {
      "cert_pq_key_share": 0.0,
      "cert_pq_key_share_definition": "3",
      "cert_pq_signature_share": 0.0,
      "cert_pq_signature_share_definition": "3",
-     "created_utc": "2026-11-19",
+     "created_utc": "2026-11-20",
      "cross_probe_consistency": null,
      "cross_probe_consistency_definition": "1",
      "cross_probe_counts": {
@@ -8305,46 +8305,46 @@
       "peers": 0,
       "signature_not_verified": 0
      },
-     "ct_entries": 52864498392,
+     "ct_entries": 53236581282,
      "ct_entries_definition": "2",
      "eligible": true,
-     "go_sumdb_entries": 71694677,
+     "go_sumdb_entries": 71783910,
      "go_sumdb_entries_definition": "2",
      "heads": {
       "https://ct-log-api.godaddy.com/aquamarine2026h2/": [
        "GoDaddy Aquamarine2026h2",
-       40232138,
-       "cMhXu9GorL8Rc/cHJKagDHZVI19cTPzy7yEEVGoB3Cc="
+       41374682,
+       "8Sf8geaDk1JU7KEA75hwfXCkHTiq2FOcdw+CBlI4G3s="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h1/": [
        "GoDaddy Aquamarine2027h1",
-       263637957,
-       "GQtbrCBDRjALMUreteAON8t1kSH3jehuYMonKqsfeOQ="
+       270118119,
+       "sLCb90Y7TOvWoGqWmdcdKalRMzPMK/F3rbR47QMJTSo="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2027h2/": [
        "GoDaddy Aquamarine2027h2",
-       3789,
-       "KjS2oCllQ+PaM+ANBpTQpP5XcYog2/PrlnJisF7lW+A="
+       3884,
+       "JjZxEKaQFtGfDxNFg9Eh15MRjZFRtVs2XLN1QScrpZo="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h1/": [
        "GoDaddy Aquamarine2028h1",
-       3845,
-       "HCNCTCmcSxH0EC3c3+ZR9STNOgTj5dA72CqK50LDWJw="
+       3916,
+       "JwOPg2nt7lVJ9mKVHMpZPDYcNxlwrIKLLoMgjDBOA1U="
       ],
       "https://ct-log-api.godaddy.com/aquamarine2028h2/": [
        "GoDaddy Aquamarine2028h2",
-       3784,
-       "5XQMhXqAgCuy0B4cribseDo4BRHxUtOpTiFeGpK3wFA="
+       3862,
+       "tv4zZb1qYCQeCaDs+sbUbkcYr9X8sWyiaop7Bfvif6U="
       ],
       "https://ct.cloudflare.com/logs/nimbus2026/": [
        "Cloudflare Nimbus2026",
-       6806591626,
-       "oDkPw1k5K2gPvC6nbFh1tRXipJoxMe3nh2r0Icpvnzs="
+       6810772581,
+       "mm3uTqlmxVpxhaNsODor1EFAGwHsxRqBZWVJWNv7iIs="
       ],
       "https://ct.cloudflare.com/logs/nimbus2027/": [
        "Cloudflare Nimbus2027",
-       1178992143,
-       "+Mrj4gF7XnH+a5uGhJ4zlCD+yNaauHq4uteMa3V7O8g="
+       1204775733,
+       "A/SK1LSPjB4NRXouQ7UT/g+dpTVJCwtk/7Zk8KY9v6g="
       ],
       "https://ct.googleapis.com/logs/eu1/xenon2026h2/": [
        "Google Xenon2026h2",
@@ -8368,113 +8368,113 @@
       ],
       "https://ct2026-a.trustasia.com/log2026a/": [
        "TrustAsia log2026a",
-       3049743238,
-       "Y8fMLIQkwy1mN3qccNf9rmp3Uo7tKLy90P9mCXUAE28="
+       3052338723,
+       "xYWlKMA2m/az+zhXM4CEvN4IIEiDJESxPzxOTYCrc+M="
       ],
       "https://ct2026-b.trustasia.com/log2026b/": [
        "TrustAsia log2026b",
-       3070629966,
-       "C4ysE9kZwofqeaK0MuiUX3DoODsggjzcSTC0XeLcICs="
+       3073224219,
+       "Nj7H6eLb+WnphfgC+QegeQ0ah/G0WTd2invJO9WHesM="
       ],
       "https://elephant2026h2.ct.sectigo.com/": [
        "Sectigo Elephant2026h2",
-       2096680944,
-       "szCU4iaHTUuTAk3umuA71i1EshDMrvD1SXXMJ3e4Xxg="
+       2098894156,
+       "cIek7l8S1HUuwtlmdXHFwp1CTi7tSVzKaaXiXsaqEJU="
       ],
       "https://elephant2027h1.ct.sectigo.com/": [
        "Sectigo Elephant2027h1",
-       980317448,
-       "RjEWdtLyov3PJQ8mJ6TSZqRvQhqMvgDLub9/bTj6m90="
+       1000544961,
+       "BychBE3YdQBFpTiGU62tQldAd52dreBrKZOspBR9QC4="
       ],
       "https://elephant2027h2.ct.sectigo.com/": [
        "Sectigo Elephant2027h2",
-       33666,
-       "JnwJlTbkHls6w45cw4lP1yhf7jnHG1gbPfshwu5qmTo="
+       33743,
+       "PCaE7PvWA2AhLI01XPeW3945FR39IfyaUkHju77Nzic="
       ],
       "https://eszigno2026h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2026h2",
-       58388996,
-       "D4GYavs+SODmU1BQt4YeTjBxYB3BZPTuw/wzh3UEN8g="
+       60532203,
+       "OKrxEXRsn1m7CUL25yl6WC29qvLuobCDBfIs7T+EWK8="
       ],
       "https://eszigno2027h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h1",
-       221907582,
-       "sOCqvWkBcE0ziuNvRZc1Ot0R16q+aodM+zFcD7SkzUA="
+       234470792,
+       "zuQyKaF3p8dqJLePo3cFAUxqWA2bcP7aVyYeVKbiXaI="
       ],
       "https://eszigno2027h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2027h2",
-       3799,
-       "JnoezIWB4edYDn68ZDPhNY9syuGESlwj4Q96/G+vISc="
+       3879,
+       "/36fm2uvoQvU6GSfTkcA/TNjjGJzjFWBDW7o31cexJg="
       ],
       "https://eszigno2028h1.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h1",
-       3854,
-       "SKK9LemouhWxVF6q73u96EQa5B1hBfd66k57ZwQA1f0="
+       3918,
+       "0/ZtL/o15x4O/iJzN5mVYrm15LF4bJyKwfTCjDOHuJ8="
       ],
       "https://eszigno2028h2.mon.ct.e-szigno.hu/": [
        "Microsec Eszigno2028h2",
-       3774,
-       "JFL0FZGrFQnfkXW4+doaGbyX680PARY+zeYUGq7Wh8c="
+       3837,
+       "G47x0ssSKujr/aaTuZa7+hSwlPS0D5OQ0EUHLDkIIVI="
       ],
       "https://gouda2026h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2026h2",
-       1262404714,
-       "E8+oaYQHUJOvYMQ01JUwOgcRBcYb3BKKLqZCsk1jCbg="
+       1263635192,
+       "5jdakdcxfcEioesm0xGSa6SH8RrYMs9U2c0/1GwZr+g="
       ],
       "https://gouda2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h1",
-       471662426,
-       "kgSbG4fNWdhaBlDhG7UMOrRoCM5GX8zcdazTW0cEwZc="
+       481105852,
+       "4CFYLVNQUdzassOr4eC9UgEhEj2k6k+WMvvjTVY+L4c="
       ],
       "https://gouda2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2027h2",
-       21732,
-       "qhk7rFKeAm7ZwPsJBGEE5akAggjX8KIrKtzSttk3m8Y="
+       21806,
+       "LXSh/j6xWG3k/Moo4T9N7TEzbpVJ64vAomf+NJ4QTIo="
       ],
       "https://gouda2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h1",
-       4302,
-       "Xk7xEMsWlj/Cb38GaUySpmrHkivXCBXG0Yuq26AGctk="
+       4361,
+       "Q3BeCQNpG77PGEaG9T3K/GcBZh9GLTjzV5N6W60GvTg="
       ],
       "https://gouda2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Gouda2028h2",
-       4233,
-       "9hnJkKmw/9TtpmrrmzmKMtTR8cFIeuhY/teYE4UZbEI="
+       4296,
+       "+l2bxCkGv2FQKKIIH9/LUF8VvbQkhZxtKfgOZ3hUpmE="
       ],
       "https://halloumi2026h2a.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2026h2a",
-       1312374986,
-       "h+soJEOkhAI0F1YN8FmlwyjPzHQHpwQy9qoqpAIdJKw="
+       1313824695,
+       "nqO9zbtaQVFZLYi2xvn469nveY+PgEF9KKQQsgX+1rs="
       ],
       "https://halloumi2027h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h1",
-       577868688,
-       "cZOlQhxqwE6qCb6Hq1+6liNwWKllPRQMbstV6iFF8u8="
+       590737229,
+       "Ntz8YFu5xO95ppYGDhq0Id/iriUR8kFrUYSx4rUw810="
       ],
       "https://halloumi2027h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2027h2",
-       21538,
-       "JhC2A9CcYcL/jzgQSwgSfrd0N2fq9J0mSX7xgUCJAqI="
+       21612,
+       "krGDXVr2d3lgdqXJ7lvk7VqFPuIRvMaAItx7EEjWgzU="
       ],
       "https://halloumi2028h1.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h1",
-       4337,
-       "IWRsQ23Jefn1S6WgrOmAjzw5GpUT7QKrpAqTEUJi5u0="
+       4397,
+       "50nhVEdzWyvGBccB5dLaOv5CpQ4PUjPdW/cfz5H3Usw="
       ],
       "https://halloumi2028h2.mon.ct.ipng.ch/": [
        "IPng Networks Halloumi2028h2",
-       4235,
-       "MnW4LX9MdcyScwwA1E1YjIDu7gBPDfh8zJUwuFCYKnA="
+       4299,
+       "YwFki7tZhVtqvp6YqzrDrbgvKyehUS7zynqcqSRLakU="
       ],
       "https://hetu2027.trustasia.com/hetu2027/": [
        "TrustAsia HETU2027",
-       724860982,
-       "sIWpPZofobRqebCtq2oAhwO6EUGCxY7HdNmd5DUU9Y4="
+       739821353,
+       "dL2ufeYyqnqkPjYlemCjx/5+PHA3LnsINR8oQ9Jo5Fg="
       ],
       "https://luoshu2027.trustasia.com/luoshu2027/": [
        "TrustAsia Luoshu2027",
-       724934520,
-       "WzskbVCQMsj7uV8gNj7iotrTFzVZzF5SdidxVqxxyhI="
+       740428101,
+       "5ZKtClcuG+VG64vChhJWCscwvBh5BIief/VMCNGdg+w="
       ],
       "https://mammoth2026h2.ct.sectigo.com/": [
        "Sectigo Mammoth2026h2",
@@ -8483,78 +8483,78 @@
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Sycamore2026h2",
-       1113055566,
-       "xCxdBaZdqWB7F/cEo1hB3nlUUSTmGdYvHKnRlYHvd+U="
+       1114566811,
+       "tJEN2TLEp7df+3m3vRC24TDOKhI3DUtpzU9KjMr862U="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Sycamore2027h1",
-       1317905494,
-       "+nJZ1xW4Q4HKAhGAbFkDurRDnsWUak4554viuc8rmM4="
+       1341436070,
+       "ml6vk0/iiBsSb+PVhC9pClqenfD31e+JbZ0W+jniolU="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Sycamore2027h2",
-       21692,
-       "wmvjPQD1zuOzb0r12WS0vewMgQH4ja7LyisFZcYril4="
+       21772,
+       "FM9PZs1MtfCaCwQrlD2iOk2xF0GMyrscxnaffKS57bM="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Sycamore2028h1",
-       2915,
-       "5JR1cKhe/luXZAt8FopK3zwrxM4W6KFcbYNyQashjZ4="
+       2980,
+       "LWpxbSW+T/qAnG3G4YDMD+hQFJLXPJHhXXiH4JvQuLs="
       ],
       "https://mon.sycamore.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Sycamore2028h2",
-       2882,
-       "TR5fvlhDvmNSw5+LjQqtpfJsIFylSFq+vb/J4JEIyk0="
+       2947,
+       "Tna9imsLiabNI4rJ+ze0vUTmPYqeWZCUo1rzrnbj6NU="
       ],
       "https://mon.willow.ct.letsencrypt.org/2026h2/": [
        "Let's Encrypt Willow2026h2",
-       1059524859,
-       "NxH3PbY6h15dm3r6fCkVBp/Er42xdISEM38jVMVMCOk="
+       1061020955,
+       "ejgzayjn88XlYBJy3vOcIoZxqRhR1r6xhSid9wYOljM="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h1/": [
        "Let's Encrypt Willow2027h1",
-       1266668615,
-       "QG4AWAF7Tvd1zHq5EEmNWnAfMELt50SDwXfB9hkBUiE="
+       1289640382,
+       "E9QdXSOvZVSS5uD3zhzZkVl5lt9NY5uE+zopDo/fF9E="
       ],
       "https://mon.willow.ct.letsencrypt.org/2027h2/": [
        "Let's Encrypt Willow2027h2",
-       21723,
-       "x5dSPyZkpEgJ3XXcfXYtMVFtvOfjQIr4Fg6DKYKPJrk="
+       21798,
+       "nr+V4QKHN/1C+L6sCROTPJGJ2I4Ef4gGqtT/JBlpGEE="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h1/": [
        "Let's Encrypt Willow2028h1",
-       2923,
-       "F7oes87BnOQ37mZzT3GpIAJSo0T707ZNJJxmdBkJUYw="
+       2988,
+       "6wUdbYv9t9h5SigmONdZk3BB85MlwUMRCnNNmvVmuck="
       ],
       "https://mon.willow.ct.letsencrypt.org/2028h2/": [
        "Let's Encrypt Willow2028h2",
-       2888,
-       "ZhuvsoM+eB3S76QLwYuwLkiHNPlj9AxhkuIr3Z9shpU="
+       2955,
+       "RQ7z4FfXsdMgOzHZWvrKACtv4HKvOQlhYMdO85s9dB4="
       ],
       "https://monument2027h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h1",
-       239302218,
-       "RCoe1MNjfkbNrNhoC0YGr7CohNGlaQyxocMBb9hivTk="
+       254670903,
+       "/9VpFhWi8AmTPTGrd8YgX5KNW+a7CZ+rOqSNQkgAJQs="
       ],
       "https://monument2027h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2027h2",
-       2819,
-       "DoCZkU+zuRrxmdJhmXMwpdBuhx7zrYoINd9dnCwuCdk="
+       2899,
+       "f2YMCmbukrEzlKvhS89U8EDD+/Wassccrdj+Z7zJ3ig="
       ],
       "https://monument2028h1.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h1",
-       2866,
-       "jYo4hmtTAAbyM+cPUEyNG4Hzli6or2vTEw+Hq+vDFQA="
+       2929,
+       "SmGMI4qEZyZbGh4wSdaZnv+c0eaAvj8Mx7kQT4CA8dI="
       ],
       "https://monument2028h2.mon.ct.sectigo.com/": [
        "Sectigo Monument2028h2",
-       2807,
-       "QMo+ZGURQsLrNclhbdnysTVoLKdKUgFgClSyhklgzYg="
+       2870,
+       "u1NhAsv8/mLJgUjWRHOMKMqEB2YUVnYNomzRa/nieZM="
       ],
       "https://rekor.sigstore.dev/api/v1/log#1193050959916656506": [
        "Sigstore Rekor",
-       3875808742,
-       "wHYIQxsqlo2bokVeStwc6RY/6s/MfBTDDa5JfAEhNvQ="
+       3904803260,
+       "6rzNKcMy6OA0S32WEx4TgdVXwhBN49mFRAVslQx9W3E="
       ],
       "https://sabre2026h2.ct.sectigo.com/": [
        "Sectigo Sabre2026h2",
@@ -8563,193 +8563,193 @@
       ],
       "https://selene.mon.ct.harica.eu/selene2027h1/": [
        "HARICA Selene2027h1",
-       125049746,
-       "BYhT1SLt2vPVHH84cOxwzZS+0wj8UzfOzjS4JeqP/GM="
+       139832114,
+       "d2cspo2/vXm0YWsQoQws2ORgW9uiTKusQdSJbrUBRHo="
       ],
       "https://selene.mon.ct.harica.eu/selene2027h2/": [
        "HARICA Selene2027h2",
-       3112,
-       "xAYWmXXkuDSfqoHE+MelJUoiT/szxUhH8LtJ5fsUFZ0="
+       3210,
+       "1A8C2SbFjqMlgCWK1yWlFCwGZ7JRv88kpHdqqMc76Dk="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h1/": [
        "HARICA Selene2028h1",
-       3184,
-       "VbWay5jeg8RVnajXo67KziG8YPKpJRfGwKQJWR9CGfk="
+       3260,
+       "RzM8El84GalbGGA6Veg2O5KPMqBGP0sqARv27gYb1/o="
       ],
       "https://selene.mon.ct.harica.eu/selene2028h2/": [
        "HARICA Selene2028h2",
-       3080,
-       "h3i++xOxL1DcjNdA7JWhhwe0fvzPsAtoas18pLFzAJI="
+       3158,
+       "qDKKlTfynM3tLzLjBvU5F30lqv78gqgU3kpeGMSWFS0="
       ],
       "https://sphinx.ct.digicert.com/2026h2/": [
        "DigiCert Sphinx2026h2",
-       2191889920,
-       "ysabW+Mf1d7LW5hvFnQM84k3lIVDxdrWXAt7vL6sLMM="
+       2193550428,
+       "q8tc3rgbBqhvx891rTc/I3pdgddrtCatWCkwOmA/c5Y="
       ],
       "https://sphinx.ct.digicert.com/2027h1/": [
        "DigiCert Sphinx2027h1",
-       571372025,
-       "6AMVIfeXIp7/k6vzA5EWxcDQ88LUH/Qi1aUvgtTwAzA="
+       590285706,
+       "elwqzhpApkqv+zKNJIyOSxqNW+NGB26Ibfrm4HvKFlw="
       ],
       "https://sphinx.ct.digicert.com/2027h2/": [
        "DigiCert Sphinx2027h2",
-       36411,
-       "2Cp9ztiF+72UsG3Fg5Ol7m99EkvwLqOg5X9di0H2pFk="
+       36740,
+       "XxSDEveb+TFgphQ5HJsocobj3/3sOQriBbV64R1CNtg="
       ],
       "https://statue2027h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h1",
-       239411679,
-       "hqxhVLfJjlwEfSMdldLrd8sy6RaiBkwL+M3HITkzmmE="
+       254777674,
+       "2QQEdzPH1zE/yL1BzHJZZKm4wZIZUm/FmFvlexUNyuc="
       ],
       "https://statue2027h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2027h2",
-       2825,
-       "1cxPw+4jdn4Dow3ckWnBiUqrJ1uB6eJyojlmlLD203A="
+       2904,
+       "vjNuUXpzNnlXyrrbJtZFP5TrbtqUJ10D9u7oDmWbYJI="
       ],
       "https://statue2028h1.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h1",
-       2868,
-       "g48tkXE2exeB7tPK72wjMy9p2TOpZ+6FTRymcfjA5Sg="
+       2929,
+       "stLkf0b8cYllvpbLV9dmfAUn3Bh6dThK8wLN+NL0ays="
       ],
       "https://statue2028h2.mon.ct.sectigo.com/": [
        "Sectigo Statue2028h2",
-       2795,
-       "kM7iVhorqiGWYFlC9y3nZc8VyLtuIcP5PxGw3a0h4UU="
+       2857,
+       "p7zvib1Qxjy6poyMHY/YhdsOxF0+vISTRExv/+54PAY="
       ],
       "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2026h2",
-       1661577718,
-       "NZ2wbJs5LXmJppD/6gGGVGxJiU7NAHMV5S5KVFxHTZo="
+       1664347362,
+       "a0vRlzEoYJMSInCmIoh1pyxMURt//ki2kypbBvcHqo4="
       ],
       "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h1",
-       904567379,
-       "mi0M1Lt9K4mw2EgxqFGW9GHMiaBwg2l061TcLzGoCA0="
+       926161689,
+       "57Su90Ixb4Wf2x0kI/0KZm+uR8OauTnSM8aiI4mhVeQ="
       ],
       "https://storage.googleapis.com/parcelyard2027h2.prod.certificate.transparency.goog/": [
        "Google ParcelYard2027h2",
-       10679,
-       "AU5FD827ejg7KyXmGx2OAdG+jpWPVzH8MjKXkEUwg8w="
+       10755,
+       "WIwFHYOXhsNfCQ1Cijm97fsh8lCrb+McArf2NAKyOX4="
       ],
       "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2026h2",
-       1661055407,
-       "IfuOievaboQuYIBBQgWSItVG7rpjoIDT59FGd8l1GQc="
+       1663812477,
+       "DYruGXDCc7LuLLquH7y1oU9Z8ReqbCwH70gkEaiuhPE="
       ],
       "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h1",
-       904275601,
-       "kNArv+btVGA6uf9qe7mpaM6no7k4Tn41+0O3mJ2fA0E="
+       925787100,
+       "Inx2MVnAVZMpmgdDC7Wm+0duTuIMbB5TXhaojjZv2VI="
       ],
       "https://storage.googleapis.com/plumbersarms2027h2.prod.certificate.transparency.goog/": [
        "Google PlumbersArms2027h2",
-       10708,
-       "gOtsVC2ff84upXNptFKLOTCERVh0rSvFC8B/VTZirDE="
+       10783,
+       "lMXhDJuoBqqkgu3D1hUoVcDDjv4fn/A5XxylJjDXgQs="
       ],
       "https://sum.golang.org/latest": [
        "Go checksum database",
-       71694677,
-       "S/S+JZZ4olc0+nsduyHEP+57Fr1ySj/OO2oqhyING5w="
+       71783910,
+       "YBvEA1LxqLFUnrgLtEOXaCWcJATkxK8gk7zzIc6Qlio="
       ],
       "https://tiger2026h2.ct.sectigo.com/": [
        "Sectigo Tiger2026h2",
-       2498415046,
-       "hKlq2R4K/tR0Chx9/HDJXdHpvmGC9q3/0SOc0jGSJbU="
+       2500614809,
+       "4Qj7Et++lrb8miyv3oZaSqyabqDgjwPJFct3/KLVJYo="
       ],
       "https://tiger2027h1.ct.sectigo.com/": [
        "Sectigo Tiger2027h1",
-       996460749,
-       "YSFQ1BUZjOudXm20r0LQExaHm9721Wi57HNYJYg7BMk="
+       1017619227,
+       "tpKaL3KgaoHOWJ1y9kVUanNTIHH+oP6kEbfHGZQSBSU="
       ],
       "https://tiger2027h2.ct.sectigo.com/": [
        "Sectigo Tiger2027h2",
-       32920,
-       "2fWMp/uWtmZhICz858m80GDzvq1w6h6CJU9tS0/ZxQA="
+       32994,
+       "XmRfwqSynj05za49R6FrVIUx6xBEl2EiHEEc8isQinA="
       ],
       "https://tile-luoshu2028h1.trustasia.com/luoshu2028h1/": [
        "TrustAsia Luoshu2028h1",
-       5784,
-       "ttdqzCsL/2hAYpcbgf9KE9oadstZlx+2UJT2uNiLTKU="
+       5857,
+       "rdRRm8eD9iU7VQPEqf61u4EJNPE4qkqUqx65pSw7p5E="
       ],
       "https://tile-luoshu2028h2.trustasia.com/luoshu2028h2/": [
        "TrustAsia Luoshu2028h2",
-       5984,
-       "5zzxRPYMriGj91f51ZR1wzxJyoRoONZaernViQmrgmY="
+       6057,
+       "fslz5Zan0HRJj9yfmmIdcDjHcSR4/gl0Z2GzwZZ2F6w="
       ],
       "https://tile-taiji2028h1.trustasia.com/taiji2028h1/": [
        "TrustAsia Taiji2028h1",
-       4459,
-       "wXZ90n87+eQku12fEowIT61OBj93tHQIoloPOR/ZjmQ="
+       4531,
+       "znp+HfFdRaDPlxbgrtLJ8kO869cb4RDU/7G/zJiiXyQ="
       ],
       "https://tile-taiji2028h2.trustasia.com/taiji2028h2/": [
        "TrustAsia Taiji2028h2",
-       4601,
-       "5qIBVM9+qqgwEz7BRoVVqusFEcWZoSxQ7LUkZBemnj0="
+       4675,
+       "lWdpiqGgKNBfE+2WpQETlcMXGnK2TQlHfzCMO/5KZNE="
       ],
       "https://trastevere2026h2.skylight.geomys.org/": [
        "Geomys Trastevere2026h2",
-       39940479,
-       "SNO3+NG7F8kfK9Gsq6WT7slFHpnRAfUCxcHOGPF4rP8="
+       41245166,
+       "Q4yo/3Yq0aOxaNZBftHO3USdTEKyaW30osPCECjrCvg="
       ],
       "https://trastevere2027h1.skylight.geomys.org/": [
        "Geomys Trastevere2027h1",
-       73211091,
-       "ygayIpo+vCliwQ9YsSt4Dg2pVBwugXwsPQJd1LI4unI="
+       78068862,
+       "/cqr1ycfnEqJPu2RumA5/h+yT1kgaPlnBjis3vT/HeU="
       ],
       "https://trastevere2027h2.skylight.geomys.org/": [
        "Geomys Trastevere2027h2",
-       97621,
-       "Y3UY/aDTisN8xrYUKlu/+owAneX4/1rznkVi4ay6njM="
+       99202,
+       "dX96FlkgUOIT058WRRK8cJL8mrOXNyJ0G9qY3aqQo/0="
       ],
       "https://trastevere2028h1.skylight.geomys.org/": [
        "Geomys Trastevere2028h1",
-       97614,
-       "XLP6OBp9TPax8n/m4g2ZI62pKmGw736fEvb7wgwPSp0="
+       99175,
+       "Ot0hzp9ba8g/msuyf2ozItZZo6Pbsvz7utQrBqEltMQ="
       ],
       "https://trastevere2028h2.skylight.geomys.org/": [
        "Geomys Trastevere2028h2",
-       97553,
-       "eAvo8cotzddlnsTP5wMeNh630OaQTdd8X4Umc1AFkf4="
+       99116,
+       "B2IaRTdBzQeq1iVijntv0YnUWCHqWqmC+/h4TC2N9jo="
       ],
       "https://tuscolo2026h2.skylight.geomys.org/": [
        "Geomys Tuscolo2026h2",
-       1066560746,
-       "BoRW5PQpAur4+RnQAqSBa7qelsrAYXZOlLkPB1ldp1A="
+       1068667021,
+       "jgVJNc1mFNZUMYO1Z90xtcQyo/UJOksIWPzKhYAeAE8="
       ],
       "https://tuscolo2027h1.skylight.geomys.org/": [
        "Geomys Tuscolo2027h1",
-       706596367,
-       "WEqkmku8GEv3A+NDuv88wMXWgt2VmxOdvmpEiesuhOU="
+       724740129,
+       "GP8Y3ioTKqAxgT5/T3zyy1ElOqceLJOZ5qW4weQOvBU="
       ],
       "https://tuscolo2027h2.skylight.geomys.org/": [
        "Geomys Tuscolo2027h2",
-       121051,
-       "FU+PnOfv2/fEwlV9oSRB6nlq+Z8Wf3IVGCl1vbjMizI="
+       122630,
+       "4aNJk+cvDiwEfS3kVD40XC0wbqhBSvsMsfslvlMycIY="
       ],
       "https://tuscolo2028h1.skylight.geomys.org/": [
        "Geomys Tuscolo2028h1",
-       97688,
-       "9InQKnHDtsPSLAhP10zPgsowNDUMyvpn+m9nCYGN5XM="
+       99249,
+       "Pfpc3u3NeLo4czJqZ5F1FMMmB+lJkyhSbe39che5GMA="
       ],
       "https://tuscolo2028h2.skylight.geomys.org/": [
        "Geomys Tuscolo2028h2",
-       97606,
-       "lKHyVE/ivmGxPst0WGzMhRLMmQzYg4sggKHQJBhOgwg="
+       99167,
+       "hgITssUY4o3EpGNgsNLzNxYMR3EBhum+B5XT6nnI6NU="
       ],
       "https://wyvern.ct.digicert.com/2026h2/": [
        "DigiCert Wyvern2026h2",
-       2235186068,
-       "lyHa0oJw8vtTMyJ6YyotEw/8ssoAGjWRxdSg5bfE/3U="
+       2237405261,
+       "DRmIz85CKOstz2T539lAV8y5SmNti1Jxh2AIUENFwRY="
       ],
       "https://wyvern.ct.digicert.com/2027h1/": [
        "DigiCert Wyvern2027h1",
-       635632145,
-       "GvE/1j9FhKxkALTxgoOAFmlennuXj11m2QbAXQRhzjI="
+       656108845,
+       "7iqf9OolpIAXC5G9L5KCYSe1a6NOfhboJRdBKBKGEWw="
       ],
       "https://wyvern.ct.digicert.com/2027h2/": [
        "DigiCert Wyvern2027h2",
-       36476,
-       "qSqZCP+p8EFtQ7GLwM7wA69IzuH4P1cQAMwAd3zTjtg="
+       36805,
+       "CAcHdKCZmrVXxyzzlkNlKrCoQmAmJI7j6vw/S6FS2eM="
       ]
      },
      "inconsistent_logs": {},
@@ -8757,7 +8757,7 @@
      "network_attested": true,
      "probe_id": "probe-1",
      "proven_split_views": [],
-     "rekor_entries": 3997713004,
+     "rekor_entries": 4026707522,
      "rekor_entries_definition": "4",
      "rekor_v2_entries": null,
      "rekor_v2_entries_definition": "2"
@@ -10870,7 +10870,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-20T13:05:46Z",
+  "as_of_utc": "2026-11-20T14:32:51Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10901,9 +10901,9 @@
  "probes": [
   {
    "age_days": 51,
-   "bundles": 674,
+   "bundles": 676,
    "contribution": {
-    "bundles_ok": 657,
+    "bundles_ok": 659,
     "days_active": 52,
     "layers": 21
    },
@@ -10941,10 +10941,10 @@
   },
   {
    "age_days": 51,
-   "bundles": 350,
+   "bundles": 351,
    "contribution": {
-    "bundles_ok": 347,
-    "days_active": 51,
+    "bundles_ok": 348,
+    "days_active": 52,
     "layers": 16
    },
    "eligible": true,
@@ -10956,7 +10956,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-19",
+   "last_seen_utc": "2026-11-20",
    "probe_id": "probe-4"
   },
   {
@@ -10990,7 +10990,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "0a65373cbc777467b8c3c7b50e8e5a436e394e0fcb2ba88b72dd859a2c000114",
+ "published_sha256": "11f3be99a425af4eb0f6ab132caeec34f3716016ba9989f0885fda336e08efdb",
  "rejections": [
   {
    "kind": "bundle",
@@ -11635,5 +11635,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "d10af50ce5d355f681d701baa1767afeed2b1d5d427312b59eec3e032f93d857"
+ "view_sha256": "9d1027ae904c7140debae87a8f3d7c642facb3eabf7398ecc47488cc32ac2022"
 }
