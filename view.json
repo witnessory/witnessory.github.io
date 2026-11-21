@@ -3023,8 +3023,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -3055,8 +3055,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -3087,8 +3087,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3119,8 +3119,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3151,8 +3151,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3183,8 +3183,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-20T16:30:26Z",
-      "observations": 47,
+      "last_observed_utc": "2026-11-21T02:00:47Z",
+      "observations": 48,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -5104,7 +5104,7 @@
      "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     },
     {
-     "created_utc": "2026-11-20",
+     "created_utc": "2026-11-21",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -10781,7 +10781,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-21T01:03:36Z",
+  "as_of_utc": "2026-11-21T02:00:47Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10832,9 +10832,9 @@
   },
   {
    "age_days": 51,
-   "bundles": 613,
+   "bundles": 614,
    "contribution": {
-    "bundles_ok": 610,
+    "bundles_ok": 611,
     "days_active": 53,
     "layers": 18
    },
@@ -10901,7 +10901,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "cf49fb1cd5707b40e13a75625e4b390fb80a7db0dc868c0531e0ddd8645a7aa9",
+ "published_sha256": "080e2588bafef4fdaa5bb9fc8754c30f2620a54030a2ab6593a4054eaec8268d",
  "rejections": [
   {
    "kind": "bundle",
@@ -11546,5 +11546,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "c5395213782e2737f027e9b3fc52b9dee364b95e418ebf3798ffaf39937eb5f1"
+ "view_sha256": "32b6ebba381a2522ec7a4da571655f362879b5b2a2988c1388057c3ed332a2ab"
 }
