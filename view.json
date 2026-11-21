@@ -10626,7 +10626,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-21T07:59:00Z",
+  "as_of_utc": "2026-11-21T09:05:18Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10657,9 +10657,9 @@
  "probes": [
   {
    "age_days": 52,
-   "bundles": 687,
+   "bundles": 688,
    "contribution": {
-    "bundles_ok": 670,
+    "bundles_ok": 671,
     "days_active": 53,
     "layers": 21
    },
@@ -10746,7 +10746,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "e390912f0399876870e90cb1f86eed0104805c19356817c896feafa96def125e",
+ "published_sha256": "e432c94c6389e233a43c2fdc732ae49c312201db1914a5c7d9dd521a553e8748",
  "rejections": [
   {
    "kind": "bundle",
@@ -10922,6 +10922,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "incomplete routing tables: a collector's dump was not read whole"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "vantage changed during run"
   },
   {
    "kind": "bundle",
@@ -11391,5 +11396,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "694614f3560815df9ae4d09d2c21ba666df6a61313d6061f6199eca4f8655f23"
+ "view_sha256": "6f0c531872d9207a3526a53792551d459325891ee0f321356646fb5127f34523"
 }
