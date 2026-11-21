@@ -473,35 +473,35 @@
   "flow": {
    "headline": {
     "exposed_value_share": {
-     "max": 0.23878949,
-     "median": 0.23878949,
-     "min": 0.23878949,
+     "max": 0.23409642,
+     "median": 0.23409642,
+     "min": 0.23409642,
      "n": 1,
      "networks": 1
     },
     "to_revealed_value_share": {
-     "max": 0.67149346,
-     "median": 0.67149346,
-     "min": 0.67149346,
+     "max": 0.68104869,
+     "median": 0.68104869,
+     "min": 0.68104869,
      "n": 1,
      "networks": 1
     }
    },
    "probes": [
     {
-     "created_utc": "2026-11-20",
+     "created_utc": "2026-11-21",
      "eligible": true,
-     "exposed_value_share": 0.23878949,
+     "exposed_value_share": 0.23409642,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_revealed_value_share": 0.67149346,
+     "to_revealed_value_share": 0.68104869,
      "window": {
-      "blocks": 154,
-      "from_block_time": 1795058537,
-      "from_height": 976521,
+      "blocks": 162,
+      "from_block_time": 1795151709,
+      "from_height": 976687,
       "hours": 24.0,
-      "to_block_time": 1795144442,
-      "to_height": 976674
+      "to_block_time": 1795237579,
+      "to_height": 976848
      }
     }
    ]
@@ -10783,7 +10783,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-21T03:04:28Z",
+  "as_of_utc": "2026-11-21T05:31:56Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10814,9 +10814,9 @@
  "probes": [
   {
    "age_days": 52,
-   "bundles": 683,
+   "bundles": 684,
    "contribution": {
-    "bundles_ok": 666,
+    "bundles_ok": 667,
     "days_active": 53,
     "layers": 21
    },
@@ -10873,7 +10873,7 @@
    "probe_id": "probe-4"
   },
   {
-   "age_days": 51,
+   "age_days": 52,
    "bundles": 485,
    "contribution": {
     "bundles_ok": 476,
@@ -10903,7 +10903,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "b0278b1f11473a75f90a42794bb720191f3cd95ecdedf044a57cf33ea0b009ef",
+ "published_sha256": "fff26185692b93081fa00464084595c08920b4a1ef9af3f45e2da421fa9e1940",
  "rejections": [
   {
    "kind": "bundle",
@@ -11548,5 +11548,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "d8486f1e449e85308c3ea2a0414f96a1667f805f24318fbd9e910ad1953c694f"
+ "view_sha256": "193667bbe79e2304a61e81101efe3588c4d37da9949f2394a25c126e9eb9aed0"
 }
