@@ -352,7 +352,7 @@
    "headline": {
     "regions_affected_share": {
      "max": 0.2,
-     "median": 0.1,
+     "median": 0.1714285,
      "min": 0.0,
      "n": 4,
      "networks": 3
@@ -367,56 +367,58 @@
    },
    "probes": [
     {
-     "affected_regions": [],
+     "affected_regions": [
+      "baltic_gdansk"
+     ],
      "by_region": {
       "baltic_gdansk": {
-       "affected": null,
+       "affected": true,
        "poor_nic_share": [
-        null,
-        null
+        0.1905,
+        0.1905
        ],
        "qualifying": {
-        "adsb.fi": 1,
-        "adsb.lol": 0
+        "adsb.fi": 21,
+        "adsb.lol": 21
        },
        "role": "reported",
-       "sources_agree": null
+       "sources_agree": true
       },
       "black_sea_west": {
-       "affected": null,
+       "affected": false,
        "poor_nic_share": [
-        null,
-        null
+        0.025,
+        0.0513
        ],
        "qualifying": {
-        "adsb.fi": 11,
-        "adsb.lol": 0
+        "adsb.fi": 39,
+        "adsb.lol": 40
        },
        "role": "reported",
-       "sources_agree": null
+       "sources_agree": true
       },
       "control-1": {
-       "affected": null,
-       "poor_nic_share": [
-        null,
-        null
-       ],
-       "qualifying": {
-        "adsb.fi": 10,
-        "adsb.lol": 0
-       },
-       "role": "control",
-       "sources_agree": null
-      },
-      "control-2": {
        "affected": false,
        "poor_nic_share": [
         0.0,
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 16,
-        "adsb.lol": 0
+        "adsb.fi": 86,
+        "adsb.lol": 86
+       },
+       "role": "control",
+       "sources_agree": true
+      },
+      "control-2": {
+       "affected": false,
+       "poor_nic_share": [
+        0.0079,
+        0.0079
+       ],
+       "qualifying": {
+        "adsb.fi": 126,
+        "adsb.lol": 127
        },
        "role": "control",
        "sources_agree": true
@@ -425,11 +427,11 @@
        "affected": false,
        "poor_nic_share": [
         0.0,
-        0.0
+        0.025
        ],
        "qualifying": {
-        "adsb.fi": 25,
-        "adsb.lol": 0
+        "adsb.fi": 40,
+        "adsb.lol": 17
        },
        "role": "control",
        "sources_agree": true
@@ -441,34 +443,34 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 2,
-        "adsb.lol": 0
+        "adsb.fi": 0,
+        "adsb.lol": 1
        },
        "role": "control",
        "sources_agree": null
       },
       "control-5": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0,
-        0.0
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 186,
-        "adsb.lol": 0
+        "adsb.fi": 5,
+        "adsb.lol": 4
        },
        "role": "control",
-       "sources_agree": true
+       "sources_agree": null
       },
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.027,
+        0.0286
        ],
        "qualifying": {
-        "adsb.fi": 30,
-        "adsb.lol": 0
+        "adsb.fi": 35,
+        "adsb.lol": 37
        },
        "role": "reported",
        "sources_agree": true
@@ -480,8 +482,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 0
+        "adsb.fi": 1,
+        "adsb.lol": 1
        },
        "role": "reported",
        "sources_agree": null
@@ -493,8 +495,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 4,
-        "adsb.lol": 0
+        "adsb.fi": 8,
+        "adsb.lol": 8
        },
        "role": "reported",
        "sources_agree": null
@@ -502,12 +504,12 @@
       "persian_gulf": {
        "affected": false,
        "poor_nic_share": [
-        0.05,
-        0.05
+        0.0488,
+        0.0526
        ],
        "qualifying": {
-        "adsb.fi": 20,
-        "adsb.lol": 0
+        "adsb.fi": 38,
+        "adsb.lol": 41
        },
        "role": "reported",
        "sources_agree": true
@@ -519,8 +521,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 2,
-        "adsb.lol": 0
+        "adsb.fi": 9,
+        "adsb.lol": 11
        },
        "role": "reported",
        "sources_agree": null
@@ -532,7 +534,7 @@
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
-     "regions_affected_share": 0.0,
+     "regions_affected_share": 0.142857,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
@@ -1983,11 +1985,11 @@
   },
   "rpki": {
    "by_signature_family": {
-    "RSA": 580618
+    "RSA": 533396
    },
    "by_subject_key": {
     "ECDSA-P-256": 3,
-    "RSA-2048": 522296
+    "RSA-2048": 474976
    },
    "headline": {
     "pq_signed_share": {
@@ -1999,8 +2001,8 @@
     },
     "published_objects": {
      "max": 580618,
-     "median": 571650.0,
-     "min": 562682,
+     "median": 557007.0,
+     "min": 533396,
      "n": 2,
      "networks": 2
     },
@@ -2012,9 +2014,9 @@
      "networks": 2
     },
     "validated_payloads": {
-     "max": 1035861,
-     "median": 982946.0,
-     "min": 930031,
+     "max": 1037886,
+     "median": 1036873.5,
+     "min": 1035861,
      "n": 2,
      "networks": 2
     }
@@ -2022,13 +2024,13 @@
    "probes": [
     {
      "by_signature_family": {
-      "RSA": 562682
+      "RSA": 533396
      },
      "by_subject_key": {
       "ECDSA-P-256": 3,
-      "RSA-2048": 505751
+      "RSA-2048": 474976
      },
-     "created_utc": "2026-11-14",
+     "created_utc": "2026-11-21",
      "eligible": true,
      "network_attested": true,
      "objects_by_repository": {
@@ -2037,20 +2039,20 @@
       "https://ca.nat.moe/rrdp/notification.xml": 101,
       "https://ca.rg.net/rrdp/notify.xml": 15,
       "https://cloudie.rpki.app/rrdp/notification.xml": 437,
-      "https://krill.47272.net/rrdp/notification.xml": 226,
+      "https://krill.47272.net/rrdp/notification.xml": 221,
       "https://krill.accuristechnologies.ca/rrdp/notification.xml": 52,
-      "https://krill.clnexus.dev/rrdp/notification.xml": 10,
+      "https://krill.clnexus.dev/rrdp/notification.xml": 7,
       "https://krill.cxy.hk/rrdp/notification.xml": 12,
       "https://krill.dacs.utwente.nl/rrdp/notification.xml": 9,
-      "https://krill.dispaisy.systems/rrdp/notification.xml": 35,
+      "https://krill.dispaisy.systems/rrdp/notification.xml": 36,
       "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": 13,
       "https://krill.peravix.group/rrdp/notification.xml": 3,
-      "https://krill.proxy-arp.network/rrdp/notification.xml": 49,
+      "https://krill.proxy-arp.network/rrdp/notification.xml": 47,
       "https://krill.rg.net/rrdp/notification.xml": 13,
       "https://krill.rpki-measurement.site/rrdp/notification.xml": 9,
       "https://krill.starlamp.su/rrdp/notification.xml": 3,
       "https://krill.sy5.nsw.au.infininet.com.au/rrdp/notification.xml": 29,
-      "https://magellan.ipxo.com/rrdp/notification.xml": 476,
+      "https://magellan.ipxo.com/rrdp/notification.xml": 452,
       "https://repo.nkn.in/notification.xml": 4,
       "https://repo.rpki.space/rrdp/notification.xml": 102,
       "https://repo2.nkn.in/notification.xml": 23,
@@ -2060,17 +2062,18 @@
       "https://rpki-publication.haruue.net/rrdp/notification.xml": 6,
       "https://rpki-repo.datahub-ix.net/rrdp/notification.xml": 4,
       "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": 7,
-      "https://rpki-repo.registro.br/rrdp/notification.xml": 32266,
-      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": 16489,
+      "https://rpki-repo.registro.br/rrdp/notification.xml": 32237,
+      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": 8497,
+      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": 16430,
       "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": 6,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": 1486,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": 6830,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": 6834,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": 22,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": 44,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/395c874a-bcf9-4f7c-b900-d255072c3ee7/notification.xml": 74,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": 28,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": 474,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": 355,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": 475,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": 358,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": 24,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": 4,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": 7,
@@ -2088,15 +2091,16 @@
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": 1204,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": 9,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": 174,
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": 6743,
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": 6745,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": 4012,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": 5,
       "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": 2,
       "https://rpki-rrdp.warpnet.xyz/notification.xml": 35,
-      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": 238,
+      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": 239,
       "https://rpki.apernet.io/rrdp/notification.xml": 41,
       "https://rpki.as207960.net/rrdp/notification.xml": 137,
       "https://rpki.as219412.net/rrdp/notification.xml": 14,
+      "https://rpki.athene-center.net/rrdp/notification.xml": 6,
       "https://rpki.axivora.net/rrdp/notification.xml": 56,
       "https://rpki.blw.moe/rrdp/notification.xml": 7,
       "https://rpki.cc/rrdp/notification.xml": 48,
@@ -2118,35 +2122,35 @@
       "https://rpki.roa.net/rrdp/notification.xml": 332,
       "https://rpki.sailx.co/rrdp/notification.xml": 27,
       "https://rpki.satcom.com.br:3000/rrdp/notification.xml": 5,
-      "https://rpki.shrdserv.com/rrdp/notification.xml": 84,
+      "https://rpki.shrdserv.com/rrdp/notification.xml": 86,
       "https://rpki.sunoaki.net/rrdp/notification.xml": 48,
       "https://rpki.tools.westconnect.ca/rrdp/notification.xml": 20,
       "https://rpki.vexshield.eu/rrdp/notification.xml": 3,
       "https://rpki.xindi.eu/rrdp/notification.xml": 25,
       "https://rrdp-ipv4.prefixlogic.com/rrdp/notification.xml": 3,
       "https://rrdp-rpki.inara.pk/rrdp/notification.xml": 4,
-      "https://rrdp-rps.arin.net/notification.xml": 2802,
-      "https://rrdp.afrinic.net/notification.xml": 17332,
-      "https://rrdp.apnic.net/notification.xml": 50704,
-      "https://rrdp.arin.net/notification.xml": 246158,
+      "https://rrdp-rps.arin.net/notification.xml": 2788,
+      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": 9087,
+      "https://rrdp.afrinic.net/notification.xml": 17626,
+      "https://rrdp.apnic.net/notification.xml": 50928,
+      "https://rrdp.arin.net/notification.xml": 198557,
       "https://rrdp.as214749.net/rrdp/notification.xml": 11,
       "https://rrdp.ip.deals/rrdp/notification.xml": 2,
       "https://rrdp.krill.nlnetlabs.nl/notification.xml": 19,
-      "https://rrdp.lacnic.net/rrdp/notification.xml": 28485,
-      "https://rrdp.paas.rpki.ripe.net/notification.xml": 11523,
+      "https://rrdp.lacnic.net/rrdp/notification.xml": 28458,
+      "https://rrdp.paas.rpki.ripe.net/notification.xml": 11576,
       "https://rrdp.prefixlogic.com/rrdp/notification.xml": 3,
-      "https://rrdp.ripe.net/notification.xml": 123875,
-      "https://rrdp.rp.ki/notification.xml": 91,
+      "https://rrdp.ripe.net/notification.xml": 124276,
       "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": 25,
-      "https://rrdp.sub.apnic.net/notification.xml": 516,
-      "https://rrdp.twnic.tw/rrdp/notification.xml": 3093,
+      "https://rrdp.sub.apnic.net/notification.xml": 514,
+      "https://rrdp.twnic.tw/rrdp/notification.xml": 3088,
       "https://rsync.rpki.as205941.org/rrdp/notification.xml": 29,
       "https://sakuya.nat.moe/rrdp/notification.xml": 9
      },
-     "payloads_sha256": "276ef993aba3078bcaf6aa4f36ffaf3d346b747d88aa8c9e07f60a6cd121c749",
+     "payloads_sha256": "71be816689560c34fe55df8f91021724538af0f06a4127b24c2abdd7969b472c",
      "pq_signed_share": 0.0,
      "probe_id": "probe-1",
-     "published_objects": 562682,
+     "published_objects": 533396,
      "repositories": {
       "attempted": 131,
       "failed": [
@@ -2160,9 +2164,7 @@
        "https://repo.kagl.me/rpki/notification.xml",
        "https://repodepot.wildtky.com/rrdp/notification.xml",
        "https://rki.plasmanodes.com/rrdp/notification.xml",
-       "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml",
        "https://rpki.as215605.net/rrdp/notification.xml",
-       "https://rpki.athene-center.net/rrdp/notification.xml",
        "https://rpki.co/rrdp/notification.xml",
        "https://rpki.fengrui.link/rrdp/notification.xml",
        "https://rpki.gxt.network/rrdp/notification.xml",
@@ -2170,125 +2172,127 @@
        "https://rpki.miralium.net/rrdp/notification.xml",
        "https://rpki.ssmidge.xyz/rrdp/notification.xml",
        "https://rpki.xa.wiki/rrdp/notification.xml",
-       "https://rrdp-rps.cnnic.cn/rrdp/notification.xml"
+       "https://rrdp.rp.ki/notification.xml"
       ],
       "hash_mismatch": 0,
-      "read": 110
+      "read": 112
      },
      "serials": {
-      "https://akane.maru.co.jp/oshirase.xml": "1124",
-      "https://alias.rpki-measurement.site/rrdp/notification.xml": "373",
-      "https://ca.nat.moe/rrdp/notification.xml": "2029",
-      "https://ca.rg.net/rrdp/notify.xml": "121676",
-      "https://cloudie.rpki.app/rrdp/notification.xml": "10455",
-      "https://krill.47272.net/rrdp/notification.xml": "4508",
-      "https://krill.accuristechnologies.ca/rrdp/notification.xml": "5596",
-      "https://krill.clnexus.dev/rrdp/notification.xml": "500",
-      "https://krill.cxy.hk/rrdp/notification.xml": "746",
-      "https://krill.dacs.utwente.nl/rrdp/notification.xml": "571",
-      "https://krill.dispaisy.systems/rrdp/notification.xml": "452",
-      "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": "620",
-      "https://krill.peravix.group/rrdp/notification.xml": "239",
-      "https://krill.proxy-arp.network/rrdp/notification.xml": "257",
-      "https://krill.rg.net/rrdp/notification.xml": "2316",
-      "https://krill.rpki-measurement.site/rrdp/notification.xml": "8509",
-      "https://krill.starlamp.su/rrdp/notification.xml": "485",
+      "https://akane.maru.co.jp/oshirase.xml": "1157",
+      "https://alias.rpki-measurement.site/rrdp/notification.xml": "390",
+      "https://ca.nat.moe/rrdp/notification.xml": "2038",
+      "https://ca.rg.net/rrdp/notify.xml": "122009",
+      "https://cloudie.rpki.app/rrdp/notification.xml": "10503",
+      "https://krill.47272.net/rrdp/notification.xml": "4557",
+      "https://krill.accuristechnologies.ca/rrdp/notification.xml": "5615",
+      "https://krill.clnexus.dev/rrdp/notification.xml": "530",
+      "https://krill.cxy.hk/rrdp/notification.xml": "784",
+      "https://krill.dacs.utwente.nl/rrdp/notification.xml": "598",
+      "https://krill.dispaisy.systems/rrdp/notification.xml": "488",
+      "https://krill.peering.ee.columbia.edu/rrdp/notification.xml": "626",
+      "https://krill.peravix.group/rrdp/notification.xml": "248",
+      "https://krill.proxy-arp.network/rrdp/notification.xml": "402",
+      "https://krill.rg.net/rrdp/notification.xml": "2342",
+      "https://krill.rpki-measurement.site/rrdp/notification.xml": "8526",
+      "https://krill.starlamp.su/rrdp/notification.xml": "495",
       "https://krill.sy5.nsw.au.infininet.com.au/rrdp/notification.xml": "406",
-      "https://magellan.ipxo.com/rrdp/notification.xml": "11096",
-      "https://repo.nkn.in/notification.xml": "133",
-      "https://repo.rpki.space/rrdp/notification.xml": "10944",
-      "https://repo2.nkn.in/notification.xml": "314",
-      "https://rov-measurements.nlnetlabs.net/rrdp/notification.xml": "1670",
-      "https://rpki-01.pdxnet.uk/rrdp/notification.xml": "7501",
-      "https://rpki-pp.com/rrdp/notification.xml": "19873",
+      "https://magellan.ipxo.com/rrdp/notification.xml": "11206",
+      "https://repo.nkn.in/notification.xml": "142",
+      "https://repo.rpki.space/rrdp/notification.xml": "11006",
+      "https://repo2.nkn.in/notification.xml": "343",
+      "https://rov-measurements.nlnetlabs.net/rrdp/notification.xml": "1680",
+      "https://rpki-01.pdxnet.uk/rrdp/notification.xml": "7534",
+      "https://rpki-pp.com/rrdp/notification.xml": "19901",
       "https://rpki-publication.haruue.net/rrdp/notification.xml": "1113",
-      "https://rpki-repo.datahub-ix.net/rrdp/notification.xml": "8",
-      "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": "133",
-      "https://rpki-repo.registro.br/rrdp/notification.xml": "32317",
-      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": "367867",
-      "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": "4502",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": "8076",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": "30316",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": "558",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": "1617",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/395c874a-bcf9-4f7c-b900-d255072c3ee7/notification.xml": "49",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": "1522",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": "2417",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": "128370",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": "1530",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": "46",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": "1741",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/71e5236f-c6f1-4928-a1b9-8def09c06085/notification.xml": "1470",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/967a255c-d680-42d3-9ec3-ecb3f9da088c/notification.xml": "3940",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/98c1c974-4608-4b75-8781-dc145101a9bd/notification.xml": "11373",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/a841823c-a10d-477c-bfdf-4086f0b1594c/notification.xml": "1523",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b3f6b688-cff4-402f-97d5-02f6f1886b7e/notification.xml": "1473",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b8a1dd25-c313-4f25-ac21-bf55514d9c7d/notification.xml": "2084",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/bd48a1fa-3471-4ab2-8508-ad36b96813e4/notification.xml": "1656",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c3cd7c24-12cb-4abc-8fd2-5e2bcbb85ae6/notification.xml": "1779",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c474d778-43cb-4c30-ad6a-39968cbc94bc/notification.xml": "493",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/d1dfea23-5e38-441e-9bf7-e1ceb6e86925/notification.xml": "68",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/db9a372a-09bc-4a32-bfe4-8c48e5dbd219/notification.xml": "1626",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": "5306",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": "1457",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": "1778",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": "4975",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": "26343",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": "199",
-      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": "1349",
-      "https://rpki-rrdp.warpnet.xyz/notification.xml": "941",
-      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": "12693",
-      "https://rpki.apernet.io/rrdp/notification.xml": "6535",
-      "https://rpki.as207960.net/rrdp/notification.xml": "12586",
-      "https://rpki.as219412.net/rrdp/notification.xml": "116",
+      "https://rpki-repo.datahub-ix.net/rrdp/notification.xml": "18",
+      "https://rpki-repo.netplanety.com.br/rrdp/notification.xml": "141",
+      "https://rpki-repo.registro.br/rrdp/notification.xml": "42393",
+      "https://rpki-repository.nic.ad.jp/rrdp/ap/notification.xml": "173566",
+      "https://rpki-rrdp.idnic.net/rrdp/notification.xml": "371924",
+      "https://rpki-rrdp.mnihyc.com/rrdp/notification.xml": "4521",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/08c2f264-23f9-49fb-9d43-f8b50bec9261/notification.xml": "8090",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/20aa329b-fc52-4c61-bf53-09725c042942/notification.xml": "30425",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2df51cd2-e6af-493a-a88a-3221d01f7d90/notification.xml": "565",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/2f059a21-d41b-4846-b7ae-7ea38c32fd4c/notification.xml": "1624",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/395c874a-bcf9-4f7c-b900-d255072c3ee7/notification.xml": "56",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/42582c67-dd3f-4bc5-ba60-e97e552c6e35/notification.xml": "1529",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/517f3ed7-58b5-4796-be37-14d62e48f056/notification.xml": "2433",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/54602fb0-a9d4-4f9f-b0ca-be2a139ea92b/notification.xml": "128541",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/602a26e5-4a9e-4e5e-89f0-ef891490d9c9/notification.xml": "1537",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/62b3479e-d188-4fbf-a2b8-0558d7e495cd/notification.xml": "53",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/708aafaf-00b4-485b-854c-0b32ca30f57b/notification.xml": "1748",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/71e5236f-c6f1-4928-a1b9-8def09c06085/notification.xml": "1477",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/967a255c-d680-42d3-9ec3-ecb3f9da088c/notification.xml": "3947",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/98c1c974-4608-4b75-8781-dc145101a9bd/notification.xml": "12218",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/a841823c-a10d-477c-bfdf-4086f0b1594c/notification.xml": "1530",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b3f6b688-cff4-402f-97d5-02f6f1886b7e/notification.xml": "1480",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/b8a1dd25-c313-4f25-ac21-bf55514d9c7d/notification.xml": "2091",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/bd48a1fa-3471-4ab2-8508-ad36b96813e4/notification.xml": "1663",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c3cd7c24-12cb-4abc-8fd2-5e2bcbb85ae6/notification.xml": "1786",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/c474d778-43cb-4c30-ad6a-39968cbc94bc/notification.xml": "500",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/d1dfea23-5e38-441e-9bf7-e1ceb6e86925/notification.xml": "75",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/db9a372a-09bc-4a32-bfe4-8c48e5dbd219/notification.xml": "1633",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dba8f01c-9669-44a3-ac6e-db2edb099b84/notification.xml": "5313",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/dfd7f6d3-e6e9-4987-9ae7-d052c5353898/notification.xml": "1464",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e72d8db0-4728-4fc1-bdd8-471129866362/notification.xml": "1785",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/e7518af5-a343-428d-bf78-f982b6e60505/notification.xml": "4984",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/f703696e-e47b-4c20-bd93-6f80904e42d2/notification.xml": "26350",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/fd36ad64-200f-4064-84a8-3c7cc91cdece/notification.xml": "206",
+      "https://rpki-rrdp.us-east-2.amazonaws.com/rrdp/ff9fa84e-9783-4a0b-a58d-6dc8e2433d33/notification.xml": "1356",
+      "https://rpki-rrdp.warpnet.xyz/notification.xml": "950",
+      "https://rpki.admin.freerangecloud.com/rrdp/notification.xml": "12723",
+      "https://rpki.apernet.io/rrdp/notification.xml": "6555",
+      "https://rpki.as207960.net/rrdp/notification.xml": "12975",
+      "https://rpki.as219412.net/rrdp/notification.xml": "146",
+      "https://rpki.athene-center.net/rrdp/notification.xml": "1150",
       "https://rpki.axivora.net/rrdp/notification.xml": "857",
-      "https://rpki.blw.moe/rrdp/notification.xml": "873",
-      "https://rpki.cc/rrdp/notification.xml": "18034",
-      "https://rpki.cernet.edu.cn/rrdp/notification.xml": "1078",
-      "https://rpki.cernet.net/rrdp/notification.xml": "794",
-      "https://rpki.fiti.net.cn/rrdp/notification.xml": "271",
-      "https://rpki.gns.net.br/rrdp/notification.xml": "402",
-      "https://rpki.komorebi.network:3030/rrdp/notification.xml": "5252",
-      "https://rpki.luys.cloud/rrdp/notification.xml": "4282",
-      "https://rpki.multacom.com/rrdp/notification.xml": "16438",
-      "https://rpki.n3solucoes.com.br/rrdp/notification.xml": "127",
-      "https://rpki.nellicus.net/rrdp/notification.xml": "3160",
-      "https://rpki.net.baiyuexiao.cn/rrdp/notification.xml": "312",
-      "https://rpki.novacloud-hosting.com/rrdp/notification.xml": "18",
-      "https://rpki.owl.net/rrdp/notification.xml": "4657",
-      "https://rpki.pudu.be/rrdp/notification.xml": "4564",
+      "https://rpki.blw.moe/rrdp/notification.xml": "892",
+      "https://rpki.cc/rrdp/notification.xml": "18091",
+      "https://rpki.cernet.edu.cn/rrdp/notification.xml": "1097",
+      "https://rpki.cernet.net/rrdp/notification.xml": "833",
+      "https://rpki.fiti.net.cn/rrdp/notification.xml": "280",
+      "https://rpki.gns.net.br/rrdp/notification.xml": "411",
+      "https://rpki.komorebi.network:3030/rrdp/notification.xml": "5280",
+      "https://rpki.luys.cloud/rrdp/notification.xml": "4292",
+      "https://rpki.multacom.com/rrdp/notification.xml": "16483",
+      "https://rpki.n3solucoes.com.br/rrdp/notification.xml": "137",
+      "https://rpki.nellicus.net/rrdp/notification.xml": "3198",
+      "https://rpki.net.baiyuexiao.cn/rrdp/notification.xml": "331",
+      "https://rpki.novacloud-hosting.com/rrdp/notification.xml": "27",
+      "https://rpki.owl.net/rrdp/notification.xml": "4677",
+      "https://rpki.pudu.be/rrdp/notification.xml": "4600",
       "https://rpki.qs.nu/rrdp/notification.xml": "5088",
-      "https://rpki.rand.apnic.net/rrdp/notification.xml": "2524",
-      "https://rpki.roa.net/rrdp/notification.xml": "30301",
-      "https://rpki.sailx.co/rrdp/notification.xml": "2751",
-      "https://rpki.satcom.com.br:3000/rrdp/notification.xml": "194",
-      "https://rpki.shrdserv.com/rrdp/notification.xml": "138",
-      "https://rpki.sunoaki.net/rrdp/notification.xml": "4208",
-      "https://rpki.tools.westconnect.ca/rrdp/notification.xml": "1910",
-      "https://rpki.vexshield.eu/rrdp/notification.xml": "29",
-      "https://rpki.xindi.eu/rrdp/notification.xml": "2381",
+      "https://rpki.rand.apnic.net/rrdp/notification.xml": "2538",
+      "https://rpki.roa.net/rrdp/notification.xml": "30433",
+      "https://rpki.sailx.co/rrdp/notification.xml": "2770",
+      "https://rpki.satcom.com.br:3000/rrdp/notification.xml": "204",
+      "https://rpki.shrdserv.com/rrdp/notification.xml": "202",
+      "https://rpki.sunoaki.net/rrdp/notification.xml": "4227",
+      "https://rpki.tools.westconnect.ca/rrdp/notification.xml": "1919",
+      "https://rpki.vexshield.eu/rrdp/notification.xml": "39",
+      "https://rpki.xindi.eu/rrdp/notification.xml": "2390",
       "https://rrdp-ipv4.prefixlogic.com/rrdp/notification.xml": "1",
-      "https://rrdp-rpki.inara.pk/rrdp/notification.xml": "74",
-      "https://rrdp-rps.arin.net/notification.xml": "146583",
-      "https://rrdp.afrinic.net/notification.xml": "104229",
-      "https://rrdp.apnic.net/notification.xml": "114066",
-      "https://rrdp.arin.net/notification.xml": "206389",
-      "https://rrdp.as214749.net/rrdp/notification.xml": "915",
-      "https://rrdp.ip.deals/rrdp/notification.xml": "181",
-      "https://rrdp.krill.nlnetlabs.nl/notification.xml": "1207",
-      "https://rrdp.lacnic.net/rrdp/notification.xml": "510569",
-      "https://rrdp.paas.rpki.ripe.net/notification.xml": "414978",
+      "https://rrdp-rpki.inara.pk/rrdp/notification.xml": "83",
+      "https://rrdp-rps.arin.net/notification.xml": "147697",
+      "https://rrdp-rps.cnnic.cn/rrdp/notification.xml": "126607",
+      "https://rrdp.afrinic.net/notification.xml": "105213",
+      "https://rrdp.apnic.net/notification.xml": "116735",
+      "https://rrdp.arin.net/notification.xml": "207848",
+      "https://rrdp.as214749.net/rrdp/notification.xml": "942",
+      "https://rrdp.ip.deals/rrdp/notification.xml": "191",
+      "https://rrdp.krill.nlnetlabs.nl/notification.xml": "1217",
+      "https://rrdp.lacnic.net/rrdp/notification.xml": "514360",
+      "https://rrdp.paas.rpki.ripe.net/notification.xml": "416386",
       "https://rrdp.prefixlogic.com/rrdp/notification.xml": "1",
-      "https://rrdp.ripe.net/notification.xml": "244077",
-      "https://rrdp.rp.ki/notification.xml": "7192",
-      "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": "3696",
-      "https://rrdp.sub.apnic.net/notification.xml": "7498",
-      "https://rrdp.twnic.tw/rrdp/notification.xml": "73705",
-      "https://rsync.rpki.as205941.org/rrdp/notification.xml": "60",
-      "https://sakuya.nat.moe/rrdp/notification.xml": "7188"
+      "https://rrdp.ripe.net/notification.xml": "245930",
+      "https://rrdp.rpki.tianhai.link/rrdp/notification.xml": "3733",
+      "https://rrdp.sub.apnic.net/notification.xml": "7676",
+      "https://rrdp.twnic.tw/rrdp/notification.xml": "75972",
+      "https://rsync.rpki.as205941.org/rrdp/notification.xml": "97",
+      "https://sakuya.nat.moe/rrdp/notification.xml": "7209"
      },
      "trust_anchor_pq_share": 0.0,
-     "validated_payloads": 930031
+     "validated_payloads": 1037886
     },
     {
      "by_signature_family": {
@@ -10622,7 +10626,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-21T06:38:34Z",
+  "as_of_utc": "2026-11-21T07:59:00Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10653,9 +10657,9 @@
  "probes": [
   {
    "age_days": 52,
-   "bundles": 685,
+   "bundles": 687,
    "contribution": {
-    "bundles_ok": 668,
+    "bundles_ok": 670,
     "days_active": 53,
     "layers": 21
    },
@@ -10742,7 +10746,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "dfa495eb004ebb6de5853b77c0ec4ab52cbfff42aed0ad908f2c9baff6e1507c",
+ "published_sha256": "e390912f0399876870e90cb1f86eed0104805c19356817c896feafa96def125e",
  "rejections": [
   {
    "kind": "bundle",
@@ -11387,5 +11391,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "1e0659882028901423336233d42e9057c6dde0f20b10d0315dfd4adf8e9fa03e"
+ "view_sha256": "694614f3560815df9ae4d09d2c21ba666df6a61313d6061f6199eca4f8655f23"
 }
