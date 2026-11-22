@@ -10734,9 +10734,9 @@
   },
   {
    "age_days": 53,
-   "bundles": 496,
+   "bundles": 497,
    "contribution": {
-    "bundles_ok": 487,
+    "bundles_ok": 488,
     "days_active": 54,
     "layers": 16
    },
@@ -10763,7 +10763,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "c00afee9c3df413fc795f008e03512ae4b16077c6f51b08d050cfa0ecaa293c7",
+ "published_sha256": "f6f1e44cd6a3251bb8c11326ff28e2d02f9c1f582503a74fbb8243701c9be60a",
  "rejections": [
   {
    "kind": "bundle",
@@ -10834,6 +10834,11 @@
    "kind": "bundle",
    "probe_id": "probe-3",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "no reference server answered"
   },
   {
    "kind": "bundle",
@@ -11443,5 +11448,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "6c20829125216fafc22b1764e49c3fcdf658a390d4858f4f3c2913e2ea33317d"
+ "view_sha256": "cfb5a27f770a8cf3aebcdb9591b27122678857cb545485377ea4c9f9d7f42313"
 }
