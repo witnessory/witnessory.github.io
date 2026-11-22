@@ -1536,7 +1536,7 @@
      "probe_id": "probe-1"
     },
     {
-     "created_utc": "2026-11-15",
+     "created_utc": "2026-11-22",
      "dnslink_publish_rate": 0.0,
      "dnslink_validated_rate": 0.047619,
      "eligible": true,
@@ -10588,7 +10588,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-22T18:36:33Z",
+  "as_of_utc": "2026-11-22T19:04:11Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10639,9 +10639,9 @@
   },
   {
    "age_days": 53,
-   "bundles": 633,
+   "bundles": 634,
    "contribution": {
-    "bundles_ok": 630,
+    "bundles_ok": 631,
     "days_active": 54,
     "layers": 18
    },
@@ -10708,7 +10708,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "db05afb83c5b9dc9fe71a8941272317331432ae2bd4bbb35845d9814e26770d5",
+ "published_sha256": "e00bafc316f7a9baf3e70fed0ab45fcf36d7b1f71ea1094154971edf9d326152",
  "rejections": [
   {
    "kind": "bundle",
@@ -11413,5 +11413,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "e6242817171fc8d580551b3b2eb37094b712d1fd4591b408501788919cd19311"
+ "view_sha256": "a354dc32fd759713212f3bef84cc8d30d709b46e61d434f1394f189b9152ccf7"
 }
