@@ -270,23 +270,23 @@
    "early_coinbase_p2pk_spends": [],
    "headline": {
     "dormant_exposed_spent_sats": {
-     "max": 2722200,
-     "median": 2722200,
-     "min": 2722200,
+     "max": 2813,
+     "median": 2813,
+     "min": 2813,
      "n": 1,
      "networks": 1
     },
     "dormant_hash_protected_sats": {
-     "max": 117690680023,
-     "median": 117690680023,
-     "min": 117690680023,
+     "max": 59714068754,
+     "median": 59714068754,
+     "min": 59714068754,
      "n": 1,
      "networks": 1
     },
     "dormant_revealed_sats": {
-     "max": 36628684569,
-     "median": 36628684569,
-     "min": 36628684569,
+     "max": 23327905347,
+     "median": 23327905347,
+     "min": 23327905347,
      "n": 1,
      "networks": 1
     },
@@ -301,18 +301,18 @@
    "probes": [
     {
      "continues_previous": true,
-     "created_utc": "2026-11-21",
-     "dormant_exposed_inputs": 349,
-     "dormant_exposed_spent_sats": 2722200,
-     "dormant_hash_protected_sats": 117690680023,
-     "dormant_revealed_sats": 36628684569,
+     "created_utc": "2026-11-22",
+     "dormant_exposed_inputs": 1,
+     "dormant_exposed_spent_sats": 2813,
+     "dormant_hash_protected_sats": 59714068754,
+     "dormant_revealed_sats": 23327905347,
      "early_coinbase_p2pk_spends": [],
      "eligible": true,
-     "from_height": 976681,
+     "from_height": 976859,
      "gap_before": null,
      "network_attested": true,
      "probe_id": "probe-1",
-     "to_height": 976858,
+     "to_height": 977024,
      "witness_v2_plus_list": [],
      "witness_v2_plus_outputs": 0
     }
@@ -10643,7 +10643,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-22T07:31:41Z",
+  "as_of_utc": "2026-11-22T08:39:02Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10674,9 +10674,9 @@
  "probes": [
   {
    "age_days": 53,
-   "bundles": 699,
+   "bundles": 700,
    "contribution": {
-    "bundles_ok": 682,
+    "bundles_ok": 683,
     "days_active": 54,
     "layers": 21
    },
@@ -10734,9 +10734,9 @@
   },
   {
    "age_days": 53,
-   "bundles": 495,
+   "bundles": 496,
    "contribution": {
-    "bundles_ok": 486,
+    "bundles_ok": 487,
     "days_active": 54,
     "layers": 16
    },
@@ -10763,7 +10763,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "283b1a6bbf4b0a533a61be12973703bebd43d2e49a79b559ff317048fc01a921",
+ "published_sha256": "c00afee9c3df413fc795f008e03512ae4b16077c6f51b08d050cfa0ecaa293c7",
  "rejections": [
   {
    "kind": "bundle",
@@ -11312,6 +11312,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11438,5 +11443,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "ff2e1182bbd716b348ee209d56d3ed815a2f9b4e3a8d3183c94d46bdd742ff5f"
+ "view_sha256": "6c20829125216fafc22b1764e49c3fcdf658a390d4858f4f3c2913e2ea33317d"
 }
