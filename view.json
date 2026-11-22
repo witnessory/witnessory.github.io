@@ -24,7 +24,7 @@
     "attested_by": [
      "probe-2"
     ],
-    "status": "attested"
+    "status": "not_current"
    },
    "probe-4": {
     "attested_by": [
@@ -91,7 +91,7 @@
      "effective_2q_error": 0.010580577648184764,
      "eligible": true,
      "max_reliable_volume": 128,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3"
     },
     {
@@ -102,7 +102,7 @@
      "effective_2q_error": 0.00724528753247744,
      "eligible": true,
      "max_reliable_volume": 256,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3"
     },
     {
@@ -113,7 +113,7 @@
      "effective_2q_error": 0.004918378337907425,
      "eligible": true,
      "max_reliable_volume": 256,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3"
     }
    ]
@@ -198,7 +198,7 @@
      "encrypted_pq_rate": 0.384615,
      "encrypted_resolver_rate": 1.0,
      "https_rr_rate": 0.196967,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3"
     }
    ]
@@ -249,7 +249,7 @@
     {
      "created_utc": "2026-10-27",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "pq_rate": 0.0,
      "probe_id": "probe-3",
      "signed_rate": 0.103794,
@@ -1051,7 +1051,7 @@
      "controls_spoofed": [],
      "created_utc": "2026-11-22",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
      "regions_affected_share": 0.166667,
      "spoofing_regions": [],
@@ -1267,7 +1267,7 @@
       "www.wikipedia.org": "Let's Encrypt",
       "www.yahoo.com": "DigiCert Inc"
      },
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
      "sct_inclusion_share": 1.0,
      "sct_not_included": [],
@@ -1429,7 +1429,7 @@
      "created_utc": "2026-10-26",
      "eligible": true,
      "flags": [],
-     "network_attested": true,
+     "network_attested": false,
      "pq_negotiation_rate": 0.582968,
      "pq_support_rate": 0.588533,
      "probe_id": "probe-3"
@@ -1527,7 +1527,7 @@
      },
      "dkim_pq_rate": 0.0,
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "port_25_blocked": false,
      "probe_id": "probe-3",
      "starttls_pq_rate": 0.422297,
@@ -1603,7 +1603,7 @@
      "dnslink_publish_rate": 0.0,
      "dnslink_validated_rate": 0.047619,
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "pointers_found": 21,
      "pq_rate": 0.0,
      "probe_id": "probe-3"
@@ -2838,7 +2838,7 @@
      "channels_read": 16,
      "created_utc": "2026-11-21",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "pq_rate": 0.0625,
      "probe_id": "probe-3"
     }
@@ -2873,8 +2873,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -2905,8 +2905,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -2937,8 +2937,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -2969,8 +2969,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3001,8 +3001,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3033,8 +3033,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-22T02:04:22Z",
-      "observations": 52,
+      "last_observed_utc": "2026-11-22T11:37:49Z",
+      "observations": 53,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -3952,11 +3952,7 @@
      "what": "TLS 1.3 (current specification)"
     }
    },
-   "not_read_by": {
-    "fips-203": [
-     "probe-3"
-    ]
-   },
+   "not_read_by": {},
    "paper_to_deployment_lag": [
     {
      "deployment_measure": "keys.tls.pq_negotiation_rate",
@@ -6790,7 +6786,7 @@
      "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     },
     {
-     "created_utc": "2026-11-21",
+     "created_utc": "2026-11-22",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -7000,10 +6996,24 @@
        "what": "FIPS 202: SHA-3"
       },
       "fips-203": {
-       "error": "source unavailable",
-       "found": false,
+       "found": true,
        "kind": "fips",
        "layer": "keys",
+       "state": {
+        "fips": "203",
+        "notices": [
+         {
+          "action": "approved",
+          "date": "2024-08-14",
+          "document": "2024-17956"
+         }
+        ],
+        "status": "approved",
+        "status_date": "2024-08-14"
+       },
+       "state_digest": "f9babf19e46d3394a4a42d155f3193eaa672276b4c5a3b4696f613da53da14a1",
+       "successors": [],
+       "superseded": false,
        "what": "FIPS 203: ML-KEM (module-lattice key encapsulation)"
       },
       "fips-204": {
@@ -7687,9 +7697,9 @@
        ]
       }
      ],
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
-     "state_digest": "3bc49411f629a02fb33caaabe61e3f2d06e5c14d6caf44725a483c6cc2f88ed1"
+     "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     }
    ]
   },
@@ -7763,7 +7773,7 @@
      "eligible": true,
      "flags": [],
      "mlkem_offer_rate": 0.167213,
-     "network_attested": true,
+     "network_attested": false,
      "pq_offer_rate": 0.501639,
      "probe_id": "probe-3"
     }
@@ -7849,7 +7859,7 @@
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
-     "network_attested": true,
+     "network_attested": false,
      "nts_support_rate": 0.8,
      "probe_id": "probe-3",
      "reference_spread_provable": false,
@@ -7953,7 +7963,7 @@
      "consensus_valid_after": "2026-11-21 10:00:00",
      "created_utc": "2026-11-21",
      "eligible": true,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
      "recommended_protocols_share": 0.999896,
      "recommended_version_share": 0.832915,
@@ -9927,7 +9937,7 @@
      },
      "inconsistent_logs": {},
      "log_consistency": 1.0,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
      "proven_split_views": [],
      "rekor_entries": 4032565589,
@@ -10284,7 +10294,7 @@
      "created_utc": "2026-11-10",
      "eligible": true,
      "issue": 465,
-     "network_attested": true,
+     "network_attested": false,
      "probe_id": "probe-3",
      "source_sha256": "a295e8825c9c283b48b82f5349c095977a949e14adad43b8a5318c5e06f98242",
      "watched": {
@@ -10621,7 +10631,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-22T11:31:48Z",
+  "as_of_utc": "2026-11-22T11:50:20Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10712,9 +10722,9 @@
   },
   {
    "age_days": 53,
-   "bundles": 497,
+   "bundles": 503,
    "contribution": {
-    "bundles_ok": 488,
+    "bundles_ok": 492,
     "days_active": 54,
     "layers": 16
    },
@@ -10741,7 +10751,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "c51b4940ad178450cff0382b16c32da138d8dcb82dc067efe974dfd555e60db4",
+ "published_sha256": "90d7ade719da2cf607764d1b1d42967da29f75d451bcf3ed2cf5907cfd94f875",
  "rejections": [
   {
    "kind": "bundle",
@@ -11070,6 +11080,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "no update channel read"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11102,6 +11117,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "run failed"
   },
   {
    "kind": "bundle",
@@ -11340,6 +11360,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "run failed"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-4",
    "reason": "run refused"
   },
@@ -11400,6 +11425,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11426,5 +11456,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "51357b93cd0a6ea72f5c476db5436199cec0b7974ae017257723d782e47f295d"
+ "view_sha256": "5a8b1b131264cd0213bac75af68d53bd426c142316431bee67bb5574bca76fdb"
 }
