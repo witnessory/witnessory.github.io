@@ -10593,7 +10593,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-23T12:47:12Z",
+  "as_of_utc": "2026-11-23T15:33:07Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10624,9 +10624,9 @@
  "probes": [
   {
    "age_days": 54,
-   "bundles": 715,
+   "bundles": 716,
    "contribution": {
-    "bundles_ok": 696,
+    "bundles_ok": 697,
     "days_active": 55,
     "layers": 21
    },
@@ -10713,7 +10713,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "884ab422f4a55812aee2f1e8aad36c964cbca1420f3d35cb629611c1738907bf",
+ "published_sha256": "b31d4af0834d80951ad811f0e8a583342eb69fc4c4e280e8c5309ce994b3a89a",
  "rejections": [
   {
    "kind": "bundle",
@@ -10844,6 +10844,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "incomplete RPKI download: 2 trust anchor repositories failed, 0.2289 of repositories failed"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-1",
+   "reason": "vantage changed during run"
   },
   {
    "kind": "bundle",
@@ -11458,5 +11463,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "ca7fc90980c672db1a3de399738c7a1145f359cb225ca044eef74bbf8137f403"
+ "view_sha256": "419f7fa5746970a3b837eb345276d4918530e4168cb6e377b648fa5847e0856b"
 }
