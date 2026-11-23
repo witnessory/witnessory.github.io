@@ -1200,7 +1200,7 @@
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-21",
+     "created_utc": "2026-11-23",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -2803,7 +2803,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-21",
+     "created_utc": "2026-11-23",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -7866,15 +7866,15 @@
     },
     "recommended_version_share": {
      "max": 0.83801,
-     "median": 0.835135,
+     "median": 0.8376825,
      "min": 0.824253,
      "n": 4,
      "networks": 4
     },
     "relays": {
      "max": 9599,
-     "median": 9580.0,
-     "min": 9570,
+     "median": 9587.0,
+     "min": 9573,
      "n": 4,
      "networks": 4
     }
@@ -7927,14 +7927,14 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-21 10:00:00",
-     "created_utc": "2026-11-21",
+     "consensus_valid_after": "2026-11-23 12:00:00",
+     "created_utc": "2026-11-23",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-3",
      "recommended_protocols_share": 0.999896,
-     "recommended_version_share": 0.832915,
-     "relays": 9570
+     "recommended_version_share": 0.83801,
+     "relays": 9587
     }
    ]
   },
@@ -10593,7 +10593,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-23T12:05:34Z",
+  "as_of_utc": "2026-11-23T12:47:12Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10684,9 +10684,9 @@
   },
   {
    "age_days": 54,
-   "bundles": 507,
+   "bundles": 514,
    "contribution": {
-    "bundles_ok": 496,
+    "bundles_ok": 503,
     "days_active": 55,
     "layers": 16
    },
@@ -10713,7 +10713,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "65082a198991e958b4d15b455f93555c0390553d5485988dd12b295caeea47c3",
+ "published_sha256": "884ab422f4a55812aee2f1e8aad36c964cbca1420f3d35cb629611c1738907bf",
  "rejections": [
   {
    "kind": "bundle",
@@ -10957,6 +10957,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11138,6 +11143,11 @@
   {
    "kind": "bundle",
    "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
    "reason": "vantage changed during run"
   },
   {
@@ -11377,6 +11387,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11443,5 +11458,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "339be8e9519d283d998cb877bf30c5d0ce22cd19ec8816f334774859cb57fcc0"
+ "view_sha256": "ca7fc90980c672db1a3de399738c7a1145f359cb225ca044eef74bbf8137f403"
 }
