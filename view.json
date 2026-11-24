@@ -1338,8 +1338,8 @@
   "ipfs": {
    "headline": {
     "discovered": {
-     "max": 3225,
-     "median": 3204.5,
+     "max": 3184,
+     "median": 3184.0,
      "min": 3184,
      "n": 2,
      "networks": 2
@@ -1353,15 +1353,15 @@
     },
     "reachable_peers": {
      "max": 2021,
-     "median": 2016.0,
-     "min": 2011,
+     "median": 2008.0,
+     "min": 1995,
      "n": 2,
      "networks": 2
     }
    },
    "key_types": {
-    "Ed25519": 1920,
-    "RSA": 92,
+    "Ed25519": 1893,
+    "RSA": 93,
     "others (fewer than 10 each)": 9
    },
    "probes": [
@@ -1390,27 +1390,27 @@
      }
     },
     {
-     "created_utc": "2026-11-17",
-     "discovered": 3225,
+     "created_utc": "2026-11-24",
+     "discovered": 3184,
      "eligible": true,
      "key_types": {
-      "Ed25519": 1906,
-      "RSA": 96,
+      "Ed25519": 1893,
+      "RSA": 93,
       "others (fewer than 10 each)": 9
      },
      "network_attested": true,
      "pq_identity_share": 0.0,
      "probe_id": "probe-4",
-     "reachable_peers": 2011,
+     "reachable_peers": 1995,
      "transports_offered": {
-      "others (fewer than 10 each)": 4,
-      "quic-draft": 334,
-      "quic-v1": 1549,
-      "tcp": 1922,
-      "webrtc-direct": 1010,
-      "websocket": 15,
-      "websocket-secure": 1016,
-      "webtransport": 1330
+      "others (fewer than 10 each)": 5,
+      "quic-draft": 332,
+      "quic-v1": 1573,
+      "tcp": 1946,
+      "webrtc-direct": 1011,
+      "websocket": 18,
+      "websocket-secure": 1032,
+      "webtransport": 1357
      }
     }
    ]
@@ -10691,7 +10691,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-24T15:45:51Z",
+  "as_of_utc": "2026-11-24T16:52:11Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10762,10 +10762,10 @@
   },
   {
    "age_days": 55,
-   "bundles": 368,
+   "bundles": 373,
    "contribution": {
-    "bundles_ok": 363,
-    "days_active": 55,
+    "bundles_ok": 367,
+    "days_active": 56,
     "layers": 16
    },
    "eligible": true,
@@ -10777,7 +10777,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-23",
+   "last_seen_utc": "2026-11-24",
    "probe_id": "probe-4"
   },
   {
@@ -10811,7 +10811,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "4aeb99021663b7b0bc13809ed9c05145b59d34eff0f01148c95682b4b19c4214",
+ "published_sha256": "7b96b8fceaedcd6c7bf3701d2ed2e827c3881cb8b7beeacd99894daa555fcc3f",
  "rejections": [
   {
    "kind": "bundle",
@@ -10950,6 +10950,11 @@
   },
   {
    "kind": "bundle",
+   "probe_id": "probe-4",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
   },
@@ -11042,6 +11047,11 @@
    "kind": "bundle",
    "probe_id": "probe-4",
    "reason": "run refused"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-4",
+   "reason": "vantage changed during run"
   },
   {
    "kind": "bundle",
@@ -11141,6 +11151,11 @@
   {
    "kind": "bundle",
    "probe_id": "probe-1",
+   "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-4",
    "reason": "vantage changed during run"
   },
   {
@@ -11252,6 +11267,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-4",
+   "reason": "run failed"
   },
   {
    "kind": "bundle",
@@ -11581,5 +11601,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "f3cc9f56531f3fd493fc3d2761d36baa99f9bbd55c46f868c82dce0ba1fd4132"
+ "view_sha256": "a4cf3e76854c87498d46179de418cd666c2f836bf6396407846f0898abc99216"
 }
