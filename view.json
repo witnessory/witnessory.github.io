@@ -1,5 +1,14 @@
 {
- "alerts": [],
+ "alerts": [
+  {
+   "detail": "issued by DigiCert Inc here; by Amazon at the other vantages",
+   "kind": "issuer_differs",
+   "layer": "interception",
+   "probe_id": "probe-1",
+   "severity": "notice",
+   "subject": "www.amazon.com"
+  }
+ ],
  "evidence_withheld": 19,
  "inputs": {
   "bundles_used": 71
@@ -1085,14 +1094,23 @@
      "networks": 3
     }
    },
-   "issuer_seen_at_one_vantage_only": [],
+   "issuer_seen_at_one_vantage_only": [
+    {
+     "elsewhere": [
+      "Amazon"
+     ],
+     "issuer_o": "DigiCert Inc",
+     "probe_id": "probe-1",
+     "site": "www.amazon.com"
+    }
+   ],
    "probes": [
     {
      "canary_suspect_share": 0.0,
      "coverage": {
       "observed": 30
      },
-     "created_utc": "2026-11-24",
+     "created_utc": "2026-11-25",
      "eligible": true,
      "issuer_by_site": {
       "european-union.europa.eu": "Amazon",
@@ -1102,7 +1120,7 @@
       "pypi.org": "GlobalSign nv-sa",
       "signal.org": "Google Trust Services",
       "telegram.org": "GoDaddy.com",
-      "www.amazon.com": "Amazon",
+      "www.amazon.com": "DigiCert Inc",
       "www.apple.com": "Apple Inc.",
       "www.bbc.co.uk": "GlobalSign nv-sa",
       "www.cloudflare.com": "Google Trust Services",
@@ -2696,7 +2714,7 @@
       ]
      },
      "channels_read": 16,
-     "created_utc": "2026-11-24",
+     "created_utc": "2026-11-25",
      "eligible": true,
      "network_attested": true,
      "pq_rate": 0.0625,
@@ -2871,8 +2889,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -2903,8 +2921,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -2935,8 +2953,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -2967,8 +2985,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -2999,8 +3017,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3031,8 +3049,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-25T05:03:55Z",
-      "observations": 61,
+      "last_observed_utc": "2026-11-25T21:30:36Z",
+      "observations": 62,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -4036,7 +4054,7 @@
    ],
    "probes": [
     {
-     "created_utc": "2026-11-24",
+     "created_utc": "2026-11-25",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -7889,16 +7907,16 @@
      "networks": 3
     },
     "recommended_protocols_share": {
-     "max": 0.999896,
+     "max": 0.999793,
      "median": 0.99979,
      "min": 0.99979,
      "n": 4,
      "networks": 3
     },
     "recommended_version_share": {
-     "max": 0.839811,
-     "median": 0.83976,
-     "min": 0.838965,
+     "max": 0.840671,
+     "median": 0.839811,
+     "min": 0.839271,
      "n": 4,
      "networks": 3
     },
@@ -7916,14 +7934,14 @@
      "authorities_disagreeing": 0,
      "consensus_accepted": true,
      "consensus_signatures": 8,
-     "consensus_valid_after": "2026-11-24 20:00:00",
-     "created_utc": "2026-11-24",
+     "consensus_valid_after": "2026-11-25 21:00:00",
+     "created_utc": "2026-11-25",
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
-     "recommended_protocols_share": 0.999896,
-     "recommended_version_share": 0.838965,
-     "relays": 9588
+     "recommended_protocols_share": 0.99979,
+     "recommended_version_share": 0.840671,
+     "relays": 9540
     },
     {
      "authorities_agreeing": 9,
@@ -10629,7 +10647,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-25T19:33:48Z",
+  "as_of_utc": "2026-11-25T21:32:28Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10660,9 +10678,9 @@
  "probes": [
   {
    "age_days": 56,
-   "bundles": 744,
+   "bundles": 749,
    "contribution": {
-    "bundles_ok": 725,
+    "bundles_ok": 730,
     "days_active": 57,
     "layers": 21
    },
@@ -10749,7 +10767,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "7fc927937ff47b9c3bf6900fe3b535bb0947d267dfcd5e8179cb197d18e83cd5",
+ "published_sha256": "17da823a6f6d8c7775cbb07e0d2756f3d6059f3cfe67d95a6581d5e1e3f3d4b9",
  "rejections": [
   {
    "kind": "bundle",
@@ -11564,5 +11582,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "7f194a04b3c4e5923606b4187f1dbe840a8d604e0ae66cc19e4d2eb5165a3291"
+ "view_sha256": "524fd1ca77792f1dec19e6600ab8e272fe861ebbba6f99eb8d0b22512087879f"
 }
