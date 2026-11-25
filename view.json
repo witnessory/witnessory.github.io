@@ -125,35 +125,35 @@
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "ech_publish_rate": {
      "max": 0.054879,
-     "median": 0.0544175,
-     "min": 0.054297,
+     "median": 0.0544465,
+     "min": 0.054373,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "encrypted_pq_rate": {
      "max": 0.384615,
      "median": 0.384615,
      "min": 0.384615,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "encrypted_resolver_rate": {
      "max": 1.0,
      "median": 1.0,
      "min": 1.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "https_rr_rate": {
-     "max": 0.197972,
-     "median": 0.19725700000000002,
-     "min": 0.196967,
+     "max": 0.197986,
+     "median": 0.197399,
+     "min": 0.197115,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "probes": [
@@ -191,13 +191,13 @@
      "probe_id": "probe-4"
     },
     {
-     "created_utc": "2026-11-18",
+     "created_utc": "2026-11-25",
      "ech_pq_kem_rate": 0.0,
-     "ech_publish_rate": 0.054297,
+     "ech_publish_rate": 0.054431,
      "eligible": true,
      "encrypted_pq_rate": 0.384615,
      "encrypted_resolver_rate": 1.0,
-     "https_rr_rate": 0.196967,
+     "https_rr_rate": 0.197986,
      "network_attested": true,
      "probe_id": "probe-3"
     }
@@ -1599,28 +1599,28 @@
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "dnslink_validated_rate": {
      "max": 0.047619,
      "median": 0.047619,
      "min": 0.047619,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "pointers_found": {
      "max": 21,
-     "median": 21.0,
+     "median": 21,
      "min": 21,
      "n": 4,
-     "networks": 4
+     "networks": 3
     },
     "pq_rate": {
      "max": 0.0,
      "median": 0.0,
      "min": 0.0,
      "n": 4,
-     "networks": 4
+     "networks": 3
     }
    },
    "probes": [
@@ -1655,7 +1655,7 @@
      "probe_id": "probe-4"
     },
     {
-     "created_utc": "2026-11-18",
+     "created_utc": "2026-11-25",
      "dnslink_publish_rate": 0.0,
      "dnslink_validated_rate": 0.047619,
      "eligible": true,
@@ -2933,8 +2933,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "8befabbd9478159bd6d08d1e313a6a982d72858c922be2e214c288b750129c08"
      }
     ],
@@ -2965,8 +2965,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "5090db8563d9f7ada7eb256addca662b0c812d16913bcc4c5410e3d146e471a8"
      }
     ],
@@ -2997,8 +2997,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "f225a19743d33081ce5a6b66f65c2f020361eae249d1ca2e5e854c53fb1d5316"
      }
     ],
@@ -3029,8 +3029,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "0ad500d8951086d35c272168687526f80155c549fdf07793e650a587f034429f"
      }
     ],
@@ -3061,8 +3061,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "52a399bea06815a36032c8fd05248af8fa6c59d455bb3065d765b50bfa75d8b7"
      }
     ],
@@ -3093,8 +3093,8 @@
      },
      {
       "first_observed_utc": "2026-11-06",
-      "last_observed_utc": "2026-11-24T20:30:36Z",
-      "observations": 60,
+      "last_observed_utc": "2026-11-25T05:03:55Z",
+      "observations": 61,
       "state_digest": "ff2def43af0bac38db3c1363a7b555596f130dd25b6d16fde3f2672c0e83e7f0"
      }
     ]
@@ -5014,7 +5014,7 @@
      "state_digest": "5eabb2528de808837773ebdfa93dddc9536fff6a645fdcd219a4317ebdcb767d"
     },
     {
-     "created_utc": "2026-11-24",
+     "created_utc": "2026-11-25",
      "eligible": true,
      "items": {
       "bip-0340": {
@@ -7843,8 +7843,8 @@
    "headline": {
     "detection_floor_s": {
      "max": 0.24587547779083252,
-     "median": 0.16117405891418457,
-     "min": 0.12182879447937012,
+     "median": 0.15865451097488403,
+     "min": 0.07685637474060059,
      "n": 4,
      "networks": 4
     },
@@ -7858,7 +7858,7 @@
     "nts_support_rate": {
      "max": 0.8,
      "median": 0.65,
-     "min": 0.5,
+     "min": 0.444444,
      "n": 4,
      "networks": 4
     },
@@ -7886,16 +7886,16 @@
      "stepped_servers": []
     },
     {
-     "created_utc": "2026-11-24",
-     "detection_floor_s": 0.1268678903579712,
+     "created_utc": "2026-11-25",
+     "detection_floor_s": 0.07685637474060059,
      "eligible": true,
      "inconsistent_servers": [],
      "inconsistent_share": 0.0,
      "network_attested": true,
-     "nts_support_rate": 0.5,
+     "nts_support_rate": 0.444444,
      "probe_id": "probe-2",
      "reference_spread_provable": false,
-     "reference_spread_s": 0.026602864265441895,
+     "reference_spread_s": 0.026745319366455078,
      "step_share": 0.0,
      "stepped_servers": []
     },
@@ -7931,7 +7931,7 @@
    "reference_spread_s": {
     "all": {
      "max": 0.04815506935119629,
-     "median": 0.03320586681365967,
+     "median": 0.03327709436416626,
      "min": 0.0113983154296875,
      "n": 4,
      "networks": 4
@@ -10691,7 +10691,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-25T03:02:56Z",
+  "as_of_utc": "2026-11-25T05:03:55Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10742,9 +10742,9 @@
   },
   {
    "age_days": 56,
-   "bundles": 660,
+   "bundles": 662,
    "contribution": {
-    "bundles_ok": 656,
+    "bundles_ok": 658,
     "days_active": 57,
     "layers": 18
    },
@@ -10781,11 +10781,11 @@
    "probe_id": "probe-4"
   },
   {
-   "age_days": 55,
-   "bundles": 526,
+   "age_days": 56,
+   "bundles": 529,
    "contribution": {
-    "bundles_ok": 515,
-    "days_active": 56,
+    "bundles_ok": 517,
+    "days_active": 57,
     "layers": 16
    },
    "eligible": true,
@@ -10797,7 +10797,7 @@
    ],
    "gaps": 0,
    "key_epochs": 1,
-   "last_seen_utc": "2026-11-24",
+   "last_seen_utc": "2026-11-25",
    "probe_id": "probe-3"
   }
  ],
@@ -10811,7 +10811,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "c18b6e51815e1144cfe9ca0810f115d3a53a2086a2eea9592abae6a78e963450",
+ "published_sha256": "8d1225ebf7c245b99ede35d087299c5141e95eaa67075d0645a1a339ddcae2d9",
  "rejections": [
   {
    "kind": "bundle",
@@ -10937,6 +10937,11 @@
    "kind": "bundle",
    "probe_id": "probe-1",
    "reason": "vantage changed during run"
+  },
+  {
+   "kind": "bundle",
+   "probe_id": "probe-3",
+   "reason": "run failed"
   },
   {
    "kind": "bundle",
@@ -11601,5 +11606,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "021b83e23b35a64cdf3ea8d7fce1d9e9516be13caa904c9b1b6784defb3b3c16"
+ "view_sha256": "5691ff8e512f581a942a9dea3895807bc798ea3357240533f2ebf3bd3196d034"
 }
