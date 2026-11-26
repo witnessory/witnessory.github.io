@@ -360,7 +360,7 @@
    "controls_spoofed": [],
    "headline": {
     "regions_affected_share": {
-     "max": 0.25,
+     "max": 0.142857,
      "median": 0.125,
      "min": 0.0,
      "n": 4,
@@ -377,32 +377,31 @@
    "probes": [
     {
      "affected_regions": [
-      "baltic_gdansk",
       "persian_gulf"
      ],
      "by_region": {
       "baltic_gdansk": {
-       "affected": true,
+       "affected": null,
        "poor_nic_share": [
-        0.1071,
-        0.1071
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 28,
-        "adsb.lol": 28
+        "adsb.fi": 1,
+        "adsb.lol": 1
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.0204,
-        0.0577
+        0.0,
+        0.0741
        ],
        "qualifying": {
-        "adsb.fi": 49,
-        "adsb.lol": 52
+        "adsb.fi": 27,
+        "adsb.lol": 25
        },
        "role": "reported",
        "sources_agree": true
@@ -410,12 +409,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0101,
-        0.0101
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 99,
-        "adsb.lol": 99
+        "adsb.fi": 23,
+        "adsb.lol": 23
        },
        "role": "control",
        "sources_agree": true
@@ -423,12 +422,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0071,
-        0.0072
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 140,
-        "adsb.lol": 139
+        "adsb.fi": 38,
+        "adsb.lol": 38
        },
        "role": "control",
        "sources_agree": true
@@ -440,8 +439,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 26,
-        "adsb.lol": 15
+        "adsb.fi": 15,
+        "adsb.lol": 9
        },
        "role": "control",
        "sources_agree": true
@@ -453,8 +452,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 0,
-        "adsb.lol": 3
+        "adsb.fi": 1,
+        "adsb.lol": 2
        },
        "role": "control",
        "sources_agree": null
@@ -462,12 +461,12 @@
       "control-5": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0
+        0.0058,
+        0.0072
        ],
        "qualifying": {
-        "adsb.fi": 152,
-        "adsb.lol": 111
+        "adsb.fi": 173,
+        "adsb.lol": 139
        },
        "role": "control",
        "sources_agree": true
@@ -475,12 +474,12 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0,
-        0.0192
+        0.0278,
+        0.0303
        ],
        "qualifying": {
-        "adsb.fi": 52,
-        "adsb.lol": 54
+        "adsb.fi": 33,
+        "adsb.lol": 36
        },
        "role": "reported",
        "sources_agree": true
@@ -492,8 +491,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 6
+        "adsb.fi": 1,
+        "adsb.lol": 1
        },
        "role": "reported",
        "sources_agree": null
@@ -505,8 +504,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 6,
-        "adsb.lol": 7
+        "adsb.fi": 11,
+        "adsb.lol": 11
        },
        "role": "reported",
        "sources_agree": null
@@ -514,12 +513,12 @@
       "persian_gulf": {
        "affected": true,
        "poor_nic_share": [
-        0.1087,
-        0.1304
+        0.3333,
+        0.3333
        ],
        "qualifying": {
-        "adsb.fi": 46,
-        "adsb.lol": 46
+        "adsb.fi": 30,
+        "adsb.lol": 33
        },
        "role": "reported",
        "sources_agree": true
@@ -531,7 +530,7 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 2,
+        "adsb.fi": 1,
         "adsb.lol": 2
        },
        "role": "reported",
@@ -544,35 +543,37 @@
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-1",
-     "regions_affected_share": 0.25,
+     "regions_affected_share": 0.142857,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
     {
-     "affected_regions": [],
+     "affected_regions": [
+      "persian_gulf"
+     ],
      "by_region": {
       "baltic_gdansk": {
-       "affected": false,
+       "affected": null,
        "poor_nic_share": [
-        0.0,
-        0.0
+        null,
+        null
        ],
        "qualifying": {
-        "adsb.fi": 32,
-        "adsb.lol": 31
+        "adsb.fi": 2,
+        "adsb.lol": 2
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": null
       },
       "black_sea_west": {
        "affected": false,
        "poor_nic_share": [
-        0.069,
-        0.0784
+        0.0333,
+        0.0345
        ],
        "qualifying": {
-        "adsb.fi": 58,
-        "adsb.lol": 51
+        "adsb.fi": 30,
+        "adsb.lol": 29
        },
        "role": "reported",
        "sources_agree": true
@@ -580,12 +581,12 @@
       "control-1": {
        "affected": false,
        "poor_nic_share": [
-        0.0187,
-        0.0187
+        0.0,
+        0.0
        ],
        "qualifying": {
-        "adsb.fi": 107,
-        "adsb.lol": 107
+        "adsb.fi": 34,
+        "adsb.lol": 34
        },
        "role": "control",
        "sources_agree": true
@@ -593,12 +594,12 @@
       "control-2": {
        "affected": false,
        "poor_nic_share": [
-        0.0067,
-        0.0067
+        0.0263,
+        0.0263
        ],
        "qualifying": {
-        "adsb.fi": 149,
-        "adsb.lol": 149
+        "adsb.fi": 38,
+        "adsb.lol": 38
        },
        "role": "control",
        "sources_agree": true
@@ -610,8 +611,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 28,
-        "adsb.lol": 18
+        "adsb.fi": 17,
+        "adsb.lol": 13
        },
        "role": "control",
        "sources_agree": true
@@ -623,8 +624,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 3,
-        "adsb.lol": 8
+        "adsb.fi": 2,
+        "adsb.lol": 6
        },
        "role": "control",
        "sources_agree": null
@@ -636,8 +637,8 @@
         0.0
        ],
        "qualifying": {
-        "adsb.fi": 181,
-        "adsb.lol": 145
+        "adsb.fi": 160,
+        "adsb.lol": 128
        },
        "role": "control",
        "sources_agree": true
@@ -645,15 +646,15 @@
       "eastern_mediterranean": {
        "affected": false,
        "poor_nic_share": [
-        0.0667,
-        0.0811
+        0.0909,
+        0.1
        ],
        "qualifying": {
-        "adsb.fi": 37,
-        "adsb.lol": 45
+        "adsb.fi": 20,
+        "adsb.lol": 22
        },
        "role": "reported",
-       "sources_agree": true
+       "sources_agree": false
       },
       "gulf_of_finland": {
        "affected": null,
@@ -662,8 +663,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 5,
-        "adsb.lol": 5
+        "adsb.fi": 1,
+        "adsb.lol": 1
        },
        "role": "reported",
        "sources_agree": null
@@ -682,17 +683,17 @@
        "sources_agree": null
       },
       "persian_gulf": {
-       "affected": false,
+       "affected": true,
        "poor_nic_share": [
-        0.0789,
-        0.122
+        0.3415,
+        0.4222
        ],
        "qualifying": {
-        "adsb.fi": 38,
-        "adsb.lol": 41
+        "adsb.fi": 41,
+        "adsb.lol": 45
        },
        "role": "reported",
-       "sources_agree": false
+       "sources_agree": true
       },
       "punjab_border": {
        "affected": null,
@@ -701,8 +702,8 @@
         null
        ],
        "qualifying": {
-        "adsb.fi": 3,
-        "adsb.lol": 6
+        "adsb.fi": 7,
+        "adsb.lol": 9
        },
        "role": "reported",
        "sources_agree": null
@@ -714,7 +715,7 @@
      "eligible": true,
      "network_attested": true,
      "probe_id": "probe-2",
-     "regions_affected_share": 0.0,
+     "regions_affected_share": 0.142857,
      "spoofing_regions": [],
      "spoofing_regions_share": 0.0
     },
@@ -10647,7 +10648,7 @@
    "ff03b69d21153fc2f3bc223b5478b074b57ccfe1784a893f59eef543a4192ed0"
   ],
   "anchors_verified": false,
-  "as_of_utc": "2026-11-25T21:32:28Z",
+  "as_of_utc": "2026-11-25T23:31:52Z",
   "min_age_days": 0,
   "window_days": {
    "attest": 14,
@@ -10678,9 +10679,9 @@
  "probes": [
   {
    "age_days": 56,
-   "bundles": 749,
+   "bundles": 750,
    "contribution": {
-    "bundles_ok": 730,
+    "bundles_ok": 731,
     "days_active": 57,
     "layers": 21
    },
@@ -10698,9 +10699,9 @@
   },
   {
    "age_days": 56,
-   "bundles": 671,
+   "bundles": 672,
    "contribution": {
-    "bundles_ok": 667,
+    "bundles_ok": 668,
     "days_active": 57,
     "layers": 18
    },
@@ -10767,7 +10768,7 @@
    "probe and bundle IDs (probes are numbered instead), times finer than a day, and the names of the GNSS control regions"
   ]
  },
- "published_sha256": "17da823a6f6d8c7775cbb07e0d2756f3d6059f3cfe67d95a6581d5e1e3f3d4b9",
+ "published_sha256": "eb324e202e223ebe097eb668fabfc1c9c78f030364a7c166510e8bd7d47cecee",
  "rejections": [
   {
    "kind": "bundle",
@@ -11582,5 +11583,5 @@
  ],
  "rules_version": "34",
  "type": "nullius.view",
- "view_sha256": "524fd1ca77792f1dec19e6600ab8e272fe861ebbba6f99eb8d0b22512087879f"
+ "view_sha256": "006f5f8f2c8ab9431be06b4665c000d205b562f4d159801587759f01c9210508"
 }
